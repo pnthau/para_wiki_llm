@@ -11,23 +11,26 @@ created: 2026-05-16
 
 ## 📝 Nhật ký "Tập kích" [2026-05-16]
 - **Ngữ pháp**: ✅ Làm chủ `A は B です`.
-- **Từ vựng**: ✅ Watashi, Enjinia, Betonamu-jin.
+- **Ngữ pháp (Day 2)**: ✅ Phủ định `じゃありません` và Nghi vấn `か`.
+- **Từ vựng**: ✅ Watashi, Enjinia, Betonamu-jin, Gakusei, Nihon-jin.
 
-## 🖋️ Kanji Mastery - Lớp giáp đầu tiên
-John hãy bắt đầu thay thế Hiragana bằng Kanji để "nâng cấp" ghi chú:
-
+## 🖋️ Kanji Mastery - Lớp giáp thứ hai
 | Kanji | Hán Việt | Nghĩa | Cách đọc | Câu ví dụ |
 | :--- | :--- | :--- | :--- | :--- |
 | **私** | **TƯ** | Tôi | わたし | **私**は John です。 |
-| **名** | **DANH** | Tên | な | お**名**前は？ |
-| **前** | **TIỀN** | Trước | まえ | お名**前**は？ |
+| **学** | **HỌC** | Học | がく | **学**生 (Học sinh) |
+| **生** | **SINH** | Sống/Sinh | せい | 学**生** (Học sinh) |
+| **日** | **NHẬT** | Mặt trời/Ngày | にち/ひ | **日**本 (Nhật Bản) |
+| **本** | **BẢN** | Sách/Nguồn gốc | ほん | 日**本** (Nhật Bản) |
 
-## ⚔️ Challenge: "Cải tiến" câu viết - DONE [2026-05-16]
-1. **私はエンジニアです。** ✅ (Watashi wa enjinia desu)
-2. **私はベトナム人です。** ✅ (Watashi wa betonamu-jin desu)
+## ⚔️ Challenge: "Phản xạ Phủ định & Nghi vấn" - DONE [2026-05-16]
+1. **私は学生じゃありません。** ✅
+2. **私は日本人じゃありません。** ✅
+3. **あなたはエンジニアですか。** ✅
 
 ---
-## 💡 Insight Day 1:
-Việc kết hợp Katakana IT (`エンジニア`) và Kanji cơ bản (`私`, `人`) ngay từ đầu giúp John xây dựng phản xạ của một lập trình viên làm việc tại Nhật. Tuyệt đối không dùng Romaji trong ghi chú nữa.
+## 💡 Insight Day 2:
+Dùng `じゃありません` giúp câu văn gãy gọn trong giao tiếp hàng ngày. Việc học Kanji **日本** (Nhật Bản) là bắt buộc vì đây là nơi John sẽ đến làm việc.
 
-**Next Target (Day 2):** Phủ định (`じゃありません`) và Nghi vấn (`か`).
+**Next Target (Day 3):** Trợ từ `も` (Cũng) và `の` (Của - Sở hữu).
+

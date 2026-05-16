@@ -73,11 +73,12 @@ created: 2026-05-11
 - **🌸 Tiếng Nhật:** Hoàn thành "Trận tập kích" Unit 12. Làm chủ: `洗います` (Rửa), `弱い` (Yếu), và cụm Kanji `運行状況` (Tình trạng vận hành). Tuyệt đối xóa bỏ Romaji khỏi hệ thống.
 - **☕ IT/Java:** Tái khởi động lộ trình Architect. Vận dụng thành công Interface vs Abstract Class qua ví dụ LoL. Làm chủ tính Đa hình (Polymorphism) và tối ưu hóa tìm kiếm với `HashMap<Integer, Champion>`.
 - **💡 Insight:** "Vận dụng là cách học nhanh nhất". Việc kết hợp tư duy chiến thuật LMHT vào Java giúp các khái niệm trừu tượng trở nên sống động và dễ nhớ. Tránh "Overthinking", tập trung vào "Clean Design".
-### [2026-05-16] - "N5 Reboot: Day 1" - Fresh Start Victory
-- **🌸 Tiếng Nhật:** Quyết định học lại từ đầu để xây móng vững.
-    - **Katakana IT Raid:** Làm chủ 10 thuật ngữ (Kurasu, Mesoddo, Deeta, v.v.).
-    - **Unit 1 Mastery:** Thành thục `A は B です` với Kanji `私` (Tư) và `人` (Nhân).
-- **💡 Insight:** "Lùi một bước để tiến ba bước". Việc chuẩn hóa lại từ đầu giúp xóa bỏ các "nợ kỹ thuật" (lỗ hổng kiến thức) cũ.
+### [2026-05-16] - "N5 Reboot: Day 2" - Negation & Question Mastery
+- **🌸 Tiếng Nhật:** Làm chủ cấu trúc phủ định và nghi vấn.
+    - **Ngữ pháp:** Thành thục `じゃありません` và `～ですか`.
+    - **Kanji:** Nạp thêm 4 chữ: **学, 生, 日, 本**.
+- **🛠️ Hệ thống:** Nâng cấp lên **Gemini v4.0**. Khởi tạo Git Time Machine thành công. Làm phẳng toàn bộ cấu trúc Vault (Flattened Structure).
+- **💡 Insight:** Cấu trúc Vault phẳng giúp việc liên kết kiến thức bằng tag (`#meditation`, `#java`) trở nên mạnh mẽ hơn so với dùng folder.
 
 ---
 **Related:**

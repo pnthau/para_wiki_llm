@@ -5,6 +5,7 @@ status: "completed"
 tags: [kanji, unit4, nix-digital, vocabulary]
 created: 2026-05-13
 source: "https://digital.nix.edu.vn/learning/m2-n5-tieng-nhat-co-so-1/activity/u4-p4-18/611/697/activity"
+keywords: []
 ---
 
 # NiX Digital: Unit 4 Kanji List

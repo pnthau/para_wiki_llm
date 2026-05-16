@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, memory, stack, heap, interview]
 created: 2026-05-16
+keywords: []
 ---
 
 # ☕ Java Memory Management: Stack & Heap

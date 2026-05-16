@@ -4,6 +4,7 @@ type: "log"
 status: "active"
 tags: [practice, exercise, unit12, n5, progress]
 created: 2026-05-02
+keywords: []
 ---
 # Nhật ký luyện tập: Viết Email du lịch (Bài 12)
 

@@ -4,6 +4,7 @@ type: "log"
 status: "active"
 tags: [n5, listening, practice, unit12]
 created: 2026-05-11
+keywords: []
 ---
 # Script Hội thoại Unit 12: Lời khuyên & Đời sống
 

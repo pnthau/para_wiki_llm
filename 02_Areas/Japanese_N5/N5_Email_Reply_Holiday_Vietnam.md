@@ -4,6 +4,7 @@ type: "example"
 status: "active"
 tags: [email, holiday, vietnam, n5, unit12, hanoi]
 created: 2026-05-02
+keywords: []
 ---
 # Email Phản hồi: Lễ hội và Du lịch Việt Nam (Trọng tâm Bài 12 - Updated)
 

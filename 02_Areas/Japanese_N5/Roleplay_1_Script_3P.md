@@ -4,6 +4,7 @@ type: "example"
 status: "active"
 tags: [n5, roleplay, future-dreams, 3-people, unit9]
 created: 2026-05-10
+keywords: []
 ---
 # Kịch bản Roleplay 1: しょうらいの ゆめ (3-Person Version)
 

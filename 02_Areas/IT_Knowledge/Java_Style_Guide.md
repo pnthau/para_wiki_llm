@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, convention, style-guide]
 created: 2026-05-13
+keywords: []
 ---
 
 # ☕ Java Style Guide (Quy ước viết code)

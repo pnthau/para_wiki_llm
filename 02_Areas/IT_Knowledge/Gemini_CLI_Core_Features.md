@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, tools, gemini-cli, features]
 created: 2026-05-11
+keywords: []
 ---
 
 # 🛠️ Gemini CLI Core Features (Tính năng cốt lõi)

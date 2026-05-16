@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [strategy, sun-tzu, 36-ke, indirect-approach]
 created: 2026-05-11
+keywords: []
 ---
 # Vây Ngụy cứu Triệu
 

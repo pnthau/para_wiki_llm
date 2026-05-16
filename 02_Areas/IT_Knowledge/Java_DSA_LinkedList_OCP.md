@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, dsa, linkedlist, ocp, generics]
 created: 2026-05-16
+keywords: []
 ---
 
 # 🌀 DSA Thực chiến: LinkedList & Nguyên tắc OCP

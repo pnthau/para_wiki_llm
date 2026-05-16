@@ -4,6 +4,7 @@ type: "log"
 status: "active"
 tags: [japanese, n5, roadmap, progress]
 created: 2026-04-28
+keywords: []
 ---
 # Japanese N5 Study Plan
 

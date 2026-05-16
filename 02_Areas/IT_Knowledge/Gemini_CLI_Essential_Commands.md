@@ -4,6 +4,7 @@ type: "cheatsheet"
 status: "active"
 tags: [it, tools, gemini-cli, commands]
 created: 2026-05-11
+keywords: []
 ---
 
 # 🛠️ Gemini CLI Essential Commands (Lệnh thiết yếu)

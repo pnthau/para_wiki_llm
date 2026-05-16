@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [strategy, sun-tzu, art-of-war]
 created: 2026-05-11
+keywords: []
 ---
 # Binh Pháp Tôn Tử: 13 Thiên (Tổng quan)
 

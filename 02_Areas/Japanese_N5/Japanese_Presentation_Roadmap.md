@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [japanese, presentation, speaking, shadowing]
 created: 2026-05-11
+keywords: []
 ---
 # Lộ trình luyện thuyết trình tiếng Nhật: Beginner → Fluent
 

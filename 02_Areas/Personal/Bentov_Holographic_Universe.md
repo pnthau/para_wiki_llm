@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [consciousness, physics, meditation, resonance]
 created: 2026-05-09
+keywords: []
 ---
 # Itzhak Bentov's Holographic Universe
 

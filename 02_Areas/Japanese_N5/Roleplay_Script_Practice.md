@@ -4,6 +4,7 @@ type: "log"
 status: "active"
 tags: [n5, roleplay, speaking, practice]
 created: 2026-05-11
+keywords: []
 ---
 # Kịch bản Roleplay N5: Ước mơ & Sức khỏe
 

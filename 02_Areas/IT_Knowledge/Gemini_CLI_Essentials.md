@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, tools, gemini-cli, handbook]
 created: 2026-05-11
+keywords: []
 ---
 
 # 🛠️ Gemini CLI: Cẩm nang Tác chiến

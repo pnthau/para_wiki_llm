@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, tools, knowledge-management, obsidian]
 created: 2026-04-28
+keywords: []
 ---
 
 # 🛠️ Obsidian (Hệ quản trị tri thức)

@@ -4,6 +4,7 @@ type: "cheatsheet"
 status: "review"
 tags: [intellij, japanese, pbl, presentation]
 created: 2026-05-07
+keywords: []
 ---
 # Kịch bản thuyết trình: IntelliJ IDEA (Full Chunked Script)
 

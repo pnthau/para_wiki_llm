@@ -13,3 +13,5 @@ node_modules/
 *.jpeg
 *.gif
 # Keep small images if strictly necessary, otherwise use external links
+*.mp3
+*.wav

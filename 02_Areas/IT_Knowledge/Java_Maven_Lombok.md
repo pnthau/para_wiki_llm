@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, tools, maven, lombok]
 created: 2026-05-16
+keywords: []
 ---
 
 # 🛠️ Java Maven & Lombok (Build Tools & Productivity)

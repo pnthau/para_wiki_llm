@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, ai, llm, rag, wiki, karpathy]
 created: 2026-04-28
+keywords: []
 ---
 
 # 🧠 LLM Wiki (Tư duy quản trị tri thức)

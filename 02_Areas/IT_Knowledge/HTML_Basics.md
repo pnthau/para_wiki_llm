@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, html, web-basics]
 created: 2026-05-13
+keywords: []
 ---
 
 # 🌐 HTML Basics (Cấu trúc trang web)

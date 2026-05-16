@@ -4,6 +4,7 @@ type: "cheatsheet"
 status: "active"
 tags: [n5, essay, writing, travel]
 created: 2026-05-02
+keywords: []
 ---
 # N5 Essay: Travel Email Guide (Vietnam)
 

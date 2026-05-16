@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, generics, stack, queue]
 created: 2026-05-13
+keywords: []
 ---
 
 # Java Generics, Stack & Queue

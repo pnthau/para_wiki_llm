@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, collections, jcf]
 created: 2026-05-13
+keywords: []
 ---
 
 # ☕ Java Collections Framework (JCF)

@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [n5, vocabulary, travel, vietnam]
 created: 2026-05-02
+keywords: []
 ---
 # N5 Travel Vocabulary: Vietnam Email
 

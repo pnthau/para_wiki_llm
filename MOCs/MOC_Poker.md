@@ -4,6 +4,7 @@ type: "moc"
 status: "active"
 tags: [poker, strategy, index]
 created: 2026-04-30
+keywords: []
 ---
 
 # MOC Poker

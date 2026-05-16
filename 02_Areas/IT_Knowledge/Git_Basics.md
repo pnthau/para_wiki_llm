@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, tools, git, fullstack]
 created: 2026-05-13
+keywords: []
 ---
 
 # 🛠️ Git Basics

@@ -4,6 +4,7 @@ type: "exercise"
 status: "active"
 tags: [n5, katakana, it, reboot]
 created: 2026-05-16
+keywords: []
 ---
 # ⚔️ Katakana IT Raid - N5 Reboot Day 1
 

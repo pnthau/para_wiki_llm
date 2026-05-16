@@ -4,6 +4,7 @@ type: "log"
 status: "active"
 tags: [n5, roleplay, practice-log]
 created: 2026-05-09
+keywords: []
 ---
 # Nhật ký luyện tập Roleplay N5 (John)
 

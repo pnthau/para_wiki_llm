@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [physiology, meditation, resonance, brainwaves]
 created: 2026-05-09
+keywords: []
 ---
 # Body Resonance (7Hz)
 

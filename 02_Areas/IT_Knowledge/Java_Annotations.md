@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, intermediate, annotations]
 created: 2026-05-16
+keywords: []
 ---
 
 # ☕ Java Annotations (Ghi chú mã nguồn)

@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [meditation, consciousness, michio-kushi, energy]
 created: 2026-05-03
+keywords: []
 ---
 # Michio Kushi's Meditation: Solving Problems through Consciousness
 

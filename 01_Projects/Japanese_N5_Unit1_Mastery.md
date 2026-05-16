@@ -4,6 +4,7 @@ type: "log"
 status: "active"
 tags: [japanese, n5, progress, unit-1]
 created: 2026-05-07
+keywords: []
 ---
 # Progress Log: Unit 1 Mastery
 

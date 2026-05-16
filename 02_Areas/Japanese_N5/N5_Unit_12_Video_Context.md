@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [japanese, n5, vocabulary, context, unit-12]
 created: 2026-04-28
+keywords: []
 ---
 # Ngữ cảnh Từ vựng N5 - Bài 12 (Video)
 

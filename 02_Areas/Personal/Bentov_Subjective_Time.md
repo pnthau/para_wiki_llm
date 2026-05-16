@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [physics, consciousness, time, samadhi]
 created: 2026-05-11
+keywords: []
 ---
 # Thời gian Chủ quan và Không gian Khách quan
 

@@ -4,6 +4,7 @@ type: "log"
 status: "active"
 tags: [java, progress, roadmap, dsa, solid]
 created: 2026-05-16
+keywords: []
 ---
 # Java Architect Reboot: Core, DSA & SOLID (Spiral)
 

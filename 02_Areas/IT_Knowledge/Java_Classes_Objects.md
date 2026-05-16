@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, oop, classes, objects]
 created: 2026-05-13
+keywords: []
 ---
 
 # ☕ Java Classes & Objects (Lớp và Đối tượng)

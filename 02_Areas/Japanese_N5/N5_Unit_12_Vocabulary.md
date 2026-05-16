@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [japanese, n5, vocab, unit-12]
 created: 2026-04-28
+keywords: []
 ---
 # Từ vựng Tiếng Nhật N5 - Bài 12
 

@@ -4,6 +4,7 @@ type: "anki-card"
 status: "active"
 tags: [japanese, n5, vocabulary, unit-12, anki]
 created: 2026-04-28
+keywords: []
 ---
 # Anki Cards: Tiếng Nhật N5 - Bài 12
 

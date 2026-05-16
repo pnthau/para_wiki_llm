@@ -5,6 +5,7 @@ status: "active"
 tags: [japanese, n5, language, index]
 created: 2026-04-28
 source: "None"
+keywords: []
 ---
 
 # MOC Tiếng Nhật N5 — Fluency Brain

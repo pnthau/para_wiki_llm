@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: []
 created: 2026-05-12
+keywords: []
 ---
 # 🧘 GEMINI SPIRITUAL SCIENTIST — RESONANCE BRAIN v2.0
 

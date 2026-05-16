@@ -4,6 +4,7 @@ type: "MOC"
 status: "active"
 tags: [MOC, personal-growth, meditation, poker]
 created: 2026-05-03
+keywords: []
 ---
 
 # MOC Personal Growth & Mindset

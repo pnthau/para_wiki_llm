@@ -5,6 +5,7 @@ status: "active"
 tags: [n5, grammar, invitation, masenka, mashou]
 created: 2026-05-13
 source: "N5 Sensei Session"
+keywords: []
 ---
 
 # 🌸 Cấu trúc Mời mọc & Đề nghị (N5)

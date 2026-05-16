@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, oop, polymorphism, casting]
 created: 2026-05-13
+keywords: []
 ---
 
 # ☕ Java Polymorphism & Casting (Đa hình)

@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, dsa, solid, srp]
 created: 2026-05-16
+keywords: []
 ---
 
 # 🌀 DSA Thực chiến: CustomArrayList & SRP

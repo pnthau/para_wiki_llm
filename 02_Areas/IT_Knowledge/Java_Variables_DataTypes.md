@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, basics, variables]
 created: 2026-05-11
+keywords: []
 ---
 
 # ☕ Java Variables & Data Types (Cơ bản)

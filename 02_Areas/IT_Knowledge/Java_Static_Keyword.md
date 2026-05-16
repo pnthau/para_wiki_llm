@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, static, memory]
 created: 2026-05-13
+keywords: []
 ---
 
 # ☕ Java Static Keyword

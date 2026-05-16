@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [japanese, n5, nej, grammar, summary]
 created: 2026-05-07
+keywords: []
 ---
 # 13 Cấu trúc Ngữ pháp N5 Bắt buộc (NEJ Vol. 1)
 

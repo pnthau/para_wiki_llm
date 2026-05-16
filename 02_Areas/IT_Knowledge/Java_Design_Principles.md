@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, design-principles, oop]
 created: 2026-05-13
+keywords: []
 ---
 
 # ☕ Java Design Principles (Nguyên tắc thiết kế)

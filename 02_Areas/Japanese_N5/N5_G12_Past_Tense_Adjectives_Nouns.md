@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [japanese, n5, grammar, unit-12, adjective, noun]
 created: 2026-04-28
+keywords: []
 ---
 # Ngữ pháp: Thì quá khứ của Tính từ & Danh từ
 

@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, concept, programming]
 created: 2026-05-13
+keywords: []
 ---
 
 # 🛠️ Programming Fundamentals (Cơ bản)

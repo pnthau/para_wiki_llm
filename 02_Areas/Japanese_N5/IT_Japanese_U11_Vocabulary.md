@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [japanese, n5, IT, vocabulary]
 created: 2026-05-08
+keywords: []
 ---
 # IT Japanese - Unit 11 Vocabulary
 

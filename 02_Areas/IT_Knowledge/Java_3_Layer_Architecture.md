@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, architecture, web, 3-layer]
 created: 2026-05-16
+keywords: []
 ---
 
 # 🏛️ 3-Layer Architecture (Kiến trúc 3 lớp)

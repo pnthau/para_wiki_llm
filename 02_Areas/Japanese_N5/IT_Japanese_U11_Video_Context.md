@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [japanese, n5, IT, video-context, mastery, analysis]
 created: 2026-05-08
+keywords: []
 ---
 # IT Japanese - Unit 11: Phân tích chi tiết Video (Mastery Analysis)
 

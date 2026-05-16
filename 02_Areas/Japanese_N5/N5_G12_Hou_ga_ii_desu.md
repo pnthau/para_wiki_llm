@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [japanese, n5, grammar, unit-12]
 created: 2026-04-28
+keywords: []
 ---
 # Ngữ pháp: ～ほうがいいです (Nên / Không nên)
 

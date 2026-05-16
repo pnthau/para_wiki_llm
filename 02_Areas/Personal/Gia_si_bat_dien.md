@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [strategy, sun-tzu, 36-ke, patience]
 created: 2026-05-11
+keywords: []
 ---
 # Giả si bất điên (Giả khùng không điên)
 

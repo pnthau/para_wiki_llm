@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, tools, gemini-cli, configuration]
 created: 2026-05-11
+keywords: []
 ---
 
 # 🛠️ Gemini CLI Configuration & Project Rules

@@ -4,6 +4,7 @@ type: "example"
 status: "active"
 tags: [n5, roleplay, health, 3-people, unit11, unit12]
 created: 2026-05-10
+keywords: []
 ---
 # Kịch bản Roleplay 2: けんこうと いそがしい まいにち (3-Person Version)
 

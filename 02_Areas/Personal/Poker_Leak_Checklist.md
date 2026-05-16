@@ -4,6 +4,7 @@ type: "cheatsheet"
 status: "active"
 tags: [poker, strategy, observation, checklist]
 created: 2026-05-01
+keywords: []
 ---
 # Hướng dẫn Nhận diện Leak (Checklist)
 

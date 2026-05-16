@@ -4,6 +4,7 @@ type: "example"
 status: "completed"
 tags: [n5, roleplay, health, grammar]
 created: 2026-05-10
+keywords: []
 ---
 # Kịch bản Roleplay 2: 健康と生活 (John's Version)
 

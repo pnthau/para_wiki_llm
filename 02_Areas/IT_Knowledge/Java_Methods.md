@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, methods, oop]
 created: 2026-05-13
+keywords: []
 ---
 
 # ☕ Java Methods (Phương thức)

@@ -4,6 +4,7 @@ type: "example"
 status: "completed"
 tags: [n5, roleplay, future-dreams, grammar]
 created: 2026-05-09
+keywords: []
 ---
 # Kịch bản Roleplay 1: 将来の夢 (Kèm Ngữ pháp)
 

@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, algorithms, search]
 created: 2026-05-13
+keywords: []
 ---
 
 # ☕ Java Search Algorithms

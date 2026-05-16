@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [physics, consciousness, absolute, paradox]
 created: 2026-05-11
+keywords: []
 ---
 # Cái Tuyệt Đối (The Absolute)
 

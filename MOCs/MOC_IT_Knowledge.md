@@ -5,6 +5,7 @@ status: "active"
 tags: [it, knowledge-base, index]
 created: 2026-04-28
 source: "None"
+keywords: []
 ---
 
 # MOC Kiến thức Công nghệ Thông tin

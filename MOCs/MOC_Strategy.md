@@ -4,6 +4,7 @@ type: "MOC"
 status: "active"
 tags: [MOC, strategy, sun-tzu, 36-ke]
 created: 2026-05-11
+keywords: []
 ---
 
 # MOC Strategy & Wisdom

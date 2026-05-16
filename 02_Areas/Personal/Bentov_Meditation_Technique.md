@@ -4,6 +4,7 @@ type: "mnemonic"
 status: "active"
 tags: [meditation, practice, breathing, stillness]
 created: 2026-05-09
+keywords: []
 ---
 # Bentov Meditation Technique
 

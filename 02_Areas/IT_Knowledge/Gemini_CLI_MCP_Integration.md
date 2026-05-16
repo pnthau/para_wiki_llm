@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, tools, gemini-cli, mcp]
 created: 2026-05-11
+keywords: []
 ---
 
 # 🛠️ Gemini CLI MCP Integration (Kết nối ngoại giới)

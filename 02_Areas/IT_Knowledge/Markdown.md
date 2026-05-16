@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, tools, documentation, markdown]
 created: 2026-04-28
+keywords: []
 ---
 
 # 🛠️ Markdown (Ngôn ngữ đánh dấu)

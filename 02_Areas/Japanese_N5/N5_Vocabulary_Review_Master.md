@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [n5, vocabulary, review]
 created: 2026-05-16
+keywords: []
 ---
 # Danh mục Từ vựng N5 Trọng tâm
 

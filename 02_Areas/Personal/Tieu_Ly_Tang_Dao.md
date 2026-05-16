@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [strategy, art-of-war, psychology]
 created: 2026-05-11
+keywords: []
 ---
 # Tiếu Lý Tàng Đao (Nụ Cười Giấu Dao)
 

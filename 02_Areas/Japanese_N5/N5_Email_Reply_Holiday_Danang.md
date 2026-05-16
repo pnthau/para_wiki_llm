@@ -4,6 +4,7 @@ type: "example"
 status: "active"
 tags: [email, holiday, vietnam, n5, unit12, danang]
 created: 2026-05-11
+keywords: []
 ---
 # Email Phản hồi: Kỳ nghỉ tại Đà Nẵng (Draft)
 

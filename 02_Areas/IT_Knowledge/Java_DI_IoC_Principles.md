@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, architecture, spring, dependency-injection]
 created: 2026-05-16
+keywords: []
 ---
 
 # ☕ Dependency Injection (DI) & IoC Principles

@@ -4,6 +4,7 @@ type: "moc"
 status: "active"
 tags: [dashboard, progress, tracking]
 created: 2026-05-11
+keywords: []
 ---
 # 📊 Master Progress Dashboard — John's Growth
 
@@ -93,6 +94,10 @@ created: 2026-05-11
 
 ### [2026-05-16] - Arkon MRP Protocol Deployment & Batch 4 Raid
 - **🛠️ Hệ thống:** Nâng cấp lên **Gemini v4.1**. Triển khai quy trình **MRP (Map-Reduce-Plan-Refine-Verify)** thành công.
+- **🧹 Vault Cleanup:** Hoàn tất đại tu hệ thống (Vault Diet). 
+    - Nâng cấp Metadata YAML v4.0 (thêm `keywords`) cho toàn bộ 120+ file.
+    - Làm phẳng cấu trúc thư mục (Flattened `Gemini_Prompts`) để tuân thủ quy tắc 2-cấp.
+    - Cập nhật `.gitignore` loại bỏ file âm thanh nặng (*.mp3, *.wav).
 - **☕ IT/Java:** Hoàn tất "Batch 4 Optimization Raid". Khởi tạo 5 Note nguyên tử về: Annotations, Functional Programming, DI/IoC, Maven/Lombok, và 3-Layer Architecture.
 - **🌸 Tiếng Nhật:** Chuẩn hóa [[N5_Vocabulary_Review_Master]] sang định dạng Cornell Table. Tổng hợp [[N5_Mastery_Hub]].
 - **💡 Insight:** Việc "tiêu hóa" tri thức qua MRP giúp hệ thống hóa toàn bộ lộ trình, tạo ra một "Sổ tay tri thức" thực thụ thay vì chỉ là đống note rời rạc.

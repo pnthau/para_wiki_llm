@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, jvm, basics]
 created: 2026-05-13
+keywords: []
 ---
 
 # ☕ Java JVM, Variables & Data Types

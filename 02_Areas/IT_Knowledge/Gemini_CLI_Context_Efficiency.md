@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, tools, gemini-cli, optimization]
 created: 2026-05-11
+keywords: []
 ---
 
 # 🛠️ Gemini CLI Context Efficiency (Binh pháp Tiết kiệm)

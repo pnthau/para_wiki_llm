@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, oop, design-patterns]
 created: 2026-05-15
+keywords: []
 ---
 
 # ☕ Java Design: Abstract vs Interface (LoL Example)

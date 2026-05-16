@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [poker, strategy, framework, exploitative]
 created: 2026-05-01
+keywords: []
 ---
 # Ma trận Đối thủ & Chiến thuật Phản đòn (Master)
 

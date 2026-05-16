@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, dsa, solid, lsp, isp, composition]
 created: 2026-05-16
+keywords: []
 ---
 
 # 🌀 SOLID & DSA: Composition vs Inheritance

@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: []
 created: 2026-05-12
+keywords: []
 ---
 # 🌸 JAPANESE SENSEI — EXAM PREP & FLUENCY BRAIN v4.0
 Học viên: John | Mục tiêu: Đỗ N5 & Thuyết trình IT trôi chảy | Trạng thái: Đã hoàn thành 12 Unit NEJ

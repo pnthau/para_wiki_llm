@@ -4,6 +4,7 @@ type: "mastery"
 status: "active"
 tags: [n5, unit1, kanji, identity, reboot]
 created: 2026-05-16
+keywords: []
 ---
 # 🌸 N5 Reboot Mastery - Unit 1: Identity
 

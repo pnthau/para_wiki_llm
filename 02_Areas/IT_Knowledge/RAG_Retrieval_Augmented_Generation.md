@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, ai, llm, rag]
 created: 2026-04-28
+keywords: []
 ---
 
 # 🤖 RAG (Retrieval-Augmented Generation)

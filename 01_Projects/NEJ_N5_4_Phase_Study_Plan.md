@@ -4,6 +4,7 @@ type: "log"
 status: "active"
 tags: [japanese, n5, nej, roadmap, progress]
 created: 2026-05-07
+keywords: []
 ---
 # Lộ trình học Tiếng Nhật N5 (Hệ NEJ - 4 Giai đoạn)
 

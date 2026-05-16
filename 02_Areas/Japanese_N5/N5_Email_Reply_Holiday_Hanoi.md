@@ -4,6 +4,7 @@ type: "example"
 status: "active"
 tags: [japanese, n5, email, hanoi, travel]
 created: 2026-05-11
+keywords: []
 ---
 メールをありがとう、来週が楽しみです。
 

@@ -4,6 +4,7 @@ type: "concept"
 status: "active"
 tags: [it, java, oop, polymorphism, dynamic-binding]
 created: 2026-05-15
+keywords: []
 ---
 
 # Java Insight: Dynamic Binding

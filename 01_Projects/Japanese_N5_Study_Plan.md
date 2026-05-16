@@ -24,12 +24,12 @@ created: 2026-04-28
 - [x] **Lộ trình thuyết trình**: Đã thiết lập [[Japanese_Presentation_Roadmap]] để nâng cấp kỹ năng nói và phát âm Katakana IT.
 - [ ] **Mục tiêu:** Làm đề thi thử mini (Phần Từ vựng & Ngữ pháp).
 
-### Tiếng Nhật Chuyên Ngành (2026-05-08)
+### Tiếng Nhật Chuyên Ngành (2026-05-16)
 - [x] **Unit 11 (Project Management)**: Đã ingest tài liệu và làm chủ nội dung video (100% Mastery).
-- [x] **Unit 12 (Winter Safety)**: Đã ingest và phân tích chi tiết video.
-    - Chủ đề: Đi làm an toàn mùa đông Nhật Bản (Tuyết rơi, Trơn trượt).
-    - Ngữ pháp: `～たほうがいい`, `～たり～たり`, `～ると`.
-- [ ] **Mục tiêu:** Shadowing bài Unit 12 và thuộc 10 từ vựng mới.
+- [x] **Unit 12 (Winter Safety)**: **FULL MASTERY** (Hoàn thành Flash Quiz 5/5).
+    - Làm chủ: `渋滞`, `運行状況`, `滑る`, `弱い`.
+    - Ngữ pháp: Thành thục `～たほうがいい` (Lưu ý luôn dùng thể た).
+- [ ] **Mục tiêu:** Shadowing bài Unit 12 và thực hành Roleplay Tình huống 2.
 
 ### Giai đoạn hiện tại: Bài 2 (2026-05-07)
 - [x] **Unit 1 (Giới thiệu bản thân)**: Đã hoàn thành xuất sắc (Mastery).

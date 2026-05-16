@@ -91,6 +91,12 @@ created: 2026-05-11
 - **🛠️ Hệ thống:** Cập nhật [[MOC_IT_Knowledge]] và đồng bộ hóa kiến thức về Dynamic Binding, Serialization, và Algorithms.
 - **💡 Insight:** Việc cấu trúc lại ghi chú theo phương pháp Cornell giúp tối ưu hóa việc ôn tập (Active Recall) và chuẩn bị cho giai đoạn luyện phỏng vấn kỹ thuật tại Nhật.
 
+### [2026-05-16] - Arkon MRP Protocol Deployment & Batch 4 Raid
+- **🛠️ Hệ thống:** Nâng cấp lên **Gemini v4.1**. Triển khai quy trình **MRP (Map-Reduce-Plan-Refine-Verify)** thành công.
+- **☕ IT/Java:** Hoàn tất "Batch 4 Optimization Raid". Khởi tạo 5 Note nguyên tử về: Annotations, Functional Programming, DI/IoC, Maven/Lombok, và 3-Layer Architecture.
+- **🌸 Tiếng Nhật:** Chuẩn hóa [[N5_Vocabulary_Review_Master]] sang định dạng Cornell Table. Tổng hợp [[N5_Mastery_Hub]].
+- **💡 Insight:** Việc "tiêu hóa" tri thức qua MRP giúp hệ thống hóa toàn bộ lộ trình, tạo ra một "Sổ tay tri thức" thực thụ thay vì chỉ là đống note rời rạc.
+
 ---
 **Related:**
 - [[MOC_Index]] | [[GEMINI.md]]

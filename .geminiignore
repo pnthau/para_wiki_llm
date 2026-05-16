@@ -1,0 +1,32 @@
+# Gemini Ignore - Optimize Context Efficiency
+
+# Dependencies & Metadata
+node_modules/
+.git/
+.obsidian/
+.trash/
+
+# Binary & Large Files (Vault Diet)
+*.pdf
+*.mp3
+*.wav
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.rofl
+*.exe
+*.zip
+*.7z
+
+# Resources & Archives
+03_Resources/Other/
+03_Resources/04_Archives/
+
+# Temporary Files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

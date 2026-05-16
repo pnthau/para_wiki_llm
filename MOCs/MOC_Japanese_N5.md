@@ -7,9 +7,10 @@ created: 2026-04-28
 source: "None"
 ---
 
-# MOC Tiếng Nhật N5
+# MOC Tiếng Nhật N5 — Fluency Brain
 
 **Summary**: Bản đồ nội dung cho lộ trình học tiếng Nhật trình độ N5.
+**Trung tâm điều hành**: [[N5_Mastery_Hub]] (Wiki-Style Roadmap)
 
 ---
 

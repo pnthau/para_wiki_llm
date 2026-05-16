@@ -41,6 +41,10 @@ source: "None"
 ### Advanced Java
 - [[Java_Collections_Framework]]: List, Set, Map và JCF.
 - [[Java_Generics_Stack_Queue]]: Generic, Stack và Queue.
+- [[Java_Annotations]]: Metadata và Annotations trong Java.
+- [[Java_Functional_Programming]]: Lambda Expression và Stream API.
+- [[Java_DI_IoC_Principles]]: Tư duy Dependency Injection và IoC.
+- [[Java_3_Layer_Architecture]]: Kiến trúc Controller - Service - Repository.
 - [[Java_IO_Streams_Text]]: Luồng dữ liệu và Đọc/Ghi file văn bản.
 - [[Java_Search_Algorithms]]: Thuật toán Tìm kiếm Tuyến tính & Nhị phân.
 
@@ -50,6 +54,7 @@ source: "None"
 - [[HTML_Basics]]: Cấu trúc trang web và các thẻ cơ bản.
 - [[JavaScript_Basics]]: Biến, kiểu dữ liệu và cú pháp JS.
 - [[Git_Basics]]: Quản lý phiên bản với Git.
+- [[Java_Maven_Lombok]]: Quản lý dự án với Maven và tối ưu code với Lombok.
 - [[Programming_Fundamentals]]: Phân tích yêu cầu và Thuật toán cơ bản.
 
 ---

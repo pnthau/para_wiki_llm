@@ -1,0 +1,74 @@
+---
+domain: "IT"
+type: "concept"
+status: "active"
+tags: [it, knowledge-base, index]
+created: 2026-04-28
+source: "None"
+---
+
+# MOC Kiến thức Công nghệ Thông tin
+
+**Summary**: Bản đồ nội dung cho tất cả các kiến thức liên quan đến IT, lập trình và hệ thống AI trong Wiki.
+
+---
+
+## 📅 Lộ trình & Dự án
+- [[Java_Learning_Log]]: Nhật ký theo dõi tiến trình học Java.
+- [[Master_Progress_Log]]: Bảng điều khiển tiến độ tổng thể của John.
+- [[IntelliJ_Presentation_Final_Script]]: Kịch bản thuyết trình IntelliJ bằng tiếng Nhật.
+
+## ☕ Java Master Path
+### Fundamentals & Basics
+- [[Java_Style_Guide]]: Quy ước lập trình Java (Google Style).
+- [[Java_JVM_Variables_DataTypes]]: JVM, Biến và Kiểu dữ liệu.
+- [[Java_Arrays]]: Cấu trúc dữ liệu Mảng trong Java.
+- [[Java_Methods]]: Phương thức, Stack & Heap, Tham trị/Tham chiếu.
+- [[Java_Strings_Regex]]: Xử lý chuỗi và Biểu thức chính quy.
+- [[Java_Static_Keyword]]: Từ khóa static và quản lý bộ nhớ.
+
+### Object-Oriented Programming (OOP)
+- [[Java_OOP_Summary]]: Tổng quan 4 tính chất OOP.
+- [[Java_Classes_Objects]]: Lớp và Đối tượng cơ bản.
+- [[Java_Access_Modifiers]]: Quyền truy cập và Tính bao đóng.
+- [[Java_Inheritance]]: Tính kế thừa, super và final.
+- [[Java_Polymorphism_Casting]]: Tính đa hình và Ép kiểu.
+- [[Java_Polymorphism_Insight]]: Cơ chế Dynamic Binding (Insight).
+- [[Java_Abstract_Interface]]: Lớp trừu tượng và Interface.
+- [[Java_Design_Principles]]: Cohesion, Consistency, Clarity trong thiết kế.
+- [[Java_Builtin_Interfaces]]: Comparable và Cloneable.
+
+### Advanced Java
+- [[Java_Collections_Framework]]: List, Set, Map và JCF.
+- [[Java_Generics_Stack_Queue]]: Generic, Stack và Queue.
+- [[Java_IO_Streams_Text]]: Luồng dữ liệu và Đọc/Ghi file văn bản.
+- [[Java_Search_Algorithms]]: Thuật toán Tìm kiếm Tuyến tính & Nhị phân.
+
+---
+
+## 🌐 Web Basics & Tools
+- [[HTML_Basics]]: Cấu trúc trang web và các thẻ cơ bản.
+- [[JavaScript_Basics]]: Biến, kiểu dữ liệu và cú pháp JS.
+- [[Git_Basics]]: Quản lý phiên bản với Git.
+- [[Programming_Fundamentals]]: Phân tích yêu cầu và Thuật toán cơ bản.
+
+---
+
+## 🏗️ Kiến trúc & Hệ thống AI
+- [[LLM_Wiki]]: Khái niệm Wiki theo Andrej Karpathy.
+- [[RAG_Retrieval_Augmented_Generation]]: Kỹ thuật RAG cho AI.
+- [[GEMINI.md]]: Quy tắc vận hành AI Master.
+- [[Creating_Skills_Guide]]: Hướng dẫn tạo Agent Skills cho Gemini.
+- [[02_Areas/IT_Knowledge/GEMINI.md|Java Architect Brain]]: Cấu hình chuyên gia Java.
+
+## 🛠️ Công cụ Gemini CLI
+- [[Gemini_CLI_Essentials]]: Cẩm nang tác chiến Gemini CLI.
+- [[Gemini_CLI_Configuration]]: Cấu hình hệ thống.
+- [[Gemini_CLI_Memory_System]]: Hệ thống bộ nhớ 4 tầng.
+- [[Gemini_CLI_Context_Efficiency]]: Chiến lược tối ưu hóa Token.
+- [[Obsidian]]: Quản lý cơ sở kiến thức.
+- [[Markdown]]: Ngôn ngữ đánh dấu.
+
+---
+## Related
+- [[02_Areas/IT_Knowledge/LLM_Wiki|LLM Wiki]]

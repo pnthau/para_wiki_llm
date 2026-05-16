@@ -1,0 +1,15 @@
+# Vault Diet: Exclude heavy and sensitive files
+node_modules/
+.gemini/
+.obsidian/
+00_Raw/
+03_Resources/Other/
+*.pdf
+*.mp4
+*.zip
+*.exe
+*.png
+*.jpg
+*.jpeg
+*.gif
+# Keep small images if strictly necessary, otherwise use external links

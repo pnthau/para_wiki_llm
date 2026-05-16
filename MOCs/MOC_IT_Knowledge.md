@@ -22,6 +22,7 @@ source: "None"
 ### Fundamentals & Basics
 - [[Java_Style_Guide]]: Quy ước lập trình Java (Google Style).
 - [[Java_JVM_Variables_DataTypes]]: JVM, Biến và Kiểu dữ liệu.
+- [[Java_Memory_Management]]: Quản lý bộ nhớ Stack & Heap, Pass-by-value.
 - [[Java_Arrays]]: Cấu trúc dữ liệu Mảng trong Java.
 - [[Java_Methods]]: Phương thức, Stack & Heap, Tham trị/Tham chiếu.
 - [[Java_Strings_Regex]]: Xử lý chuỗi và Biểu thức chính quy.

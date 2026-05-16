@@ -2,44 +2,47 @@
 domain: "Project"
 type: "log"
 status: "active"
-tags: [java, progress, roadmap]
-created: 2026-04-28
+tags: [java, progress, roadmap, dsa, solid]
+created: 2026-05-16
 ---
-# Java Learning Log
+# Java Architect Reboot: Core, DSA & SOLID (Spiral)
 
-**Summary**: Nhật ký theo dõi tiến trình học Java Programming theo lộ trình Phase 1-3.
+**Summary**: Nhật ký lộ trình "Reboot" toàn diện kiến thức Java Core, Cấu trúc dữ liệu & Giải thuật (DSA) và các nguyên tắc thiết kế SOLID theo phương pháp Xoắn ốc (Spiral).
 
-## 📊 Trạng thái tổng thể
-- **Phase 1 (Nền tảng)**: ⏳ Đang bắt đầu
-- **Phase 2 (Trung cấp)**: ⚪ Chưa bắt đầu
-- **Phase 3 (Ứng dụng)**: ⚪ Chưa bắt đầu
+---
+
+## 🚀 Trạng thái Lộ trình (Spiral Path)
+
+| Vòng (Phase) | Trọng tâm Kiến thức | DSA Thực chiến | Trạng thái |
+| :--- | :--- | :--- | :--- |
+| **🌀 Vòng 1** | OOP, Memory, Encapsulation | `CustomArrayList` (SRP) | ✅ Hoàn thành |
+| **🌀 Vòng 2** | Abstraction, Generics | `LinkedList` (OCP) | ✅ Hoàn thành |
+| **🌀 Vòng 3** | SOLID (LSP, ISP, DIP) | `Stack` & `Queue` | ✅ Hoàn thành |
+| **🌀 Vòng 4** | Big O, Recursion | Sorting, BST | ✅ Hoàn thành |
 
 ---
 
 ## 📅 Nhật ký tiến độ
 
-### Tuần 1 (2026-05-15)
-- [x] Thiết lập môi trường học tập (Obsidian LLM Wiki).
-- [x] Học cú pháp cơ bản: [[Java_Variables_DataTypes]].
-- [x] Làm chủ Đa hình (Polymorphism) & Interface qua ví dụ LoL.
-- [x] Khám phá Java Collections: ArrayList & HashMap.
-- [x] Hoàn thành chương trình CLI đầu tiên (Champion Manager).
+### Vòng 4 (2026-05-16) - "Efficiency & Algorithms"
+- [x] **Big O Notation**: Hiểu cách đánh giá hiệu năng thuật toán ($O(1), O(log n), O(n), O(n^2)$).
+- [x] **Searching Strategy**: Phân tích sự vượt trội của Binary Search ($O(log n)$) so với Linear Search.
+- [x] **Data Integrity**: Hiểu tại sao sắp xếp là điều kiện tiên quyết cho các thuật toán chia để trị.
 
-### Tuần 2 (2026-05-16) - Chiến dịch "Spring Readiness"
-- [x] **Audit OOP Mastery**: Củng cố tư duy Interface (Loose Coupling) và HashMap (O(1)).
-- [x] **Generics**: Hiểu về Type Safety và cách dùng `<T>` để tạo code tái sử dụng.
-- [x] **Annotations**: Làm chủ các biển báo `@Override`, `@Deprecated`, `@Service`.
-- [x] **Functional Programming**: Tiếp cận Lambda (`->`) và Stream API (`filter`, `forEach`).
-- [x] **Dependency Injection (DI) & IoC**: Hiểu tư duy Loose Coupling và cách Spring quản lý Beans.
-- [x] **Maven & Lombok**: Cách quản lý thư viện (pom.xml) và dùng Annotation để dọn dẹp code.
-- [x] **3-Layer Architecture**: Nắm vững luồng Controller -> Service -> Repository.
-- [ ] **Next Step**: Khởi tạo Project Spring Boot đầu tiên (Spring Initializr).
+---
+## 🏆 KẾT QUẢ REBOOT: "THE ARCHITECT AWAKENING"
+Chúng ta đã đi từ những khái niệm cơ bản nhất về bộ nhớ (Stack/Heap) cho đến việc xây dựng các cấu trúc dữ liệu phức tạp tuân thủ nghiêm ngặt 5 nguyên tắc SOLID. 
+- **Core**: Nắm vững Memory Management & Generics.
+- **SOLID**: Tư duy Composition over Inheritance, OCP, LSP.
+- **DSA**: Tự build ArrayList, LinkedList, Stack, Queue và hiểu Complexity.
 
-## 💡 Turbo-Learning Tip
-- Sử dụng [[Body_Resonance_7Hz]] trước khi code để tăng sự tập trung. Trạng thái sóng Theta giúp việc debug và học cú pháp mới nhanh hơn gấp 2 lần.
-- "Lập trình với Interface, không phải với Implementation" là chìa khóa để làm chủ Spring Framework.
+---
+## 💡 Spiral Insight
+- "Đừng chỉ dùng `ArrayList`, hãy hiểu tại sao nó tồn tại." - Việc tự tay build lại các công cụ cơ bản giúp ta hiểu sâu về tối ưu hóa hiệu năng và bộ nhớ.
+- Kết hợp kỹ thuật [[Body_Resonance_7Hz]] để duy trì trạng thái tập trung sâu khi phân tích cấu trúc dữ liệu phức tạp.
 
 ---
 ## Related
 - [[MOC_IT_Knowledge]]
-- [[Bentov_Meditation_Technique]]
+- [[Java_Composition_SOLID]]
+- [[Java_DSA_LinkedList_OCP]]

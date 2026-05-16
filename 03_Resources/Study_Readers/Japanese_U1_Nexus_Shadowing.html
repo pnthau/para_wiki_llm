@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NiX Digital Mastery App - Unit 1</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --bg: #f8fafc;
+            --text: #1e293b;
+            --accent: #f43f5e;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+        /* Sidebar cho danh sách câu */
+        .sidebar {
+            width: 350px;
+            background: var(--card-bg);
+            border-right: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 4px 0 10px rgba(0,0,0,0.05);
+        }
+        .sidebar-header {
+            padding: 20px;
+            background: var(--primary);
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .sentence-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+        .sentence-item {
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 1px solid #f1f5f9;
+        }
+        .sentence-item:hover { background: #f1f5f9; }
+        .sentence-item.active {
+            background: #e0e7ff;
+            border-color: var(--primary);
+        }
+        .item-jp { font-weight: bold; margin-bottom: 5px; }
+        .item-vn { font-size: 0.9rem; color: #64748b; }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            gap: 20px;
+            overflow-y: auto;
+        }
+        .video-box {
+            width: 100%;
+            background: #000;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            aspect-ratio: 16/9;
+        }
+        video { width: 100%; height: 100%; }
+
+        .focus-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            border-bottom: 5px solid var(--primary);
+        }
+        .focus-jp { font-size: 2.5rem; font-weight: 800; color: var(--primary-dark); margin-bottom: 15px; }
+        .focus-furi { font-size: 1.2rem; color: #94a3b8; margin-bottom: 20px; }
+        .focus-vn { font-size: 1.5rem; color: var(--accent); font-weight: 600; }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        button {
+            padding: 12px 25px;
+            border-radius: 12px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .btn-play { background: var(--primary); color: white; }
+        .btn-play:hover { transform: scale(1.05); background: var(--primary-dark); }
+        .btn-toggle { background: #94a3b8; color: white; }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="sidebar-header">Unit 1: Mastery List</div>
+    <div class="sentence-list" id="sidebarList"></div>
+</div>
+
+<div class="main-content">
+    <div class="video-box">
+        <video id="v" controls>
+            <source src="https://storage.googleapis.com/nilc02-storage/activities/1703588713_Tq5CUK3rYwpnIQ6s.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="focus-card">
+        <div class="focus-jp" id="mainJp">Chào John!</div>
+        <div class="focus-furi" id="mainFuri"></div>
+        <div class="focus-vn" id="mainVn">Chọn một câu để bắt đầu học.</div>
+    </div>
+
+    <div class="controls">
+        <button class="btn-play" onclick="playSentence()">▶ Nghe & Luyện tập</button>
+        <button class="btn-toggle" onclick="toggleFuri()">Ẩn/Hiện Furigana</button>
+    </div>
+</div>
+
+<script>
+    const data = [
+        { s: 0.1, e: 4, jp: "はじめまして。私はフォンです。", f: "はじめまして。私(わたし)は フォン です。", vn: "Rất vui được gặp bạn. Tôi là Phương." },
+        { s: 4.1, e: 8, jp: "はじめまして。私はリです。", f: "はじめまして。私(わたし)は リ です。", vn: "Rất vui được gặp bạn. Tôi là Li." },
+        { s: 8.5, e: 13, jp: "リさんは、どこからきましたか。", f: "リさんは、どこから 来(き)ましたか。", vn: "Bạn Li đến từ đâu vậy?" },
+        { s: 13.5, e: 17, jp: "マレーシアからきました。", f: "マレーシアから 来(き)ました。", vn: "Tôi đến từ Malaysia." },
+        { s: 18, e: 23, jp: "フォンさんは学生ですか。", f: "フォンさんは 学生(がくせい)ですか。", vn: "Bạn Phương là học sinh à?" },
+        { s: 23.5, e: 28, jp: "はい、大恭大学の学生です。", f: "はい、大恭大学(だいきょうだいがく)の 学生(がくせい)です。", vn: "Vâng, tôi là sinh viên ĐH Daikyo." }
+    ];
+
+    let current = 0;
+    const v = document.getElementById('v');
+    const list = document.getElementById('sidebarList');
+
+    // Khởi tạo danh sách
+    data.forEach((item, i) => {
+        const div = document.createElement('div');
+        div.className = `sentence-item ${i === 0 ? 'active' : ''}`;
+        div.onclick = () => selectSentence(i);
+        div.innerHTML = `<div class="item-jp">${item.jp}</div><div class="item-vn">${item.vn}</div>`;
+        list.appendChild(div);
+    });
+
+    function selectSentence(i) {
+        current = i;
+        document.querySelectorAll('.sentence-item').forEach(el => el.classList.remove('active'));
+        list.children[i].classList.add('active');
+        document.getElementById('mainJp').innerText = data[i].jp;
+        document.getElementById('mainFuri').innerText = data[i].f;
+        document.getElementById('mainVn').innerText = data[i].vn;
+        v.currentTime = data[i].s;
+    }
+
+    function playSentence() {
+        v.currentTime = data[current].s;
+        v.play();
+        const check = setInterval(() => {
+            if (v.currentTime >= data[current].e) {
+                v.pause();
+                clearInterval(check);
+            }
+        }, 100);
+    }
+
+    function toggleFuri() {
+        const furi = document.getElementById('mainFuri');
+        furi.style.visibility = furi.style.visibility === 'hidden' ? 'visible' : 'hidden';
+    }
+
+    v.onended = () => { if(current < data.length - 1) selectSentence(current + 1); };
+    
+    // Khởi tạo câu đầu
+    selectSentence(0);
+</script>
+
+</body>
+</html>

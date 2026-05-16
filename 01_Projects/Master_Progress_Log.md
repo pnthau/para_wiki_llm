@@ -91,10 +91,14 @@ keywords: []
 - **☕ IT/Java:** Hoàn thành chuyển đổi đợt 2 (10 file) sang định dạng Cornell Table chuẩn PARA v3.0. 
 - **🛠️ Hệ thống:** Cập nhật [[MOC_IT_Knowledge]] và đồng bộ hóa kiến thức về Dynamic Binding, Serialization, và Algorithms.
 - **💡 Insight:** Việc cấu trúc lại ghi chú theo phương pháp Cornell giúp tối ưu hóa việc ôn tập (Active Recall) và chuẩn bị cho giai đoạn luyện phỏng vấn kỹ thuật tại Nhật.
-
 ### [2026-05-16] - Arkon MRP Protocol Deployment & Batch 4 Raid
 - **🛠️ Hệ thống:** Nâng cấp lên **Gemini v4.1**. Triển khai quy trình **MRP (Map-Reduce-Plan-Refine-Verify)** thành công.
+- **📥 Total Recovery:** Khắc phục lỗi ghi đè dữ liệu sau nâng cấp.
+    - Khởi tạo [[NiX_Digital_Total_Ingest_Hub]] làm trung tâm lưu trữ vĩnh cửu.
+    - Khôi phục thành công các liên kết Media & Transcript cho Unit 1 và Unit 12.
+    - Cứu vãn kịch bản thuyết trình [[IntelliJ_Presentation_Japanese_Script]] - "vũ khí" quan trọng cho sự nghiệp Java tại Nhật.
 - **🧹 Vault Cleanup:** Hoàn tất đại tu hệ thống (Vault Diet). 
+...
     - Nâng cấp Metadata YAML v4.0 (thêm `keywords`) cho toàn bộ 120+ file.
     - Làm phẳng cấu trúc thư mục (Flattened `Gemini_Prompts`) để tuân thủ quy tắc 2-cấp.
     - Cập nhật `.gitignore` loại bỏ file âm thanh nặng (*.mp3, *.wav).

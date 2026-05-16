@@ -2,13 +2,13 @@
 node_modules/
 .gemini/
 .obsidian/
-00_Raw/
 03_Resources/Other/
 *.pdf
 *.mp4
 *.zip
 *.exe
-*.png
+# *.png
+app_learn.png
 *.jpg
 *.jpeg
 *.gif

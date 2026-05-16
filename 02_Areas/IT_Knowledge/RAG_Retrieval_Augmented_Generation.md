@@ -18,9 +18,10 @@ keywords: []
 
 <br>
 
-| 🎯 Tổng kết (Summary) |
-| :--- |
+| 🎯 Tổng kết (Summary)                                                                                                                    |
+| :--------------------------------------------------------------------------------------------------------------------------------------- |
 | RAG là giải pháp nhanh để AI "đọc" tài liệu mới. Tuy nhiên, để xây dựng hệ thống tri thức bền vững, cần kết hợp với tư duy [[LLM_Wiki]]. |
+|                                                                                                                                          |
 
 ---
 **Related:**

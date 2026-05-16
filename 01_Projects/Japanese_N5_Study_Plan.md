@@ -51,6 +51,16 @@ keywords: []
 - [ ] Học cách nói về sở thích (Suki desu).
 
 ---
+## 📚 Tài nguyên Bổ trợ (NiX Digital)
+
+Dùng để bổ sung từ vựng và Kanji thực chiến ngoài giáo trình NEJ.
+
+- [x] **Unit 1 (Intro)**: Đã ingest Vocab & Grammar. ✅
+- [x] **Unit 4 (Kanji)**: Đã ingest. ✅
+- [x] **Unit 10 (Kanji)**: Đã ingest 19 Kanji động từ & tính từ. ✅
+- [ ] **Unit 2, 3, 5, 6**: Chờ ingest từ 00_Raw.
+
+---
 ## 💡 Phương pháp tiếp cận Essay (3 Bước)
 
 Để bạn có thể viết essay hoàn chỉnh và linh hoạt, tôi đề xuất quy trình:

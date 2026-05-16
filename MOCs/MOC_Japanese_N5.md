@@ -23,9 +23,15 @@ keywords: []
 
 ## ⛩️ Hán tự (Kanji)
 - [[NIX_Digital_U4_Kanji]]: Danh sách 13 chữ Hán cơ bản (Unit 4).
+- [[NIX_Digital_U10_Kanji]]: Danh sách 19 chữ Hán động từ & tính từ (Unit 10).
 - [[Kanji_Master_Ultimate_Unit4.html]]: Ứng dụng gốc Unit 4.
 
+## 📥 Tài liệu học tập NiX Digital
+- [[NIX_Digital_U1_Total_Ingest]]: Unit 1 Consolidated (Giới thiệu bản thân).
+- [[NIX_Digital_U12_Total_Ingest]]: Unit 12 Consolidated (An toàn mùa đông).
+
 ## 🏆 Ôn thi N5 (Exam Prep)
+- [[NIX_Digital_U1_Vocab_Grammar]]: Ngữ pháp & Từ vựng Unit 1 (Giới thiệu bản thân).
 - [[N5_Grammar_Review_U7_U12]]: Tổng hợp Ngữ pháp trọng tâm Unit 7-12.
 - [[N5_Vocabulary_Review_Master]]: Danh sách từ vựng tổng hợp N5.
 

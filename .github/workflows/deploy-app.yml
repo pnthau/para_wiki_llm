@@ -16,6 +16,13 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
+      - name: Set up Node.js ⚙️
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: 01_Projects/nix-mastery-app/package-lock.json
+
       - name: Install and Build 🔧
         run: |
           cd 01_Projects/nix-mastery-app
@@ -27,3 +34,4 @@ jobs:
         with:
           folder: 01_Projects/nix-mastery-app/dist
           branch: gh-pages
+          clean: true

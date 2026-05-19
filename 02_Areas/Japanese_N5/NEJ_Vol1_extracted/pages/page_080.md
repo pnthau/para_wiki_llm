@@ -2,7 +2,7 @@
 domain: Japanese
 type: textbook-extract
 source: NEJ_Vol1.pdf
-page: "080"
+sheet: "080"
 unit: 4
 section: 1
 status: indexed
@@ -15,10 +15,35 @@ ocr_confidence: high
 
 # NEJ Vol.1 — Page 080
 
-| Cue | Notes |
-|---|---|
-| **Akio-san's Night** | - Ăn tối: Đôi khi ăn tại phòng nghiên cứu (hamburger, mì ly, cơm hộp). Thường ăn ở nhà một mình lúc 10:00.<br>- Sau đó: Tắm lúc 11:00.<br>- Giải trí: Dùng mail/internet.<br>- Đi ngủ: 1-2 giờ sáng. |
-| **Sensei's Night** | - Ăn tối: Thường ăn tại nhà cùng gia đình.<br>- Sau đó: Xem TV (phim truyền hình, phim điện ảnh).<br>- Gia đình: Vợ và các con đều thích xem phim cùng nhau.<br>- Đi tắm: 10:00.<br>- Đọc sách: Đọc một chút (少(すこ)し本(ほん)を読(よ)みます).<br>- Đi ngủ: 11:30. |
+## Quan sát
+Trang 80 (số trang trong sách là 54-55) tiếp tục nội dung **Section 1B: 夜は、何をしますか (Buổi tối bạn làm gì?)**.
+- Trang trái (54): Lịch trình buổi tối của **あきおさん (Akio-san)**.
+- Trang phải (55): Lịch trình buổi tối của **西山先生 (Nishiyama-sensei)**.
+
+## Nội dung tiếng Nhật (transcribe)
+
+### 2. あきおさん (Akio-san)
+晩(ばん)ごはんは、ときどき、研究室(けんきゅうしつ)で食(た)べます。
+ハンバーガーやカップラーメンやお弁当(べんとう)を食(た)べます。
+でも、たいてい、うちで食(た)べます。
+10時(じゅうじ)ごろに、一人(ひとり)で食(た)べます。
+晩(ばん)ごはんの後(あと)、11時(じゅういちじ)ごろに、お風呂(ふろ)に入(はい)ります。
+それから、メールやインターネットをします。
+そして、1時(いちじ)か2時(にじ)ごろに、寝(ね)ます。
+
+---
+
+### 3. 西山先生 (Nishiyama-sensei)
+晩(ばん)ごはんは、たいてい、うちで食(た)べます。
+うちで、家族(かぞく)といっしょに食(た)べます。
+晩(ばん)ごはんの後(あと)は、テレビを見(み)ます。
+テレビのドラマを見(み)ます。
+ときどき、映画(えいが)を見(み)ます。
+わたしも妻(つま)も、映画(えいが)やドラマが大好きです。
+子どもたちも、ときどき、いっしょに見(み)ます。
+10時(じゅうじ)ごろに、お風呂(ふろ)に入(はい)ります。
+それから、少(すこ)し本(ほん)を読(よ)みます。
+そして、11時半(じゅういちじはん)ごろに寝(ね)ます。
 
 ## Vocab nổi bật
 | Kanji | Furigana | Romaji | Tiếng Việt |
@@ -32,10 +57,11 @@ ocr_confidence: high
 | 子ども | こども | kodomo | trẻ con, con cái |
 | 本 | ほん | hon | sách |
 
-## Summary
-Trang này hoàn tất phần Section 1 về lịch trình buổi tối, cho thấy sự khác biệt giữa cuộc sống độc thân (Akio-san) và cuộc sống gia đình (thầy Nishiyama), đồng thời giới thiệu các danh từ chỉ người thân trong gia đình.
+## OCR Confidence
+- ✅ Rõ ràng. 
 
----
-## Related
-- [[MOC_NEJ_Unit4|MOC: NEJ Unit 4]]
-- [[MOC_Japanese_N5|MOC: Tiếng Nhật N5]]
+## Notes cho verifier (`n5-sensei`)
+- [ ] Chú ý danh từ chỉ người: `家族`, `妻`, `子ども`.
+- [ ] Cấu trúc liệt kê `〜や 〜や`: hamburger, mì ly, cơm hộp.
+- [ ] Phân biệt cách dùng `ときどき` (thỉnh thoảng) và `たいてい` (đại khái/thông thường).
+- [ ] Update `verified: true`.

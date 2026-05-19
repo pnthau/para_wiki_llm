@@ -2,7 +2,7 @@
 domain: Japanese
 type: textbook-extract
 source: NEJ_Vol1.pdf
-page: "076"
+sheet: "076"
 unit: 4
 section: 1
 status: indexed
@@ -15,11 +15,41 @@ ocr_confidence: high
 
 # NEJ Vol.1 — Page 076
 
-| Cue | Notes |
-|---|---|
-| **Section 1A** | **何時(なんじ)に起(お)きますか** (Mấy giờ bạn thức dậy?) |
-| **リさん's Schedule** | - Thức dậy: 7:30 (7時半)<br>- Đến trường: 8:30 bằng xe đạp (10 phút, trường gần).<br>- Giờ học: Bắt đầu lúc 8:50, kết thúc lúc 4:10.<br>- Buổi trưa: Ăn ở nhà ăn (食堂) cùng bạn bè.<br>- Sau giờ học: Đi thư viện (図書館).<br>- Về nhà: Khoảng 5:30. |
-| **あきおさん's Schedule** | - Thức dậy: Thường là 7:00 (7時). Xem tin tức trên TV.<br>- Đến trường: 8:00 bằng tàu điện (40 phút).<br>- Giờ học: Bắt đầu 8:50, kết thúc 4:10.<br>- Buổi trưa: Ăn ở nhà ăn, đôi khi mua cơm hộp (お弁当).<br>- Sau giờ học: Đến phòng nghiên cứu (研究室) làm thí nghiệm.<br>- Về nhà: Khoảng 9:00. |
+## Quan sát
+Trang 76 (số trang trong sách là 50-51) thuộc **Unit 4, Section 1: Personal Narratives**. Nội dung chính là bài đọc về thời gian biểu hàng ngày của **リさん (Lee-san)** và **あきおさん (Akio-san)**.
+
+## Nội dung tiếng Nhật (transcribe)
+
+### Section 1: Personal Narratives
+**A. 何時(なんじ)に起(お)きますか (Mấy giờ bạn thức dậy?)**
+
+#### 1. リさん
+朝(あさ)は、いつも、7時半(しじはん)に起(お)きます。
+そして、朝(あさ)ごはんを食(た)べます。
+8時半(はちじはん)に学校(がっこう)に行(い)きます。
+自転車(じてんしゃ)で学校(がっこう)に行(い)きます。学校(がっこう)は、近(ちか)いです。
+自転車(じてんしゃ)で、10分(ぷん)くらいです。
+授業(じゅぎょう)は、8時50分(はちじごじゅっぷん)に始(はじ)まります。
+昼(ひる)ごはんは、食堂(しょくどう)で食(た)べます。
+友(とも)だちといっしょに食(た)べます。
+授業(じゅぎょう)は、たいてい4時10分(よじじゅっぷん)に終(お)わります。
+それから、図書館(としょかん)に行(い)きます。
+そして、5時半(ごじはん)ごろにうちに帰(かえ)ります。
+
+#### 2. あきおさん
+朝(あさ)は、たいてい7時(しじ)に起(お)きます。
+そして、朝(あさ)ごはんを食(た)べます。
+テレビでニュースを見(み)ます。
+そして、8時(はちじ)に学校(gakkou)に行(い)きます。電車(でんしゃ)で行(い)きます。
+うちから学校(がっこう)まで、40分(よんじゅっぷん)くらいです。
+授業(じゅぎょう)は、8時50分(はちじごじゅっぷん)に始(はじ)まります。
+昼(ひる)ごはんは、食堂(しょくどう)で食(た)べます。
+ときどき、お弁当(べんとう)を買(か)います。
+授業(じゅぎょう)は、たいてい4時10分(よじじゅっぷん)に終(お)わります。
+それから、研究室(けんきゅうしつ)に行(い)きます。
+研究室(けんきゅうしつ)で実験(じっけん)をします。
+ときどき、勉強(べんきょう)をします。
+そして、9時(くじ)ごろ、うちに帰(かえ)ります。
 
 ## Vocab nổi bật
 | Kanji | Furigana | Romaji | Tiếng Việt |
@@ -38,10 +68,10 @@ ocr_confidence: high
 | 研究室 | けんきゅうしつ | kenkyuushitsu | phòng nghiên cứu |
 | 実験 | じっけん | jikken | thí nghiệm |
 
-## Summary
-Trang này cung cấp các bài đọc mẫu về thời gian biểu hàng ngày của Lee-san và Akio-san, sử dụng động từ thể ます để diễn tả các thói quen lặp đi lặp lại.
+## OCR Confidence
+- ✅ Rõ ràng. Toàn bộ Furigana và Kanji đều được nhận diện chính xác.
 
----
-## Related
-- [[MOC_NEJ_Unit4|MOC: NEJ Unit 4]]
-- [[MOC_Japanese_N5|MOC: Tiếng Nhật N5]]
+## Notes cho verifier (`n5-sensei`)
+- [ ] Kiểm tra cách đọc số giờ: 7時 (shichiji - NEJ ghi shiji), 4時 (yoji), 9時 (kuji).
+- [ ] Chú ý cấu trúc `〜で` (phương tiện/địa điểm) và `〜に` (thời điểm).
+- [ ] Update `verified: true`.

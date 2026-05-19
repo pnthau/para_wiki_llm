@@ -46,6 +46,7 @@ keywords: []
 
 ## ⛩️ Lộ trình & Tiến độ
 
+- [[NEJ_Unit1_Complete_Course]]: Khóa học Master Unit 1 (Giới thiệu bản thân).
 - [[Master_Progress_Log]]: Bảng điều khiển tiến độ tổng thể (Duy nhất).
 - [[NEJ_N5_4_Phase_Study_Plan]]: Kế hoạch học tập NEJ 4 giai đoạn.
 - [[Japanese_N5_Study_Plan]]: Nhật ký chi tiết tiến độ N5.
@@ -53,7 +54,12 @@ keywords: []
 - [[Anki_N5_U12]]: Bộ thẻ vựng Bài 12.
 - [[02_Areas/Japanese_N5/GEMINI.md|Japanese Sensei Brain]]: Cấu hình chuyên gia tiếng Nhật.
 
-## 📚 Bài học & Tài liệu NEJ
+## 📚 Bài học & Tài liệu NEJ (Master Ingest)
+- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit1|MOC: Trích xuất Unit 1]]
+- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit2|MOC: Trích xuất Unit 2]]
+- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NE_Unit4|MOC: Trích xuất Unit 4 (Daily Life)]]
+- [[NEJ_Vol1_Unit1_Comprehensive_Extraction|Trích xuất Master Unit 1 (Dữ liệu phục hồi)]]
+- [[Surgical_Read_Protocol]]: Thuật toán xử lý file giáo trình lớn.
 - [[N5_13_Essential_Grammar_NEJ|13 Cấu trúc Ngữ pháp N5 Bắt buộc]]
 - **Gemini Prompts (Luyện tập)**:
     - [[NEJ_Phase_1_Gemini|GĐ 1: Học Unit mới]]

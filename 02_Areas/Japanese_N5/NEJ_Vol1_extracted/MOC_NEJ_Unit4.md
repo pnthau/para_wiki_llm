@@ -18,10 +18,10 @@ nexus_version: 6.0
 ## 📅 Section 1: Personal Narratives
 *Lịch trình hàng ngày của các nhân vật.*
 
-- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/sheets/sheet_075|Sheet 075: Mở đầu Unit 4 & Useful Expressions]]
-- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/sheets/sheet_076|Sheet 076: Lịch trình ban ngày (リさん & あきおさん)]]
-- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/sheets/sheet_078|Sheet 078: Lịch trình Nishiyama-sensei & Buổi tối Lee-san]]
-- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/sheets/sheet_080|Sheet 080: Buổi tối Akio-san & Nishiyama-sensei]]
+- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_075|Page 075: Mở đầu Unit 4 & Useful Expressions]]
+- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_076|Page 076: Lịch trình ban ngày (リさん & あきおさん)]]
+- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_078|Page 078: Lịch trình Nishiyama-sensei & Buổi tối Lee-san]]
+- [[02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_080|Page 080: Buổi tối Akio-san & Nishiyama-sensei]]
 
 ---
 

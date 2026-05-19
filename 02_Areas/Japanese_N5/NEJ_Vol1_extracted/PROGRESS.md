@@ -15,8 +15,8 @@ last_updated: 2026-05-19T07:30:00
 - [ ] Build MOC
 
 ## Chunks
-- [x] pages_071-075 (Sheet 075 extracted)
-- [x] pages_076-080 (Sheets 076, 078, 080 extracted)
+- [x] pages_071-075 (Page 075 extracted)
+- [x] pages_076-080 (Pages 076, 078, 080 extracted)
 
 ## Notes
 - Requested range: 75-80.

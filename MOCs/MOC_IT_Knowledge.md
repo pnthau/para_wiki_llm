@@ -54,6 +54,10 @@ keywords: []
 
 ## 🧠 Soft Skills & Methodology
 - [[Effective_Information_Search]]: Kỹ thuật tìm kiếm thông tin chuyên nghiệp (5 Pillars).
+- [[Effective_Information_Search_Gathering]]: Quy trình tìm kiếm và thu thập thông tin có hệ thống.
+- [[Information_Literacy]]: Năng lực thông tin (Tìm kiếm, Đánh giá, Áp dụng).
+- [[Digital_Literacy]]: Năng lực số và quản lý tri thức số.
+- [[Source_Evaluation]]: Tiêu chí đánh giá độ tin cậy của nguồn tin (CRAAP).
 - [[Improving_Question_Quality]]: Nguyên tắc nâng cao chất lượng câu hỏi (Clear, Higher-Order).
 - [[Question_Answer_Formats]]: Các hình thức hỏi (Mở, Đóng, Gợi mở, Phản biện).
 - [[Tactical_Questioning_Strategies]]: Các chiến thuật hỏi đáp (Dẫn dắt, Gợi mở, Phản biện).

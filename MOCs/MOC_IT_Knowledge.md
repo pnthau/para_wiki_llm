@@ -21,6 +21,7 @@ keywords: []
 
 ## ☕ Java Master Path
 ### Database & Persistence (New)
+- [[SQL_Mastery_100_Questions]]: 10 Thử thách SQL Thực chiến Doanh nghiệp (+1 đến +5).
 - [[Relational_Database_Fundamentals]]: Tổng quan về CSDL quan hệ và RDBMS.
 - [[Relational_Data_Model]]: Lý thuyết mô hình quan hệ (E.F. Codd).
 - [[ACID_Properties]]: 4 tính chất vàng của giao dịch CSDL.

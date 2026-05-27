@@ -20,10 +20,17 @@ keywords: []
 | **🌀 Vòng 2** | Abstraction, Generics | `LinkedList` (OCP) | ✅ Hoàn thành |
 | **🌀 Vòng 3** | SOLID (LSP, ISP, DIP) | `Stack` & `Queue` | ✅ Hoàn thành |
 | **🌀 Vòng 4** | Big O, Recursion | Sorting, BST | ✅ Hoàn thành |
+| **🌀 Vòng 5** | Database Design & SQL | Schema, Constraints | ⏳ Đang tiến hành |
 
 ---
 
 ## 📅 Nhật ký tiến độ
+
+### Vòng 5 (2026-05-27) - "Database Mastery & Persistence"
+- [x] **Relational Foundation**: Nắm vững Primary Key, Foreign Key (1-n, n-n).
+- [x] **Junction Table**: Thiết kế bảng trung gian cho quan hệ Nhiều - Nhiều.
+- [x] **Data Integrity**: Làm chủ Constraints (NOT NULL, UNIQUE, CHECK với logic `TIMESTAMPDIFF`).
+- [x] **Multi-Perspective**: Phân tích DB vs Java/JPA vs Operations (Industry preference for Surrogate Keys).
 
 ### Vòng 4 (2026-05-16) - "Efficiency & Algorithms"
 - [x] **Big O Notation**: Hiểu cách đánh giá hiệu năng thuật toán ($O(1), O(log n), O(n), O(n^2)$).

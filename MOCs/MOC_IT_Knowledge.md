@@ -55,6 +55,9 @@ keywords: []
 ## 🧠 Soft Skills & Methodology
 - [[Effective_Information_Search]]: Kỹ thuật tìm kiếm thông tin chuyên nghiệp (5 Pillars).
 - [[Effective_Information_Search_Gathering]]: Quy trình tìm kiếm và thu thập thông tin có hệ thống.
+- [[Effective_Report_Writing]]: Kỹ thuật viết báo cáo chuyên nghiệp (5 bước).
+- [[Report_Structure]]: Cấu trúc báo cáo tiêu chuẩn (Head-Body-Tail).
+- [[Executive_Summary]]: Tóm tắt báo cáo dành cho quản lý.
 - [[Information_Literacy]]: Năng lực thông tin (Tìm kiếm, Đánh giá, Áp dụng).
 - [[Digital_Literacy]]: Năng lực số và quản lý tri thức số.
 - [[Source_Evaluation]]: Tiêu chí đánh giá độ tin cậy của nguồn tin (CRAAP).

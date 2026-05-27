@@ -52,6 +52,12 @@ keywords: []
 
 ---
 
+## 🧠 Soft Skills & Methodology
+- [[Effective_Information_Search]]: Kỹ thuật tìm kiếm thông tin chuyên nghiệp (5 Pillars).
+- [[Improving_Question_Quality]]: Nguyên tắc nâng cao chất lượng câu hỏi (Clear, Higher-Order).
+- [[Higher_Order_Thinking]]: Tư duy bậc cao (Bloom's Taxonomy).
+- [[Peer_Review]]: Phương pháp đánh giá đồng nghiệp.
+
 ## 🌐 Web Basics & Tools
 - [[HTML_Basics]]: Cấu trúc trang web và các thẻ cơ bản.
 - [[JavaScript_Basics]]: Biến, kiểu dữ liệu và cú pháp JS.

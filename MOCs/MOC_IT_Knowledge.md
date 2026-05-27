@@ -20,6 +20,12 @@ keywords: []
 - [[IntelliJ_Presentation_Final_Script]]: Kịch bản thuyết trình IntelliJ bằng tiếng Nhật.
 
 ## ☕ Java Master Path
+### Database & Persistence (New)
+- [[Relational_Database_Fundamentals]]: Tổng quan về CSDL quan hệ và RDBMS.
+- [[Relational_Data_Model]]: Lý thuyết mô hình quan hệ (E.F. Codd).
+- [[ACID_Properties]]: 4 tính chất vàng của giao dịch CSDL.
+- [[MySQL_8.4_Features]]: Cập nhật mới nhất về MySQL 8.4 LTS.
+
 ### Fundamentals & Basics
 - [[Java_Style_Guide]]: Quy ước lập trình Java (Google Style).
 - [[Java_JVM_Variables_DataTypes]]: JVM, Biến và Kiểu dữ liệu.

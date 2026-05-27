@@ -9,12 +9,17 @@ nexus_version: 6.0
 
 # [[SQL_Mastery_100_Questions]] (10 Thử thách Thực chiến Doanh nghiệp)
 
-## Ngữ cảnh (Schema E-commerce & EdTech)
-Hệ thống quản lý một nền tảng bán khóa học trực tuyến. Các bảng chính (đã thiết kế bằng Surrogate Key):
-- `users(id, name, email, created_at, role)` - role: 'student', 'instructor'.
-- `courses(id, title, instructor_id, price, status)`
-- `enrollments(id, student_id, course_id, enrolled_date, progress_percent)` - Junction Table.
-- `payments(id, student_id, amount, payment_date, status)` - status: 'success', 'failed', 'refunded'.
+## Ngữ cảnh (Advanced Enterprise Schema)
+Hệ thống được nâng cấp để tách biệt định danh (Users) và vai trò chuyên môn (Teachers/Students):
+- `users(id, email, password, created_at)` - Bảng định danh và Auth.
+- `roles(id, role_name)`
+- `user_role(user_id, role_id)` - Junction Table cho n-n roles.
+- `teachers(id, user_id, name, bio, experience_years)` - Profile giảng viên.
+- `students(id, user_id, name, target_goal)` - Profile học viên.
+- `courses(id, title, price, status)`
+- `teacher_course(teacher_id, course_id)` - Junction Table cho n-n giảng viên.
+- `enrollments(id, student_id, course_id, enrolled_date, progress_percent)`
+- `payments(id, student_id, amount, payment_date, status)`
 
 ---
 

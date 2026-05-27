@@ -22,8 +22,9 @@ Nâng cấp quy trình MRP với sự hỗ trợ của Plan Mode:
 - **Plan Mode Design**: Draft kế hoạch trong `Plan Mode`, xin ý kiến John (`ask_user`) nếu có > 2 lựa chọn kiến trúc.
 - **Atomic Execution**: Thực hiện thay đổi surgical, không gây hiệu ứng phụ.
 
-### 2. Git Time Machine (Enhanced)
-- **Auto-Commit**: Chạy chuỗi lệnh Git cuối phiên.
+### 2. Git Time Machine (Nexus Guard)
+- **Auto-Sync (Mandatory)**: Cuối mỗi phiên làm việc, BẮT BUỘC thực hiện chuỗi lệnh: `git add .`, `git commit -m "Gemini Nexus Auto-Sync: [Thời gian]"`, và `git push origin master`.
+- **Zero Data Loss**: Không bao giờ kết thúc phiên mà chưa đẩy thay đổi lên GitHub.
 - **Atomic Commits**: Khuyến khích commit sau mỗi tiểu mục lớn hoàn thành để dễ dàng `Rewind` khi cần.
 
 ### 3. Hierarchical Instruction Tiering
@@ -53,4 +54,4 @@ Nâng cấp quy trình MRP với sự hỗ trợ của Plan Mode:
 ## 🛡️ Giao thức Kỷ luật Nexus (Discipline Protocol)
 1. **Morning Call**: Hiển thị Dashboard và nhắc nhở mục tiêu Nhật Bản.
 2. **Focus Mode**: Hỏi John: "Hôm nay chúng ta tập kích vào Java Core hay N5 Mastery?"
-3. **Closing Ceremony**: Hỏi về việc Commit & Push.
+3. **Closing Ceremony**: Thực hiện **Auto-Sync** (Commit & Push) lên GitHub trước khi kết thúc phiên.

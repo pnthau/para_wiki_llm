@@ -56,6 +56,10 @@ keywords: []
 - [[Effective_Information_Search]]: Kỹ thuật tìm kiếm thông tin chuyên nghiệp (5 Pillars).
 - [[Improving_Question_Quality]]: Nguyên tắc nâng cao chất lượng câu hỏi (Clear, Higher-Order).
 - [[Question_Answer_Formats]]: Các hình thức hỏi (Mở, Đóng, Gợi mở, Phản biện).
+- [[Tactical_Questioning_Strategies]]: Các chiến thuật hỏi đáp (Dẫn dắt, Gợi mở, Phản biện).
+- [[Socratic_Method]]: Phương pháp Socratic (Thách thức giả định).
+- [[Guided_Questioning]]: Kỹ thuật hỏi dẫn dắt (Scaffolding).
+- [[Active_Learning]]: Phương pháp học tập chủ động.
 - [[Blooms_Taxonomy]]: Thang đo Bloom (6 cấp độ nhận thức).
 - [[Probing_Questions]]: Kỹ thuật câu hỏi gợi mở đào sâu.
 - [[Higher_Order_Thinking]]: Tư duy bậc cao.

@@ -31,6 +31,11 @@ keywords: []
 *   [[Poker_Classification_Framework]]
 *   [[Poker_Leak_Checklist]]
 
+## 🎓 Learning & Methodology
+- [[SMART_Goal_Setting_Principles]]: Hệ thống đặt mục tiêu dựa trên khoa học não bộ.
+- [[Dreyfus_Model_Skill_Acquisition]]: Mô hình 5 giai đoạn phát triển kỹ năng.
+- [[Effective_Skill_Training_20_Hours]]: Quy tắc 20 giờ đầu tiên để thành thạo kỹ năng mới.
+
 ## ⚔️ Strategy & Wisdom (Strategy Master)
 *   **Chi tiết:** [[MOC_Strategy]]
 *   [[Sun_Tzu_Art_of_War_Overview]]: Tổng quan về 13 thiên Binh pháp Tôn Tử.

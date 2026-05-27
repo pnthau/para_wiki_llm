@@ -32,6 +32,9 @@ keywords: []
 *   [[Poker_Leak_Checklist]]
 
 ## 🎓 Learning & Methodology
+- [[Effective_Teamwork_Synergy]]: Nguyên tắc làm việc nhóm và cộng hưởng.
+- [[Human_AI_Synergy]]: Mô hình hợp tác tối ưu giữa Người và AI.
+- [[Collective_Intelligence]]: Sức mạnh trí tuệ tập thể trong hệ thống Agent.
 - [[Theory_of_Multiple_Intelligences]]: Thuyết Đa Trí Tuệ của Howard Gardner.
 - [[Intelligence_Types_Summary]]: Chi tiết 9 dạng trí thông minh và ứng dụng.
 - [[Goal_Decomposition]]: Kỹ thuật phân rã mục tiêu để giảm tải nhận thức.

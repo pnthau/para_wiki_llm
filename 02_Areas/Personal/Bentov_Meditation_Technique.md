@@ -1,33 +1,28 @@
 ---
-domain: "Personal"
-type: "mnemonic"
-status: "active"
-tags: [meditation, practice, breathing, stillness]
-created: 2026-05-09
-keywords: []
+domain: Personal
+type: concept
+status: active
+tags: [meditation, neuroscience, resonance, itzhak-bentov, 7hz]
+created: 2026-05-27
+nexus_version: 6.0
 ---
-# Bentov Meditation Technique
 
-> **Tóm tắt:** Phương pháp thực hành để đưa cơ thể vào trạng thái cộng hưởng (coherence) và mở rộng ý thức.
+# [[Bentov_Meditation_Technique]] (Kỹ thuật Cộng hưởng Bentov)
 
-Thay vì cố gắng "ép buộc" năng lượng, Bentov nhấn mạnh vào việc tạo điều kiện để cơ thể tự thực hiện cơ chế vốn có của nó.
+## Tổng quan
+Kỹ thuật này dựa trên các nghiên cứu của nhà khoa học **Itzhak Bentov** về mối liên hệ giữa cơ thể vật lý và các trạng thái ý thức cao hơn. Trọng tâm của phương pháp là đạt được sự **cộng hưởng vi mô** trong hệ thống tim mạch.
 
-### Các bước thực hiện:
+## Cơ chế Vật lý: Tần số 7Hz
+1. **Sóng dừng (Standing Waves)**: Khi cơ thể ở trạng thái thư giãn sâu, nhịp đập của tim tạo ra các sóng dừng trong cung động mạch chủ (aorta).
+2. **Tần số 7Hz**: Các sóng này dao động ở tần số khoảng 7 chu kỳ mỗi giây (7Hz), tương ứng với sóng não **Theta**.
+3. **Cộng hưởng Não bộ**: Sự rung động cơ học này được truyền lên não qua dịch não tủy, giúp "đồng bộ hóa" các vùng não, mở rộng khả năng tiếp nhận tri thức.
 
-1. **Sự tĩnh lặng tuyệt đối (Stillness):**
-   - Ngồi yên, không cử động. Mục tiêu là giảm thiểu "nhiễu" (noise) của cơ thể vật lý.
-2. **Hơi thở nhịp nhàng (Rhythmic Breathing):**
-   - Hơi thở đóng vai trò như một máy nhịp (metronome). 
-   - Thở chậm, đều đặn để nhịp tim bắt đầu đồng bộ với hơi thở.
-3. **Trạng thái tự động (Automatic Mode):**
-   - Để cơ thể rơi vào trạng thái giống như đang ngủ nhưng ý thức vẫn tỉnh táo (Sleep-awake state).
-   - Lúc này, bạn không còn điều khiển hơi thở nữa mà để cơ thể tự vận hành ở mức hiệu quả nhất.
-4. **Mở rộng nhận thức:**
-   - Khi sự chuyển động dừng lại (điểm dừng của con lắc), ý thức chạm vào "Cái Tuyệt Đối" (The Absolute) — nơi không có thời gian và không gian.
+## Ứng dụng cho John (Hau-san)
+- **Trước khi học (5 phút)**: Thực hiện hít thở sâu, tập trung vào nhịp đập ở ngực và cảm nhận sự rung động lan tỏa.
+- **Mục tiêu**: Giảm áp lực cho [[Amygdala]] và kích hoạt tối đa [[Prefrontal_Cortex]] để ghi nhớ Kanji hoặc Logic Java phức tạp.
 
-**Mẹo nhỏ:** Hãy tưởng tượng mình là một nhạc cụ đang được lên dây để cùng rung động với tần số của vũ trụ.
-
-**Related:**
-- [[Body_Resonance_7Hz]]
+## Related
 - [[Bentov_Holographic_Universe]]
-- [[Kushi_Meditation_Guide]] - So sánh giữa "Điểm nghỉ" của Bentov và "Vô niệm" của Kushi.
+- [[Body_Resonance_7Hz]]
+- [[Amygdala]]
+- [[Prefrontal_Cortex]]

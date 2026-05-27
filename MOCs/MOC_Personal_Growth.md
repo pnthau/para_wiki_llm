@@ -32,6 +32,9 @@ keywords: []
 *   [[Poker_Leak_Checklist]]
 
 ## 🎓 Learning & Methodology
+- [[Learning_How_To_Learn]]: Làm chủ phương pháp học tập hiệu quả (Meta-learning).
+- [[Metacognition]]: Tư duy về tư duy và khả năng tự điều chỉnh.
+- [[Growth_Mindset]]: Niềm tin vào sự phát triển thông qua nỗ lực.
 - [[Effective_Teamwork_Synergy]]: Nguyên tắc làm việc nhóm và cộng hưởng.
 - [[Human_AI_Synergy]]: Mô hình hợp tác tối ưu giữa Người và AI.
 - [[Collective_Intelligence]]: Sức mạnh trí tuệ tập thể trong hệ thống Agent.

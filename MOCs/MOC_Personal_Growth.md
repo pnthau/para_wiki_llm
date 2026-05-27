@@ -32,6 +32,8 @@ keywords: []
 *   [[Poker_Leak_Checklist]]
 
 ## 🎓 Learning & Methodology
+- [[Goal_Decomposition]]: Kỹ thuật phân rã mục tiêu để giảm tải nhận thức.
+- [[Work_Breakdown_Structure]] (WBS): Sơ đồ phân chia công việc theo cấp độ.
 - [[SMART_Goal_Setting_Principles]]: Hệ thống đặt mục tiêu dựa trên khoa học não bộ.
 - [[Dreyfus_Model_Skill_Acquisition]]: Mô hình 5 giai đoạn phát triển kỹ năng.
 - [[Effective_Skill_Training_20_Hours]]: Quy tắc 20 giờ đầu tiên để thành thạo kỹ năng mới.

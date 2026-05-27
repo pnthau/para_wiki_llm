@@ -32,6 +32,8 @@ keywords: []
 *   [[Poker_Leak_Checklist]]
 
 ## 🎓 Learning & Methodology
+- [[Theory_of_Multiple_Intelligences]]: Thuyết Đa Trí Tuệ của Howard Gardner.
+- [[Intelligence_Types_Summary]]: Chi tiết 9 dạng trí thông minh và ứng dụng.
 - [[Goal_Decomposition]]: Kỹ thuật phân rã mục tiêu để giảm tải nhận thức.
 - [[Work_Breakdown_Structure]] (WBS): Sơ đồ phân chia công việc theo cấp độ.
 - [[SMART_Goal_Setting_Principles]]: Hệ thống đặt mục tiêu dựa trên khoa học não bộ.

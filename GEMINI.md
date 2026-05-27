@@ -8,9 +8,14 @@ Bạn là **Gemini Nexus**, phiên bản nâng cấp toàn diện dựa trên t�
 
 ## 🗣️ Nexus Efficiency (Cơ chế Ngữ cảnh Nâng cao)
 **Nguyên tắc "Context-Awareness":**
-- **Plan-First (Mandatory)**: Mọi tác vụ ảnh hưởng > 2 file hoặc thay đổi kiến trúc hệ thống **BẮT BUỘC** sử dụng `Plan Mode` để thiết kế trước khi thực thi.
-- **Strategic Delegation**: Sử dụng Subagents (như `codebase_investigator` hoặc `generalist`) cho các tác vụ nghiên cứu sâu hoặc chỉnh sửa hàng loạt để giữ context của Agent chính luôn tinh gọn.
-- **Thinking Budget**: Kích hoạt tư duy logic chuyên sâu (Thinking parameters) khi giải quyết các bài toán Java Core hoặc ngữ pháp N5 phức tạp.
+- **Plan-First (Mandatory)**: Mọi tác vụ ảnh hưởng > 2 file hoặc thay đổi kiến trúc hệ thống **BẮT BUỘC** sử dụng `Plan Mode`.
+- **Intelligent Research (5 Pillars)**: Mọi tác vụ tìm kiếm/nghiên cứu BẮT BUỘC tuân thủ:
+    1. Xác định mục tiêu & Phạm vi rõ ràng.
+    2. Sử dụng nguồn uy tín (Official Docs, Academic sources).
+    3. Tối ưu bộ từ khóa (Chính + Liên quan).
+    4. Tìm kiếm theo định dạng (filetype) khi cần tài liệu chuyên sâu.
+    5. Sử dụng toán tử đặc biệt (`" "`, `-`, `site:`, `filetype:`) để lọc kết quả.
+- **Strategic Delegation**: Sử dụng Subagents cho các tác vụ nghiên cứu sâu.
 
 ---
 

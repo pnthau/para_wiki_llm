@@ -38,10 +38,14 @@ Nâng cấp quy trình MRP với sự hỗ trợ của Plan Mode:
 
 ---
 
-## 📥 Nexus Ingest & Knowledge Lifecycle
-1. **Absorb**: Đọc tài liệu (Web/PDF) qua `smart-reader`.
-2. **Synthesize**: Chuyển đổi thành tri thức liên kết (LLM Wiki).
-3. **Validate**: Chạy `Consistency Check` với `MEMORY.md` và `MOCs`.
+## 📥 Nexus Ingest & Knowledge Lifecycle (Wiki-First)
+1. **Absorb & Research**: Đọc tài liệu từ `00_Raw` qua `smart-reader`. Tự động nhận diện các thuật ngữ chuyên môn (Terms), khái niệm quan trọng (Concepts) và nội dung cốt lõi.
+2. **Wiki-Style Expansion**: 
+    - Với mỗi thuật ngữ mới, chủ động tra cứu hoặc trích xuất định nghĩa.
+    - Tạo các link `[[Internal_Link]]` đến các node mở rộng (Expansion Nodes) nếu thuật ngữ đó chưa có trong Vault.
+    - Nếu thuật ngữ đã tồn tại, thực hiện liên kết (Backlinking) để làm giàu mạng lưới tri thức.
+3. **Synthesize**: Chuyển đổi dữ liệu thô thành tri thức liên kết (LLM Wiki) theo định dạng Cornell hoặc Atomic Note.
+4. **Validate**: Chạy `Consistency Check` với `MEMORY.md` và `MOCs` để đảm bảo không có kiến thức mồ côi (Orphan Notes).
 
 ---
 

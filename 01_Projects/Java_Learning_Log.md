@@ -30,7 +30,9 @@ keywords: []
 - [x] **Relational Foundation**: Nắm vững Primary Key, Foreign Key (1-n, n-n).
 - [x] **Junction Table**: Thiết kế bảng trung gian cho quan hệ Nhiều - Nhiều.
 - [x] **Data Integrity**: Làm chủ Constraints (NOT NULL, UNIQUE, CHECK với logic `TIMESTAMPDIFF`).
-- [x] **Multi-Perspective**: Phân tích DB vs Java/JPA vs Operations (Industry preference for Surrogate Keys).
+- [x] **Multi-Perspective**: Phân tích DB vs Java/JPA vs Operations.
+- [x] **Query Mastery (Aggregations)**: Thành thạo COUNT, SUM, GROUP BY.
+- [⏳] **Advanced Filtering**: Đang tiến tới HAVING và Subqueries.
 
 ### Vòng 4 (2026-05-16) - "Efficiency & Algorithms"
 - [x] **Big O Notation**: Hiểu cách đánh giá hiệu năng thuật toán ($O(1), O(log n), O(n), O(n^2)$).

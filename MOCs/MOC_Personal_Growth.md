@@ -33,6 +33,7 @@ keywords: []
 
 ## 🎓 Learning & Methodology
 - [[Learning_How_To_Learn]]: Làm chủ phương pháp học tập hiệu quả (Meta-learning).
+- [[Strategic_Learning_Framework]]: Quy tắc Cộng-Bằng-Trừ (+ = -) và đòn bẩy phát triển.
 - [[Metacognition]]: Tư duy về tư duy và khả năng tự điều chỉnh.
 - [[Growth_Mindset]]: Niềm tin vào sự phát triển thông qua nỗ lực.
 - [[Effective_Teamwork_Synergy]]: Nguyên tắc làm việc nhóm và cộng hưởng.

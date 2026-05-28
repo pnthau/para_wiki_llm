@@ -89,6 +89,7 @@ keywords: []
 ---
 
 ## 🏗️ Kiến trúc & Hệ thống AI
+- [[Multi_Agent_AI_Systems]]: Từ sự tự tin đến sự xác minh (NASA Case Study).
 - [[LLM_Wiki]]: Khái niệm Wiki theo Andrej Karpathy.
 - [[RAG_Retrieval_Augmented_Generation]]: Kỹ thuật RAG cho AI.
 - [[GEMINI.md]]: Quy tắc vận hành AI Master.

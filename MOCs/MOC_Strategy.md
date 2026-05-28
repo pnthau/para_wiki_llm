@@ -25,6 +25,9 @@ keywords: []
 ### Chiến thuật Tấn công Gián tiếp (Indirect Approach)
 - [[Vay_Nguy_cuu_Trieu]]: Kế 2 — Tấn công vào nơi yếu/quan trọng của địch để giải tỏa áp lực.
 
+## 🤖 Chiến lược Hệ thống AI
+- [[Multi_Agent_AI_Systems]]: Kiến trúc Đa tác nhân và bài học từ NASA về sự xác minh.
+
 ## 🃏 Ứng dụng trong Poker & Sự nghiệp
 - **Poker:** [[Poker_Classification_Framework]] (Phân loại đối thủ để dùng kế phù hợp).
 - **Sự nghiệp:** Quan sát "thế trận" trong team trước khi hành động.

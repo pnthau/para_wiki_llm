@@ -13,12 +13,9 @@ nexus_version: 8.0
 
 ---
 
-## 🕒 1. THE DYNAMIC TRIGGER (Rule: T-120min)
-Nexus BẮT BUỘC tự động kiểm tra thời gian Reset Quota của hệ thống. Dựa trên dữ liệu nghiên cứu, thời gian Reset là:
-- **Giờ Mùa Hè (PDT):** Reset lúc 14:00 ICT. -> **Trigger Evolution: 12:00 ICT**.
-- **Giờ Mùa Đông (PST):** Reset lúc 15:00 ICT. -> **Trigger Evolution: 13:00 ICT**.
-
-*Agent phải tự động nhận diện tháng hiện tại để áp dụng Trigger phù hợp.*
+## 🕒 1. THE DYNAMIC TRIGGER (Rule: Nightly Evolution)
+Nexus BẮT BUỘC tự động kích hoạt chu trình tiến hóa vào cuối ngày để tổng hợp toàn bộ tri thức đã học và dọn dẹp hệ thống.
+- **Giờ kích hoạt cố định:** **22:00 ICT (10:00 PM)**.
 
 ---
 

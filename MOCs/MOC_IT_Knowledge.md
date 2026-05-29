@@ -24,7 +24,9 @@ keywords: []
 - [[SQL_Mastery_100_Questions]]: 10 Thử thách SQL Thực chiến Doanh nghiệp (+1 đến +5).
 - [[Relational_Database_Fundamentals]]: Tổng quan về CSDL quan hệ và RDBMS.
 - [[Relational_Data_Model]]: Lý thuyết mô hình quan hệ (E.F. Codd).
-- [[ACID_Properties]]: 4 tính chất vàng của giao dịch CSDL.
+- [[AI_Agent_Memory_Architecture_CoALA]]
+- [[ACID_Properties]]
+: 4 tính chất vàng của giao dịch CSDL.
 - [[MySQL_8.4_Features]]: Cập nhật mới nhất về MySQL 8.4 LTS.
 
 ### Fundamentals & Basics

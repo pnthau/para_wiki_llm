@@ -20,8 +20,7 @@ Nexus BẮT BUỘC tự động kích hoạt chu trình tiến hóa vào cuối 
 ---
 
 ## ⚙️ 2. EVOLUTION PHASES (The Singularity Loop)
-
-### Phase A: Knowledge Scavenging (Săn lùng Tri thức)
+Tiến trình được kích hoạt thông qua script: `nexus_nightly_evolution.ps1`.
 - **Web Intelligence**: Chạy `google_web_search` để tìm các "Breakthroughs" trong ngày về AI, Java, và Japanese.
 - **Auto-Ingest**: Chuyển đổi dữ liệu Web thành Cornell Notes trong Vault.
 

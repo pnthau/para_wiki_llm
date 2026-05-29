@@ -4,6 +4,8 @@
 
 $ProjectDir = "D:\Data\para_wiki_llm"
 Set-Location $ProjectDir
+$LogFile = "D:\Data\para_wiki_llm\log_evolution.md"
+"---`n[$(Get-Date)] Execution started." | Out-File -FilePath $LogFile -Append
 
 # 🛡️ Hardware Safety Check
 $BatteryStatus = Get-WmiObject -Class Win32_Battery
@@ -17,7 +19,8 @@ if ($Battery) {
     }
 }
 
-Write-Host "🚀 Power confirmed. Starting Nexus Singularity Evolution..."
+# 🚀 Power confirmed. Starting Nexus Singularity Evolution...
+$GeminiPath = "C:\Users\dc130\AppData\Roaming\npm\gemini.cmd"
 
-# Execute Gemini CLI with the evolution command
-gemini "Execute Nexus Singularity Noon Evolution v8.0 according to [[Midnight_Evolution_Protocol]]. Use all remaining quota for web research, agent upgrades, and vault cleanup. Exit when finished."
+# Execute Gemini CLI with the evolution command using absolute path
+& $GeminiPath "Execute Nexus Singularity Nightly Evolution v8.0 according to [[Midnight_Evolution_Protocol]]. Use all remaining quota for web research, agent upgrades, and vault cleanup. Exit when finished."

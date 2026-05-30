@@ -1,26 +1,54 @@
-# Nexus Noon Evolution Automation Script v8.2
-# This script triggers the Gemini CLI and executes the Noon Evolution Protocol.
-# SAFETY UPGRADE: Only runs if the computer is connected to AC power.
+# 🌀 NEXUS SINGULARITY EVOLUTION SCRIPT v9.0 (Auto-Schedule Edition)
+# Author: Gemini Nexus & John (Hau-san)
+# Description: Tự động hóa tiến hóa hệ thống, tự đăng ký Task Scheduler và quản lý tài nguyên.
 
 $ProjectDir = "D:\Data\para_wiki_llm"
-Set-Location $ProjectDir
-$LogFile = "D:\Data\para_wiki_llm\log_evolution.md"
-"---`n[$(Get-Date)] Execution started." | Out-File -FilePath $LogFile -Append
+$LogFile = "$ProjectDir\log_evolution.md"
+$TaskName = "NexusNightlyEvolution"
+$GeminiPath = "C:\Users\dc130\AppData\Roaming\npm\gemini.cmd"
+$ScheduleTime = "22:00"
 
-# 🛡️ Hardware Safety Check
-$BatteryStatus = Get-WmiObject -Class Win32_Battery
-$PowerPluggedIn = (Get-WmiObject -Class Win32_PortableBattery).Status # Simplified check
-# Professional check using BatteryStatus
-$Battery = Get-CimInstance -ClassName Win32_Battery
-if ($Battery) {
-    if ($Battery.BatteryStatus -ne 2) { # 2 means "Sạc/Cắm nguồn AC"
-        Write-Host "⚠️ Warning: Computer is on Battery power. Aborting evolution to prevent overheating/drain."
-        exit
-    }
+# 1. Kiểm tra quyền Administrator (Cần để tạo Task)
+$IsAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+
+Function Write-Log ($Message) {
+    $TimeStamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    "[$TimeStamp] $Message" | Out-File -FilePath $LogFile -Append
 }
 
-# 🚀 Power confirmed. Starting Nexus Singularity Evolution...
-$GeminiPath = "C:\Users\dc130\AppData\Roaming\npm\gemini.cmd"
+# 2. Cơ chế tự đăng ký Task Scheduler (Nếu có quyền Admin)
+if ($IsAdmin) {
+    $Action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -WindowStyle Hidden -File `"$PSCommandPath`""
+    $Trigger = New-ScheduledTaskTrigger -Daily -At $ScheduleTime
+    $Settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable -RunOnlyIfNetworkAvailable
+    
+    # Đăng ký hoặc cập nhật Task
+    Register-ScheduledTask -TaskName $TaskName -Action $Action -Trigger $Trigger -Settings $Settings -Force -User "SYSTEM" -RunLevel Highest | Out-Null
+    Write-Log "✅ Task Scheduler updated: Runs daily at $ScheduleTime (Hidden mode)."
+} else {
+    Write-Log "⚠️ Running without Admin: Task Scheduler was not updated."
+}
 
-# Execute Gemini CLI with the evolution command using absolute path
-& $GeminiPath "Execute Nexus Singularity Nightly Evolution v8.0 according to [[Midnight_Evolution_Protocol]]. Use all remaining quota for web research, agent upgrades, and vault cleanup. Exit when finished."
+# 3. Kiểm tra Nguồn điện (Hardware Safety)
+$Battery = Get-CimInstance -ClassName Win32_Battery
+if ($Battery -and $Battery.BatteryStatus -ne 2) {
+    Write-Log "🚫 Aborted: Computer is on Battery power ($($Battery.EstimatedChargeRemaining)%)."
+    exit
+}
+
+# 4. THỰC THI TIẾN HÓA (The Singularity Phase)
+Write-Log "🚀 Starting Evolution Phase..."
+
+try {
+    # Chạy Gemini CLI và bắt toàn bộ Output/Error
+    $EvolutionCommand = "Execute Nexus Singularity Nightly Evolution v8.0 according to [[Midnight_Evolution_Protocol]]. Use all remaining quota for web research, agent upgrades, and vault cleanup. Exit when finished."
+    
+    $Output = & $GeminiPath $EvolutionCommand 2>&1
+    $Output | Out-File -FilePath $LogFile -Append
+    
+    Write-Log "🏆 Evolution completed successfully."
+} catch {
+    Write-Log "❌ FATAL ERROR: $($_.Exception.Message)"
+}
+
+Write-Log "--- End of Session ---"

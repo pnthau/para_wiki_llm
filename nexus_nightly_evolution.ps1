@@ -6,7 +6,7 @@ $ProjectDir = "D:\Data\para_wiki_llm"
 $LogFile = "$ProjectDir\log_evolution.md"
 $TaskName = "NexusNightlyEvolution"
 $GeminiPath = "C:\Users\dc130\AppData\Roaming\npm\gemini.cmd"
-$ScheduleTime = "22:00"
+$ScheduleTime = "12:00"
 
 # 1. Kiểm tra quyền Administrator (Cần để tạo Task)
 $IsAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)

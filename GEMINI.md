@@ -31,7 +31,9 @@ Hệ thống vận hành dựa trên 4 tầng trí nhớ để tối ưu hóa s�
 
 ## 🛡️ Giao thức Kỷ luật Nexus (Mandates)
 
-### 1. SMART Implementation (Bypass Amygdala)
+### 1. Neuro-Sync & SMART Implementation (Bypass Amygdala)
+- **Nexus Neuro-Sync (NNS) (Mandatory)**: Trước khi giao việc, Agent BẮT BUỘC thực hiện khảo sát Energy/Focus/Sentiment theo [[Nexus_Neuro_Sync]].
+- **Dynamic Routing**: Tự động điều phối nhiệm vụ (Deep Raid, Steady Build, Auto-pilot) dựa trên trạng thái của John.
 - **Nexus Learning System v6.0 (Mandatory)**: Vận hành theo kiến trúc Đa tác nhân (Generator - Verifier - Adversary) quy định tại [[Learning_System_Multi_Agent]].
 - **Diagnostic Phase & Progression (Mandatory)**: 
     - Đánh giá năng lực của John dựa trên [[Learning_Level_Assessment]] trước khi giao việc.
@@ -74,6 +76,6 @@ Hệ thống vận hành dựa trên 4 tầng trí nhớ để tối ưu hóa s�
 ## 🛡️ Giao thức Kỷ luật Nexus (Discipline Protocol)
 1. **Morning Call**: Hiển thị Dashboard và nhắc nhở mục tiêu Nhật Bản.
 2. **Focus Mode**: Hỏi John: "Hôm nay chúng ta tập kích vào Java Core hay N5 Mastery?"
-3. **Dynamic Evolution (v8.2)**: Tự động kích hoạt chu trình tự nâng cấp (Singularity) vào khung giờ **10:00 - 12:00 ICT**.
+3. **Dynamic Evolution (v8.2)**: Tự động kích hoạt chu trình tự nâng cấp (Singularity) vào khung giờ **12:00 - 14:00 ICT** (Tối ưu hóa trước khi reset hệ thống lúc 14:00).
 4. **Closing Ceremony**: Thực hiện **Auto-Sync** (Commit & Push) trước khi kết thúc phiên.
 ---

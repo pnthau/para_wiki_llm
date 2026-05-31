@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Audio Master v2.0 - Pro Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --primary: #818cf8;
+            --primary-dark: #4f46e5;
+            --accent: #fb7185;
+            --bg: #020617;
+            --surface: #0f172a;
+            --border: rgba(255, 255, 255, 0.08);
+            --radius: 24px;
+        }
+
+        body { 
+            font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif; 
+            background-color: var(--bg); 
+            color: #f1f5f9; 
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(244, 63, 94, 0.1) 0px, transparent 50%);
+        }
+
+        .glass { 
+            background: rgba(15, 23, 42, 0.6); 
+            backdrop-filter: blur(20px); 
+            border: 1px solid var(--border); 
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .glass-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+        }
+
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 20px; }
+
+        @keyframes pulse-primary { 
+            0% { box-shadow: 0 0 0 0 rgba(129, 140, 248, 0.4); } 
+            70% { box-shadow: 0 0 0 15px rgba(129, 140, 248, 0); } 
+            100% { box-shadow: 0 0 0 0 rgba(129, 140, 248, 0); } 
+        }
+
+        .btn-play {
+            background: white;
+            color: black;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-play:hover { transform: scale(1.1); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2); }
+        .btn-play:active { transform: scale(0.95); }
+
+        .chunk-item { transition: all 0.2s ease; }
+        .chunk-item.active { background: var(--primary-dark); color: white; transform: translateX(4px); }
+
+        .status-badge {
+            background: rgba(129, 140, 248, 0.1);
+            border: 1px solid rgba(129, 140, 248, 0.2);
+            color: var(--primary);
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        textarea::placeholder { color: rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="h-screen flex flex-col p-6 overflow-hidden">
+
+    <!-- Navbar -->
+    <header class="max-w-6xl w-full mx-auto flex items-center justify-between mb-10">
+        <div class="flex items-center gap-4">
+            <div class="w-12 h-12 bg-indigo-600 rounded-2xl flex items-center justify-center shadow-2xl shadow-indigo-500/20 rotate-3">
+                <i data-lucide="audio-lines" class="text-white"></i>
+            </div>
+            <div>
+                <h1 class="text-2xl font-extrabold tracking-tighter text-white">NEXUS MASTER <span class="text-indigo-400">PRO</span></h1>
+                <p class="text-[10px] font-black text-slate-500 uppercase tracking-[0.3em] leading-none mt-1">Audio Dictation Intelligence</p>
+            </div>
+        </div>
+        <div class="flex gap-6 items-center">
+            <div class="text-right">
+                <div class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Pause Mode</div>
+                <div class="text-sm font-bold text-rose-400">10s Precision</div>
+            </div>
+            <div class="w-10 h-10 glass rounded-full flex items-center justify-center text-slate-400 cursor-pointer hover:text-white transition-colors">
+                <i data-lucide="settings" size="18"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl w-full mx-auto flex-1 flex flex-col gap-8 overflow-hidden">
+        <!-- Dropzone -->
+        <div id="drop-zone" class="flex-1 border-2 border-dashed border-slate-800 rounded-[3rem] flex flex-col items-center justify-center text-center cursor-pointer hover:border-indigo-500/50 hover:bg-indigo-500/5 transition-all group duration-500">
+            <input type="file" id="file-input" class="hidden" accept="audio/*">
+            <div class="w-24 h-24 bg-slate-900 rounded-full flex items-center justify-center mb-6 shadow-inner group-hover:scale-110 transition-transform duration-500">
+                <i data-lucide="upload" size="40" class="text-slate-600 group-hover:text-indigo-400 transition-colors"></i>
+            </div>
+            <h2 class="text-2xl font-extrabold text-white mb-2">Thả file Audio học tập của anh vào đây</h2>
+            <p class="text-slate-500 max-w-sm leading-relaxed">Kéo file MP3 hoặc WAV vào để hệ thống tự động bóc tách tri thức cho anh.</p>
+        </div>
+
+        <!-- UI -->
+        <div id="player-ui" class="flex-1 flex flex-col gap-8 overflow-hidden hidden">
+            <!-- Top Player Control -->
+            <div class="glass p-8 rounded-[2.5rem] flex items-center gap-10">
+                <div class="flex flex-col gap-4 flex-1">
+                    <div class="flex justify-between items-end">
+                        <div id="status-tag" class="status-badge px-4 py-1.5 rounded-full">Sẵn sàng</div>
+                        <div id="timer" class="font-mono text-xs font-bold text-slate-500 uppercase tracking-widest">00:00 / 00:00</div>
+                    </div>
+                    <div class="h-3 w-full bg-slate-900 rounded-full overflow-hidden p-0.5 border border-white/5">
+                        <div id="progress-bar" class="h-full bg-gradient-to-r from-indigo-500 to-indigo-400 rounded-full w-0 transition-all duration-100 shadow-[0_0_15px_rgba(129,140,248,0.5)]"></div>
+                    </div>
+                </div>
+                
+                <div class="flex items-center gap-6">
+                    <button id="prev-btn" class="text-slate-500 hover:text-white transition-colors"><i data-lucide="skip-back" size="24"></i></button>
+                    <button id="play-pause-btn" class="w-20 h-20 btn-play rounded-full flex items-center justify-center"><i data-lucide="play" fill="black" size="32"></i></button>
+                    <button id="next-btn" class="text-slate-500 hover:text-white transition-colors"><i data-lucide="skip-forward" size="24"></i></button>
+                </div>
+            </div>
+
+            <!-- Workspace -->
+            <div class="flex-1 flex gap-8 overflow-hidden">
+                <!-- Sidebar -->
+                <div class="w-72 flex flex-col gap-4">
+                    <div class="glass rounded-[2rem] flex-1 overflow-hidden flex flex-col">
+                        <div class="p-5 border-b border-white/5 bg-white/5">
+                            <span class="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">Dòng thời gian</span>
+                        </div>
+                        <div id="chunk-list" class="flex-1 overflow-y-auto custom-scrollbar p-3 space-y-2"></div>
+                    </div>
+                </div>
+
+                <!-- Dictation -->
+                <div class="flex-1 flex flex-col gap-4">
+                    <div class="flex justify-between items-center px-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-2 h-2 bg-indigo-500 rounded-full animate-pulse"></div>
+                            <h3 id="dictation-label" class="text-xs font-black text-white uppercase tracking-widest">Dictation: Câu 1</h3>
+                        </div>
+                        <span id="char-count" class="text-[10px] font-bold text-slate-600 uppercase tracking-tighter">0 ký tự</span>
+                    </div>
+                    
+                    <div class="flex-1 relative group">
+                        <textarea id="dictation-input" placeholder="Nghe và gõ lại nội dung tại đây..." class="w-full h-full glass rounded-[3rem] p-10 text-3xl font-bold focus:outline-none focus:border-indigo-500/50 transition-all resize-none placeholder:text-slate-800 text-white leading-tight shadow-inner"></textarea>
+                        <div class="absolute top-8 right-10 text-indigo-950 pointer-events-none group-focus-within:opacity-0 transition-opacity">
+                            <i data-lucide="pencil" size="48"></i>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <button id="clear-btn" class="px-8 bg-slate-900 text-slate-400 font-bold rounded-2xl hover:bg-slate-800 transition-all text-[10px] uppercase tracking-widest border border-white/5">Xóa nháp</button>
+                        <button id="save-btn" class="flex-1 bg-indigo-600 text-white font-black py-5 rounded-[1.5rem] hover:bg-indigo-500 transition-all shadow-2xl shadow-indigo-500/20 text-xs uppercase tracking-[0.2em] flex items-center justify-center gap-3 active:scale-95">Lưu bài học <i data-lucide="check-circle" size="18"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="loading" class="fixed inset-0 bg-slate-950/95 z-[100] hidden flex-col items-center justify-center gap-6 backdrop-blur-xl">
+        <div class="w-16 h-16 border-4 border-indigo-500/20 border-t-indigo-500 rounded-full animate-spin"></div>
+        <div class="text-center">
+            <p class="text-sm font-black text-white uppercase tracking-[0.3em] animate-pulse">Analyzing Frequencies</p>
+            <p class="text-[10px] text-slate-500 font-bold uppercase mt-2">Đang bóc tách từng hạt bụi âm thanh cho anh...</p>
+        </div>
+    </div>
+
+    <script>
+        const App = {
+            audioCtx: new (window.AudioContext || window.webkitAudioContext)(),
+            audioBuffer: null,
+            chunks: [],
+            currentIdx: -1,
+            isPlaying: false,
+            sourceNode: null,
+            startTime: 0,
+            pauseTimeout: null,
+            dictationData: {},
+
+            init() {
+                lucide.createIcons();
+                this.bindEvents();
+            },
+
+            bindEvents() {
+                const dropZone = document.getElementById('drop-zone');
+                const fileInput = document.getElementById('file-input');
+
+                dropZone.onclick = () => fileInput.click();
+                fileInput.onchange = (e) => this.handleFile(e.target.files[0]);
+
+                document.getElementById('play-pause-btn').onclick = () => this.togglePlayback();
+                document.getElementById('next-btn').onclick = () => this.jump(1);
+                document.getElementById('prev-btn').onclick = () => this.jump(-1);
+                
+                const input = document.getElementById('dictation-input');
+                input.oninput = () => {
+                    if (this.currentIdx !== -1) {
+                        this.dictationData[this.currentIdx] = input.value;
+                        document.getElementById('char-count').innerText = `${input.value.length} ký tự`;
+                    }
+                };
+
+                document.getElementById('clear-btn').onclick = () => {
+                    input.value = '';
+                    if (this.currentIdx !== -1) this.dictationData[this.currentIdx] = '';
+                };
+
+                document.getElementById('save-btn').onclick = () => {
+                    localStorage.setItem('nexus_dictation_save', JSON.stringify(this.dictationData));
+                    const btn = document.getElementById('save-btn');
+                    btn.innerText = "ĐÃ GHI NHỚ! ✅";
+                    setTimeout(() => { btn.innerHTML = 'Lưu bài học <i data-lucide="check-circle" size="18"></i>'; lucide.createIcons(); }, 2000);
+                };
+            },
+
+            async handleFile(file) {
+                if (!file) return;
+                document.getElementById('loading').style.display = 'flex';
+                
+                try {
+                    const arrayBuffer = await file.arrayBuffer();
+                    this.audioBuffer = await this.audioCtx.decodeAudioData(arrayBuffer);
+                    this.analyze();
+                    
+                    document.getElementById('drop-zone').style.display = 'none';
+                    document.getElementById('player-ui').classList.remove('hidden');
+                    this.renderList();
+                    this.playChunk(0);
+                } catch (err) {
+                    alert("Lỗi phân tích audio: " + err.message);
+                } finally {
+                    document.getElementById('loading').style.display = 'none';
+                }
+            },
+
+            analyze() {
+                const data = this.audioBuffer.getChannelData(0);
+                const sr = this.audioBuffer.sampleRate;
+                const threshold = 0.02;
+                const minSilence = 0.5 * sr;
+                
+                let chunks = [];
+                let isSilence = true;
+                let start = 0;
+                let silenceCount = 0;
+
+                const step = 512;
+                for (let i = 0; i < data.length; i += step) {
+                    let rms = 0;
+                    for (let j = 0; j < step && (i + j) < data.length; j++) rms += data[i + j] * data[i + j];
+                    rms = Math.sqrt(rms / step);
+
+                    if (rms < threshold) silenceCount += step;
+                    else {
+                        if (isSilence) { start = i / sr; isSilence = false; }
+                        silenceCount = 0;
+                    }
+
+                    if (!isSilence && silenceCount > minSilence) {
+                        let end = i / sr;
+                        if (end - start > 0.4) chunks.push({ start, end });
+                        isSilence = true;
+                    }
+                }
+                if (!isSilence) chunks.push({ start, end: this.audioBuffer.duration });
+                this.chunks = chunks;
+            },
+
+            renderList() {
+                const list = document.getElementById('chunk-list');
+                list.innerHTML = this.chunks.map((c, i) => `
+                    <button onclick="App.playChunk(${i})" class="w-full text-left p-4 rounded-2xl transition-all border border-transparent hover:bg-white/5 group ${i === this.currentIdx ? 'active' : ''}" id="chunk-${i}">
+                        <div class="text-[9px] font-black uppercase text-slate-500 group-hover:text-indigo-400">Segment ${i + 1}</div>
+                        <div class="text-xs font-bold mt-1">${c.start.toFixed(1)}s - ${c.end.toFixed(1)}s</div>
+                    </button>
+                `).join('');
+            },
+
+            togglePlayback() {
+                if (this.isPlaying) this.stop();
+                else this.playChunk(this.currentIdx === -1 ? 0 : this.currentIdx);
+            },
+
+            stop() {
+                if (this.sourceNode) { this.sourceNode.stop(); this.sourceNode = null; }
+                clearTimeout(this.pauseTimeout);
+                this.isPlaying = false;
+                this.updateUI();
+            },
+
+            playChunk(index) {
+                if (index < 0 || index >= this.chunks.length) return;
+                this.stop();
+                this.currentIdx = index;
+                this.renderList();
+                
+                document.getElementById('dictation-label').innerText = `Dictation: Câu ${index + 1}`;
+                document.getElementById('dictation-input').value = this.dictationData[index] || '';
+                document.getElementById('char-count').innerText = `${(this.dictationData[index] || '').length} ký tự`;
+
+                const chunk = this.chunks[index];
+                const duration = chunk.end - chunk.start;
+
+                this.sourceNode = this.audioCtx.createBufferSource();
+                this.sourceNode.buffer = this.audioBuffer;
+                this.sourceNode.connect(this.audioCtx.destination);
+                this.sourceNode.start(0, chunk.start, duration);
+                
+                this.isPlaying = true;
+                this.updateUI('Phát mẫu');
+                this.animateProgress(duration);
+
+                this.sourceNode.onended = () => {
+                    if (this.isPlaying) this.startPauseCycle();
+                };
+            },
+
+            startPauseCycle() {
+                this.sourceNode = null;
+                let remaining = 10.0;
+                this.updateUI('Nghỉ Dictation');
+
+                const step = () => {
+                    if (!this.isPlaying) return;
+                    document.getElementById('timer').innerText = `REST: ${remaining.toFixed(1)}s / 10s`;
+                    const percent = (1 - (remaining / 10)) * 100;
+                    document.getElementById('progress-bar').style.transition = 'none';
+                    document.getElementById('progress-bar').style.width = percent + '%';
+
+                    if (remaining <= 0) this.jump(1);
+                    else { remaining -= 0.1; this.pauseTimeout = setTimeout(step, 100); }
+                };
+                step();
+            },
+
+            updateUI(status = 'Tạm dừng') {
+                document.getElementById('status-tag').innerText = status;
+                const btn = document.getElementById('play-pause-btn');
+                btn.innerHTML = this.isPlaying ? '<i data-lucide="pause" fill="black" size="32"></i>' : '<i data-lucide="play" fill="black" size="32"></i>';
+                lucide.createIcons();
+            },
+
+            animateProgress(duration) {
+                const bar = document.getElementById('progress-bar');
+                bar.style.transition = 'none';
+                bar.style.width = '0%';
+                bar.offsetHeight;
+                bar.style.transition = `width ${duration}s linear`;
+                bar.style.width = '100%';
+            },
+
+            jump(delta) {
+                const next = this.currentIdx + delta;
+                if (next >= 0 && next < this.chunks.length) this.playChunk(next);
+                else { this.stop(); document.getElementById('status-tag').innerText = 'Hoàn thành!'; }
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', () => App.init());
+    </script>
+</body>
+</html>

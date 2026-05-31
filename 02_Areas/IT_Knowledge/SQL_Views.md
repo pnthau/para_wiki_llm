@@ -53,12 +53,12 @@ nexus_version: 6.0
 ---
 
 ## 📝 CORNELL SUMMARY
-| Key Points | Detailed Notes |
-|------------|----------------|
-| **Cú pháp** | `CREATE VIEW name AS SELECT...`<br>`DROP VIEW name;` |
-| **Lợi ích** | 1. Bảo mật (giấu dữ liệu nhạy cảm).<br>2. Đơn giản hóa (ẩn JOIN phức tạp).<br>3. Tính nhất quán (tóm tắt báo cáo). |
-| **WITH CHECK OPTION** | Ngăn chặn INSERT/UPDATE làm "biến mất" dữ liệu khỏi View (do không thỏa mãn WHERE). |
-| **Điều kiện cập nhật** | View phải đơn giản: 1 bảng, không hàm gộp, không GROUP BY/DISTINCT. |
+| Key Points             | Detailed Notes                                                                                                     |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Cú pháp**            | `CREATE VIEW name AS SELECT...`<br>`DROP VIEW name;`                                                               |
+| **Lợi ích**            | 1. Bảo mật (giấu dữ liệu nhạy cảm).<br>2. Đơn giản hóa (ẩn JOIN phức tạp).<br>3. Tính nhất quán (tóm tắt báo cáo). |
+| **WITH CHECK OPTION**  | Ngăn chặn INSERT/UPDATE làm "biến mất" dữ liệu khỏi View (do không thỏa mãn WHERE).                                |
+| **Điều kiện cập nhật** | View phải đơn giản: 1 bảng, không hàm gộp, không GROUP BY/DISTINCT.                                                |
 
 ---
 **Summary**: SQL View là một bảng ảo giúp bảo mật và đơn giản hóa truy cập dữ liệu bằng cách đóng gói các câu lệnh SELECT phức tạp thành một cửa sổ logic duy nhất.

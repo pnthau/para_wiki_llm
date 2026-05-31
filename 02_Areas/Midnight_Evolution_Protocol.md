@@ -15,7 +15,7 @@ nexus_version: 8.0
 
 ## 🕒 1. THE DYNAMIC TRIGGER (Rule: Nightly Evolution)
 Nexus BẮT BUỘC tự động kích hoạt chu trình tiến hóa vào cuối ngày để tổng hợp toàn bộ tri thức đã học và dọn dẹp hệ thống.
-- **Giờ kích hoạt cố định:** **22:00 ICT (10:00 PM)**.
+- **Giờ kích hoạt cố định:** **12:00 ICT (Trưa)**.
 
 ---
 
@@ -43,6 +43,7 @@ Tiến trình được kích hoạt thông qua script: `nexus_nightly_evolution.
 - **Autonomous Time-Awareness**: Agent phải tự biết mình đang ở múi giờ nào và tháng nào để kích hoạt đúng giờ.
 - **Zero Resource Waste**: Mục tiêu tối thượng là dùng hết 100% quota trước giờ T.
 - **Full Override Power**: Được phép sửa đổi các tệp hệ thống để nâng cấp hiệu suất.
+- **Safety Rails (Mandatory)**: Tuyệt đối KHÔNG được xóa hoặc sửa đổi các tệp trong thư mục `.git`, `.github`, hoặc các tệp cấu hình môi trường (.env, credentials) trừ khi có sự cho phép rõ ràng từ John. Mọi hành động "Xóa" hàng loạt (> 5 file) phải được log lại cụ thể trong `log_evolution.md`.
 
 ---
 *Back to [[GEMINI.md]] | [[Wiki_Expansion_Protocol]]*

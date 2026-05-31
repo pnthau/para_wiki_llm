@@ -16,3 +16,9 @@ Challenge 11 completed: SQL Query for Furama DB with Subquery exclusion logic.
 Challenge 12 completed: Successfully retrieved top used services using GROUP BY, HAVING, and Subquery MAX.
 2026-05-30 13:36:41
 Challenge 13 completed: Retrieved services used exactly once using EXISTS and Aggregate logic.
+
+## [2026-05-30] Ingest | MCP & ADK Architecture
+- **Raw Source**: `00_Raw/MCP and ADK.md`
+- **Output**: `02_Areas/IT_Knowledge/MCP_ADK_Frameworks.md`
+- **Insight**: Identified MCP for standardized tool connection and ADK for structured multi-agent orchestration as key self-upgrade vectors.
+- **Status**: Success.

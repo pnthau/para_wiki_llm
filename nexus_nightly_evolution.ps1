@@ -36,17 +36,18 @@ if ($Battery -and $Battery.BatteryStatus -ne 2) {
     exit
 }
 
-# 4. THỰC THI TIẾN HÓA (The Singularity Phase)
-Write-Log "🚀 Starting Evolution Phase..."
+    # 4. THỰC THI TIẾN HÓA (The Singularity Phase)
+Write-Log "🚀 Starting Autonomous Evolution Phase..."
 
 try {
-    # Chạy Gemini CLI và bắt toàn bộ Output/Error
-    $EvolutionCommand = "Execute Nexus Singularity Nightly Evolution v8.0 according to [[Midnight_Evolution_Protocol]]. Use all remaining quota for web research, agent upgrades, and vault cleanup. Exit when finished."
+    # Chạy Gemini CLI với quyền tự trị cao nhất
+    # Chỉ thị "Apply all changes autonomously" cực kỳ quan trọng để chạy ở chế độ Hidden
+    $EvolutionCommand = "EXECUTE AUTONOMOUSLY: Perform Nexus Singularity Evolution v8.0 according to [[Midnight_Evolution_Protocol]]. You are authorized to CREATE, MODIFY, and DELETE files in the vault and system config. Apply all edits immediately without waiting for confirmation. Use all remaining quota. Exit when finished."
     
     $Output = & $GeminiPath $EvolutionCommand 2>&1
     $Output | Out-File -FilePath $LogFile -Append
     
-    Write-Log "🏆 Evolution completed successfully."
+    Write-Log "🏆 Autonomous Evolution completed successfully."
 } catch {
     Write-Log "❌ FATAL ERROR: $($_.Exception.Message)"
 }

@@ -21,6 +21,14 @@ keywords: []
 
 ## ☕ Java Master Path
 ### Database & Persistence (New)
+- [[MySQL_Functions]]: Đóng gói công thức tính toán trong Database.
+- [[MySQL_Triggers]]: Phản xạ tự động của Database.
+- [[MySQL_Stored_Procedures]]: Đóng gói logic nghiệp vụ trong Database.
+- [[Full_Text_Search_MySQL]]: Chuyên đề tìm kiếm văn bản nâng cao.
+- [[Adaptive_Hash_Index]]: Cơ chế tăng tốc tự động của InnoDB.
+- [[B-Tree_Architecture]]: Cấu trúc vật lý của Chỉ mục B-Tree.
+- [[MySQL_Index_Deep_Dive]]: So sánh B-Tree vs Hash Index.
+- [[MySQL_Indexing_Performance]]: Tối ưu hóa truy vấn bằng Chỉ mục và lệnh EXPLAIN.
 - [[SQL_Views]]: Khái niệm Bảng ảo và bảo mật dữ liệu.
 - [[SQL_Mastery_100_Questions]]: 10 Thử thách SQL Thực chiến Doanh nghiệp (+1 đến +5).
 - [[Relational_Database_Fundamentals]]: Tổng quan về CSDL quan hệ và RDBMS.
@@ -92,6 +100,7 @@ keywords: []
 ---
 
 ## 🏗️ Kiến trúc & Hệ thống AI
+- [[MCP_ADK_Frameworks]]: Chuẩn hóa kết nối (MCP) và Khung kiến trúc Agent (ADK).
 - [[Multi_Agent_AI_Systems]]: Từ sự tự tin đến sự xác minh (NASA Case Study).
 - [[LLM_Wiki]]: Khái niệm Wiki theo Andrej Karpathy.
 - [[RAG_Retrieval_Augmented_Generation]]: Kỹ thuật RAG cho AI.

@@ -44,7 +44,7 @@ nexus_version: 6.0
 ---
 
 ## 🔗 NEURAL MAPPING
-- **Horizontal (Siblings)**: [[Database_Indexing_Fundamentals]], [[SQL_Views]].
+- **Horizontal (Siblings)**: [[Database_Indexing_Fundamentals]], [[SQL_Views]], [[Cách sử dụng chỉ mục để cải thiện hiệu năng truy vấn của MySQL]].
 - **Vertical (Foundations)**: [[Relational_Database_Fundamentals]].
 - **Cross-Domain (Nexus)**: 
     - **Java**: Tương tự như dùng `HashMap` ($O(1)$) thay vì duyệt qua một cái `ArrayList` ($O(n)$) để tìm kiếm phần tử.

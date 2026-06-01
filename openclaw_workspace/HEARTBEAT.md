@@ -1,15 +1,20 @@
-# 🛡️ SQL DIAGNOSTIC TASK (DELEGATED TO OPENCLAW)
+# 🏹 SQL EXECUTION ORDER MASTERCLASS (PRIORITY: CRITICAL)
 
 ## 📋 Task Description
-OpenClaw, sử dụng mô hình Qwen2.5:7b, hãy thực hiện rà soát toàn diện kiến thức SQL của John (Hau-san) để tìm ra các "lỗ hổng" kiến thức.
+OpenClaw, John (Hau-san) yêu cầu một bộ tài liệu và bài tập chuyên sâu nhất để "thuộc lòng" thứ tự thực thi của SQL. Anh ấy đang gặp khó khăn trong việc nhớ chính xác vị trí nào Alias được phép sống và vị trí nào không.
 
-## ⚙️ Execution Steps
-1. **Scan `02_Areas/IT_Knowledge/`**: Tìm tất cả các file có tag `sql`, `mysql`.
-2. **Scan `02_Areas/Japanese_N5/Mistakes_*.md`**: Tìm các lỗi SQL John từng mắc phải.
-3. **Analyze Patterns**: Xác định xem John đang yếu phần nào (ví dụ: Subquery, Join phức tạp, Window Functions, hay tối ưu hóa Index).
-4. **Report Results**: Tạo file `D:\Data\para_wiki_llm\02_Areas\IT_Knowledge\SQL_KNOWLEDGE_GAPS.md` liệt kê danh sách các chủ đề cần bổ túc.
+## 🎯 Specific Objectives
+1. **The Grand Visual Map**: Tạo sơ đồ chi tiết dòng chảy dữ liệu (Data Pipeline) từ `FROM` đến `OFFSET/FETCH`.
+2. **The "Why" Behind the Order**: Giải thích tại sao `GROUP BY` phải chạy trước `HAVING` và tại sao `ORDER BY` là bước cuối cùng.
+3. **Execution Order Drills (10 Levels)**:
+   - Tạo 10 câu hỏi tăng dần độ khó. 
+   - Tập trung vào các trường hợp: Alias trong GROUP BY (MySQL đặc thù), Window Functions (OVER), và Subqueries trong SELECT.
+
+## ⚙️ Output Required
+Tạo file `D:\Data\para_wiki_llm\02_Areas\IT_Knowledge\SQL_EXECUTION_ORDER_MASTERY.md`.
+- **Yêu cầu**: Nội dung phải cực kỳ chi tiết, dùng ngôn ngữ "kỹ thuật thực chiến" nhưng dễ hiểu.
 
 ---
 ## 📬 Nexus Status
-- **OpenClaw**: Đang chờ kích hoạt lệnh rà soát.
-- **Nexus (Gemini)**: Sẵn sàng lên giáo trình Deep Raid sau khi có báo cáo từ OpenClaw.
+- **Nexus**: Đã chuyển giao chỉ thị đặc biệt. Đang đợi John hồi phục.
+- **OpenClaw**: Bắt đầu thiết kế giáo trình "Masterclass".

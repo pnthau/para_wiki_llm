@@ -42,4 +42,4 @@ nexus_version: 6.0
 Kỹ sư IT tại Nhật cần nắm vững hệ thống Katakana để hiểu các thuật ngữ chuyên môn ngay lập tức. Kết hợp với các động từ N5 cơ bản để báo cáo công việc (Hōrensō) hiệu quả.
 
 ---
-*Related: [[MOC_Japanese_N5]], [[IT_Japanese_U12_Vocabulary]]*
+*Related: [[MOC_Japanese_N5]], [[IT_Japanese_U12_Vocabulary]], [[AI_Japanese_Tutor_Modern_Methods]]*

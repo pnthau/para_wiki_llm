@@ -24,4 +24,4 @@ Các công cụ AI học tiếng Nhật đã chuyển dịch từ "Tra cứu" sa
 - Tích hợp Roleplay vào chu trình học hàng ngày.
 
 ---
-*Reference: [[Japanese_N5_Reboot_Mastery]], [[n5-oral-coach]]*
+*Reference: [[Japanese_N5_Reboot_Mastery]], [[n5-oral-coach]], [[IT_Japanese_N5_Essential_Katakana]], [[Japanese_N5_Roleplay_Log]]*

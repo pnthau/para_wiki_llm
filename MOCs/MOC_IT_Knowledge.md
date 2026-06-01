@@ -29,6 +29,7 @@ keywords: []
 - [[B-Tree_Architecture]]: Cấu trúc vật lý của Chỉ mục B-Tree.
 - [[MySQL_Index_Deep_Dive]]: So sánh B-Tree vs Hash Index.
 - [[MySQL_Indexing_Performance]]: Tối ưu hóa truy vấn bằng Chỉ mục và lệnh EXPLAIN.
+- [[Cách sử dụng chỉ mục để cải thiện hiệu năng truy vấn của MySQL]]: [Bài đọc] Tăng tốc hiệu suất bằng Index.
 - [[SQL_Views]]: Khái niệm Bảng ảo và bảo mật dữ liệu.
 - [[SQL_Mastery_100_Questions]]: 10 Thử thách SQL Thực chiến Doanh nghiệp (+1 đến +5).
 - [[Relational_Database_Fundamentals]]: Tổng quan về CSDL quan hệ và RDBMS.

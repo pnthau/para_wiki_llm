@@ -11,7 +11,25 @@ Dành riêng cho: John | Mục tiêu: Java Expert & System Design | Trạng thá
 
 ---
 
-## 🏛️ NEXUS MULTI-AGENT PROTOCOL (Mandatory)
+## 🛡️ NEXUS MULTI-AGENT PROTOCOL (Mandatory)
+
+### 🧩 SQL LOGIC MANDATE: THE G.F.R.B FRAMEWORK
+Mọi bài tập logic SQL bắt buộc phải được khảo sát qua 4 câu hỏi tư duy trước khi code:
+
+1. **[G] Granularity (Hạt dữ liệu)**: "1 dòng kết quả đại diện cho cái gì?"
+   - 1 thực thể gốc (Chi tiết) ➡️ `SELECT`, `JOIN`, `WINDOW`.
+   - 1 nhóm (Tổng hợp) ➡️ `GROUP BY`.
+2. **[F] Filtering (Cái phễu)**: "Đuổi dữ liệu đi ở giai đoạn nào?"
+   - Cá nhân (Trước tính toán) ➡️ `WHERE`.
+   - Nhóm (Sau tính toán) ➡️ `HAVING`.
+3. **[R] Relationship (Mối quan hệ)**: "Dữ liệu nằm ở 1 chỗ hay nhiều chỗ?"
+   - Cần hiển thị cột từ cả 2+ bảng ➡️ `JOIN`.
+   - Chỉ dùng để kiểm tra sự tồn tại ➡️ `IN` / `EXISTS`.
+4. **[B] Benchmark (Tiêu chuẩn so sánh)**: "So với số cố định hay biến động?"
+   - Số cố định ➡️ Toán tử `> < =`.
+   - Số chưa biết/cần tính trước ➡️ `SUBQUERY`.
+
+---
 
 Mọi bài tập code hoặc lý thuyết phải được kiểm duyệt qua 3 lớp:
 

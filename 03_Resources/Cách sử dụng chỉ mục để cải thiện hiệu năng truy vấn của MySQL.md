@@ -87,3 +87,6 @@ EXPLAIN SELECT title FROM employees WHERE lastname LIKE 'T%' \G
 ```
 
 Last modified: Friday, 27 May 2022, 11:12 AM
+
+---
+*Reference: [[MySQL_Indexing_Performance]], [[Database_Indexing_Fundamentals]], [[MOC_IT_Knowledge]]*

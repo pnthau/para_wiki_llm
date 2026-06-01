@@ -21,4 +21,4 @@ CORAL (Collaborative Objective-Reinforced Adaptive Learning) là một kiến tr
 Nexus v8.2 tích hợp các nguyên lý của CORAL để tự động hóa chu trình `nexus_nightly_evolution.ps1`.
 
 ---
-*Reference: [[Multi_Agent_AI_Systems]], [[Systems_Thinking_Protocol]]*
+*Reference: [[Multi_Agent_AI_Systems]], [[Systems_Thinking_Protocol]], [[Gemini_CLI_Agent_Skills_Framework]]*

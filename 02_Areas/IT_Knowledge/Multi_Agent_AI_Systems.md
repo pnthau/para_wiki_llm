@@ -28,3 +28,4 @@ Multi-agent systems move AI from "blind trust" to "earned confidence" by mimicki
 - [[MOC_Strategy]]
 - [[Java_3_Layer_Architecture]] (Design pattern comparison)
 - [[Collective_Intelligence]]
+- [[AI_CORAL_Architecture]] (Self-Evolving Architecture)

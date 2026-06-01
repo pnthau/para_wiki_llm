@@ -21,6 +21,9 @@ keywords: []
 - [[Japanese_Presentation_Roadmap]]: Lộ trình luyện thuyết trình Beginner -> Fluent.
 - [[Japanese_N5_Roleplay_Log]]: Nhật ký luyện tập Roleplay và phản xạ.
 
+## ⛩️ AI Tools & Modern Methods (New)
+- [[AI_Japanese_Tutor_Modern_Methods]]: Miraa, Shadowing và AI Coaching cho N5.
+
 ## ⛩️ Hán tự (Kanji)
 - [[NIX_Digital_U4_Kanji]]: Danh sách 13 chữ Hán cơ bản (Unit 4).
 - [[NIX_Digital_U10_Kanji]]: Danh sách 19 chữ Hán động từ & tính từ (Unit 10).

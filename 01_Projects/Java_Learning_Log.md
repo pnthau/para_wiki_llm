@@ -26,6 +26,12 @@ keywords: []
 
 ## 📅 Nhật ký tiến độ
 
+### Vòng 6 (2026-06-03) - "JVM & Memory Mastery"
+- [x] **Memory Architecture**: Phân biệt Stack (Local variables) và Heap (Objects).
+- [x] **Pass-by-value**: Hiểu bản chất Java truyền bản sao của tham chiếu (Remote Control analogy).
+- [x] **String Pool & intern()**: Tối ưu hóa bộ nhớ cho các dữ liệu lặp lại lớn.
+- [x] **Security Immutability**: Lý do String là bất biến để bảo vệ Class Loading và DB Connections.
+
 ### Vòng 5 (2026-05-27) - "Database Mastery & Persistence"
 - [x] **Relational Foundation**: Nắm vững Primary Key, Foreign Key (1-n, n-n).
 - [x] **Junction Table**: Thiết kế bảng trung gian cho quan hệ Nhiều - Nhiều.

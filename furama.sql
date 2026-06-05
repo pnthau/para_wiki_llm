@@ -208,6 +208,7 @@ CREATE TABLE `employees` (
   `phone` varchar(20) NOT NULL,
   `email` varchar(255) NOT NULL,
   `gender` enum('male','female','other') DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
   `education_level_id` int NOT NULL,
   `role_id` int NOT NULL,
   `department_id` int NOT NULL,

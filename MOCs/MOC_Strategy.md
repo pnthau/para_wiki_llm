@@ -22,11 +22,15 @@ keywords: []
 - [[Gia_si_bat_dien]]: Kế 27 — Giả khùng không điên. Nhẫn nại, giấu mình chờ thời.
 - [[Tieu_Ly_Tang_Dao]]: Kế 10 — Nụ cười giấu dao. Cảnh giác với sự thân thiện giả tạo.
 
+### Chiến thuật Tạo ảo giác (Illusion & Falsehood)
+- [[Vo_Trung_Sinh_Huu_Analysis]]: Kế 7 — Vô trung sinh hữu. Biến không thành có, đánh vào lòng đa nghi.
+
 ### Chiến thuật Tấn công Gián tiếp (Indirect Approach)
 - [[Vay_Nguy_cuu_Trieu]]: Kế 2 — Tấn công vào nơi yếu/quan trọng của địch để giải tỏa áp lực.
 
 ## 🤖 Chiến lược Hệ thống AI
 - [[Multi_Agent_AI_Systems]]: Kiến trúc Đa tác nhân và bài học từ NASA về sự xác minh.
+- [[Scaling_Founder_to_80_Engineers]]: Chiến lược dùng AI để mở rộng quy mô đội ngũ (Vibe Coding Case Study).
 
 ## 🃏 Ứng dụng trong Poker & Sự nghiệp
 - **Poker:** [[Poker_Classification_Framework]] (Phân loại đối thủ để dùng kế phù hợp).

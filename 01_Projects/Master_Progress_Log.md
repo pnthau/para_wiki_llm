@@ -106,6 +106,11 @@ keywords: []
 - **🌸 Tiếng Nhật:** Chuẩn hóa [[N5_Vocabulary_Review_Master]] sang định dạng Cornell Table. Tổng hợp [[N5_Mastery_Hub]].
 - **💡 Insight:** Việc "tiêu hóa" tri thức qua MRP giúp hệ thống hóa toàn bộ lộ trình, tạo ra một "Sổ tay tri thức" thực thụ thay vì chỉ là đống note rời rạc.
 
+### [2026-06-03] - Furama SQL Mastery & Knowledge Consolidation
+- **☕ IT/Java:** Tổng hợp và tái cấu trúc thành công 27 bài tập SQL Furama vào file [[Furama_SQL_Solutions_1_27]]. Vận dụng khung tư duy **G.F.R.B** để giải quyết các bài toán Cascading Delete (Câu 27) và Stored Procedures phức tạp.
+- **🛠️ Hệ thống:** Đồng bộ hóa MOC IT Knowledge và cập nhật nhật ký tiến độ Singularity v8.2.
+- **💡 Insight:** Việc "đóng gói" tri thức rời rạc thành các bản giải pháp có hệ thống giúp củng cố tư duy Architect. "Dữ liệu là huyết mạch, Query là thanh kiếm."
+
 ---
 **Related:**
 - [[MOC_Index]] | [[GEMINI.md]]

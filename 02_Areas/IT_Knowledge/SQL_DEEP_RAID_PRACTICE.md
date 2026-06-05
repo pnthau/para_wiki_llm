@@ -49,6 +49,20 @@ WHERE EXISTS (SELECT 1 FROM table_B b WHERE b.id = a.id) -- ĐÚNG: Phải chỉ
 
 ---
 
+## ⚡ TRẬN TẬP KÍCH 4: CASCADING DELETE & HORIZONTAL EXPANSION (The Architect Awakening)
+
+**Bài toán:** Xóa dữ liệu dây chuyền từ Bảng Gốc (Ông) xuống đến Bảng Chi tiết (Cháu) (Ví dụ: Bài 27 Furama Database).
+
+**Lỗ hổng Tư duy:**
+1. Không biết chọn ID nào để lưu vào Bảng Tạm.
+2. Không hình dung được luồng đi của Subquery trong lệnh xóa các bảng phụ.
+
+**Khắc phục (Mental Models):**
+1. **Mô hình Cây gia phả (The Root & Branch):** Khi thực hiện Hard Delete qua nhiều bảng, **LUÔN LƯU TRỮ ID CỦA BẢNG GỐC (RỄ)** vào Temp Table. Nếu lưu ID bảng con (cành), khi xóa con xong sẽ đứt liên kết, không truy ngược lên để xóa rễ được. Thứ tự xóa: Cháu -> Con -> Cha -> Ông.
+2. **Mô hình Mở rộng ngang (Horizontal Expansion):** Bản chất của `JOIN` là ghép nối các bảng theo chiều ngang (Cartesian Product + Filter). Nhờ dải dữ liệu mở rộng này, bảng Cháu (dù chỉ có khóa ngoại của Con) vẫn có thể "nhìn thấy" khóa chính của Ông (đang nằm trong danh sách đen/Temp Table) để tự đưa mình vào diện bị xóa. Subquery chính là hành trình dò tìm ngược từ Danh sách đen xuống qua các lớp `JOIN`.
+
+---
+
 # 🛡️ BÀI TẬP BẮT LỖI (SPOT THE BUG)
 
 **Anh hãy sửa lại 3 câu SQL "tội lỗi" sau đây:**

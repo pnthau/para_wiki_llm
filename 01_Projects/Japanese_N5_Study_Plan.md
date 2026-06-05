@@ -25,6 +25,13 @@ keywords: []
 - [x] **Lộ trình thuyết trình**: Đã thiết lập [[Japanese_Presentation_Roadmap]] để nâng cấp kỹ năng nói và phát âm Katakana IT.
 - [ ] **Mục tiêu:** Làm đề thi thử mini (Phần Từ vựng & Ngữ pháp).
 
+### Genki Greeting Mastery (2026-06-05)
+- [x] **Greeting Deep Raid**: Hoàn thành 100% các nhóm chào hỏi cơ bản từ giáo trình Genki.
+    - Làm chủ: `おはようございます`, `こんにちは`, `こんばんは`, `すみません`, `ありがとうございます`.
+    - Nghi thức: `いただきます`, `ごちそうさまでした`, `いってきます`, `いってらっしゃい`, `ただいま`, `おかえりなさい`.
+    - Tự giới thiệu: `はじめまして`, `どうぞよろしくおねがいします`.
+- [x] **Refinement**: Đã sửa lỗi chính tả âm ngắt (っ) trong `いってらっしゃい` và âm `n` kép trong `こんにちは`.
+
 ### Tiếng Nhật Chuyên Ngành (2026-05-16)
 - [x] **Unit 11 (Project Management)**: Đã ingest tài liệu và làm chủ nội dung video (100% Mastery).
 - [x] **Unit 12 (Winter Safety)**: **FULL MASTERY** (Hoàn thành Flash Quiz 5/5).

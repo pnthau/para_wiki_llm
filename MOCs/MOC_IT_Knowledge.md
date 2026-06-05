@@ -32,6 +32,7 @@ keywords: []
 - [[Cách sử dụng chỉ mục để cải thiện hiệu năng truy vấn của MySQL]]: [Bài đọc] Tăng tốc hiệu suất bằng Index.
 - [[SQL_Views]]: Khái niệm Bảng ảo và bảo mật dữ liệu.
 - [[SQL_Mastery_100_Questions]]: 10 Thử thách SQL Thực chiến Doanh nghiệp (+1 đến +5).
+- [[Furama_SQL_Solutions_1_27]]: Furama Resort: Giải pháp SQL 1-27.
 - [[Relational_Database_Fundamentals]]: Tổng quan về CSDL quan hệ và RDBMS.
 - [[Relational_Data_Model]]: Lý thuyết mô hình quan hệ (E.F. Codd).
 - [[AI_Agent_Memory_Architecture_CoALA]]
@@ -103,6 +104,7 @@ keywords: []
 ## 🏗️ Kiến trúc & Hệ thống AI
 - [[MCP_ADK_Frameworks]]: Chuẩn hóa kết nối (MCP) và Khung kiến trúc Agent (ADK).
 - [[Multi_Agent_AI_Systems]]: Từ sự tự tin đến sự xác minh (NASA Case Study).
+- [[Scaling_Founder_to_80_Engineers]]: AI-Driven Scaling (Founder to 80 Engineers Case Study).
 - [[LLM_Wiki]]: Khái niệm Wiki theo Andrej Karpathy.
 - [[RAG_Retrieval_Augmented_Generation]]: Kỹ thuật RAG cho AI.
 - [[GEMINI.md]]: Quy tắc vận hành AI Master.

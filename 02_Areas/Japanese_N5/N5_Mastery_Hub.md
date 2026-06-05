@@ -40,6 +40,7 @@ created: 2026-05-16
 - **Kanji Unit 12:** `滑る` (Trượt), `運行` (Vận hành), `弱い` (Yếu).
 - **Kanji Cơ bản:** `学` (Học), `生` (Sinh), `日` (Nhật), `本` (Bản).
 - **Công cụ luyện tập:** [[Kanji_Master_Ultimate_Unit4.html]] (Interactive Game).
+- **Chào hỏi Genki N5:** [[gem_n5_genki.html]] (Greetings Master & Flashcards Game) kết hợp Custom Gem [[gem_n5_genki.md]].
 - **OCR Ingest:** Sử dụng Skill **Smart-Reader** cho [[N5_Unit_12_Kanji_Drawing.excalidraw.md]].
 
 ---

@@ -65,6 +65,7 @@ Dùng để bổ sung từ vựng và Kanji thực chiến ngoài giáo trình N
 - [x] **Unit 1 (Intro)**: Đã ingest Vocab & Grammar. ✅
 - [x] **Unit 4 (Kanji)**: Đã ingest. ✅
 - [x] **Unit 10 (Kanji)**: Đã ingest 19 Kanji động từ & tính từ. ✅
+- [x] **Genki Greetings (gem_n5_genki)**: Đã khởi tạo Custom Gem [[gem_n5_genki.md]] và Web-app ôn tập tương tác [[gem_n5_genki.html]]. ✅
 - [ ] **Unit 2, 3, 5, 6**: Chờ ingest từ 00_Raw.
 
 ---

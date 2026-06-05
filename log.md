@@ -1,5 +1,11 @@
 # Vault Operations Log
 
+## [2026-06-06] Ingest & Dev | Created 'gem_n5_genki' Custom Gem Prompt and Interactive HTML App
+- **Raw Source**: `00_Raw/Genki_Japanese_Greeting.md`
+- **Outputs**: `03_Resources/Japanese_N5/gem_n5_genki.md` & `03_Resources/Study_Readers/gem_n5_genki.html`
+- **Details**: Ingested 22 Genki greetings. Created the Gemini Custom Gem system prompt instructions and a premium dark-slate glassmorphic web-app for learning, TTS audio, matching game, and quiz tests.
+- **Status**: Success.
+
 ## [2026-06-04] Ingest | Transformed 'VÔ TRUNG SINH HỮU' raw file into '02_Areas/Strategy/Vo_Trung_Sinh_Huu_Analysis.md' with Cornell format. Updated 'MOC_Strategy.md'.
 
 ## [2026-05-29] Nexus Singularity Evolution v8.0 (Manual Override)

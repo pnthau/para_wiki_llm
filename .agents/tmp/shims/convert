@@ -1,0 +1,2 @@
+﻿#!/bin/bash
+/c/Users/dc130/scoop/apps/imagemagick/current/magick.exe "$@"

@@ -1,0 +1,36 @@
+description = "Ingest file mới từ 00_Raw/ → Cornell Notes + YAML + Link vào MOC."
+
+prompt = """
+Ingest workflow của `skills/vault-curator`.
+
+**File hoặc topic cần ingest**: {{args}}
+
+Process:
+1. Quét `00_Raw/` (hoặc file user chỉ định).
+2. Phân loại theo Domain: Java | Japanese | Strategy | Personal | IT_Knowledge.
+3. Tạo YAML Frontmatter v4.0:
+   ```yaml
+   ---
+   domain: <domain>
+   type: <atomic-note|reference|...>
+   status: active
+   tags: [...]
+   created: YYYY-MM-DD
+   source: <file gốc / URL>
+   nexus_version: 6.0
+   ---
+   ```
+4. Cornell Transformation:
+   - **Cue** (cột trái): từ khóa + câu hỏi trọng tâm + `[[wiki-links]]`.
+   - **Notes** (cột phải): nội dung chi tiết, dùng `<br>` xuống dòng.
+   - **Summary**: 1-2 câu cuối file.
+5. Auto-MOC:
+   - Tìm MOC tương ứng trong `MOCs/`.
+   - Thêm link vào MOC + section **Related** trong note.
+6. Di chuyển file gốc:
+   - Note tốt → `02_Areas/<domain>/` hoặc `03_Resources/<domain>/`
+   - Note tham khảo → `03_Resources/`
+   - Phiếu rác → đề xuất xóa (KHÔNG tự xóa).
+
+Output: bản tóm tắt + link đến note mới + MOC đã update.
+"""

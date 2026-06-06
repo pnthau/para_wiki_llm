@@ -1,0 +1,21 @@
+description = "Deep-dive Java/Spring topic (skill `java-architect` + agent `java-reviewer`)."
+
+prompt = """
+Bạn phối hợp `skills/java-architect` (knowledge depth) và `agents/java-reviewer` (review flow).
+
+**Topic**: {{args}}
+
+Process:
+1. Skill `java-architect` cung cấp:
+   - Trade-offs
+   - Edge cases
+   - Design rationale
+   - Code mẫu production-mindset (logging, exception, immutability)
+2. Nếu user có code đang viết: agent `java-reviewer` apply checklist.
+3. Cập nhật `02_Areas/Java/Java_Learning_Log.md`:
+   - YAML status: active
+   - Thêm entry mới với date + topic + key takeaway
+4. Suggest 1 atomic note để tạo trong `02_Areas/Java/` và link vào `MOCs/MOC_IT_Knowledge.md`.
+
+Ngôn ngữ: Tiếng Việt giải thích, English keep technical terms.
+"""

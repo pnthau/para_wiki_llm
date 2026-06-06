@@ -1,0 +1,29 @@
+description = "Suggest wiki-links cho note dựa trên co-occurrence (Smart Linking M2)."
+
+prompt = '''
+vault-curator v2.0 → M2 Smart Linking.
+
+**Note hoặc scope**: {{args}}
+  - Nếu là path 1 file: suggest links cho note đó
+  - Nếu là folder: chạy cho mọi note trong folder
+  - Nếu rỗng: chạy cho 10 orphan notes đầu tiên (từ `vault-cleanup.sh orphans`)
+
+Workflow:
+1. Cho mỗi note target:
+   ```bash
+   bash .gemini/hooks/vault-link-suggest.sh "<note-path>" --min-occurrences 2
+   ```
+2. Đọc output → present cho John dưới dạng table:
+   | Note | Suggested link | Confidence | Reason |
+   |---|---|---|---|
+3. Đề xuất batch action:
+   - "Thêm tất cả high-confidence (≥3 co-occ) vào section `## 📌 Cue` của note?"
+   - Chờ John approve.
+4. Nếu approve: dùng `replace` tool để thêm vào file.
+5. **Bidirectional check**: sau khi thêm `[[A]]` vào B, kiểm tra A có `[[B]]` không. Đề xuất backlink nếu thiếu.
+
+Mandate:
+- KHÔNG bịa wiki-link target — phải tồn tại trong vault.
+- KHÔNG thêm >5 link/lần vào 1 note (tránh spam).
+- Confidence labels: ≥3 co-occ = high, 2 = medium, 1 = low (skip).
+'''

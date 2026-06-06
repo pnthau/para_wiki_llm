@@ -1,0 +1,57 @@
+description = "Liệt kê toàn bộ skills/agents/commands của Atlas + cách dùng."
+
+prompt = """
+Hiển thị quick reference của Atlas v6.0.
+
+Output:
+
+```markdown
+# 🧠 Atlas v6.0 — Quick Reference
+
+## 📦 Skills (`.gemini/skills/`)
+- `java-architect` — Senior Java mentor
+- `n5-sensei` — Tiếng Nhật N5 personalized
+- `vault-curator` — PARA management + ingest
+- `strategy-master` — Binh pháp Tôn Tử + 36 Kế
+- `strategy-proctor` — Strategy Q&A drill
+- `meditation-guide` — Thiền & mindfulness
+- `link-investigator` — Tìm broken links
+- `web-qa-validator` — QA web
+- `learning-web-architect` — Web learning structure
+
+## 🤖 Agents (`.gemini/agents/`)
+- `planner` — Implementation planning (Pro)
+- `code-reviewer` — Code quality review (Pro)
+- `security-reviewer` — OWASP security review (Pro)
+- `java-reviewer` — Java/Spring chuyên sâu (Pro)
+- `build-error-resolver` — Fix build errors (Flash)
+- `doc-updater` — Sync docs + MOCs (Flash)
+- `vault-auditor` — Audit vault health (Flash)
+- `n5-tutor` — N5 personalized coach (Pro)
+- `strategy-advisor` — Strategy consultant (Pro)
+- `docs-lookup` — Official docs lookup (Flash)
+
+## ⚡ Slash Commands (`.gemini/commands/`)
+- `/atlas-plan <task>` — Lập kế hoạch
+- `/review [scope]` — Code review
+- `/security-review [scope]` — Security audit
+- `/commit` — Sinh conventional commit message
+- `/checkpoint` — Closing ceremony + Git
+- `/focus` — Morning call + chọn focus mode
+- `/ingest [file]` — Ingest từ 00_Raw
+- `/vault-audit [scope]` — Audit vault
+- `/n5-drill [topic]` — Phiên N5 drill
+- `/java-deepdive <topic>` — Deep-dive Java
+- `/strategy <situation>` — Phân tích chiến lược
+- `/moc-sync [moc-name]` — Sync MOCs
+- `/help-atlas` — Lệnh này
+
+## 🔧 Manual
+- Reload commands: `/commands reload`
+- List subagents: `/agents`
+- Edit GEMINI.md: chỉnh file root.
+- Reload identity: restart `gemini` CLI.
+
+Context bổ sung: {{args}}
+```
+"""

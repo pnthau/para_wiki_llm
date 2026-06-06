@@ -94,6 +94,7 @@ keywords: []
 
 ## 🌐 Web Basics & Tools
 - [[HTML_Basics]]: Cấu trúc trang web và các thẻ cơ bản.
+- [[CSS_Basics]]: Định dạng và phong cách hiển thị trang web (style).
 - [[JavaScript_Basics]]: Biến, kiểu dữ liệu và cú pháp JS.
 - [[Git_Basics]]: Quản lý phiên bản với Git.
 - [[Java_Maven_Lombok]]: Quản lý dự án với Maven và tối ưu code với Lombok.

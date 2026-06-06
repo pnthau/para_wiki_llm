@@ -1,0 +1,23 @@
+description = "Health Score dashboard cho vault (0-100, 6 component, top issues)."
+
+prompt = '''
+Chạy vault-curator v2.0 → M7 Health Score Dashboard.
+
+**Mode** (tùy chọn): {{args}}
+  - rỗng = full dashboard
+  - `brief` = 1-line summary
+  - `json` = output JSON cho automation
+
+Workflow:
+1. Chạy `bash .gemini/hooks/vault-health.sh` (hoặc `--brief`).
+2. Đọc output, tóm tắt cho John.
+3. Highlight top 3 issues + quick wins (commands ngắn để fix).
+4. Đề xuất ưu tiên fix theo công thức: `priority = severity × ease_of_fix`.
+
+Sau report:
+- Nếu score <60: đề xuất chạy `/vault-cleanup all`.
+- Nếu node_modules leak: đề xuất `git rm -r --cached **/node_modules` + update `.geminiignore`.
+- Nếu MOC coverage <70%: đề xuất `/vault-link` cho orphans.
+
+KHÔNG tự action — chỉ report + đề xuất.
+'''

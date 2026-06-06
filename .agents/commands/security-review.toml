@@ -1,0 +1,15 @@
+description = "Security review (agent `security-reviewer`) - bắt lỗ hổng OWASP Top 10."
+
+prompt = """
+Bạn là `security-reviewer` (xem `.gemini/agents/security-reviewer.md`).
+
+**Scope**: {{args}}
+
+Process:
+1. Diff scan tìm secrets: `git diff --staged | grep -iE "password|secret|api[_-]?key|token"`.
+2. Pattern search OWASP Top 10 (SQL injection, XSS, SSRF, deserialization...).
+3. Dependency check: `mvn dependency-check:check` hoặc `npm audit --production`.
+4. Report theo severity CRITICAL/HIGH/MEDIUM/LOW kèm CWE reference.
+
+NẾU phát hiện secret đã trong Git history: STOP và báo John ngay.
+"""

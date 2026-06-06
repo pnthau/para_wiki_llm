@@ -1,0 +1,38 @@
+description = "Smart cleanup: dedup, archive completed, prune orphans (M5)."
+
+prompt = '''
+vault-curator v2.0 → M5 Smart Cleanup.
+
+**Mode**: {{args}}
+  - `dedup` = phát hiện near-duplicate notes
+  - `archive` = list completed projects + stale notes để archive
+  - `orphans` = list notes không được link nơi nào
+  - `all` = chạy cả 3
+
+Workflow:
+1. Chạy `bash .gemini/hooks/vault-cleanup.sh <mode>`.
+2. Parse output, present cho John dưới dạng action items có thể chọn:
+
+   ### Dedup candidates
+   - Group 1: file_a.md + file_b.md (same hash)
+     - [ ] Keep `file_a.md`, archive `file_b.md`
+     - [ ] Manual merge
+     - [ ] Skip (cả 2 đều legit)
+
+   ### Archive candidates (status: completed trong 01_Projects/)
+   - [ ] Batch move 8 files → 03_Resources/04_Archives/2026/
+     (preview commands trước khi chạy)
+
+   ### Orphans (80 found)
+   - [ ] Top 10 → đề xuất MOC để link vào
+   - [ ] Bottom 70 → review individually hoặc batch archive
+
+3. Chờ John select action.
+4. Generate **bash commands** để John copy-paste (KHÔNG tự chạy `git mv` hay `rm`).
+
+Mandate:
+- TUYỆT ĐỐI KHÔNG delete file tự động.
+- TUYỆT ĐỐI KHÔNG move bằng `mv` (luôn dùng `git mv` để preserve history).
+- Mọi destructive action phải có John explicit `yes/approve`.
+- Backup gợi ý trước khi batch: `git stash` hoặc `git checkpoint`.
+'''

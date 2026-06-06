@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Boilerplate - John's Sensei</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --accent: #f43f5e;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --success: #10b981;
+            --radius: 20px;
+            --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; }
+
+        body {
+            background-color: var(--bg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: var(--text-main);
+            padding: 20px;
+        }
+
+        header {
+            width: 100%;
+            max-width: 500px;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            background: white;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+            z-index: 100;
+        }
+
+        .main-container {
+            width: 100%;
+            max-width: 450px;
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            margin-top: 60px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 50px;
+            background: var(--primary);
+            color: white;
+            font-weight: 700;
+            cursor: pointer;
+            transition: 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn:active { transform: scale(0.95); }
+        .btn:hover { filter: brightness(1.1); }
+
+        @media (max-width: 480px) {
+            .main-container { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div id="progress-text">Ready to learn</div>
+</header>
+
+<main class="main-container">
+    <!-- Nội dung ứng dụng sẽ được Architect đưa vào đây -->
+    <h1>Template sẵn sàng!</h1>
+    <p style="margin: 20px 0; color: var(--text-muted);">Đây là bộ khung chuẩn Clean Code và SOLID.</p>
+    <button class="btn">Bắt đầu ngay</button>
+</main>
+
+<script>
+    // Logic sẽ được viết theo chuẩn Single Responsibility
+    const App = {
+        init() {
+            console.log("App initialized");
+        }
+    };
+
+    document.addEventListener('DOMContentLoaded', () => App.init());
+</script>
+
+</body>
+</html>

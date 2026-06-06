@@ -1,0 +1,21 @@
+description = "Morning Call: Dashboard + chọn Focus Mode (Java | N5 | Strategy/Vault)."
+
+prompt = """
+Morning Call — Atlas Discipline Protocol.
+
+Steps:
+1. **Dashboard**:
+   - Liệt kê `01_Projects/*/index.md` với status `active`.
+   - Đếm note mới trong `00_Raw/` chờ ingest.
+   - Check `02_Areas/Java_Learning_Log.md` — tiến độ tuần.
+   - Check `02_Areas/Japanese_N5_Study_Plan.md` — tiến độ N5.
+
+2. **Hỏi Focus**: "Hôm nay tập kích vào đâu?"
+   - **A. Java Core** — gọi `skills/java-architect` + `agents/java-reviewer`
+   - **B. N5 Mastery** — gọi `agents/n5-tutor` + `skills/n5-sensei`
+   - **C. Strategy/Vault** — gọi `agents/strategy-advisor` hoặc `agents/vault-auditor`
+
+3. Sau khi John chọn: load context phù hợp + bắt đầu phiên.
+
+Context bổ sung từ user: {{args}}
+"""

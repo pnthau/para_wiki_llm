@@ -1,0 +1,28 @@
+description = "Audit vault (Health Score + Top issues + Quick wins) - vault-curator v2.0."
+
+prompt = """
+Chạy agents/vault-auditor Mode 1: HEALTH CHECK.
+
+Scope (tuy chon): {{args}}
+  - rong: full audit
+  - links: M2 link suggestions
+  - yaml: frontmatter compliance
+  - diet: M6 Vault Diet violations
+  - moc: M3 MOC analysis
+  - orphans: M5c orphan notes
+
+Workflow:
+1. Default: bash .gemini/hooks/vault-health.sh
+2. Subscope:
+   - links: vault-link-suggest.sh cho 10 orphan dau tien
+   - diet: vault-diet-check.sh
+   - moc: vault-graph-stats.sh
+   - orphans: vault-cleanup.sh orphans
+3. Categorize: CRITICAL / HIGH / MEDIUM / LOW
+4. Top 3 quick wins voi commands copy-paste
+5. Hoi John fix gi truoc
+
+Mandate:
+- KHONG tu fix - chi recommend
+- Citation: moi claim co nguon tu script output, KHONG bia so
+"""

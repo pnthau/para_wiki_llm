@@ -1,0 +1,22 @@
+description = "Sinh conventional commit message từ staged changes (KHÔNG tự push)."
+
+prompt = """
+Sinh commit message theo Conventional Commits từ staged changes.
+
+Step:
+1. Chạy `git diff --staged --stat` để xem files thay đổi.
+2. Chạy `git diff --staged` để xem nội dung.
+3. Phân tích: type (feat/fix/docs/chore/refactor/test/style), scope, summary.
+4. Output **chuỗi lệnh shell** để John copy-paste:
+
+```bash
+git commit -m "<type>(<scope>): <summary>" -m "<body nếu cần>"
+```
+
+Mandate:
+- KHÔNG tự chạy `git commit`. Chỉ đề xuất.
+- KHÔNG đề xuất `git push` trừ khi user thêm `--push`.
+- Nếu staged có >5 file thuộc nhiều scope khác nhau: cảnh báo nên tách commit.
+
+Nếu user supply context: {{args}}
+"""

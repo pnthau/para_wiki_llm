@@ -1,0 +1,25 @@
+description = "Đồng bộ MOCs với vault: thêm note mới, xóa link gãy."
+
+prompt = '''
+Sync `MOCs/` với cấu trúc vault hiện tại.
+
+**Scope** (tùy chọn): {{args}}
+  - rỗng = sync toàn bộ MOCs
+  - tên MOC cụ thể, vd: `MOC_Japanese_N5`
+
+Process:
+1. Đọc tất cả `MOCs/MOC_*.md`.
+2. Với mỗi MOC:
+   a. Extract wiki-links hiện có: `grep -oE "\[\[[^\]]+\]\]"`.
+   b. Verify từng link có file tương ứng không. Nếu không: flag broken.
+   c. Tìm note mới (trong `02_Areas/`, `03_Resources/`) cùng domain với MOC nhưng chưa được link.
+3. Đề xuất diff:
+   - Thêm: link mới
+   - Xóa: link broken
+4. Hỏi John approve từng nhóm thay đổi trước khi apply.
+
+Mandate:
+- KHÔNG xóa bừa — hỏi xác nhận.
+- Giữ thứ tự sort hiện có trong MOC.
+- Bổ sung note mới ở section phù hợp (alphabet hoặc topic group).
+'''

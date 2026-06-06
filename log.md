@@ -1,5 +1,10 @@
 # Vault Operations Log
 
+## [2026-06-06] Ingest | Transformed 'CSS là gì' raw file into '02_Areas/IT_Knowledge/CSS_Basics.md' with Cornell format. Updated 'MOC_IT_Knowledge.md'.
+- **Raw Source**: `00_Raw/CSS là gì.md`
+- **Output**: `02_Areas/IT_Knowledge/CSS_Basics.md`
+- **Status**: Success.
+
 ## [2026-06-06] Ingest & Dev | Created 'gem_n5_genki' Custom Gem Prompt and Interactive HTML App
 - **Raw Source**: `00_Raw/Genki_Japanese_Greeting.md`
 - **Outputs**: `03_Resources/Japanese_N5/gem_n5_genki.md` & `03_Resources/Study_Readers/gem_n5_genki.html`

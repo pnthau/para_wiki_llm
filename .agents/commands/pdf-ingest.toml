@@ -1,0 +1,54 @@
+description = "Ingest PDF scan (tiếng Nhật/Việt) → chunks JPG + extracted markdown + MOC. Tránh hallucination khi PDF lớn."
+
+prompt = '''
+Bạn là `pdf-investigator` (xem `.gemini/agents/pdf-investigator.md`), ở **Mode 1: INGEST**.
+
+**File PDF cần ingest**: {{args}}
+
+## Workflow bắt buộc
+
+### Bước 1: Preprocess (OOM-SAFE)
+Chạy:
+```bash
+bash .gemini/hooks/pdf-stream-extract.sh "{{args}}" --dpi 120 --max-width 1200 --quality 75
+```
+Script này sẽ (mỗi page 1 lần, KHÔNG batch):
+- Convert PDF → ảnh JPG @ 120 DPI (giảm từ 200 để tránh OOM)
+- Split double-page → single-page chunks `sheet-XXX-L.jpg` + `sheet-XXX-R.jpg`
+- Resize xuống max-width 1200px (tensor RGB ~17MB thay vì ~93MB)
+- Output vào `02_Areas/Japanese_N5/<name>_extracted/_chunks/`
+
+Nếu user báo OOM dù đã chạy script: đề xuất aggressive mode `--dpi 100 --max-width 900 --grayscale`.
+
+### Bước 2: Confirm với John
+- Báo cáo: total pages, số chunks, ước lượng thời gian.
+- Hỏi: "Tôi sẽ extract X chunks, mỗi chunk 5 trang, sẽ dừng sau mỗi 5 chunks để John kiểm tra. OK?"
+- Chờ John approve trước khi bắt đầu Bước 3.
+
+### Bước 3: Extract sheets (STREAMING — 1 sheet/lần)
+
+⚠️ MANDATE: KHÔNG `read_file` nhiều ảnh trong cùng 1 message — sẽ OOM.
+
+Loop qua từng sheet:
+1. Đọc 1 ảnh duy nhất: `sheet-001-L.jpg` (chỉ 1 sheet!).
+2. Extract theo template Mode 1.
+3. `write_file` thành `sheets/sheet_001_L.md` với YAML `verified: false`.
+4. Update `PROGRESS.md`.
+5. **PAUSE** — báo "Sheet 001-L done. Gõ `next` để extract sheet 001-R" → chờ user confirm.
+
+Lý do pause: image vẫn ở trong context của subagent đến hết phiên. Bằng cách buộc user confirm, ta tạo natural break để model `/compact` hoặc reset.
+
+### Bước 4: Build MOC
+Sau khi tất cả chunks done:
+- Tạo `MOCs/MOC_<NAME>.md` với index theo trang + index theo topic (Greetings, Numbers, Grammar...).
+- Link vào `MOCs/MOC_Japanese_N5.md`.
+- Update `PROGRESS.md` mark Build MOC `- [x]`.
+
+## Mandate
+
+- ❌ KHÔNG đọc 1 lèo cả PDF.
+- ❌ KHÔNG bịa nội dung khi OCR không rõ — ghi `[OCR_UNCLEAR]`.
+- ✅ Citation page range trong mọi chunk.
+- ✅ `verified: false` mặc định — chờ `n5-sensei` verify.
+- ✅ Tôn trọng quota → dừng định kỳ.
+'''

@@ -1,0 +1,16 @@
+description = "Lập kế hoạch chi tiết cho feature/refactor (delegate đến agent `planner`)."
+
+prompt = """
+Bạn được yêu cầu lập kế hoạch chi tiết bằng agent `planner` (xem `.gemini/agents/planner.md`).
+
+**Feature/Task**: {{args}}
+
+Thực thi theo workflow:
+1. Phân tích requirements, hỏi clarifying nếu cần.
+2. `grep_search` để map codebase liên quan.
+3. Break down thành các step có file path + risk + verify command.
+4. Liệt kê risks & edge cases.
+5. Output theo format trong `.gemini/agents/planner.md`.
+
+LƯU Ý: KHÔNG viết code ở bước này — chỉ kế hoạch.
+"""

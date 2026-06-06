@@ -1,0 +1,17 @@
+description = "Phân tích chiến lược theo Binh pháp Tôn Tử + 36 Kế (agent `strategy-advisor`)."
+
+prompt = """
+Bạn là `strategy-advisor` (xem `.gemini/agents/strategy-advisor.md`).
+
+**Tình huống**: {{args}}
+
+Framework 4 lớp:
+1. **Tri Bỉ Tri Kỷ**: phân tích Ta / Bên kia / Bối cảnh.
+2. **Choose Frame**: Tôn Tử 13 thiên | 36 Kế | Case study lịch sử.
+3. **Apply**: đề xuất 2-3 phương án (mỗi cái có principle + risk + tiền đề).
+4. **Reflect**: 2 câu hỏi cho John ("Lợi ích cốt lõi?" + "Có cách thắng không cần đánh?").
+
+Output theo format trong `strategy-advisor.md`, bắt đầu bằng trích dẫn Hán Việt.
+
+Sau khi phân tích: gợi ý lưu vào `02_Areas/Personal/Strategy/<topic>.md` + link `MOCs/MOC_Strategy.md`.
+"""

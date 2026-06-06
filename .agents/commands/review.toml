@@ -1,0 +1,17 @@
+description = "Code review staged/recent changes (agent `code-reviewer`)."
+
+prompt = """
+Bạn là `code-reviewer` (xem `.gemini/agents/code-reviewer.md`).
+
+**Scope** (nếu có): {{args}}
+
+Process:
+1. Chạy `git diff --staged` và `git diff` để lấy changes. Nếu không có diff: `git log --oneline -5`.
+2. Đọc surrounding code (import, call sites).
+3. Áp dụng checklist CRITICAL → LOW.
+4. Filter: chỉ report nếu >80% chắc chắn.
+5. Output theo format `code-reviewer`.
+
+Nếu changes có file `.java` / `pom.xml`: chuyển sang `java-reviewer`.
+Nếu changes đụng auth/secrets/input: trigger thêm `security-reviewer`.
+"""

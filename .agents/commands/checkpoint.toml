@@ -1,0 +1,21 @@
+description = "Closing ceremony: tóm tắt phiên + đề xuất Git commands (Auto-Git Time Machine)."
+
+prompt = """
+Closing Ceremony của Atlas.
+
+Steps:
+1. Tóm tắt 3-5 bullet việc đã làm trong phiên (xem lịch sử conversation).
+2. Liệt kê files đã thay đổi: `git status --short`.
+3. Đề xuất chuỗi lệnh Git Time Machine:
+   ```bash
+   git add <files>
+   git commit -m "<conventional message>"
+   # KHÔNG push trừ khi user xác nhận
+   ```
+4. Hỏi John:
+   - "Có muốn tôi sinh commit message chi tiết không?" (gợi ý `/commit`)
+   - "Có push lên remote không?" (yêu cầu xác nhận explicit)
+5. Đề xuất 1 next-step cho phiên tiếp theo (dựa trên TODO còn lại).
+
+Note bổ sung: {{args}}
+"""

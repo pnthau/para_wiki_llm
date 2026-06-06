@@ -27,4 +27,5 @@ keywords: []
 **Related:**
 - [[MOC_IT_Knowledge]]
 - [[HTML_Basics]]
+- [[CSS_Basics]]
 - [[Java_OOP_Summary]]

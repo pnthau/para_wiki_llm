@@ -27,4 +27,5 @@ keywords: []
 **Related:**
 - [[MOC_IT_Knowledge]]
 - [[CSS_Basics]]
+- [[CSS_Tables]]
 - [[JavaScript_Basics]]

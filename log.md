@@ -1,5 +1,11 @@
 # Vault Operations Log
 
+## [2026-06-06] Ingest | 'Bảng trong CSS' → 'CSS_Tables.md' (Cornell + Expanded)
+- **Raw Source**: `00_Raw/Bảng trong CSS.md`
+- **Output**: `02_Areas/IT_Knowledge/CSS_Tables.md`
+- **Expansion**: Added `border-collapse`, spacing (padding), alignment rules, and advanced layout techniques (Zebra striping, Hover rows, Responsive `overflow-x: auto` wrapping, and `table-layout: fixed` rendering). Added Java GUI and loop analogies.
+- **Status**: Success.
+
 ## [2026-06-06] Lint | Split 'CSS_Lists.md' → Created 'CSS_Modern_Nav_Menu.md'
 - **Target**: `02_Areas/IT_Knowledge/CSS_Modern_Nav_Menu.md` & `02_Areas/IT_Knowledge/CSS_Lists.md`
 - **Action**: Extracted the detailed Flexbox Navigation Menu analysis out of `CSS_Lists.md` into a dedicated atomic note to improve readability. Left a concise link in `CSS_Lists.md` and updated `MOC_IT_Knowledge.md`.

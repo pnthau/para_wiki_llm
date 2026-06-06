@@ -1,5 +1,11 @@
 # Vault Operations Log
 
+## [2026-06-06] Ingest | 'Điều chỉnh màu nền và ảnh nền' → 'CSS_Backgrounds.md' (Cornell + Expanded)
+- **Raw Source**: `00_Raw/Điều chỉnh màu nền và ảnh nền.md`
+- **Output**: `02_Areas/IT_Knowledge/CSS_Backgrounds.md`
+- **Expansion**: Documented background color/image/repeat/position/attachment options and shorthand syntax. Added background-size (cover/contain), opacity vs RGBA rendering behaviors, and linear-gradients. Added Java2D analogies (TexturePaint, Viewport space, color alpha vs graphics AlphaComposite).
+- **Status**: Success.
+
 ## [2026-06-06] Ingest | 'Đường viền trong CSS' → 'CSS_Borders.md' (Cornell + Expanded)
 - **Raw Source**: `00_Raw/Đường viền trong CSS.md`
 - **Output**: `02_Areas/IT_Knowledge/CSS_Borders.md`

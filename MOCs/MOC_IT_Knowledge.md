@@ -102,6 +102,7 @@ keywords: []
 - [[CSS_Tables]]: Định dạng bảng biểu — border-collapse, padding, Zebra striping, responsive table và table-layout.
 - [[CSS_Fonts]]: Định kiểu phông chữ — font-family, fallback system, font-size (em vs rem), shorthand và Google Fonts.
 - [[CSS_Borders]]: Thiết lập đường viền — border-style, TRBL clock-wise rules, border-radius, outline và shadows.
+- [[CSS_Backgrounds]]: Tùy chỉnh màu nền & ảnh nền — repeat, position, attachment, background-size, opacity vs RGBA, và gradients.
 - [[JavaScript_Basics]]: Biến, kiểu dữ liệu và cú pháp JS.
 - [[Git_Basics]]: Quản lý phiên bản với Git.
 - [[Java_Maven_Lombok]]: Quản lý dự án với Maven và tối ưu code với Lombok.

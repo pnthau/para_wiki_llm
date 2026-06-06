@@ -1,5 +1,11 @@
 # Vault Operations Log
 
+## [2026-06-06] Ingest | 'Sử dụng màu sắc trong trang web' → 'CSS_Colors.md' (Cornell + Expanded)
+- **Raw Source**: `00_Raw/Sử dụng màu sắc trong trang web.md`
+- **Output**: `02_Areas/IT_Knowledge/CSS_Colors.md`
+- **Expansion**: Documented Hex/RGB color spaces. Added RGBA alpha channels, HSL/HSLA color models, programmatic lightness adjustment (hover color scaling), and central theme management with CSS Variables (`:root`). Added Java analogies (Color constants, Color decode, Color HSB conversion, static constant colors).
+- **Status**: Success.
+
 ## [2026-06-06] Ingest | 'Điều chỉnh màu nền và ảnh nền' → 'CSS_Backgrounds.md' (Cornell + Expanded)
 - **Raw Source**: `00_Raw/Điều chỉnh màu nền và ảnh nền.md`
 - **Output**: `02_Areas/IT_Knowledge/CSS_Backgrounds.md`

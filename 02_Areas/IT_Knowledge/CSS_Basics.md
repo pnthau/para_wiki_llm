@@ -33,5 +33,6 @@ nexus_version: 8.2
 - [[CSS_Fonts]]
 - [[CSS_Borders]]
 - [[CSS_Backgrounds]]
+- [[CSS_Colors]]
 - [[HTML_Basics]]
 - [[JavaScript_Basics]]

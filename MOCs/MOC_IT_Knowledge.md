@@ -101,6 +101,7 @@ keywords: []
 - [[CSS_Modern_Nav_Menu]]: Thiết kế Navigation Menu hiện đại — Flexbox layout, A11y, và nguyên lý Composition.
 - [[CSS_Tables]]: Định dạng bảng biểu — border-collapse, padding, Zebra striping, responsive table và table-layout.
 - [[CSS_Fonts]]: Định kiểu phông chữ — font-family, fallback system, font-size (em vs rem), shorthand và Google Fonts.
+- [[CSS_Borders]]: Thiết lập đường viền — border-style, TRBL clock-wise rules, border-radius, outline và shadows.
 - [[JavaScript_Basics]]: Biến, kiểu dữ liệu và cú pháp JS.
 - [[Git_Basics]]: Quản lý phiên bản với Git.
 - [[Java_Maven_Lombok]]: Quản lý dự án với Maven và tối ưu code với Lombok.

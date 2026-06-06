@@ -1,5 +1,11 @@
 # Vault Operations Log
 
+## [2026-06-06] Ingest | 'Đường viền trong CSS' → 'CSS_Borders.md' (Cornell + Expanded)
+- **Raw Source**: `00_Raw/Đường viền trong CSS.md`
+- **Output**: `02_Areas/IT_Knowledge/CSS_Borders.md`
+- **Expansion**: Documented style options, color/width settings, and TRBL clock-wise rules. Added modern border-radius bo góc configurations, outline vs border layout behaviors, and shadow decorations. Added Swing border, Oval clipping, and Decorator OOP analogies.
+- **Status**: Success.
+
 ## [2026-06-06] Ingest | 'Phông chữ với CSS' → 'CSS_Fonts.md' (Cornell + Expanded)
 - **Raw Source**: `00_Raw/Phông chữ với CSS.md`
 - **Output**: `02_Areas/IT_Knowledge/CSS_Fonts.md`

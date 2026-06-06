@@ -1,5 +1,11 @@
 # Vault Operations Log
 
+## [2026-06-06] Ingest | 'Selector khác nhau trong CSS' → 'CSS_Selectors.md' (Cornell + Expanded)
+- **Raw Source**: `00_Raw/Selector khác nhau trong CSS.md`
+- **Output**: `02_Areas/IT_Knowledge/CSS_Selectors.md`
+- **Expansion**: Universal `*`, Descendant/Child selector, Pseudo-class `:hover/:focus`, Cheat-sheet hint table, Java Developer analogies (id≈biến, class≈interface, descendant≈composition).
+- **Status**: Success.
+
 ## [2026-06-06] Ingest | Transformed 'Cú pháp của CSS' raw file into '02_Areas/IT_Knowledge/CSS_Syntax.md' with Cornell format + expanded content (3 Selectors, 3 Embed methods, Specificity, Java hint). Updated 'MOC_IT_Knowledge.md' and bidirectional links.
 - **Raw Source**: `00_Raw/Cú pháp của CSS.md`
 - **Output**: `02_Areas/IT_Knowledge/CSS_Syntax.md`

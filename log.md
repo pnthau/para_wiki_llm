@@ -1,5 +1,11 @@
 # Vault Operations Log
 
+## [2026-06-06] Ingest | 'Phông chữ với CSS' → 'CSS_Fonts.md' (Cornell + Expanded)
+- **Raw Source**: `00_Raw/Phông chữ với CSS.md`
+- **Output**: `02_Areas/IT_Knowledge/CSS_Fonts.md`
+- **Expansion**: Standardized font styling, styling variables (normal/bold/100-900), size units (`px` vs `em` vs `rem` root sizing), Google Fonts loading methods, and shorthand `font` syntax. Added OOP analogies for fallback, scopes, and Maven dependencies.
+- **Status**: Success.
+
 ## [2026-06-06] Ingest | 'Bảng trong CSS' → 'CSS_Tables.md' (Cornell + Expanded)
 - **Raw Source**: `00_Raw/Bảng trong CSS.md`
 - **Output**: `02_Areas/IT_Knowledge/CSS_Tables.md`

@@ -27,5 +27,9 @@ nexus_version: 8.2
 **Related:**
 - [[MOC_IT_Knowledge]]
 - [[CSS_Syntax]]
+- [[CSS_Selectors]]
+- [[CSS_Lists]]
+- [[CSS_Tables]]
+- [[CSS_Fonts]]
 - [[HTML_Basics]]
 - [[JavaScript_Basics]]

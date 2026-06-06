@@ -1,5 +1,10 @@
 # Vault Operations Log
 
+## [2026-06-06] Lint | Split 'CSS_Lists.md' → Created 'CSS_Modern_Nav_Menu.md'
+- **Target**: `02_Areas/IT_Knowledge/CSS_Modern_Nav_Menu.md` & `02_Areas/IT_Knowledge/CSS_Lists.md`
+- **Action**: Extracted the detailed Flexbox Navigation Menu analysis out of `CSS_Lists.md` into a dedicated atomic note to improve readability. Left a concise link in `CSS_Lists.md` and updated `MOC_IT_Knowledge.md`.
+- **Status**: Success.
+
 ## [2026-06-06] Update | Consolidated Flexbox vs Lists Analysis into 'CSS_Lists.md'
 - **Target**: `02_Areas/IT_Knowledge/CSS_Lists.md`
 - **Details**: Updated practical nav menu example to use modern Flexbox pattern. Added analysis of Flexbox limitations on lists (marker box loss, WebKit/Safari list role bug) and workarounds (Composition, explicit A11y roles). Added OOP analogy (Composition vs Inheritance).

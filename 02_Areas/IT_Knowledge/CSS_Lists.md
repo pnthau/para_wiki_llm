@@ -20,42 +20,16 @@ nexus_version: 8.2
 | **Styling màu sắc `ol/ul` vs `li`** | Style đặt trên `<ol>/<ul>` → ảnh hưởng **cả danh sách** (kể cả marker).<br>Style đặt trên `<li>` → chỉ ảnh hưởng **từng phần tử**.<br>```ol { color: blue; }    /* Toàn bộ ol + marker đều xanh */        li { color: red; }/* Chỉ text từng li đỏ, marker vẫn theo ol */<br>```                                                                                                                                                                                                                |
 
 > [!TIP]
-> **⚡ Kỹ thuật thực tế: Tạo Navigation Menu Hiện đại từ `<ul>`**
-> Phương pháp hiện đại kết hợp tính chất **Semantic HTML** (sử dụng `<ul>`/`<li>` cho SEO và Accessibility) và sức mạnh layout của **Flexbox** thay vì `display: inline-block` hay `float: left` truyền thống:
-> ```css
-> /* Bước 1: Reset list về zero */
-> nav ul {
->   list-style: none;   /* Xóa bullet */
->   margin: 0;
->   padding: 0;
->   
->   /* Bước 2: Áp dụng Flexbox trên thẻ cha ul */
->   display: flex;      
->   gap: 1.5rem;        /* Khoảng cách trực tiếp giữa các item */
->   align-items: center;
-> }
-> /* Bước 3: Style link */
-> nav ul li a {
->   display: block;
->   padding: 10px 20px;
->   text-decoration: none;
->   color: white;
->   background: #333;
->   transition: background 0.2s;
-> }
-> nav ul li a:hover { background: #555; }
-> ```
-> ⚠️ **Hạn chế & Lưu ý khi dùng Flexbox với List:**
-> 1. **Mất dấu đầu dòng (Markers):** Nếu thiết lập `display: flex` trực tiếp trên thẻ `<li>`, phần tử sẽ chuyển từ định dạng `list-item` sang `flex-container` và làm mất hiệu lực của `list-style-type` (mất bullet point/marker).
->    * *Giải pháp:* Dùng giải pháp **Composition** (xem hint Java bên dưới).
-> 2. **Lỗi Accessibility (WebKit/Safari Bug):** Thay đổi `display` của `<ul>`/`<li>` thành `flex` có thể khiến một số trình duyệt (như Safari) xóa bỏ ngữ cảnh danh sách (List Role) trong cây hỗ trợ tiếp cận (A11y).
->    * *Giải pháp:* Thêm thuộc tính `role="list"` vào thẻ `<ul>` và `role="listitem"` vào các thẻ `<li>` trong mã HTML.
+> **⚡ Kỹ thuật thực tế: Tạo Navigation Menu từ `<ul>`**
+> Một trong những ứng dụng phổ biến nhất của danh sách trong CSS là thiết lập thanh menu điều hướng (Navigation Menu). Bằng cách kết hợp cấu trúc danh sách thuần với Flexbox layout, ta có thể xây dựng các menu hiện đại, chuẩn SEO và tối ưu trải nghiệm.
+> 
+> Xem chi tiết bài viết hướng dẫn thiết kế, các hạn chế kỹ thuật (A11y WebKit bug, mất markers) và giải pháp khắc phục bằng nguyên lý Composition tại:
+> 👉 **[[CSS_Modern_Nav_Menu]] (Thiết kế Menu Hiện đại)**
 
 > [!NOTE]
 > **💡 Hint cho Java Developer:**
 > - `list-style: none` + `padding: 0` là bước **khởi tạo / reset** — giống như khởi tạo một `ArrayList` rỗng trước khi thêm dữ liệu.
 > - Style trên `<ul>/<ol>` ≈ **style trên class cha** (kế thừa xuống). Style trên `<li>` ≈ **override trên class con** — nguyên tắc Inheritance & Override quen thuộc trong Java OOP.
-> - **Giải pháp Composition (Hợp thành) thay thế Inheritance (Kế thừa):** Khi muốn căn chỉnh layout bên trong item bằng Flexbox mà không làm mất marker tròn/số của `<li>` (do mất kiểu định dạng `list-item`), ta không biến `<li>` thành Flexbox trực tiếp. Thay vào đó, ta lồng một thẻ con `<div>` có `display: flex` bên trong `<li>`. Điều này phản ánh nguyên lý thiết kế phần mềm kinh điển: *"Favor Composition over Inheritance"* (Ưu tiên bố cục hơn kế thừa).
 
 <br>
 
@@ -66,6 +40,7 @@ nexus_version: 8.2
 ---
 **Related:**
 - [[MOC_IT_Knowledge]]
+- [[CSS_Modern_Nav_Menu]]
 - [[CSS_Basics]]
 - [[CSS_Selectors]]
 - [[HTML_Basics]]

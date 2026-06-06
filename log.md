@@ -1,5 +1,10 @@
 # Vault Operations Log
 
+## [2026-06-06] Update | Consolidated Flexbox vs Lists Analysis into 'CSS_Lists.md'
+- **Target**: `02_Areas/IT_Knowledge/CSS_Lists.md`
+- **Details**: Updated practical nav menu example to use modern Flexbox pattern. Added analysis of Flexbox limitations on lists (marker box loss, WebKit/Safari list role bug) and workarounds (Composition, explicit A11y roles). Added OOP analogy (Composition vs Inheritance).
+- **Status**: Success.
+
 ## [2026-06-06] Ingest | 'Danh sách trong CSS' → 'CSS_Lists.md' (Cornell + Expanded)
 - **Raw Source**: `00_Raw/Danh sách trong CSS.md`
 - **Output**: `02_Areas/IT_Knowledge/CSS_Lists.md`

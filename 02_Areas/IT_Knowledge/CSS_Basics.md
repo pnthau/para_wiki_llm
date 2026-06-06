@@ -10,12 +10,12 @@ nexus_version: 8.2
 
 # 🎨 CSS Basics (Định dạng trang web)
 
-| 💡 Từ khóa / Câu hỏi (Cue) | 📝 Nội dung ghi chú (Notes) |
-| :--- | :--- |
-| **CSS là gì?** | - **CSS** là viết tắt của **Cascading Style Sheets** (Bảng kiểu dáng xếp chồng).<br>- Dùng để mô tả cách định dạng, kiểu dáng, và phong cách hiển thị của các phần tử HTML trên trang web hoặc các phương tiện truyền thông khác. |
-| **Mục đích & Vai trò** | - Định nghĩa diện mạo của trang web (màu sắc, phông chữ, bố cục).<br>- Tách biệt phần nội dung/cấu trúc (HTML) khỏi phần trình bày/giao diện (CSS). |
-| **Sự phát triển lịch sử** | - Ban đầu, HTML chỉ dùng để định nghĩa nội dung (`<h1>`, `<p>`).<br>- Để định dạng, HTML từng thêm các thẻ trình bày (`<font>`, `<u>`, `<i>`, `<b>`...) làm mã nguồn phình to, lộn xộn và cực kỳ khó duy trì.<br>- CSS ra đời để giải quyết triệt để vấn đề này, giúp kiểm soát giao diện một cách tập trung và nhất quán. |
-| **Lợi ích cốt lõi** | - **Tiết kiệm công sức**: Một file CSS có thể định dạng cho nhiều trang HTML cùng lúc.<br>- **Dễ dàng bảo trì**: Thay đổi giao diện toàn bộ website chỉ bằng việc chỉnh sửa mã CSS tại một nơi duy nhất.<br>- **Tối ưu hiệu năng**: File CSS ngoài (external file) có thể được trình duyệt lưu vào bộ nhớ đệm (cache). |
+| 💡 Từ khóa / Câu hỏi (Cue) | 📝 Nội dung ghi chú (Notes)                                                                                                                                                                                                                                                                                                |
+| :------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **CSS là gì?**             | - **CSS** là viết tắt của **Cascading Style Sheets** (Bảng kiểu dáng xếp chồng).<br>- Dùng để mô tả cách định dạng, kiểu dáng, và phong cách hiển thị của các phần tử HTML trên trang web hoặc các phương tiện truyền thông khác.                                                                                          |
+| **Mục đích & Vai trò**     | - Định nghĩa diện mạo của trang web (màu sắc, phông chữ, bố cục).<br>- Tách biệt phần nội dung/cấu trúc (HTML) khỏi phần trình bày/giao diện (CSS).                                                                                                                                                                        |
+| **Sự phát triển lịch sử**  | - Ban đầu, HTML chỉ dùng để định nghĩa nội dung (`<h1>`, `<p>`).<br>- Để định dạng, HTML từng thêm các thẻ trình bày (`<font>`, `<u>`, `<i>`, `<b>`...) làm mã nguồn phình to, lộn xộn và cực kỳ khó duy trì.<br>- CSS ra đời để giải quyết triệt để vấn đề này, giúp kiểm soát giao diện một cách tập trung và nhất quán. |
+| **Lợi ích cốt lõi**        | - **Tiết kiệm công sức**: Một file CSS có thể định dạng cho nhiều trang HTML cùng lúc.<br>- **Dễ dàng bảo trì**: Thay đổi giao diện toàn bộ website chỉ bằng việc chỉnh sửa mã CSS tại một nơi duy nhất.<br>- **Tối ưu hiệu năng**: File CSS ngoài (external file) có thể được trình duyệt lưu vào bộ nhớ đệm (cache).     |
 
 <br>
 
@@ -26,5 +26,6 @@ nexus_version: 8.2
 ---
 **Related:**
 - [[MOC_IT_Knowledge]]
+- [[CSS_Syntax]]
 - [[HTML_Basics]]
 - [[JavaScript_Basics]]

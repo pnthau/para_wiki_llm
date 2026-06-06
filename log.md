@@ -1,5 +1,11 @@
 # Vault Operations Log
 
+## [2026-06-06] Ingest | Transformed 'Cú pháp của CSS' raw file into '02_Areas/IT_Knowledge/CSS_Syntax.md' with Cornell format + expanded content (3 Selectors, 3 Embed methods, Specificity, Java hint). Updated 'MOC_IT_Knowledge.md' and bidirectional links.
+- **Raw Source**: `00_Raw/Cú pháp của CSS.md`
+- **Output**: `02_Areas/IT_Knowledge/CSS_Syntax.md`
+- **Expansion**: Thêm 3 loại Selector, 3 cách nhúng CSS, thứ tự ưu tiên Specificity và Hint cho Java Developer.
+- **Status**: Success.
+
 ## [2026-06-06] Ingest | Transformed 'CSS là gì' raw file into '02_Areas/IT_Knowledge/CSS_Basics.md' with Cornell format. Updated 'MOC_IT_Knowledge.md'.
 - **Raw Source**: `00_Raw/CSS là gì.md`
 - **Output**: `02_Areas/IT_Knowledge/CSS_Basics.md`

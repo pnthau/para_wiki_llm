@@ -97,6 +97,7 @@ keywords: []
 - [[CSS_Basics]]: Định dạng và phong cách hiển thị trang web (style).
 - [[CSS_Syntax]]: Cú pháp CSS — Selector, Declaration Block và 3 cách nhúng CSS.
 - [[CSS_Selectors]]: Các loại Selector — Element, ID, Class, Grouping, Pseudo-class.
+- [[CSS_Lists]]: Định kiểu Danh sách — list-style-type, image, position và pattern Nav Menu.
 - [[JavaScript_Basics]]: Biến, kiểu dữ liệu và cú pháp JS.
 - [[Git_Basics]]: Quản lý phiên bản với Git.
 - [[Java_Maven_Lombok]]: Quản lý dự án với Maven và tối ưu code với Lombok.

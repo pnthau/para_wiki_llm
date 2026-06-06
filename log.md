@@ -1,5 +1,11 @@
 # Vault Operations Log
 
+## [2026-06-06] Ingest | 'Danh sách trong CSS' → 'CSS_Lists.md' (Cornell + Expanded)
+- **Raw Source**: `00_Raw/Danh sách trong CSS.md`
+- **Output**: `02_Areas/IT_Knowledge/CSS_Lists.md`
+- **Expansion**: Bảng giá trị `list-style-type` (disc/circle/square/decimal/alpha/roman), cảnh báo `list-style-image` fallback, so sánh `inside/outside`, color inheritance logic, Nav Menu pattern thực tế, Java OOP analogy.
+- **Status**: Success.
+
 ## [2026-06-06] Ingest | 'Selector khác nhau trong CSS' → 'CSS_Selectors.md' (Cornell + Expanded)
 - **Raw Source**: `00_Raw/Selector khác nhau trong CSS.md`
 - **Output**: `02_Areas/IT_Knowledge/CSS_Selectors.md`

@@ -20,6 +20,10 @@ keywords: []
 
 ## 📅 Nhật ký tiến độ
 
+### Rà soát Ngữ pháp & Luyện tập (2026-06-07)
+- [x] **Ngữ pháp `来てください`**: Phân tích thể て của động từ bất quy tắc `来る` (kuru) -> `来て` (kite) và cấu trúc yêu cầu lịch sự `～てください`.
+- [ ] **Mục tiêu:** John hoàn thành câu ví dụ thực hành phản xạ.
+
 ### Giai đoạn Ôn thi & Thuyết trình (2026-05-11)
 - [x] **Hệ thống hóa N5**: Đã tạo [[N5_Grammar_Review_U7_U12]] và [[N5_Vocabulary_Review_Master]] để phục vụ Mock Tests.
 - [x] **Lộ trình thuyết trình**: Đã thiết lập [[Japanese_Presentation_Roadmap]] để nâng cấp kỹ năng nói và phát âm Katakana IT.

@@ -47,6 +47,9 @@ keywords: []
 - [[Dreyfus_Model_Skill_Acquisition]]: Mô hình 5 giai đoạn phát triển kỹ năng.
 - [[Effective_Skill_Training_20_Hours]]: Quy tắc 20 giờ đầu tiên để thành thạo kỹ năng mới.
 
+## 🐣 Animal Husbandry & Farming (Nông nghiệp & Chăn nuôi)
+- [[01_Projects/Chicken_Tracking_Log|Nhật ký theo dõi đàn gà Mía]]: Bảng theo dõi đẻ trứng, chu kỳ ánh sáng và kế hoạch khắc phục sốc ánh sáng.
+
 ## ⚔️ Strategy & Wisdom (Strategy Master)
 *   **Chi tiết:** [[MOC_Strategy]]
 *   [[Sun_Tzu_Art_of_War_Overview]]: Tổng quan về 13 thiên Binh pháp Tôn Tử.

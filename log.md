@@ -1,5 +1,10 @@
 # Vault Operations Log
 
+## [2026-06-07] Dev | Created 'Chicken_Tracking_Log.md' & Updated 'MOC_Personal_Growth.md'
+- **Target**: `01_Projects/Chicken_Tracking_Log.md` & `MOCs/MOC_Personal_Growth.md`
+- **Action**: Created a dedicated tracking project log for John's 30 Mía Sơn Tây hens to resolve egg-laying drop after lighting intervention. Linked the log under a new "Animal Husbandry & Farming" section in the Personal Growth MOC.
+- **Status**: Success.
+
 ## [2026-06-06] Ingest | 'Sử dụng màu sắc trong trang web' → 'CSS_Colors.md' (Cornell + Expanded)
 - **Raw Source**: `00_Raw/Sử dụng màu sắc trong trang web.md`
 - **Output**: `02_Areas/IT_Knowledge/CSS_Colors.md`

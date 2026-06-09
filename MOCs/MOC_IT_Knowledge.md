@@ -104,6 +104,7 @@ keywords: []
 - [[CSS_Borders]]: Thiết lập đường viền — border-style, TRBL clock-wise rules, border-radius, outline và shadows.
 - [[CSS_Backgrounds]]: Tùy chỉnh màu nền & ảnh nền — repeat, position, attachment, background-size, opacity vs RGBA, và gradients.
 - [[CSS_Colors]]: Định dạng màu sắc — Color names, RGB/RGBA, HEX codes, HSL/HSLA và CSS Variables.
+- [[CSS_Responsive_Design]]: Thiết kế web responsive, Grid view layout và Media Queries kết hợp tư duy Java Layout.
 - [[JavaScript_Basics]]: Biến, kiểu dữ liệu và cú pháp JS.
 - [[Git_Basics]]: Quản lý phiên bản với Git.
 - [[Java_Maven_Lombok]]: Quản lý dự án với Maven và tối ưu code với Lombok.

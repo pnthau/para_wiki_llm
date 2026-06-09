@@ -30,6 +30,7 @@ nexus_version: 6.0
 | `docs-lookup` | `agents/docs-lookup.md` | + web_fetch, google_web_search | Tra cá»©u docs (API, library) | Khi cáº§n info chÃ­nh thá»©c |
 | `pdf-investigator` | `agents/pdf-investigator.md` | + read_many_files, list_directory, run_shell_command, write_file | Ä á» c PDF scan + query cÃ³ citation | Upload PDF, há» i ná»™i dung sÃ¡ch scan |
 | `ga-expert` | `agents/ga-expert.md` | + google_web_search, web_fetch, write_file, ask_user | Chuyên gia nuôi gà: bệnh, dinh dưỡng, chuồng trại, kinh tế | Mọi câu hỏi về nuôi gà |
+| `english-file-tutor` | `agents/english-file-tutor.md` | + replace | Dạy tiếng Anh giao tiếp (English File method) | Học tiếng Anh, luyện nói, roleplay |
 
 > Ghi chÃº: "default 3" = `read_file`, `grep_search`, `glob`.
 > Model: táº¥t cáº£ agent dÃ¹ng `inherit` (káº¿ thá»«a tá»« session). CÃ³ thá»ƒ override trong `settings.json` â†’ `agents.overrides.<name>.modelConfig.model`.
@@ -49,6 +50,7 @@ nexus_version: 6.0
 | `doc-updater` | `skills/learning-web-architect` |
 | `pdf-investigator` | `skills/pdf-japanese-ocr` |
 | `ga-expert` | `skills/ga-expert` |
+| `english-file-tutor` | `skills/english-file-tutor` |
 
 ---
 

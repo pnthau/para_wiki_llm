@@ -1,0 +1,1 @@
+﻿Copy-Item -Path "D:\data\para_wiki_llm\big-lama.pt" -Destination "D:\Apps\视频字幕去除器\_internal\backend\models\big-lama\big-lama.pt" -Force

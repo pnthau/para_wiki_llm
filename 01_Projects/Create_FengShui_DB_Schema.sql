@@ -1,7 +1,7 @@
 -- =========================================================================
--- SCRIPT TẠO DATABASE VÀ BẢNG CHO DỰ ÁN WEB TRANG SỨC PHONG THỦY
+-- SCRIPT TẠO DATABASE VÀ BẢNG CHO DỰ ÁN WEB TRANG SỨC PHONG THỦY (CHUYỂN NGHIỆP - 3NF)
 -- Hệ quản trị CSDL: MySQL / MariaDB
--- Thiết kế tinh giản tối đa dành cho dự án Java Servlet, JSP + JDBC thuần
+-- Hỗ trợ quan hệ Nhiều-Nhiều (Many-to-Many) giữa Sản phẩm và Mệnh phong thủy
 -- =========================================================================
 
 -- 1. Tạo Database mới nếu chưa có
@@ -12,6 +12,7 @@ USE fengshui_db;
 SET FOREIGN_KEY_CHECKS = 0;
 DROP TABLE IF EXISTS order_items;
 DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS product_elements;
 DROP TABLE IF EXISTS products;
 DROP TABLE IF EXISTS users;
 SET FOREIGN_KEY_CHECKS = 1;
@@ -37,13 +38,20 @@ CREATE TABLE products (
     material VARCHAR(100) NOT NULL,
     image_url VARCHAR(500) DEFAULT NULL,
     youtube_url VARCHAR(500) DEFAULT NULL, -- Link video thực tế nhúng YouTube
-    fengshui_element VARCHAR(50) NOT NULL, -- Mệnh hợp: KIM, MOC, THUY, HOA, THO
     status VARCHAR(50) DEFAULT 'ACTIVE',  -- ACTIVE, INACTIVE, OUT_OF_STOCK
     description TEXT,                      -- Mô tả ý nghĩa phong thủy và chất lượng sản phẩm
     CONSTRAINT pk_products PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 
--- Bảng 3: orders (Thông tin chung đơn đặt hàng nhanh)
+-- Bảng 3: product_elements (Bảng trung gian giải quyết quan hệ Nhiều-Nhiều)
+CREATE TABLE product_elements (
+    product_id INT NOT NULL,
+    element VARCHAR(50) NOT NULL,          -- Mệnh hợp: KIM, MOC, THUY, HOA, THO
+    CONSTRAINT pk_product_elements PRIMARY KEY (product_id, element),
+    CONSTRAINT fk_product_elements_products FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
+) ENGINE=InnoDB;
+
+-- Bảng 4: orders (Thông tin chung đơn đặt hàng nhanh)
 CREATE TABLE orders (
     id INT AUTO_INCREMENT,
     customer_name VARCHAR(100) NOT NULL,
@@ -55,7 +63,7 @@ CREATE TABLE orders (
     CONSTRAINT pk_orders PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 
--- Bảng 4: order_items (Chi tiết sản phẩm nằm trong đơn hàng)
+-- Bảng 5: order_items (Chi tiết sản phẩm nằm trong đơn hàng)
 CREATE TABLE order_items (
     id INT AUTO_INCREMENT,
     order_id INT NOT NULL,
@@ -72,76 +80,90 @@ CREATE TABLE order_items (
 -- =========================================================================
 
 -- Chèn tài khoản Admin mẫu
--- Mật khẩu dưới đây đang lưu dạng thô (text): 'admin123'. 
--- Khi viết code Java, anh có thể sửa thành chuỗi mã hóa để đảm bảo bảo mật.
 INSERT INTO users (username, password, role) VALUES 
 ('admin', 'admin123', 'ADMIN');
 
--- Chèn danh sách sản phẩm trang sức phong thủy mẫu
-INSERT INTO products (name, price, material, image_url, youtube_url, fengshui_element, status, description) VALUES 
+-- Chèn danh sách sản phẩm trang sức phong thủy mẫu (Không còn cột mệnh ở đây)
+INSERT INTO products (id, name, price, material, image_url, youtube_url, status, description) VALUES 
 (
+    1,
     'Vòng Tay Thạch Anh Tóc Vàng 10 ly', 
     1250000.00, 
     'Đá Thạch Anh Tóc Vàng Tự Nhiên, charm Vàng Non 10K', 
     'assets/images/vong-tay-toc-vang.jpg', 
-    'https://www.youtube.com/embed/dQw4w9WgXcQ', -- Link embed YouTube test
-    'KIM', 
+    'https://www.youtube.com/embed/dQw4w9WgXcQ', 
     'ACTIVE', 
     'Thạch anh tóc vàng tự nhiên mang năng lượng thu hút tài lộc mạnh mẽ. Rất phù hợp cho người mệnh Kim (tương hợp) và mệnh Thủy (tương sinh).'
 ),
 (
+    2,
     'Mặt Dây Chuyền Tỳ Hưu Cẩm Thạch', 
     1850000.00, 
     'Ngọc Cẩm Thạch Sơn Thủy, móc khóa Vàng Non 14K', 
     'assets/images/ty-huu-cam-thach.jpg', 
     NULL, 
-    'MOC', 
     'ACTIVE', 
     'Mặt dây chuyền Tỳ Hưu chế tác từ Ngọc Cẩm Thạch thiên nhiên giúp trấn trạch, trừ tà và mang lại bình an. Hợp nhất với người mệnh Mộc và Hỏa.'
 ),
 (
+    3,
     'Nhẫn Đá Obsidian Đen Huyền Bí', 
     950000.00, 
     'Đá Thủy Tinh Núi Lửa (Obsidian), ổ nhẫn Bạc mạ Vàng Non', 
     'assets/images/nhan-obsidian-den.jpg', 
     'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    'THUY', 
     'ACTIVE', 
     'Đá Obsidian đen là biểu tượng của sự bảo vệ khỏi năng lượng tiêu cực, tăng cường trực giác và bản lĩnh. Hợp người mệnh Thủy và Mộc.'
 ),
 (
+    4,
     'Bông Tai Đá Ruby Hồng Ngọc', 
     2400000.00, 
     'Đá Ruby Tự Nhiên, chuôi đeo Vàng Non 18K', 
     'assets/images/bong-tai-ruby.jpg', 
     NULL, 
-    'HOA', 
     'ACTIVE', 
     'Bông tai với viên Ruby đỏ tự nhiên quý hiếm mang lại năng lượng tình duyên, gia đạo ấm êm và nhiệt huyết. Thích hợp cho người mệnh Hỏa và Thổ.'
 ),
 (
+    5,
     'Vòng Tay Chỉ Đỏ Mix Đá Mắt Hổ Vàng Nâu', 
     450000.00, 
     'Đá Mắt Hổ Vàng Nâu Tự Nhiên, charm Tỳ Hưu Vàng Non 10K', 
     'assets/images/vong-tay-mat-ho.jpg', 
     'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    'THO', 
     'ACTIVE', 
     'Vòng tay đá mắt hổ kết hợp chỉ đỏ may mắn giúp tăng tự tin, mang lại bình an cho chủ nhân. Thích hợp nhất cho người mệnh Thổ và Kim.'
 );
 
--- Chèn đơn hàng mẫu để test chức năng thống kê của Admin và lịch sử mua của User
--- Giả sử Khách hàng Nguyễn Văn A (SĐT: 0905123456) mua Vòng tay Thạch Anh Tóc Vàng
+-- Chèn mối liên kết Nhiều-Nhiều vào bảng product_elements
+-- Mỗi sản phẩm giờ đây có thể tương sinh/tương hợp với 2 mệnh khác nhau
+INSERT INTO product_elements (product_id, element) VALUES 
+(1, 'KIM'), -- Vòng thạch anh tóc vàng hợp mệnh Kim
+(1, 'THUY'), -- hợp mệnh Thủy (Tương sinh)
+
+(2, 'MOC'), -- Tỳ hưu cẩm thạch hợp mệnh Mộc
+(2, 'HOA'), -- hợp mệnh Hỏa (Tương sinh)
+
+(3, 'THUY'), -- Nhẫn Obsidian hợp mệnh Thủy
+(3, 'MOC'), -- hợp mệnh Mộc (Tương sinh)
+
+(4, 'HOA'), -- Bông tai Ruby hợp mệnh Hỏa
+(4, 'THO'), -- hợp mệnh Thổ (Tương sinh)
+
+(5, 'THO'), -- Vòng mắt hổ hợp mệnh Thổ
+(5, 'KIM'); -- hợp mệnh Kim (Tương sinh)
+
+-- Chèn đơn hàng mẫu để test
 INSERT INTO orders (customer_name, customer_phone, customer_address, total_price, status, created_at) VALUES 
 ('Nguyễn Văn A', '0905123456', '123 Hùng Vương, Đà Nẵng', 1250000.00, 'APPROVED', '2026-06-05 10:30:00');
 
 INSERT INTO order_items (order_id, product_id, quantity, price_at_purchase) VALUES 
 (1, 1, 1, 1250000.00);
 
--- Giả sử Khách hàng Nguyễn Văn A tiếp tục mua thêm 1 nhẫn Obsidian và 1 vòng tay Mắt Hổ
 INSERT INTO orders (customer_name, customer_phone, customer_address, total_price, status, created_at) VALUES 
 ('Nguyễn Văn A', '0905123456', '123 Hùng Vương, Đà Nẵng', 1400000.00, 'PENDING', '2026-06-10 09:00:00');
 
 INSERT INTO order_items (order_id, product_id, quantity, price_at_purchase) VALUES 
-(2, 3, 1, 950000.00), -- 1 nhẫn Obsidian
-(2, 5, 1, 450000.00); -- 1 vòng mắt hổ
+(2, 3, 1, 950000.00), 
+(2, 5, 1, 450000.00);

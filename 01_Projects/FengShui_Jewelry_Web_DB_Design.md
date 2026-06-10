@@ -8,7 +8,7 @@
 ### 🗺️ 1. Sơ đồ thực thể quan hệ (ERD)
 
 ```mermaid
-erJiagram
+erDiagram
     USERS ||--o{ PRODUCTS : "manages"
     PRODUCTS ||--o{ ORDER_ITEMS : "included_in"
     PRODUCTS ||--o{ PRODUCT_ELEMENTS : "has"
@@ -25,6 +25,7 @@ erJiagram
         int id PK "Khóa chính tự tăng"
         string name "Tên trang sức"
         decimal price "Giá sản phẩm"
+        int quantity "Số lượng tồn kho"
         string material "Chất liệu (Đá quý, tuổi vàng)"
         string image_url "Đường dẫn ảnh chính"
         string youtube_url "Đường dẫn video YouTube thực tế (có thể NULL)"
@@ -71,13 +72,14 @@ erJiagram
 ---
 
 #### Bảng 2: `products` (Thông tin sản phẩm trang sức phong thủy)
-- *Lưu ý:* Cột `fengshui_element` đã được loại bỏ để đưa sang bảng trung gian.
+- *Cập nhật:* Đã bổ sung cột `quantity` để quản lý số lượng tồn kho sản phẩm.
 
 | Tên trường (Column) | Kiểu dữ liệu | Thuộc tính (Constraints) | Ý nghĩa |
 | :--- | :--- | :--- | :--- |
 | `id` | `INT` | `PRIMARY KEY`, `AUTO_INCREMENT` | Khóa chính |
 | `name` | `VARCHAR(255)` | `NOT NULL` | Tên trang sức |
 | `price` | `DECIMAL(12,2)` | `NOT NULL` | Giá bán sản phẩm |
+| `quantity` | `INT` | `NOT NULL`, `DEFAULT 0` | **Đặc tả bổ sung:** Số lượng tồn kho còn lại của sản phẩm |
 | `material` | `VARCHAR(100)` | | Mô tả chất liệu (Ví dụ: *Vàng non 10K, thạch anh*) |
 | `image_url` | `VARCHAR(500)` | | Đường dẫn đến hình ảnh hiển thị trên web |
 | `youtube_url` | `VARCHAR(500)` | `DEFAULT NULL` | Link video YouTube thực tế |
@@ -87,9 +89,6 @@ erJiagram
 ---
 
 #### Bảng 3: `product_elements` (Bảng trung gian Sản phẩm - Mệnh phong thủy)
-- **Mục đích:** Giải quyết triệt để quan hệ Nhiều-Nhiều. Một sản phẩm có thể tương thích với nhiều Mệnh phong thủy khác nhau.
-- **Khóa chính (PK):** Là khóa tổ hợp gồm cả hai trường `(product_id, element)`.
-
 | Tên trường (Column) | Kiểu dữ liệu | Thuộc tính (Constraints) | Ý nghĩa |
 | :--- | :--- | :--- | :--- |
 | `product_id` | `INT` | `FOREIGN KEY` -> `products(id)` ON DELETE CASCADE | ID sản phẩm |

@@ -35,6 +35,7 @@ CREATE TABLE products (
     id INT AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
     price DECIMAL(12,2) NOT NULL,
+    quantity INT NOT NULL DEFAULT 0,       -- Số lượng tồn kho còn lại của sản phẩm
     material VARCHAR(100) NOT NULL,
     image_url VARCHAR(500) DEFAULT NULL,
     youtube_url VARCHAR(500) DEFAULT NULL, -- Link video thực tế nhúng YouTube
@@ -83,12 +84,13 @@ CREATE TABLE order_items (
 INSERT INTO users (username, password, role) VALUES 
 ('admin', 'admin123', 'ADMIN');
 
--- Chèn danh sách sản phẩm trang sức phong thủy mẫu (Không còn cột mệnh ở đây)
-INSERT INTO products (id, name, price, material, image_url, youtube_url, status, description) VALUES 
+-- Chèn danh sách sản phẩm trang sức phong thủy mẫu (Có thêm cột quantity tồn kho)
+INSERT INTO products (id, name, price, quantity, material, image_url, youtube_url, status, description) VALUES 
 (
     1,
     'Vòng Tay Thạch Anh Tóc Vàng 10 ly', 
     1250000.00, 
+    15, -- Số lượng tồn kho
     'Đá Thạch Anh Tóc Vàng Tự Nhiên, charm Vàng Non 10K', 
     'assets/images/vong-tay-toc-vang.jpg', 
     'https://www.youtube.com/embed/dQw4w9WgXcQ', 
@@ -99,6 +101,7 @@ INSERT INTO products (id, name, price, material, image_url, youtube_url, status,
     2,
     'Mặt Dây Chuyền Tỳ Hưu Cẩm Thạch', 
     1850000.00, 
+    8, -- Số lượng tồn kho
     'Ngọc Cẩm Thạch Sơn Thủy, móc khóa Vàng Non 14K', 
     'assets/images/ty-huu-cam-thach.jpg', 
     NULL, 
@@ -109,6 +112,7 @@ INSERT INTO products (id, name, price, material, image_url, youtube_url, status,
     3,
     'Nhẫn Đá Obsidian Đen Huyền Bí', 
     950000.00, 
+    20, -- Số lượng tồn kho
     'Đá Thủy Tinh Núi Lửa (Obsidian), ổ nhẫn Bạc mạ Vàng Non', 
     'assets/images/nhan-obsidian-den.jpg', 
     'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -119,6 +123,7 @@ INSERT INTO products (id, name, price, material, image_url, youtube_url, status,
     4,
     'Bông Tai Đá Ruby Hồng Ngọc', 
     2400000.00, 
+    5, -- Số lượng tồn kho
     'Đá Ruby Tự Nhiên, chuôi đeo Vàng Non 18K', 
     'assets/images/bong-tai-ruby.jpg', 
     NULL, 
@@ -129,6 +134,7 @@ INSERT INTO products (id, name, price, material, image_url, youtube_url, status,
     5,
     'Vòng Tay Chỉ Đỏ Mix Đá Mắt Hổ Vàng Nâu', 
     450000.00, 
+    30, -- Số lượng tồn kho
     'Đá Mắt Hổ Vàng Nâu Tự Nhiên, charm Tỳ Hưu Vàng Non 10K', 
     'assets/images/vong-tay-mat-ho.jpg', 
     'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -137,22 +143,21 @@ INSERT INTO products (id, name, price, material, image_url, youtube_url, status,
 );
 
 -- Chèn mối liên kết Nhiều-Nhiều vào bảng product_elements
--- Mỗi sản phẩm giờ đây có thể tương sinh/tương hợp với 2 mệnh khác nhau
 INSERT INTO product_elements (product_id, element) VALUES 
-(1, 'KIM'), -- Vòng thạch anh tóc vàng hợp mệnh Kim
-(1, 'THUY'), -- hợp mệnh Thủy (Tương sinh)
+(1, 'KIM'), 
+(1, 'THUY'), 
 
-(2, 'MOC'), -- Tỳ hưu cẩm thạch hợp mệnh Mộc
-(2, 'HOA'), -- hợp mệnh Hỏa (Tương sinh)
+(2, 'MOC'), 
+(2, 'HOA'), 
 
-(3, 'THUY'), -- Nhẫn Obsidian hợp mệnh Thủy
-(3, 'MOC'), -- hợp mệnh Mộc (Tương sinh)
+(3, 'THUY'), 
+(3, 'MOC'), 
 
-(4, 'HOA'), -- Bông tai Ruby hợp mệnh Hỏa
-(4, 'THO'), -- hợp mệnh Thổ (Tương sinh)
+(4, 'HOA'), 
+(4, 'THO'), 
 
-(5, 'THO'), -- Vòng mắt hổ hợp mệnh Thổ
-(5, 'KIM'); -- hợp mệnh Kim (Tương sinh)
+(5, 'THO'), 
+(5, 'KIM');
 
 -- Chèn đơn hàng mẫu để test
 INSERT INTO orders (customer_name, customer_phone, customer_address, total_price, status, created_at) VALUES 

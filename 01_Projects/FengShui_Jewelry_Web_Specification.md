@@ -24,3 +24,13 @@
 - **Lọc sản phẩm theo Cung Mệnh:** Phân loại sản phẩm trực quan theo Kim, Mộc, Thủy, Hỏa, Thổ.
 - **Công cụ tra cứu mệnh theo Năm sinh:** Cho phép nhập năm sinh dương lịch để tự động tính ra mệnh phong thủy và chuyển hướng đến danh mục sản phẩm tương ứng.
 - **Nhúng video YouTube:** Hỗ trợ nhúng video quay cận cảnh sản phẩm hoặc video hướng dẫn vào bài viết và trang chi tiết sản phẩm.
+
+---
+
+### 4. Đặc tả kỹ thuật lưu trữ (Technical Specification)
+- **Quản lý Giỏ hàng:** Lưu trữ hoàn toàn ở phía client (trình duyệt của khách hàng) bằng `localStorage` để tương thích tốt trên mọi thiết bị di động (Mobile) và máy tính, giúp cơ sở dữ liệu tinh giản tối đa.
+- **Lưu trữ hình ảnh sản phẩm:** Sử dụng dịch vụ đám mây **Cloudinary hoặc Firebase Storage**.
+  - Khi Admin thêm mới/sửa sản phẩm và tải ảnh lên, hệ thống sẽ upload ảnh trực tiếp lên Cloud.
+  - Database chỉ lưu trữ đường link tuyệt đối (URL HTTPS, ví dụ: `https://res.cloudinary.com/...`) do Cloud cung cấp.
+  - *Lợi ích:* Tránh phình to dung lượng Database, giảm tải đọc ghi file cho Tomcat Server, và không lo mất ảnh khi redeploy dự án trên máy local.
+

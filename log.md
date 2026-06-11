@@ -1,5 +1,10 @@
 # Vault Operations Log
 
+## [2026-06-11] Dev | Expanded FengShui DB Schema with Inventory Mgmt & Triggers
+- **Target**: `01_Projects/Create_FengShui_DB_Schema.sql`, `01_Projects/FengShui_Jewelry_Web_DB_Design.md` & `01_Projects/Servlet_JSP_Project_Structure.md`
+- **Action**: Added table `inventory_transactions` to track stock imports and exports. Added two MySQL triggers: `trg_after_insert_order_items` to auto-export on sale, and `trg_after_insert_inventory_transaction` to update product stock level. Updated ERD and MVC code blueprint to match this database structure.
+- **Status**: Success.
+
 ## [2026-06-11] Dev | Created 'Web_AppSec_Spam_Defense.md' & Updated MOC_IT_Knowledge.md
 - **Target**: `02_Areas/IT_Knowledge/Web_AppSec_Spam_Defense.md` & `MOCs/MOC_IT_Knowledge.md`
 - **Action**: Created a comprehensive guide on Web Application Security and Spam Defense focusing on no-login checkouts for the elderly (analyzing Honeypots, Time-locks, Automation detection, Cloudflare Turnstile, and Java Filter Rate Limiting). Bidirectionally linked to the MOC.

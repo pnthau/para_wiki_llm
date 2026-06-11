@@ -16,19 +16,22 @@ src/main/
 │           │   ├── User.java
 │           │   ├── Product.java
 │           │   ├── Order.java
-│           │   └── OrderItem.java
+│           │   ├── OrderItem.java
+│           │   └── InventoryTransaction.java (Quản lý nhập xuất - Mới)
 │           │
 │           ├── dao/            (Lớp truy vấn DB bằng JDBC thuần)
 │           │   ├── BaseDAO.java     (Chứa kết nối DB dùng chung)
 │           │   ├── UserDAO.java
 │           │   ├── ProductDAO.java
-│           │   └── OrderDAO.java
+│           │   ├── OrderDAO.java
+│           │   └── InventoryDAO.java (Truy vấn kho - Mới)
 │           │
 │           ├── controller/     (Các Servlet xử lý HTTP Request)
 │           │   ├── admin/      (Quản trị hệ thống)
 │           │   │   ├── DashboardController.java  (Thống kê doanh thu)
 │           │   │   ├── ProductController.java    (CRUD sản phẩm)
-│           │   │   └── OrderController.java      (Duyệt đơn hàng)
+│           │   │   ├── OrderController.java      (Duyệt đơn hàng)
+│           │   │   └── InventoryController.java  (Nhập/Xuất kho - Mới)
 │           │   │
 │           │   └── user/       (Khách hàng mua sắm)
 │           │       ├── HomeController.java       (Trang chủ)
@@ -47,7 +50,8 @@ src/main/
     │       ├── admin/
     │       │   ├── dashboard.jsp
     │       │   ├── product-list.jsp
-    │       │   └── order-list.jsp
+    │       │   ├── order-list.jsp
+    │       │   └── inventory.jsp                 (Mới)
     │       └── user/
     │           ├── home.jsp
     │           ├── product-list.jsp
@@ -160,6 +164,67 @@ public class ProductDAO extends BaseDAO {
                     p.setDescription(rs.getString("description"));
                     list.add(p);
                 }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+}
+```
+
+#### D. Lớp `InventoryDAO.java` (Quản lý Nhập/Xuất kho bằng JDBC thuần)
+*Cho phép Admin thực hiện Nhập/Xuất kho thủ công. Việc cập nhật số lượng tồn kho của sản phẩm sẽ được tự động xử lý ở tầng Database thông qua Triggers.*
+
+```java
+package com.fengshui.dao;
+
+import com.fengshui.model.InventoryTransaction;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public class InventoryDAO extends BaseDAO {
+
+    // Thêm mới giao dịch Nhập/Xuất kho
+    public boolean addTransaction(InventoryTransaction tx) {
+        String sql = "INSERT INTO inventory_transactions (product_id, transaction_type, quantity, price, reason, created_by) VALUES (?, ?, ?, ?, ?, ?)";
+        try (Connection conn = getConnection();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+            
+            ps.setInt(1, tx.getProductId());
+            ps.setString(2, tx.getTransactionType()); // 'IMPORT' hoặc 'EXPORT'
+            ps.setInt(3, tx.getQuantity());
+            ps.setBigDecimal(4, tx.getPrice());
+            ps.setString(5, tx.getReason());
+            ps.setInt(6, tx.getCreatedBy()); // ID của Admin thực hiện
+            
+            return ps.executeUpdate() > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    // Lấy toàn bộ lịch sử biến động kho
+    public List<InventoryTransaction> getAllTransactions() {
+        List<InventoryTransaction> list = new ArrayList<>();
+        String sql = "SELECT * FROM inventory_transactions ORDER BY created_at DESC";
+        try (Connection conn = getConnection();
+             PreparedStatement ps = conn.prepareStatement(sql);
+             ResultSet rs = ps.executeQuery()) {
+            
+            while (rs.next()) {
+                InventoryTransaction tx = new InventoryTransaction();
+                tx.setId(rs.getInt("id"));
+                tx.setProductId(rs.getInt("product_id"));
+                tx.setTransactionType(rs.getString("transaction_type"));
+                tx.setQuantity(rs.getInt("quantity"));
+                tx.setPrice(rs.getBigDecimal("price"));
+                tx.setReason(rs.getString("reason"));
+                tx.setCreatedAt(rs.getTimestamp("created_at"));
+                tx.setCreatedBy(rs.getInt("created_by"));
+                list.add(tx);
             }
         } catch (SQLException e) {
             e.printStackTrace();

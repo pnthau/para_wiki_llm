@@ -1,5 +1,10 @@
 # Vault Operations Log
 
+## [2026-06-11] Dev | Created 'Web_AppSec_Spam_Defense.md' & Updated MOC_IT_Knowledge.md
+- **Target**: `02_Areas/IT_Knowledge/Web_AppSec_Spam_Defense.md` & `MOCs/MOC_IT_Knowledge.md`
+- **Action**: Created a comprehensive guide on Web Application Security and Spam Defense focusing on no-login checkouts for the elderly (analyzing Honeypots, Time-locks, Automation detection, Cloudflare Turnstile, and Java Filter Rate Limiting). Bidirectionally linked to the MOC.
+- **Status**: Success.
+
 ## [2026-06-09] Ingest | 'Khái niệm Grid view...' -> 'CSS_Responsive_Design.md' (Cornell + Expanded)
 - **Raw Source**: User Request
 - **Output**: `02_Areas/IT_Knowledge/CSS_Responsive_Design.md` & `MOCs/MOC_IT_Knowledge.md`

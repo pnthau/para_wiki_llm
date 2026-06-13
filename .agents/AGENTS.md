@@ -31,8 +31,10 @@ nexus_version: 6.0
 | `pdf-investigator` | `agents/pdf-investigator.md` | + read_many_files, list_directory, run_shell_command, write_file | Ä á» c PDF scan + query cÃ³ citation | Upload PDF, há» i ná»™i dung sÃ¡ch scan |
 | `ga-expert` | `agents/ga-expert.md` | + google_web_search, web_fetch, write_file, ask_user | Chuyên gia nuôi gà: bệnh, dinh dưỡng, chuồng trại, kinh tế | Mọi câu hỏi về nuôi gà |
 | `english-file-tutor` | `agents/english-file-tutor.md` | + replace | Dạy tiếng Anh giao tiếp (English File method) | Học tiếng Anh, luyện nói, roleplay |
+| `inductive-tutor` | `agents/inductive-tutor.md` | + write_file, replace | Hướng dẫn học theo phương pháp quy nạp (Ví dụ -> Quy tắc) | Học khái niệm cần tự khám phá/tư duy quy nạp |
+| `deductive-tutor` | `agents/deductive-tutor.md` | + write_file, replace | Hướng dẫn học theo phương pháp diễn dịch (Quy tắc -> Ví dụ) | Học khái niệm cứng nhắc cần hiểu nhanh/tư duy diễn dịch |
 
-> Ghi chÃº: "default 3" = `read_file`, `grep_search`, `glob`.
+> Ghi chú: "default 3" = `read_file`, `grep_search`, `glob`.
 > Model: táº¥t cáº£ agent dÃ¹ng `inherit` (káº¿ thá»«a tá»« session). CÃ³ thá»ƒ override trong `settings.json` â†’ `agents.overrides.<name>.modelConfig.model`.
 
 ---
@@ -51,6 +53,8 @@ nexus_version: 6.0
 | `pdf-investigator` | `skills/pdf-japanese-ocr` |
 | `ga-expert` | `skills/ga-expert` |
 | `english-file-tutor` | `skills/english-file-tutor` |
+| `inductive-tutor` | `skills/n5-sensei`, `skills/java-architect` |
+| `deductive-tutor` | `skills/n5-sensei`, `skills/java-architect` |
 
 ---
 

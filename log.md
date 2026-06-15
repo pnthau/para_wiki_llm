@@ -153,6 +153,12 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 - **Action**: Guided John step-by-step through setting up the Many-to-Many mapping for `product_elements`, adding `Set<String> elements` in the Product model, implementing the `findByElement` and `searchByName` methods using JDBC, creating a helper method `getAllElementByProduct` for N+1 loading, and appending corresponding JUnit 5 test cases.
 - **Status**: Success.
 
+## [2026-06-15] Dev | Guided John to Create HomeController and home.jsp
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` (HomeController.java, home.jsp)
+- **Action**: Guided John step-by-step through setting up his first HttpServlet controller `HomeController` with @WebServlet annotation mapping to `/home`, creating the JSP view directory `WEB-INF/views/user`, and implementing `home.jsp` with UTF-8 character encoding and custom css styling.
+- **Status**: Success.
+
+
 
 
 

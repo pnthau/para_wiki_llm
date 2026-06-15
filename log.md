@@ -142,3 +142,9 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 - **Target**: 3 orphan notes (`AI_CORAL_Architecture`, `AI_Japanese_Tutor_Modern_Methods`, `Cách sử dụng chỉ mục...`).
 - **Action**: Added bidirectional links and registered in MOCs.
 - **Status**: Success. Improved vault connectivity for IT and Japanese domains.
+
+## [2026-06-15] Ingest & Dev | JSP vs Servlet Comparison Note
+- **Target**: `02_Areas/IT_Knowledge/JSP_vs_Servlet.md` & `MOCs/MOC_IT_Knowledge.md`
+- **Action**: Created Cornell-style atomic comparison note distinguishing between JSP and Servlet roles (Controller vs View) within the MVC architecture. Registered in the IT Knowledge MOC.
+- **Status**: Success.
+

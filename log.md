@@ -148,3 +148,9 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 - **Action**: Created Cornell-style atomic comparison note distinguishing between JSP and Servlet roles (Controller vs View) within the MVC architecture. Registered in the IT Knowledge MOC.
 - **Status**: Success.
 
+## [2026-06-15] Dev | Implemented Feng Shui Element Mapping and Product Search
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` (Product.java, IProductRepository.java, ProductRepository.java, IProductService.java, ProductService.java)
+- **Action**: Corrected database mapping gaps. Added Set<String> elements to Product model. Implemented save/update transaction mappings for `product_elements`. Added element-based filtering `findByElement` and keyword search `searchByName` in repository and service layers.
+- **Status**: Success.
+
+

@@ -1,5 +1,10 @@
 # Vault Operations Log
 
+## [2026-06-15] Dev | Secured OpenClaw Gateway Configuration & Enabled Sandbox
+- **Target**: `C:\Users\dc130\.openclaw\openclaw.json`
+- **Action**: Fixed security audit vulnerabilities in OpenClaw. Configured global sandbox mode (`sandbox.mode = "all"`), disabled insecure auth, and restricted the small `ollama/gemma4:e4b` model from using web and browser tools. Verified with `openclaw security audit` (0 critical errors remaining).
+- **Status**: Success.
+
 ## [2026-06-15] Dev | Restored Windows system32 cmd.exe & Fixed IntelliJ Tomcat JMX 1099 Error
 - **Target**: `C:\Windows\system32\cmd.exe` & `C:\Users\dc130\Desktop\fengshui_jewelry\.idea\workspace.xml`
 - **Action**: Diagnosed a system-level bug where `cmd.exe` was replaced with `utilman.exe` (Utility Manager), breaking all `.bat` scripts execution. Created a PowerShell restore script `fix_cmd.ps1` to replace the corrupted file with a genuine 64-bit `cmd.exe` from WinSxS. Reconfigured IntelliJ Tomcat run configuration to deploy the artifact `fengshui-jewelry:war exploded` instead of the project directory.

@@ -148,5 +148,11 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 - **Action**: Created Cornell-style atomic comparison note distinguishing between JSP and Servlet roles (Controller vs View) within the MVC architecture. Registered in the IT Knowledge MOC.
 - **Status**: Success.
 
+## [2026-06-15] Dev | Guided John to Implement Element Mapping & Search in Product Repository/Service
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` (Product.java, IProductRepository.java, ProductRepository.java, IProductService.java, ProductService.java, ProductRepositoryTest.java)
+- **Action**: Guided John step-by-step through setting up the Many-to-Many mapping for `product_elements`, adding `Set<String> elements` in the Product model, implementing the `findByElement` and `searchByName` methods using JDBC, creating a helper method `getAllElementByProduct` for N+1 loading, and appending corresponding JUnit 5 test cases.
+- **Status**: Success.
+
+
 
 

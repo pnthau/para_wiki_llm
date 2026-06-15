@@ -1,5 +1,10 @@
 # Vault Operations Log
 
+## [2026-06-15] Dev | Restored Windows system32 cmd.exe & Fixed IntelliJ Tomcat JMX 1099 Error
+- **Target**: `C:\Windows\system32\cmd.exe` & `C:\Users\dc130\Desktop\fengshui_jewelry\.idea\workspace.xml`
+- **Action**: Diagnosed a system-level bug where `cmd.exe` was replaced with `utilman.exe` (Utility Manager), breaking all `.bat` scripts execution. Created a PowerShell restore script `fix_cmd.ps1` to replace the corrupted file with a genuine 64-bit `cmd.exe` from WinSxS. Reconfigured IntelliJ Tomcat run configuration to deploy the artifact `fengshui-jewelry:war exploded` instead of the project directory.
+- **Status**: Success. Tomcat launched and deployed successfully.
+
 ## [2026-06-11] Dev | Expanded FengShui DB Schema with Inventory Mgmt & Triggers
 - **Target**: `01_Projects/Create_FengShui_DB_Schema.sql`, `01_Projects/FengShui_Jewelry_Web_DB_Design.md` & `01_Projects/Servlet_JSP_Project_Structure.md`
 - **Action**: Added table `inventory_transactions` to track stock imports and exports. Added two MySQL triggers: `trg_after_insert_order_items` to auto-export on sale, and `trg_after_insert_inventory_transaction` to update product stock level. Updated ERD and MVC code blueprint to match this database structure.

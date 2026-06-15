@@ -2,7 +2,7 @@
 
 ## [2026-06-15] Dev | Secured OpenClaw Gateway Configuration & Enabled Sandbox
 - **Target**: `C:\Users\dc130\.openclaw\openclaw.json`
-- **Action**: Fixed security audit vulnerabilities in OpenClaw. Configured global sandbox mode (`sandbox.mode = "all"`), disabled insecure auth, and restricted the small `ollama/gemma4:e4b` model from using web and browser tools. Verified with `openclaw security audit` (0 critical errors remaining).
+- **Action**: Fixed security audit vulnerabilities in OpenClaw. Configured global sandbox mode (`sandbox.mode = "all"`), disabled insecure auth, and restricted the small `ollama/gemma4:e4b` model from using web and browser tools. Verified with `openclaw security audit` (0 critical errors remaining). Also guided John through an interactive security analysis of Prompt Injection attack vectors and countermeasures (promising to resume this cybersecurity discussion in the next session).
 - **Status**: Success.
 
 ## [2026-06-15] Dev | Restored Windows system32 cmd.exe & Fixed IntelliJ Tomcat JMX 1099 Error

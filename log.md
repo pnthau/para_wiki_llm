@@ -1,5 +1,10 @@
 # Vault Operations Log
 
+## [2026-06-16] Dev | Implemented Product List Page with Bootstrap 5, Year-of-Birth Finder & Voice Search
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` (`ProductListController.java`, `style.css`, `product-list.jsp`, `home.jsp`)
+- **Action**: Created `ProductListController` to handle search queries and element filters. Built customized `style.css` (gold-maroon accent, slate dark theme, readability boosts). Designed senior-friendly `product-list.jsp` with year of birth calculator and voice search using Web Speech API. Updated `home.jsp` to follow the custom design system.
+- **Status**: Success.
+
 ## [2026-06-15] Dev | Secured OpenClaw Gateway Configuration & Enabled Sandbox
 - **Target**: `C:\Users\dc130\.openclaw\openclaw.json`
 - **Action**: Fixed security audit vulnerabilities in OpenClaw. Configured global sandbox mode (`sandbox.mode = "all"`), disabled insecure auth, and restricted the small `ollama/gemma4:e4b` model from using web and browser tools. Verified with `openclaw security audit` (0 critical errors remaining). Also guided John through an interactive security analysis of Prompt Injection attack vectors and countermeasures (promising to resume this cybersecurity discussion in the next session).

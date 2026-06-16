@@ -1,5 +1,15 @@
 # Vault Operations Log
 
+## [2026-06-17] Dev | Implemented Voice Search JS Module & Optimized Product List Layout
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` (`product_list.jsp`, `style.css`)
+- **Action**:
+    - Guided John to implement the `VoiceSearchModule` using the IIFE and Closure patterns in JavaScript, keeping state encapsulated.
+    - Refactored the JS code to resolve redundant DOM queries and prevent potential browser context `this` bugs.
+    - Resolved cache issues by adding cache-busting version query string to `style.css` (`v=1.0.7`).
+    - Redesigned the voice button default state to a premium, non-glaring soft gold tint (`rgba(229, 192, 96, 0.15)`) with a larger gold icon for senior-friendly readability.
+    - Redesigned the product list grid: shifted from a 2-column to a 3-column layout (`row-cols-md-3 g-3`), reduced product card padding and image aspect ratio (to 80%), and shrunk button vertical padding to compact the page.
+- **Status**: Success. Voice Search is fully operational with active recording animation. Ready for the next phase: Quick Order Modal integration.
+
 ## [2026-06-16] Dev | Reverted Autocomplete & Initiated Inductive Step-by-Step Guidance
 - **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry`
 - **Action**: Reverted all direct code completions (controllers, detail page, list updates) to allow John (Hau-san) to learn through hands-on practice. Transitioned to the "Tống Đề Hình Quan" (inductive, step-by-step forensic investigation of code clues) tutoring method.

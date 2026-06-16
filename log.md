@@ -1,8 +1,8 @@
 # Vault Operations Log
 
-## [2026-06-16] Dev | Completed Web Speech Voice Search, Year-of-Birth Calculator, Product Detail & Quick Order Flow
-- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` (`product_list.jsp`, `product_detail.jsp`, `ProductDetailController.java`, `QuickOrderController.java`, `ProductRepository.java`)
-- **Action**: Completed JS logic for Year-of-Birth calculator utilizing the Can-Chi algorithm. Implemented Voice Search using browser Web Speech API, with active state visual pulse animations tailored for senior users. Designed and created the premium responsive `product_detail.jsp` featuring YouTube video embed capability and a Quick Order form. Developed `ProductDetailController.java` to forward to the detail view, and `QuickOrderController.java` to handle purchase requests. Integrated direct Quick Order Bootstrap Modal popup inside `product_list.jsp`.
+## [2026-06-16] Dev | Reverted Autocomplete & Initiated Inductive Step-by-Step Guidance
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry`
+- **Action**: Reverted all direct code completions (controllers, detail page, list updates) to allow John (Hau-san) to learn through hands-on practice. Transitioned to the "Tống Đề Hình Quan" (inductive, step-by-step forensic investigation of code clues) tutoring method.
 - **Status**: Success.
 
 ## [2026-06-16] Dev | Implemented Product List Page with Bootstrap 5, Year-of-Birth Finder & Voice Search

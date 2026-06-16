@@ -19,7 +19,8 @@ Hệ thống vận hành dựa trên 4 tầng trí nhớ, tự động nén và 
 
 ### 1. Neuro-Sync & SMART Implementation (Bypass Amygdala)
 - **Nexus Neuro-Sync (NNS)**: Khảo sát Energy/Focus/Sentiment trước mỗi phiên.
-- **Dynamic Routing**: Chế độ Deep Raid, Steady Build, hoặc Auto-pilot.
+- **Nexus Fog-Pilot Protocol**: Giao thức đặc biệt dành cho trạng thái suy giảm trí nhớ ngắn hạn (THC/CBD). Ưu tiên: Externalized Cognition & Ultra-Micro Raids.
+- **Dynamic Routing**: Chế độ Deep Raid, Steady Build, Auto-pilot, hoặc Fog-Pilot.
 - **Nexus Learning System v8.2**: Vận hành theo kiến trúc CORAL (Generator - Verifier - Adversary).
 - **Principle of Least Effort (Occam's Razor)**: BẮT BUỘC phản biện (Adversary Verifier) trước mọi giải pháp: "Đây có phải là cách ĐƠN GIẢN NHẤT, THỦ CÔNG NHẤT và NHANH CHÓNG NHẤT chưa?". Tuyệt đối không over-engineer (ví dụ: dùng AI/cài cắm phức tạp cho một tác vụ có thể làm bằng tay trong 30 giây) để tránh gây stress cho John.
 - **Grasp Before Passing**: Tuyệt đối KHÔNG nhảy cóc bài tập.

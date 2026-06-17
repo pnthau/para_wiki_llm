@@ -108,6 +108,7 @@ keywords: []
 - [[JavaScript_Basics]]: Biến, kiểu dữ liệu và cú pháp JS.
 - [[Git_Basics]]: Quản lý phiên bản với Git.
 - [[Git_Teamwork_Workflow]]: Quy trình làm việc nhóm chuyên nghiệp (GitHub Flow) và cách giải quyết xung đột.
+- [[GitHub_Branch_Protection_Rules]]: Thiết lập bắt buộc review chéo và bảo vệ nhánh chính trên GitHub.
 - [[Java_Maven_Lombok]]: Quản lý dự án với Maven và tối ưu code với Lombok.
 - [[Programming_Fundamentals]]: Phân tích yêu cầu và Thuật toán cơ bản.
 - [[Web_AppSec_Spam_Defense]]: Phòng thủ chống spam đơn đặt hàng từ cơ bản đến tinh vi (Honeypot, Rate Limiting, Turnstile).

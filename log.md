@@ -8,6 +8,7 @@
     - Updated `.idea/artifacts/fengshui_jewelry_war_exploded.xml` to compile classes using `fengshui-jewelry.main`, copy modern Jakarta-compatible JSTL dependencies, and explicitly sync `src/main/webapp` resources to bypass IDE web facet configuration bugs.
     - Created `src/main/webapp/WEB-INF/web.xml` using Jakarta EE 6.0 schema to route default context traffic `/` to `/home` cleanly.
     - Created `.gitignore` and `README.md` to prevent local IDE folders (`.idea`, `out`, `build`) from being pushed to GitHub, ensuring smooth team collaboration.
+    - Created a Cornell-structured note [[Git_Teamwork_Workflow]] (GitHub Flow & conflict resolution) in IT Knowledge vault and linked it to [[MOC_IT_Knowledge]].
 - **Status**: Success. Tomcat deploys cleanly and reads updated JSP files without caching issues.
 
 ## [2026-06-17] Dev | Implemented Voice Search JS Module & Optimized Product List Layout

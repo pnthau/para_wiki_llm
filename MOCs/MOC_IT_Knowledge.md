@@ -107,6 +107,7 @@ keywords: []
 - [[CSS_Responsive_Design]]: Thiết kế web responsive, Grid view layout và Media Queries kết hợp tư duy Java Layout.
 - [[JavaScript_Basics]]: Biến, kiểu dữ liệu và cú pháp JS.
 - [[Git_Basics]]: Quản lý phiên bản với Git.
+- [[Git_Teamwork_Workflow]]: Quy trình làm việc nhóm chuyên nghiệp (GitHub Flow) và cách giải quyết xung đột.
 - [[Java_Maven_Lombok]]: Quản lý dự án với Maven và tối ưu code với Lombok.
 - [[Programming_Fundamentals]]: Phân tích yêu cầu và Thuật toán cơ bản.
 - [[Web_AppSec_Spam_Defense]]: Phòng thủ chống spam đơn đặt hàng từ cơ bản đến tinh vi (Honeypot, Rate Limiting, Turnstile).

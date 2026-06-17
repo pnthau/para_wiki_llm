@@ -50,10 +50,10 @@ java.io.FileNotFoundException: D:\Apps\apache_tomcat_9.0.118\logs\catalina.2026-
 
 ### Bug #1 - JAVA_HOME tro sai (co `\bin` thua)
 
-| | Gia tri |
-|---|---|
-| WRONG | `C:\Users\dc130\.jdks\ms-17.0.17\bin` |
-| CORRECT | `C:\Users\dc130\.jdks\ms-17.0.17` |
+|         | Gia tri                               |
+| ------- | ------------------------------------- |
+| WRONG   | `C:\Users\dc130\.jdks\ms-17.0.17\bin` |
+| CORRECT | `C:\Users\dc130\.jdks\ms-17.0.17`     |
 
 `JAVA_HOME` phai la thu muc root cua JDK.
 Khi co `\bin` o cuoi, Tomcat tim `%JAVA_HOME%\bin\java.exe` => thanh `...\bin\bin\java.exe` => khong tim thay.

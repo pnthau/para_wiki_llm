@@ -1,5 +1,15 @@
 # Vault Operations Log
 
+## [2026-06-17] Dev | Resolved Tomcat 404, Rebuilt Artifacts & Standardized Project for Git Sharing
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry`
+- **Action**:
+    - Guided John to identify and fix a logic bug in `ProductRepository.java` (`findByID` method was missing elements populator).
+    - Diagnosed a Tomcat 404 error caused by a mismatch between the renamed source packages (`com.fengshui.entity`) and the outdated Maven-based artifact configuration in IntelliJ.
+    - Updated `.idea/artifacts/fengshui_jewelry_war_exploded.xml` to compile classes using `fengshui-jewelry.main`, copy modern Jakarta-compatible JSTL dependencies, and explicitly sync `src/main/webapp` resources to bypass IDE web facet configuration bugs.
+    - Created `src/main/webapp/WEB-INF/web.xml` using Jakarta EE 6.0 schema to route default context traffic `/` to `/home` cleanly.
+    - Created `.gitignore` and `README.md` to prevent local IDE folders (`.idea`, `out`, `build`) from being pushed to GitHub, ensuring smooth team collaboration.
+- **Status**: Success. Tomcat deploys cleanly and reads updated JSP files without caching issues.
+
 ## [2026-06-17] Dev | Implemented Voice Search JS Module & Optimized Product List Layout
 - **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` (`product_list.jsp`, `style.css`)
 - **Action**:
@@ -187,8 +197,21 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 - **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` (HomeController.java, home.jsp)
 - **Action**: Guided John step-by-step through setting up his first HttpServlet controller `HomeController` with @WebServlet annotation mapping to `/home`, creating the JSP view directory `WEB-INF/views/user`, and implementing `home.jsp` with UTF-8 character encoding and custom css styling.
 - **Status**: Success.
+## [2026-06-17] Dev | Implemented Quick Order Modal & Integrated Complete Backend & Frontend Unit Tests
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` (`product_list.jsp`, `QuickOrderController.java`, `fengshui-utils.js`, `test-frontend.html`, `ProductServiceTest.java`, `UserServiceTest.java`)
+- **Action**:
+    - Built a Bootstrap 5 responsive Modal in `product_list.jsp` for senior-friendly checkout (large inputs, custom quantity stepper, client-side validation, AJAX submit).
+    - Created `QuickOrderController.java` to handle order submission with transaction commit/rollback safety, inventory verification, and JSON response.
+    - Decoupled JS functions into a pure utility module `fengshui-utils.js` to allow testing.
+    - Designed a premium visual test runner page `test-frontend.html` to execute and report frontend assertions instantly in the browser.
+    - Added JUnit 5 unit test cases: `ProductServiceTest` and `UserServiceTest` to achieve complete backend service-layer test coverage.
+- **Status**: Success. All tests integrated and fully operational.
 
-
-
-
-
+## [2026-06-17] Dev | Migrated Project Build from Maven to Gradle & Upgraded to Tomcat 10 (Jakarta EE 10)
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry`
+- **Action**:
+    - Created `build.gradle` and `settings.gradle` configurations using Java 17, war packaging, and Jakarta EE 10 dependencies.
+    - Renamed `pom.xml` to `pom.xml.bak` as backup.
+    - Migrated all servlet imports in Java controllers (`HomeController`, `ProductListController`, `QuickOrderController`) from `javax.servlet` to `jakarta.servlet` namespace.
+    - Updated JSP standard tag library (JSTL) URI declarations in `product_list.jsp` to use Tomcat 10 compatible `jakarta.tags.*` format.
+- **Status**: Success. Ready for IntelliJ to reload Gradle and run on Tomcat 10.

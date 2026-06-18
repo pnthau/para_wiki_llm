@@ -87,3 +87,43 @@ Dưới đây là đoạn mã Schema thực tế dành cho dịch vụ cửa cu�
 1.  **Hiển thị kết quả giàu tính năng (Rich Snippets)**: Giúp trang web của bạn hiển thị thêm số điện thoại, đánh giá sao, bảng giá ngay trên kết quả tìm kiếm Google, làm tăng tỷ lệ người dùng click vào web (CTR).
 2.  **Định vị Local SEO cực mạnh**: Bằng cách khai báo tọa độ GPS (`geo`), Google Maps sẽ dễ dàng xác nhận thực thể doanh nghiệp của bạn đang ở khu vực Đắk Nông.
 3.  **Thức ăn chất lượng cao cho AI**: Các công cụ tìm kiếm AI (Gemini, ChatGPT) sử dụng dữ liệu có cấu trúc để trả lời nhanh cho người dùng. Trang web nào có Schema chuẩn sẽ được AI ưu tiên quét dữ liệu và trích xuất thông tin để đề xuất.
+
+---
+
+## 5. Mẹo Bypass bộ lọc Script của các CMS (Microdata Workaround)
+
+Khi chèn Schema JSON-LD (thẻ `<script type="application/ld+json">`) vào website thông qua trình soạn thảo trực quan (TinyMCE, CKEditor) hoặc các hệ thống CMS bảo mật cao, hệ thống thường tự động lọc hoặc đổi thành `type="mce-application/ld+json"`. Điều này làm vô hiệu hóa Schema đối với các Bot tìm kiếm.
+
+### Giải pháp cứu cánh: Sử dụng Microdata
+
+Thay vì viết mã Script tách biệt, bạn lồng trực tiếp các thuộc tính cấu trúc dữ liệu của Schema.org vào chính các thẻ HTML hiển thị nội dung thông thường bằng thuộc tính: `itemscope`, `itemtype`, `itemprop`. Trình soạn thảo CMS sẽ nhận diện đây là các thẻ HTML thuần túy và không bao giờ biến đổi chúng.
+
+**Ví dụ thực tế chuyển đổi từ JSON-LD sang Microdata ở Footer:**
+
+```html
+<div itemscope itemtype="https://schema.org/LocalBusiness">
+  <!-- Các thông tin ẩn không hiển thị ra màn hình dùng thẻ meta hoặc link -->
+  <link itemprop="url" href="https://cuacuonthienanh.vn/" />
+  <meta itemprop="image" content="https://cuacuonthienanh.vn/files/mic/logo_050.png" />
+  <meta itemprop="priceRange" content="600000" />
+  
+  <p><span itemprop="name">NHÀ CUNG CẤP CỬA CUỐN CỬA KÉO THIÊN ANH DOOR</span></p>
+  
+  <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    <span itemprop="streetAddress">Thôn 7 Xã Nhân Cơ</span>, 
+    <span itemprop="addressLocality">Đăk R'lấp</span>, 
+    <span itemprop="addressRegion">Đắk Nông</span>
+    <meta itemprop="postalCode" content="65810" />
+    <meta itemprop="addressCountry" content="VN" />
+  </p>
+
+  <p>ĐT: <span itemprop="telephone">0965 151 153</span></p>
+
+  <!-- Khai báo GPS để Google Map quét -->
+  <div itemprop="geo" itemscope itemtype="https://schema.org/GeoCoordinates">
+    <meta itemprop="latitude" content="11.9839085" />
+    <meta itemprop="longitude" content="107.5976319" />
+  </div>
+</div>
+```
+

@@ -1,5 +1,17 @@
 # Vault Operations Log
 
+## [2026-06-18] Dev | Automated Image Geotagging & Implemented Local Business Microdata SEO for Thien Anh Door
+- **Target**: `D:\data\para_wiki_llm`
+- **Action**:
+    - Created a detailed tactical SEO implementation guide [[chi_tiet_chien_luoc_seo_cua_cuon_dak_nong]] based on the "Vây điểm diệt viện" strategy.
+    - Updated [[Schema_Markup_Basics]] with a comprehensive guide on using Microdata attributes (`itemscope`, `itemtype`, `itemprop`) to bypass aggressive CMS script block filters (e.g. TinyMCE's `mce-application/ld+json`).
+    - Wrote a custom Python script `geotag_images.py` leveraging `piexif` and `Pillow` to automatically convert, rename (SEO friendly), and write GPS EXIF tags (Nhan Co, Gia Nghia, Dak Mil coordinates) to 37 raw images on the User's Desktop.
+    - Successfully processed 37/37 images and output them to `C:\Users\dc130\Desktop\Cua_Cuon_Da_Geotagged` for Google Business Profile upload.
+    - Processed 3 new repair images on Desktop (including a giant 8.2MB PNG), writing GPS tags, compressing, and renaming to `sua-cua-cuon-gia-nghia-dak-nong-99.jpg`, `sua-cua-cuon-dak-mil-dak-nong-99.jpg`, and `sua-cua-cuon-nhan-co-dak-nong-98.jpg`.
+    - Generated a high-converting SEO-optimized landing page article [[bai_viet_dich_vu_sua_cua_cuon_gia_nghia_seo]] targeting rolling door repair services in Gia Nghia.
+    - Wrote a FAQ-Schema integrated informational article [[bai_viet_huong_dan_mo_cua_cuon_khi_mat_dien]] regarding emergency manual door opening during power outages.
+- **Status**: Success. Local SEO foundation, Geotagging phase, and initial content creation fully complete. Zalo marketing setup and On-page content publishing are ongoing.
+
 ## [2026-06-17] Dev | Resolved Tomcat 404, Rebuilt Artifacts & Standardized Project for Git Sharing
 - **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry`
 - **Action**:

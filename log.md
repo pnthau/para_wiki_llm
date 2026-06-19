@@ -1,5 +1,21 @@
 # Vault Operations Log
 
+## [2026-06-19] Dev | Created Landing Page & Citation Strategy for Cửa Cuốn Đắk Nông
+- **Target**: `01_Projects/landing_page_cua_cuon_dak_nong.md` & `01_Projects/danh_sach_citation_va_nap_chuan_seo.md`
+- **Action**:
+    - Created a highly optimized SEO landing page template `landing_page_cua_cuon_dak_nong.md` containing copywriting, service details, pricing tables, Zalo/Hotline CTAs, and embedded LocalBusiness/FAQPage Microdata Schema markup to rank Top 1.
+    - Generated a detailed local citation guide `danh_sach_citation_va_nap_chuan_seo.md` defining a unified NAP profile and pre-optimized brand bio snippets for 20 local directory/social platforms.
+- **Status**: Success. Content assets and local authority expansion strategy are fully prepared.
+
+## [2026-06-18] Ingest | Absorb Liễu Phàm Tứ Huấn Phần 1 into Personal Growth Vault
+- **Target**: `00_Raw/Liễu phàm tứ huấn 1.md` -> `02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md`
+- **Action**:
+    - Extracted detailed lectures from Pháp sư Tịnh Không regarding the background of Viên Liễu Phàm, his encounter with Khổng Tiên sinh, and the absolute predictability of his unchangeable fate as a standard phàm phu.
+    - Structured the raw data using Cornell Notes layout with detailed Cues, detailed Notes, and a comprehensive Summary.
+    - Mapped keywords and tags (`[personal-growth, philosophy, destiny, lieu-pham]`) into YAML v4.0 frontmatter.
+    - Updated [[MOC_Personal_Growth]] to ensure robust linkage within the Persistent Knowledge Wiki.
+- **Status**: Success.
+
 ## [2026-06-18] Dev | Automated Image Geotagging & Implemented Local Business Microdata SEO for Thien Anh Door
 - **Target**: `D:\data\para_wiki_llm`
 - **Action**:
@@ -228,3 +244,9 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
     - Migrated all servlet imports in Java controllers (`HomeController`, `ProductListController`, `QuickOrderController`) from `javax.servlet` to `jakarta.servlet` namespace.
     - Updated JSP standard tag library (JSTL) URI declarations in `product_list.jsp` to use Tomcat 10 compatible `jakarta.tags.*` format.
 - **Status**: Success. Ready for IntelliJ to reload Gradle and run on Tomcat 10.
+
+## [2026-06-18] Dev | Guided IntelliJ IDEA License Activation
+- **Target**: Local Environment Setup
+- **Action**: Guided John on how to redeem and activate the 6-month corporate IntelliJ license using the provided 29-character activation code.
+- **Status**: Completed instruction delivery.
+

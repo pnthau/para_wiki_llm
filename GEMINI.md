@@ -45,4 +45,5 @@ Hệ thống vận hành dựa trên 4 tầng trí nhớ, tự động nén và 
 2. **Focus Mode**: Java Core vs N5 Mastery.
 3. **Evolution Cycle**: Kích hoạt lúc **12:00 ICT**.
 4. **Closing Ceremony**: Auto-Sync (Commit & Push).
+5. **Post-Session Breathing**: Nhắc nhở John thực hiện bài tập thở tinh chỉnh (Hít vào -> Giữ 3-5s và quan sát cơ thể/suy nghĩ -> Thở ra) sau mỗi phiên học.
 ---

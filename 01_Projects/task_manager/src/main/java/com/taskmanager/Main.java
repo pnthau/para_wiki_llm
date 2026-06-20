@@ -2,18 +2,22 @@ package com.taskmanager;
 
 public class Main {
     public static void main(String[] args) {
-        Cart myCart = new Cart();
+        Product vongTay = new Product("Vong Tay Phong Thuy", 100.0);
+        Product dayChuyen = new Product("Day Chuyen Go", 50.0);
 
-        // Tạo 2 sản phẩm
-        Product p1 = new Product("Ban phim co", 50.0);
-        Product p2 = new Product("Chuot khong day", 20.0);
+        WebCart myCart = new WebCart();
 
-        // Thêm vào giỏ hàng
-        myCart.addProduct(p1);
-        myCart.addProduct(p2);
+        // Lần 1: Khách bấm mua vòng tay (1 chiếc)
+        myCart.addProduct(vongTay, 1);
 
-        // Tính tiền
-        myCart.applyDiscount();
-        myCart.checkout();
+        // Lần 2: Khách bấm mua dây chuyền (2 chiếc)
+        myCart.addProduct(dayChuyen, 2);
+
+        // Lần 3: Khách lướt web một hồi, lại bấm mua THÊM 1 cái vòng tay nữa!
+        myCart.addProduct(vongTay, 1);
+
+        // In hóa đơn ra xem
+        myCart.printCart();
+
     }
 }

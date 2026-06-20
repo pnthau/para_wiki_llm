@@ -35,3 +35,12 @@ Khi code thực tế, vòng đời truy vấn bắt buộc đi qua 4 bước:
 4. **`Close` (Giải phóng bộ nhớ):**
    - Chạy xong BẮT BUỘC phải gọi lệnh `.close()` theo thứ tự ngược lại: `ResultSet` -> `PreparedStatement` -> `Connection`.
    - Nếu quên đóng sẽ gây ra hiện tượng **Memory Leak (Tràn RAM)** làm sập Server. Nên sử dụng cú pháp `try-with-resources` của Java để hệ thống tự động đóng.
+
+## 3. ResultSet Nâng cao (Câu hỏi Phỏng vấn System Design)
+**A. Kiểu cuộn (Scroll Types):**
+- `TYPE_FORWARD_ONLY` (Mặc định): Chỉ được dùng `rs.next()` để tiến. Tốc độ cực nhanh, tốn ít RAM nhất. Bắt buộc dùng trong Web để phân trang và đọc list dài.
+- `TYPE_SCROLL_INSENSITIVE` / `SENSITIVE`: Có thể tiến lùi (`previous()`), tốn bộ nhớ. Ít dùng thực tế.
+
+**B. Khả năng cập nhật (Concurrency):**
+- `CONCUR_READ_ONLY` (Mặc định): Chỉ đọc dữ liệu ra Object, sau đó đóng kết nối ngay lập tức để tiết kiệm tài nguyên. Cần sửa thì dùng `UPDATE` riêng. Đây là tiêu chuẩn vàng của kiến trúc Web.
+- `CONCUR_UPDATABLE`: Sửa trực tiếp trên `ResultSet`. **Chống chỉ định dùng trong Web**. Vì để dùng nó, ta phải "giam giữ" `Connection` trong thời gian dài (không trả về Connection Pool), dẫn đến hàng chờ Request bị nghẽn (nghẽn xe Grab), gây sập hệ thống (Connection Pool Exhaustion).

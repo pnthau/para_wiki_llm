@@ -1,6 +1,7 @@
-# BÀI VIẾT DỊCH VỤ MẪU: SỬA CỬA CUỐN GIA NGHĨA ĐẮK NÔNG 24/7
+# 📄 [ĐÃ PUBLISH] BÀI VIẾT DỊCH VỤ MẪU: SỬA CỬA CUỐN GIA NGHĨA ĐẮK NÔNG 24/7
 
 ---
+*   **Trạng thái**: ✅ Đã đăng lên Website (Không đề xuất lại).
 
 *   **Từ khóa chính**: `sửa cửa cuốn gia nghĩa`, `sửa cửa cuốn đắk nông`
 *   **Từ khóa phụ**: `cứu hộ cửa cuốn gia nghĩa`, `sửa motor cửa cuốn đắk nông`, `bình lưu điện cửa cuốn giá rẻ`

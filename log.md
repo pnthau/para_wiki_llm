@@ -255,3 +255,12 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 - **Target**: Personal Memory & Semantic Consolidation
 - **Action**: Conducted Fog-Pilot protocol to overcome sleepiness. Guided John through a series of N5 Japanese vocabulary micro-raids (Nemui, Okimasu, Tabemasu, Nomimasu, Ikimasu) related to morning routines. Successfully achieved Flow state and ended with 7Hz Post-Session Breathing.
 - **Status**: Success. John successfully typed full Japanese sentences.
+
+## [2026-06-23] Ingest | Absorb 'Tâm lý học Yale 13' into Personal Vault
+- **Target**: `00_Raw/Tâm lý học Yale 13.md` -> `02_Areas/Personal/Yale_Psychology_13_Individual_Differences.md`
+- **Action**:
+    - Extracted the core dialectical paradox between Genetics and Environment regarding Personality and Intelligence from Professor Paul Bloom's Yale lecture.
+    - Structured the raw data using Cornell Notes layout with detailed Cues, detailed Notes, and a comprehensive Summary.
+    - Mapped keywords and tags (`[psychology, personality, intelligence, genetics, personal-growth]`) into YAML v4.0 frontmatter.
+    - Updated `[[MOC_Personal_Growth]]` to ensure robust linkage within the Persistent Knowledge Wiki.
+- **Status**: Success.

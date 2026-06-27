@@ -1,5 +1,14 @@
 # Vault Operations Log
 
+## [2026-06-23] Ingest | Absorb Liễu Phàm Tứ Huấn Phần 2 into Personal Growth Vault
+- **Target**: `00_Raw/Liễu phàm tứ huấn 2.md` -> `02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md`
+- **Action**:
+    - Extracted insights on the multifaceted nature of destiny, karma, and the story of Dharma Master Tịnh Không.
+    - Structured the raw data using Cornell Notes layout with detailed Cues, detailed Notes, and a personalized Summary on "cải tạo tính cách" (character improvement).
+    - Mapped keywords and tags (`[personal-growth, philosophy, destiny, lieu-pham]`) into YAML v4.0 frontmatter.
+    - Updated `[[MOC_Personal_Growth]]` to ensure robust linkage within the Persistent Knowledge Wiki.
+- **Status**: Success.
+
 ## [2026-06-19] Dev | Created Landing Page & Citation Strategy for Cửa Cuốn Đắk Nông
 - **Target**: `01_Projects/landing_page_cua_cuon_dak_nong.md` & `01_Projects/danh_sach_citation_va_nap_chuan_seo.md`
 - **Action**:

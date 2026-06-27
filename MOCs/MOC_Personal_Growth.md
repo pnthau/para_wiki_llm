@@ -53,6 +53,7 @@ keywords: []
 ## ⚔️ Strategy & Wisdom (Strategy Master)
 *   **Chi tiết:** [[MOC_Strategy]]
 *   [[02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1|Liễu Phàm Tứ Huấn — Phần 1]]: Bản chất của định số và cuộc gặp gỡ định mệnh với Thiền sư Vân Cốc.
+*   [[02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2|Liễu Phàm Tứ Huấn — Phần 2]]: Nguồn gốc vận mệnh và phương pháp tu hành thực tiễn cải biến tính cách.
 *   [[Sun_Tzu_Art_of_War_Overview]]: Tổng quan về 13 thiên Binh pháp Tôn Tử.
 *   [[Gia_si_bat_dien]]: Kế "Giả khùng không điên" - Nhẫn nại và che giấu thực lực.
 *   [[Vay_Nguy_cuu_Trieu]]: Kế "Vây Ngụy cứu Triệu" - Tránh thực đánh hư, giải tỏa áp lực.

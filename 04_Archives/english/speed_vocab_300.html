@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚡ Speed Vocab 300 — Nạp 300 từ trong 30 phút</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0a0a1a;
+  color: #e0e0e0;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* === HEADER === */
+.header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 12px 20px;
+  background: rgba(10,10,26,0.9);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.header-left { display: flex; align-items: center; gap: 12px; }
+.header h1 { font-size: 16px; font-weight: 700; }
+.header h1 span { color: #fbbf24; }
+.cat-badge {
+  font-size: 11px; padding: 3px 10px; border-radius: 20px;
+  background: rgba(139,92,246,0.2); color: #a78bfa;
+  font-weight: 600; border: 1px solid rgba(139,92,246,0.3);
+}
+.header-right { display: flex; align-items: center; gap: 16px; }
+.counter { font-size: 14px; font-weight: 700; color: #fbbf24; }
+.timer-display { font-size: 13px; color: #94a3b8; font-weight: 600; }
+
+/* === PROGRESS BAR === */
+.progress-wrap {
+  position: fixed; top: 56px; left: 0; right: 0; z-index: 99;
+  height: 4px; background: rgba(255,255,255,0.05);
+}
+.progress-bar {
+  height: 100%; width: 0%;
+  background: linear-gradient(90deg, #8b5cf6, #ec4899, #fbbf24);
+  transition: width 0.3s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+/* === MAIN CARD AREA === */
+.card-area {
+  position: fixed; top: 60px; bottom: 120px; left: 0; right: 0;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  perspective: 1200px;
+}
+
+.card-container {
+  width: 100%; max-width: 560px; height: 340px;
+  cursor: pointer; position: relative;
+}
+.card {
+  width: 100%; height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card.flipped { transform: rotateY(180deg); }
+
+.card-face {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  backface-visibility: hidden;
+  border-radius: 24px;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.card-front {
+  background: linear-gradient(145deg, rgba(30,30,60,0.95), rgba(20,20,45,0.98));
+  border: 1px solid rgba(139,92,246,0.25);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 40px rgba(139,92,246,0.1);
+}
+.card-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(145deg, rgba(45,20,60,0.95), rgba(30,15,45,0.98));
+  border: 1px solid rgba(236,72,153,0.25);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 40px rgba(236,72,153,0.1);
+}
+
+.word-number {
+  font-size: 12px; color: rgba(255,255,255,0.3);
+  position: absolute; top: 16px; left: 20px; font-weight: 600;
+}
+.word-en {
+  font-size: 48px; font-weight: 900;
+  background: linear-gradient(135deg, #fff, #c4b5fd);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  line-height: 1.2; margin-bottom: 8px;
+}
+.word-ipa {
+  font-size: 16px; color: rgba(167,139,250,0.7);
+  margin-bottom: 12px; font-weight: 400;
+}
+.word-type {
+  font-size: 11px; padding: 3px 12px; border-radius: 12px;
+  background: rgba(139,92,246,0.15); color: #a78bfa;
+  font-weight: 600; text-transform: uppercase; letter-spacing: 1px;
+}
+.word-vi {
+  font-size: 42px; font-weight: 800;
+  background: linear-gradient(135deg, #fbbf24, #ec4899);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  line-height: 1.3; margin-bottom: 8px;
+}
+.word-example {
+  font-size: 14px; color: rgba(255,255,255,0.5);
+  font-style: italic; max-width: 400px; line-height: 1.5;
+}
+.flip-hint {
+  position: absolute; bottom: 16px;
+  font-size: 11px; color: rgba(255,255,255,0.2);
+  font-weight: 500;
+}
+
+/* === CONTROLS === */
+.controls {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  padding: 16px 20px 24px;
+  background: rgba(10,10,26,0.95);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+.controls-top {
+  display: flex; align-items: center; justify-content: center; gap: 12px;
+  margin-bottom: 14px;
+}
+.btn {
+  border: none; cursor: pointer; font-family: 'Inter', sans-serif;
+  font-weight: 700; border-radius: 14px; transition: all 0.2s;
+}
+.btn-nav {
+  width: 52px; height: 52px; font-size: 20px;
+  background: rgba(255,255,255,0.06); color: #e0e0e0;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.btn-nav:hover { background: rgba(255,255,255,0.12); transform: scale(1.05); }
+.btn-flip {
+  padding: 14px 36px; font-size: 15px;
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+  color: white; border: none;
+  box-shadow: 0 4px 20px rgba(139,92,246,0.4);
+}
+.btn-flip:hover { transform: scale(1.03); box-shadow: 0 6px 30px rgba(139,92,246,0.5); }
+
+.controls-bottom {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+}
+.btn-mode {
+  padding: 8px 16px; font-size: 12px;
+  background: rgba(255,255,255,0.04); color: #94a3b8;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.btn-mode:hover { background: rgba(255,255,255,0.08); }
+.btn-mode.active {
+  background: rgba(251,191,36,0.15); color: #fbbf24;
+  border-color: rgba(251,191,36,0.3);
+}
+.speed-label { font-size: 11px; color: #64748b; font-weight: 600; }
+
+/* === CATEGORY MENU === */
+.cat-menu {
+  position: fixed; top: 60px; left: 0; right: 0; bottom: 0;
+  background: rgba(10,10,26,0.97); backdrop-filter: blur(30px);
+  z-index: 200; display: none;
+  padding: 30px 20px; overflow-y: auto;
+}
+.cat-menu.show { display: block; }
+.cat-menu h2 {
+  font-size: 20px; margin-bottom: 20px;
+  background: linear-gradient(135deg, #fbbf24, #ec4899);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.cat-item {
+  padding: 14px 18px; margin-bottom: 8px;
+  background: rgba(255,255,255,0.04); border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.06);
+  cursor: pointer; transition: all 0.2s;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.cat-item:hover { background: rgba(139,92,246,0.1); border-color: rgba(139,92,246,0.3); }
+.cat-item-name { font-weight: 700; font-size: 15px; }
+.cat-item-count { font-size: 12px; color: #64748b; }
+.cat-item-range { font-size: 11px; color: #8b5cf6; }
+
+/* === COMPLETE SCREEN === */
+.complete-screen {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(10,10,26,0.98);
+  display: none; align-items: center; justify-content: center;
+  flex-direction: column; z-index: 300; text-align: center; padding: 30px;
+}
+.complete-screen.show { display: flex; }
+.complete-emoji { font-size: 80px; margin-bottom: 20px; }
+.complete-title {
+  font-size: 32px; font-weight: 900;
+  background: linear-gradient(135deg, #fbbf24, #ec4899);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  margin-bottom: 12px;
+}
+.complete-sub { font-size: 16px; color: #94a3b8; margin-bottom: 30px; line-height: 1.6; }
+.btn-restart {
+  padding: 14px 36px; font-size: 15px;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  color: white; border: none; border-radius: 14px;
+  font-family: 'Inter', sans-serif; font-weight: 700; cursor: pointer;
+}
+.btn-restart:hover { transform: scale(1.03); }
+
+/* === AUTO TIMER RING === */
+.auto-ring {
+  width: 36px; height: 36px; position: relative;
+}
+.auto-ring svg { transform: rotate(-90deg); }
+.auto-ring circle {
+  fill: none; stroke-width: 3; cx: 18; cy: 18; r: 15;
+}
+.auto-ring .bg { stroke: rgba(255,255,255,0.06); }
+.auto-ring .fg {
+  stroke: #fbbf24; stroke-linecap: round;
+  stroke-dasharray: 94.25; stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.1s linear;
+}
+.auto-ring .time-text {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 10px; font-weight: 700; color: #fbbf24;
+}
+
+/* Animations */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.card-area.animating .card-container {
+  animation: slideIn 0.3s ease forwards;
+}
+
+@media (max-width: 480px) {
+  .word-en { font-size: 36px; }
+  .word-vi { font-size: 32px; }
+  .card-container { height: 280px; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-left">
+    <h1>⚡ <span>Speed 300</span></h1>
+    <div class="cat-badge" id="catBadge">Core Verbs</div>
+  </div>
+  <div class="header-right">
+    <div class="auto-ring" id="autoRing" style="display:none">
+      <svg width="36" height="36"><circle class="bg"/><circle class="fg" id="ringFg"/></svg>
+      <div class="time-text" id="ringTime">6</div>
+    </div>
+    <div class="counter"><span id="currentNum">1</span> / 300</div>
+  </div>
+</div>
+
+<!-- PROGRESS -->
+<div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
+
+<!-- CARD -->
+<div class="card-area" id="cardArea">
+  <div class="card-container" id="cardContainer" onclick="flipCard()">
+    <div class="card" id="card">
+      <div class="card-face card-front">
+        <div class="word-number" id="wordNum">#1</div>
+        <div class="word-en" id="wordEn">hello</div>
+        <div class="word-ipa" id="wordIpa">/həˈloʊ/</div>
+        <div class="word-type" id="wordType">excl.</div>
+        <div class="flip-hint">Nhấn để lật →</div>
+      </div>
+      <div class="card-face card-back">
+        <div class="word-number" id="wordNum2">#1</div>
+        <div class="word-vi" id="wordVi">xin chào</div>
+        <div class="word-example" id="wordEx">"Hello, how are you?"</div>
+        <div class="flip-hint">Nhấn để tiếp →</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <div class="controls-top">
+    <button class="btn btn-nav" onclick="prevCard()">←</button>
+    <button class="btn btn-flip" onclick="flipCard()">LẬT THẺ</button>
+    <button class="btn btn-nav" onclick="nextCard()">→</button>
+  </div>
+  <div class="controls-bottom">
+    <span class="speed-label">Tốc độ:</span>
+    <button class="btn btn-mode" data-speed="0" onclick="setSpeed(0)">Thủ công</button>
+    <button class="btn btn-mode active" data-speed="6" onclick="setSpeed(6)">6s ⚡</button>
+    <button class="btn btn-mode" data-speed="4" onclick="setSpeed(4)">4s 🔥</button>
+    <button class="btn btn-mode" data-speed="3" onclick="setSpeed(3)">3s 💀</button>
+    <button class="btn btn-mode" data-speed="0" onclick="toggleCatMenu()">📋 Mục</button>
+  </div>
+</div>
+
+<!-- CATEGORY MENU -->
+<div class="cat-menu" id="catMenu">
+  <h2>📋 Chọn nhóm từ</h2>
+  <div id="catList"></div>
+</div>
+
+<!-- COMPLETE SCREEN -->
+<div class="complete-screen" id="completeScreen">
+  <div class="complete-emoji">🏆</div>
+  <div class="complete-title">HOÀN THÀNH 300 TỪ!</div>
+  <div class="complete-sub">
+    Não đã tiếp xúc toàn bộ 300 từ cơ bản.<br>
+    Lần lướt tiếp sẽ nhớ thêm ~30% nữa.<br>
+    Mỗi ngày lướt 1 lần → 1 tuần sẽ thuộc 80%.
+  </div>
+  <button class="btn btn-restart" onclick="restart()">🔄 Lướt lại từ đầu</button>
+</div>
+
+<script>
+// ===== 300 WORDS DATA =====
+const WORDS = [
+// ── CAT 1: Core Verbs (50) ──
+{en:"be",ipa:"/biː/",type:"v.",vi:"là, thì",ex:"I want to be a developer.",cat:"Core Verbs"},
+{en:"have",ipa:"/hæv/",type:"v.",vi:"có",ex:"I have a meeting today.",cat:"Core Verbs"},
+{en:"do",ipa:"/duː/",type:"v.",vi:"làm",ex:"What do you do?",cat:"Core Verbs"},
+{en:"say",ipa:"/seɪ/",type:"v.",vi:"nói",ex:"What did you say?",cat:"Core Verbs"},
+{en:"go",ipa:"/ɡoʊ/",type:"v.",vi:"đi",ex:"Let's go to the office.",cat:"Core Verbs"},
+{en:"get",ipa:"/ɡet/",type:"v.",vi:"lấy, nhận",ex:"I'll get the data.",cat:"Core Verbs"},
+{en:"make",ipa:"/meɪk/",type:"v.",vi:"tạo, làm",ex:"Make a new file.",cat:"Core Verbs"},
+{en:"know",ipa:"/noʊ/",type:"v.",vi:"biết",ex:"I know Java well.",cat:"Core Verbs"},
+{en:"think",ipa:"/θɪŋk/",type:"v.",vi:"nghĩ",ex:"I think this is a bug.",cat:"Core Verbs"},
+{en:"take",ipa:"/teɪk/",type:"v.",vi:"lấy, mất (time)",ex:"It takes two hours.",cat:"Core Verbs"},
+{en:"see",ipa:"/siː/",type:"v.",vi:"thấy, hiểu",ex:"I see the problem.",cat:"Core Verbs"},
+{en:"come",ipa:"/kʌm/",type:"v.",vi:"đến",ex:"Come to the meeting.",cat:"Core Verbs"},
+{en:"want",ipa:"/wɑːnt/",type:"v.",vi:"muốn",ex:"I want to learn more.",cat:"Core Verbs"},
+{en:"look",ipa:"/lʊk/",type:"v.",vi:"nhìn",ex:"Look at this error.",cat:"Core Verbs"},
+{en:"use",ipa:"/juːz/",type:"v.",vi:"dùng, sử dụng",ex:"We use Spring Boot.",cat:"Core Verbs"},
+{en:"find",ipa:"/faɪnd/",type:"v.",vi:"tìm thấy",ex:"I found the bug.",cat:"Core Verbs"},
+{en:"give",ipa:"/ɡɪv/",type:"v.",vi:"cho, đưa",ex:"Give me a moment.",cat:"Core Verbs"},
+{en:"tell",ipa:"/tel/",type:"v.",vi:"kể, nói cho",ex:"Tell me the issue.",cat:"Core Verbs"},
+{en:"work",ipa:"/wɜːrk/",type:"v.",vi:"làm việc, hoạt động",ex:"It works now!",cat:"Core Verbs"},
+{en:"call",ipa:"/kɔːl/",type:"v.",vi:"gọi",ex:"Call the API.",cat:"Core Verbs"},
+{en:"try",ipa:"/traɪ/",type:"v.",vi:"thử",ex:"Try again please.",cat:"Core Verbs"},
+{en:"ask",ipa:"/æsk/",type:"v.",vi:"hỏi",ex:"Ask the team lead.",cat:"Core Verbs"},
+{en:"need",ipa:"/niːd/",type:"v.",vi:"cần",ex:"I need more time.",cat:"Core Verbs"},
+{en:"feel",ipa:"/fiːl/",type:"v.",vi:"cảm thấy",ex:"I feel confident.",cat:"Core Verbs"},
+{en:"become",ipa:"/bɪˈkʌm/",type:"v.",vi:"trở thành",ex:"Become a better coder.",cat:"Core Verbs"},
+{en:"leave",ipa:"/liːv/",type:"v.",vi:"rời đi, để lại",ex:"Leave a comment.",cat:"Core Verbs"},
+{en:"put",ipa:"/pʊt/",type:"v.",vi:"đặt, để",ex:"Put the file here.",cat:"Core Verbs"},
+{en:"mean",ipa:"/miːn/",type:"v.",vi:"có nghĩa là",ex:"What does this mean?",cat:"Core Verbs"},
+{en:"keep",ipa:"/kiːp/",type:"v.",vi:"giữ",ex:"Keep the code clean.",cat:"Core Verbs"},
+{en:"let",ipa:"/let/",type:"v.",vi:"để cho, cho phép",ex:"Let me check.",cat:"Core Verbs"},
+{en:"begin",ipa:"/bɪˈɡɪn/",type:"v.",vi:"bắt đầu",ex:"Let's begin the sprint.",cat:"Core Verbs"},
+{en:"help",ipa:"/help/",type:"v.",vi:"giúp",ex:"Can you help me?",cat:"Core Verbs"},
+{en:"show",ipa:"/ʃoʊ/",type:"v.",vi:"cho xem",ex:"Show me the output.",cat:"Core Verbs"},
+{en:"run",ipa:"/rʌn/",type:"v.",vi:"chạy",ex:"Run the tests.",cat:"Core Verbs"},
+{en:"move",ipa:"/muːv/",type:"v.",vi:"di chuyển",ex:"Move this to production.",cat:"Core Verbs"},
+{en:"learn",ipa:"/lɜːrn/",type:"v.",vi:"học",ex:"Learn something new.",cat:"Core Verbs"},
+{en:"change",ipa:"/tʃeɪndʒ/",type:"v.",vi:"thay đổi",ex:"Change the config.",cat:"Core Verbs"},
+{en:"read",ipa:"/riːd/",type:"v.",vi:"đọc",ex:"Read the documentation.",cat:"Core Verbs"},
+{en:"write",ipa:"/raɪt/",type:"v.",vi:"viết",ex:"Write clean code.",cat:"Core Verbs"},
+{en:"start",ipa:"/stɑːrt/",type:"v.",vi:"khởi đầu",ex:"Start the server.",cat:"Core Verbs"},
+{en:"stop",ipa:"/stɑːp/",type:"v.",vi:"dừng",ex:"Stop the process.",cat:"Core Verbs"},
+{en:"open",ipa:"/ˈoʊpən/",type:"v.",vi:"mở",ex:"Open the terminal.",cat:"Core Verbs"},
+{en:"close",ipa:"/kloʊz/",type:"v.",vi:"đóng",ex:"Close the connection.",cat:"Core Verbs"},
+{en:"send",ipa:"/send/",type:"v.",vi:"gửi",ex:"Send the request.",cat:"Core Verbs"},
+{en:"build",ipa:"/bɪld/",type:"v.",vi:"xây dựng",ex:"Build the project.",cat:"Core Verbs"},
+{en:"understand",ipa:"/ˌʌndərˈstænd/",type:"v.",vi:"hiểu",ex:"I understand now.",cat:"Core Verbs"},
+{en:"pay",ipa:"/peɪ/",type:"v.",vi:"trả tiền",ex:"Pay attention.",cat:"Core Verbs"},
+{en:"wait",ipa:"/weɪt/",type:"v.",vi:"đợi",ex:"Wait for the response.",cat:"Core Verbs"},
+{en:"follow",ipa:"/ˈfɑːloʊ/",type:"v.",vi:"theo, tuân theo",ex:"Follow the guide.",cat:"Core Verbs"},
+{en:"create",ipa:"/kriˈeɪt/",type:"v.",vi:"tạo ra",ex:"Create a new branch.",cat:"Core Verbs"},
+
+// ── CAT 2: Daily Nouns (50) ──
+{en:"time",ipa:"/taɪm/",type:"n.",vi:"thời gian",ex:"We don't have much time.",cat:"Daily Nouns"},
+{en:"day",ipa:"/deɪ/",type:"n.",vi:"ngày",ex:"Have a good day.",cat:"Daily Nouns"},
+{en:"week",ipa:"/wiːk/",type:"n.",vi:"tuần",ex:"See you next week.",cat:"Daily Nouns"},
+{en:"month",ipa:"/mʌnθ/",type:"n.",vi:"tháng",ex:"It took two months.",cat:"Daily Nouns"},
+{en:"year",ipa:"/jɪr/",type:"n.",vi:"năm",ex:"I have 3 years experience.",cat:"Daily Nouns"},
+{en:"today",ipa:"/təˈdeɪ/",type:"n.",vi:"hôm nay",ex:"What's the plan today?",cat:"Daily Nouns"},
+{en:"morning",ipa:"/ˈmɔːrnɪŋ/",type:"n.",vi:"buổi sáng",ex:"Good morning, team.",cat:"Daily Nouns"},
+{en:"night",ipa:"/naɪt/",type:"n.",vi:"đêm, tối",ex:"Good night.",cat:"Daily Nouns"},
+{en:"hour",ipa:"/aʊər/",type:"n.",vi:"giờ",ex:"One more hour.",cat:"Daily Nouns"},
+{en:"minute",ipa:"/ˈmɪnɪt/",type:"n.",vi:"phút",ex:"Give me five minutes.",cat:"Daily Nouns"},
+{en:"people",ipa:"/ˈpiːpl/",type:"n.",vi:"người ta, mọi người",ex:"Many people use Java.",cat:"Daily Nouns"},
+{en:"man",ipa:"/mæn/",type:"n.",vi:"đàn ông",ex:"The man is a developer.",cat:"Daily Nouns"},
+{en:"woman",ipa:"/ˈwʊmən/",type:"n.",vi:"phụ nữ",ex:"The woman leads the team.",cat:"Daily Nouns"},
+{en:"child",ipa:"/tʃaɪld/",type:"n.",vi:"đứa trẻ",ex:"When I was a child.",cat:"Daily Nouns"},
+{en:"friend",ipa:"/frend/",type:"n.",vi:"bạn bè",ex:"He is my friend.",cat:"Daily Nouns"},
+{en:"family",ipa:"/ˈfæməli/",type:"n.",vi:"gia đình",ex:"My family lives here.",cat:"Daily Nouns"},
+{en:"home",ipa:"/hoʊm/",type:"n.",vi:"nhà",ex:"Work from home.",cat:"Daily Nouns"},
+{en:"house",ipa:"/haʊs/",type:"n.",vi:"ngôi nhà",ex:"A big house.",cat:"Daily Nouns"},
+{en:"room",ipa:"/ruːm/",type:"n.",vi:"phòng",ex:"Meeting room 3.",cat:"Daily Nouns"},
+{en:"place",ipa:"/pleɪs/",type:"n.",vi:"nơi, địa điểm",ex:"A nice place to work.",cat:"Daily Nouns"},
+{en:"world",ipa:"/wɜːrld/",type:"n.",vi:"thế giới",ex:"Around the world.",cat:"Daily Nouns"},
+{en:"country",ipa:"/ˈkʌntri/",type:"n.",vi:"quốc gia",ex:"Which country are you from?",cat:"Daily Nouns"},
+{en:"city",ipa:"/ˈsɪti/",type:"n.",vi:"thành phố",ex:"Tokyo is a big city.",cat:"Daily Nouns"},
+{en:"water",ipa:"/ˈwɔːtər/",type:"n.",vi:"nước",ex:"Drink more water.",cat:"Daily Nouns"},
+{en:"food",ipa:"/fuːd/",type:"n.",vi:"thức ăn",ex:"Japanese food is great.",cat:"Daily Nouns"},
+{en:"money",ipa:"/ˈmʌni/",type:"n.",vi:"tiền",ex:"Save money.",cat:"Daily Nouns"},
+{en:"name",ipa:"/neɪm/",type:"n.",vi:"tên",ex:"What's your name?",cat:"Daily Nouns"},
+{en:"number",ipa:"/ˈnʌmbər/",type:"n.",vi:"số",ex:"Phone number.",cat:"Daily Nouns"},
+{en:"word",ipa:"/wɜːrd/",type:"n.",vi:"từ",ex:"Learn new words.",cat:"Daily Nouns"},
+{en:"question",ipa:"/ˈkwestʃən/",type:"n.",vi:"câu hỏi",ex:"Any questions?",cat:"Daily Nouns"},
+{en:"answer",ipa:"/ˈænsər/",type:"n.",vi:"câu trả lời",ex:"I found the answer.",cat:"Daily Nouns"},
+{en:"problem",ipa:"/ˈprɑːbləm/",type:"n.",vi:"vấn đề",ex:"What's the problem?",cat:"Daily Nouns"},
+{en:"way",ipa:"/weɪ/",type:"n.",vi:"cách, đường",ex:"There's a better way.",cat:"Daily Nouns"},
+{en:"thing",ipa:"/θɪŋ/",type:"n.",vi:"thứ, điều",ex:"One more thing.",cat:"Daily Nouns"},
+{en:"idea",ipa:"/aɪˈdiːə/",type:"n.",vi:"ý tưởng",ex:"Good idea!",cat:"Daily Nouns"},
+{en:"hand",ipa:"/hænd/",type:"n.",vi:"tay",ex:"Raise your hand.",cat:"Daily Nouns"},
+{en:"head",ipa:"/hed/",type:"n.",vi:"đầu",ex:"Use your head.",cat:"Daily Nouns"},
+{en:"eye",ipa:"/aɪ/",type:"n.",vi:"mắt",ex:"Keep your eyes open.",cat:"Daily Nouns"},
+{en:"life",ipa:"/laɪf/",type:"n.",vi:"cuộc sống",ex:"Work-life balance.",cat:"Daily Nouns"},
+{en:"job",ipa:"/dʒɑːb/",type:"n.",vi:"công việc",ex:"I love my job.",cat:"Daily Nouns"},
+{en:"book",ipa:"/bʊk/",type:"n.",vi:"sách",ex:"Read this book.",cat:"Daily Nouns"},
+{en:"story",ipa:"/ˈstɔːri/",type:"n.",vi:"câu chuyện",ex:"User story.",cat:"Daily Nouns"},
+{en:"part",ipa:"/pɑːrt/",type:"n.",vi:"phần",ex:"This part is done.",cat:"Daily Nouns"},
+{en:"side",ipa:"/saɪd/",type:"n.",vi:"phía, bên",ex:"Server side.",cat:"Daily Nouns"},
+{en:"end",ipa:"/end/",type:"n.",vi:"kết thúc",ex:"At the end of the day.",cat:"Daily Nouns"},
+{en:"point",ipa:"/pɔɪnt/",type:"n.",vi:"điểm",ex:"Good point!",cat:"Daily Nouns"},
+{en:"fact",ipa:"/fækt/",type:"n.",vi:"sự thật",ex:"In fact, it's easier.",cat:"Daily Nouns"},
+{en:"line",ipa:"/laɪn/",type:"n.",vi:"dòng, hàng",ex:"Line 42 has an error.",cat:"Daily Nouns"},
+{en:"level",ipa:"/ˈlevl/",type:"n.",vi:"cấp độ",ex:"Next level.",cat:"Daily Nouns"},
+{en:"result",ipa:"/rɪˈzʌlt/",type:"n.",vi:"kết quả",ex:"Show the result.",cat:"Daily Nouns"},
+
+// ── CAT 3: IT & Workplace (60) ──
+{en:"code",ipa:"/koʊd/",type:"n.",vi:"mã, code",ex:"Clean code is important.",cat:"IT & Workplace"},
+{en:"bug",ipa:"/bʌɡ/",type:"n.",vi:"lỗi phần mềm",ex:"I found a bug.",cat:"IT & Workplace"},
+{en:"fix",ipa:"/fɪks/",type:"v.",vi:"sửa",ex:"Fix the bug.",cat:"IT & Workplace"},
+{en:"test",ipa:"/test/",type:"v.",vi:"kiểm tra",ex:"Run the unit test.",cat:"IT & Workplace"},
+{en:"deploy",ipa:"/dɪˈplɔɪ/",type:"v.",vi:"triển khai",ex:"Deploy to production.",cat:"IT & Workplace"},
+{en:"server",ipa:"/ˈsɜːrvər/",type:"n.",vi:"máy chủ",ex:"The server is down.",cat:"IT & Workplace"},
+{en:"database",ipa:"/ˈdeɪtəbeɪs/",type:"n.",vi:"cơ sở dữ liệu",ex:"Query the database.",cat:"IT & Workplace"},
+{en:"file",ipa:"/faɪl/",type:"n.",vi:"tệp tin",ex:"Save the file.",cat:"IT & Workplace"},
+{en:"error",ipa:"/ˈerər/",type:"n.",vi:"lỗi",ex:"Error 404 not found.",cat:"IT & Workplace"},
+{en:"update",ipa:"/ʌpˈdeɪt/",type:"v.",vi:"cập nhật",ex:"Update the status.",cat:"IT & Workplace"},
+{en:"version",ipa:"/ˈvɜːrʒn/",type:"n.",vi:"phiên bản",ex:"Version 2.0 is out.",cat:"IT & Workplace"},
+{en:"branch",ipa:"/bræntʃ/",type:"n.",vi:"nhánh (git)",ex:"Create a new branch.",cat:"IT & Workplace"},
+{en:"merge",ipa:"/mɜːrdʒ/",type:"v.",vi:"hợp nhất",ex:"Merge to main.",cat:"IT & Workplace"},
+{en:"commit",ipa:"/kəˈmɪt/",type:"v.",vi:"xác nhận (git)",ex:"Commit your changes.",cat:"IT & Workplace"},
+{en:"push",ipa:"/pʊʃ/",type:"v.",vi:"đẩy lên",ex:"Push to remote.",cat:"IT & Workplace"},
+{en:"pull",ipa:"/pʊl/",type:"v.",vi:"kéo về",ex:"Pull the latest code.",cat:"IT & Workplace"},
+{en:"review",ipa:"/rɪˈvjuː/",type:"n.",vi:"đánh giá",ex:"Code review is done.",cat:"IT & Workplace"},
+{en:"feature",ipa:"/ˈfiːtʃər/",type:"n.",vi:"tính năng",ex:"New feature request.",cat:"IT & Workplace"},
+{en:"release",ipa:"/rɪˈliːs/",type:"v.",vi:"phát hành",ex:"Release next Monday.",cat:"IT & Workplace"},
+{en:"meeting",ipa:"/ˈmiːtɪŋ/",type:"n.",vi:"cuộc họp",ex:"Join the meeting.",cat:"IT & Workplace"},
+{en:"deadline",ipa:"/ˈdedlaɪn/",type:"n.",vi:"hạn chót",ex:"The deadline is Friday.",cat:"IT & Workplace"},
+{en:"task",ipa:"/tæsk/",type:"n.",vi:"nhiệm vụ",ex:"Assign a task.",cat:"IT & Workplace"},
+{en:"project",ipa:"/ˈprɑːdʒekt/",type:"n.",vi:"dự án",ex:"A new project.",cat:"IT & Workplace"},
+{en:"team",ipa:"/tiːm/",type:"n.",vi:"đội nhóm",ex:"Our team is great.",cat:"IT & Workplace"},
+{en:"user",ipa:"/ˈjuːzər/",type:"n.",vi:"người dùng",ex:"The user reported a bug.",cat:"IT & Workplace"},
+{en:"request",ipa:"/rɪˈkwest/",type:"n.",vi:"yêu cầu",ex:"Send a request.",cat:"IT & Workplace"},
+{en:"response",ipa:"/rɪˈspɑːns/",type:"n.",vi:"phản hồi",ex:"Got the response.",cat:"IT & Workplace"},
+{en:"function",ipa:"/ˈfʌŋkʃn/",type:"n.",vi:"hàm",ex:"Call the function.",cat:"IT & Workplace"},
+{en:"class",ipa:"/klæs/",type:"n.",vi:"lớp (OOP)",ex:"Create a new class.",cat:"IT & Workplace"},
+{en:"method",ipa:"/ˈmeθəd/",type:"n.",vi:"phương thức",ex:"Override this method.",cat:"IT & Workplace"},
+{en:"object",ipa:"/ˈɑːbdʒekt/",type:"n.",vi:"đối tượng",ex:"Create an object.",cat:"IT & Workplace"},
+{en:"string",ipa:"/strɪŋ/",type:"n.",vi:"chuỗi ký tự",ex:"Parse the string.",cat:"IT & Workplace"},
+{en:"input",ipa:"/ˈɪnpʊt/",type:"n.",vi:"đầu vào",ex:"User input.",cat:"IT & Workplace"},
+{en:"output",ipa:"/ˈaʊtpʊt/",type:"n.",vi:"đầu ra",ex:"Check the output.",cat:"IT & Workplace"},
+{en:"login",ipa:"/ˈlɔːɡɪn/",type:"v.",vi:"đăng nhập",ex:"Login to the system.",cat:"IT & Workplace"},
+{en:"password",ipa:"/ˈpæswɜːrd/",type:"n.",vi:"mật khẩu",ex:"Change your password.",cat:"IT & Workplace"},
+{en:"email",ipa:"/ˈiːmeɪl/",type:"n.",vi:"thư điện tử",ex:"Send an email.",cat:"IT & Workplace"},
+{en:"message",ipa:"/ˈmesɪdʒ/",type:"n.",vi:"tin nhắn",ex:"Error message.",cat:"IT & Workplace"},
+{en:"manager",ipa:"/ˈmænɪdʒər/",type:"n.",vi:"quản lý",ex:"Talk to the manager.",cat:"IT & Workplace"},
+{en:"report",ipa:"/rɪˈpɔːrt/",type:"n.",vi:"báo cáo",ex:"Daily report.",cat:"IT & Workplace"},
+{en:"schedule",ipa:"/ˈskedʒuːl/",type:"n.",vi:"lịch trình",ex:"Check the schedule.",cat:"IT & Workplace"},
+{en:"document",ipa:"/ˈdɑːkjumənt/",type:"n.",vi:"tài liệu",ex:"Read the document.",cat:"IT & Workplace"},
+{en:"issue",ipa:"/ˈɪʃuː/",type:"n.",vi:"vấn đề, issue",ex:"Create an issue.",cat:"IT & Workplace"},
+{en:"status",ipa:"/ˈstætəs/",type:"n.",vi:"trạng thái",ex:"Update the status.",cat:"IT & Workplace"},
+{en:"progress",ipa:"/ˈprɑːɡres/",type:"n.",vi:"tiến độ",ex:"What's the progress?",cat:"IT & Workplace"},
+{en:"complete",ipa:"/kəmˈpliːt/",type:"adj.",vi:"hoàn thành",ex:"Task complete!",cat:"IT & Workplace"},
+{en:"pending",ipa:"/ˈpendɪŋ/",type:"adj.",vi:"đang chờ",ex:"Status: pending.",cat:"IT & Workplace"},
+{en:"approve",ipa:"/əˈpruːv/",type:"v.",vi:"phê duyệt",ex:"Approve the PR.",cat:"IT & Workplace"},
+{en:"assign",ipa:"/əˈsaɪn/",type:"v.",vi:"giao, phân công",ex:"Assign to me.",cat:"IT & Workplace"},
+{en:"data",ipa:"/ˈdeɪtə/",type:"n.",vi:"dữ liệu",ex:"Process the data.",cat:"IT & Workplace"},
+{en:"check",ipa:"/tʃek/",type:"v.",vi:"kiểm tra",ex:"Check the logs.",cat:"IT & Workplace"},
+{en:"delete",ipa:"/dɪˈliːt/",type:"v.",vi:"xóa",ex:"Delete the record.",cat:"IT & Workplace"},
+{en:"save",ipa:"/seɪv/",type:"v.",vi:"lưu",ex:"Save your work.",cat:"IT & Workplace"},
+{en:"load",ipa:"/loʊd/",type:"v.",vi:"tải, nạp",ex:"Load the page.",cat:"IT & Workplace"},
+{en:"search",ipa:"/sɜːrtʃ/",type:"v.",vi:"tìm kiếm",ex:"Search for bugs.",cat:"IT & Workplace"},
+{en:"add",ipa:"/æd/",type:"v.",vi:"thêm",ex:"Add a new field.",cat:"IT & Workplace"},
+{en:"remove",ipa:"/rɪˈmuːv/",type:"v.",vi:"loại bỏ",ex:"Remove this line.",cat:"IT & Workplace"},
+{en:"install",ipa:"/ɪnˈstɔːl/",type:"v.",vi:"cài đặt",ex:"Install the package.",cat:"IT & Workplace"},
+{en:"download",ipa:"/ˈdaʊnloʊd/",type:"v.",vi:"tải xuống",ex:"Download the file.",cat:"IT & Workplace"},
+{en:"upload",ipa:"/ˈʌploʊd/",type:"v.",vi:"tải lên",ex:"Upload the image.",cat:"IT & Workplace"},
+
+// ── CAT 4: Adjectives (50) ──
+{en:"good",ipa:"/ɡʊd/",type:"adj.",vi:"tốt",ex:"Good job!",cat:"Adjectives"},
+{en:"bad",ipa:"/bæd/",type:"adj.",vi:"xấu, tệ",ex:"Bad request.",cat:"Adjectives"},
+{en:"new",ipa:"/nuː/",type:"adj.",vi:"mới",ex:"A new approach.",cat:"Adjectives"},
+{en:"old",ipa:"/oʊld/",type:"adj.",vi:"cũ, già",ex:"Old version.",cat:"Adjectives"},
+{en:"big",ipa:"/bɪɡ/",type:"adj.",vi:"to, lớn",ex:"A big change.",cat:"Adjectives"},
+{en:"small",ipa:"/smɔːl/",type:"adj.",vi:"nhỏ",ex:"A small fix.",cat:"Adjectives"},
+{en:"long",ipa:"/lɔːŋ/",type:"adj.",vi:"dài, lâu",ex:"A long meeting.",cat:"Adjectives"},
+{en:"short",ipa:"/ʃɔːrt/",type:"adj.",vi:"ngắn",ex:"Keep it short.",cat:"Adjectives"},
+{en:"high",ipa:"/haɪ/",type:"adj.",vi:"cao",ex:"High priority.",cat:"Adjectives"},
+{en:"low",ipa:"/loʊ/",type:"adj.",vi:"thấp",ex:"Low risk.",cat:"Adjectives"},
+{en:"first",ipa:"/fɜːrst/",type:"adj.",vi:"đầu tiên",ex:"First commit.",cat:"Adjectives"},
+{en:"last",ipa:"/læst/",type:"adj.",vi:"cuối cùng",ex:"Last sprint.",cat:"Adjectives"},
+{en:"next",ipa:"/nekst/",type:"adj.",vi:"tiếp theo",ex:"Next step.",cat:"Adjectives"},
+{en:"right",ipa:"/raɪt/",type:"adj.",vi:"đúng, phải",ex:"That's right.",cat:"Adjectives"},
+{en:"wrong",ipa:"/rɔːŋ/",type:"adj.",vi:"sai",ex:"Something is wrong.",cat:"Adjectives"},
+{en:"easy",ipa:"/ˈiːzi/",type:"adj.",vi:"dễ",ex:"Easy to use.",cat:"Adjectives"},
+{en:"hard",ipa:"/hɑːrd/",type:"adj.",vi:"khó, cứng",ex:"That's hard.",cat:"Adjectives"},
+{en:"fast",ipa:"/fæst/",type:"adj.",vi:"nhanh",ex:"Fast response.",cat:"Adjectives"},
+{en:"slow",ipa:"/sloʊ/",type:"adj.",vi:"chậm",ex:"The server is slow.",cat:"Adjectives"},
+{en:"ready",ipa:"/ˈredi/",type:"adj.",vi:"sẵn sàng",ex:"Ready for deploy.",cat:"Adjectives"},
+{en:"free",ipa:"/friː/",type:"adj.",vi:"miễn phí, tự do",ex:"Free trial.",cat:"Adjectives"},
+{en:"sure",ipa:"/ʃʊr/",type:"adj.",vi:"chắc chắn",ex:"Are you sure?",cat:"Adjectives"},
+{en:"clear",ipa:"/klɪr/",type:"adj.",vi:"rõ ràng",ex:"Clear instructions.",cat:"Adjectives"},
+{en:"simple",ipa:"/ˈsɪmpl/",type:"adj.",vi:"đơn giản",ex:"Keep it simple.",cat:"Adjectives"},
+{en:"important",ipa:"/ɪmˈpɔːrtnt/",type:"adj.",vi:"quan trọng",ex:"This is important.",cat:"Adjectives"},
+{en:"different",ipa:"/ˈdɪfrənt/",type:"adj.",vi:"khác biệt",ex:"A different approach.",cat:"Adjectives"},
+{en:"same",ipa:"/seɪm/",type:"adj.",vi:"giống nhau",ex:"Same issue as before.",cat:"Adjectives"},
+{en:"possible",ipa:"/ˈpɑːsəbl/",type:"adj.",vi:"có thể",ex:"Is it possible?",cat:"Adjectives"},
+{en:"available",ipa:"/əˈveɪləbl/",type:"adj.",vi:"có sẵn",ex:"The API is available.",cat:"Adjectives"},
+{en:"able",ipa:"/ˈeɪbl/",type:"adj.",vi:"có khả năng",ex:"I'm able to fix it.",cat:"Adjectives"},
+{en:"great",ipa:"/ɡreɪt/",type:"adj.",vi:"tuyệt vời",ex:"Great work!",cat:"Adjectives"},
+{en:"happy",ipa:"/ˈhæpi/",type:"adj.",vi:"vui",ex:"Happy to help.",cat:"Adjectives"},
+{en:"sorry",ipa:"/ˈsɑːri/",type:"adj.",vi:"xin lỗi",ex:"Sorry for the delay.",cat:"Adjectives"},
+{en:"busy",ipa:"/ˈbɪzi/",type:"adj.",vi:"bận",ex:"I'm busy now.",cat:"Adjectives"},
+{en:"late",ipa:"/leɪt/",type:"adj.",vi:"trễ, muộn",ex:"Sorry I'm late.",cat:"Adjectives"},
+{en:"early",ipa:"/ˈɜːrli/",type:"adj.",vi:"sớm",ex:"Early morning meeting.",cat:"Adjectives"},
+{en:"full",ipa:"/fʊl/",type:"adj.",vi:"đầy",ex:"Full stack developer.",cat:"Adjectives"},
+{en:"empty",ipa:"/ˈempti/",type:"adj.",vi:"trống",ex:"The list is empty.",cat:"Adjectives"},
+{en:"true",ipa:"/truː/",type:"adj.",vi:"đúng, thật",ex:"Return true.",cat:"Adjectives"},
+{en:"false",ipa:"/fɔːls/",type:"adj.",vi:"sai",ex:"Return false.",cat:"Adjectives"},
+{en:"online",ipa:"/ˈɑːnlaɪn/",type:"adj.",vi:"trực tuyến",ex:"We work online.",cat:"Adjectives"},
+{en:"main",ipa:"/meɪn/",type:"adj.",vi:"chính",ex:"The main branch.",cat:"Adjectives"},
+{en:"local",ipa:"/ˈloʊkl/",type:"adj.",vi:"cục bộ",ex:"Run on local.",cat:"Adjectives"},
+{en:"public",ipa:"/ˈpʌblɪk/",type:"adj.",vi:"công khai",ex:"Public method.",cat:"Adjectives"},
+{en:"private",ipa:"/ˈpraɪvɪt/",type:"adj.",vi:"riêng tư",ex:"Private variable.",cat:"Adjectives"},
+{en:"final",ipa:"/ˈfaɪnl/",type:"adj.",vi:"cuối cùng",ex:"Final review.",cat:"Adjectives"},
+{en:"safe",ipa:"/seɪf/",type:"adj.",vi:"an toàn",ex:"Is it safe?",cat:"Adjectives"},
+{en:"broken",ipa:"/ˈbroʊkən/",type:"adj.",vi:"hỏng",ex:"The build is broken.",cat:"Adjectives"},
+{en:"done",ipa:"/dʌn/",type:"adj.",vi:"xong rồi",ex:"I'm done!",cat:"Adjectives"},
+{en:"best",ipa:"/best/",type:"adj.",vi:"tốt nhất",ex:"Best practice.",cat:"Adjectives"},
+
+// ── CAT 5: Connectors & Adverbs (40) ──
+{en:"also",ipa:"/ˈɔːlsoʊ/",type:"adv.",vi:"cũng",ex:"I also think so.",cat:"Connectors & Adverbs"},
+{en:"very",ipa:"/ˈveri/",type:"adv.",vi:"rất",ex:"Very good.",cat:"Connectors & Adverbs"},
+{en:"just",ipa:"/dʒʌst/",type:"adv.",vi:"chỉ, vừa mới",ex:"I just finished.",cat:"Connectors & Adverbs"},
+{en:"now",ipa:"/naʊ/",type:"adv.",vi:"bây giờ",ex:"Do it now.",cat:"Connectors & Adverbs"},
+{en:"then",ipa:"/ðen/",type:"adv.",vi:"sau đó, thì",ex:"And then what?",cat:"Connectors & Adverbs"},
+{en:"here",ipa:"/hɪr/",type:"adv.",vi:"ở đây",ex:"Put it here.",cat:"Connectors & Adverbs"},
+{en:"there",ipa:"/ðer/",type:"adv.",vi:"ở đó",ex:"Over there.",cat:"Connectors & Adverbs"},
+{en:"still",ipa:"/stɪl/",type:"adv.",vi:"vẫn còn",ex:"It's still running.",cat:"Connectors & Adverbs"},
+{en:"already",ipa:"/ɔːlˈredi/",type:"adv.",vi:"đã rồi",ex:"I already fixed it.",cat:"Connectors & Adverbs"},
+{en:"always",ipa:"/ˈɔːlweɪz/",type:"adv.",vi:"luôn luôn",ex:"Always test first.",cat:"Connectors & Adverbs"},
+{en:"never",ipa:"/ˈnevər/",type:"adv.",vi:"không bao giờ",ex:"Never push to main.",cat:"Connectors & Adverbs"},
+{en:"again",ipa:"/əˈɡen/",type:"adv.",vi:"lại, lần nữa",ex:"Try again.",cat:"Connectors & Adverbs"},
+{en:"only",ipa:"/ˈoʊnli/",type:"adv.",vi:"chỉ",ex:"Only one bug left.",cat:"Connectors & Adverbs"},
+{en:"really",ipa:"/ˈriːəli/",type:"adv.",vi:"thật sự",ex:"Really helpful.",cat:"Connectors & Adverbs"},
+{en:"well",ipa:"/wel/",type:"adv.",vi:"tốt, ừm",ex:"Well done!",cat:"Connectors & Adverbs"},
+{en:"maybe",ipa:"/ˈmeɪbi/",type:"adv.",vi:"có lẽ",ex:"Maybe tomorrow.",cat:"Connectors & Adverbs"},
+{en:"often",ipa:"/ˈɔːfn/",type:"adv.",vi:"thường xuyên",ex:"I often use Git.",cat:"Connectors & Adverbs"},
+{en:"sometimes",ipa:"/ˈsʌmtaɪmz/",type:"adv.",vi:"đôi khi",ex:"Sometimes it fails.",cat:"Connectors & Adverbs"},
+{en:"usually",ipa:"/ˈjuːʒuəli/",type:"adv.",vi:"thường thì",ex:"I usually start at 9.",cat:"Connectors & Adverbs"},
+{en:"enough",ipa:"/ɪˈnʌf/",type:"adv.",vi:"đủ",ex:"Good enough.",cat:"Connectors & Adverbs"},
+{en:"because",ipa:"/bɪˈkɔːz/",type:"conj.",vi:"bởi vì",ex:"Because it's faster.",cat:"Connectors & Adverbs"},
+{en:"but",ipa:"/bʌt/",type:"conj.",vi:"nhưng",ex:"Good, but slow.",cat:"Connectors & Adverbs"},
+{en:"so",ipa:"/soʊ/",type:"conj.",vi:"vì vậy, nên",ex:"So what's next?",cat:"Connectors & Adverbs"},
+{en:"and",ipa:"/ænd/",type:"conj.",vi:"và",ex:"Read and write.",cat:"Connectors & Adverbs"},
+{en:"or",ipa:"/ɔːr/",type:"conj.",vi:"hoặc",ex:"Yes or no?",cat:"Connectors & Adverbs"},
+{en:"if",ipa:"/ɪf/",type:"conj.",vi:"nếu",ex:"If it works, ship it.",cat:"Connectors & Adverbs"},
+{en:"when",ipa:"/wen/",type:"conj.",vi:"khi nào",ex:"When is the meeting?",cat:"Connectors & Adverbs"},
+{en:"before",ipa:"/bɪˈfɔːr/",type:"prep.",vi:"trước",ex:"Before the deadline.",cat:"Connectors & Adverbs"},
+{en:"after",ipa:"/ˈæftər/",type:"prep.",vi:"sau",ex:"After the meeting.",cat:"Connectors & Adverbs"},
+{en:"about",ipa:"/əˈbaʊt/",type:"prep.",vi:"về, khoảng",ex:"About 5 minutes.",cat:"Connectors & Adverbs"},
+{en:"with",ipa:"/wɪð/",type:"prep.",vi:"với",ex:"Work with the team.",cat:"Connectors & Adverbs"},
+{en:"without",ipa:"/wɪˈðaʊt/",type:"prep.",vi:"không có",ex:"Without bugs.",cat:"Connectors & Adverbs"},
+{en:"between",ipa:"/bɪˈtwiːn/",type:"prep.",vi:"giữa",ex:"Between two options.",cat:"Connectors & Adverbs"},
+{en:"during",ipa:"/ˈdʊrɪŋ/",type:"prep.",vi:"trong suốt",ex:"During the sprint.",cat:"Connectors & Adverbs"},
+{en:"into",ipa:"/ˈɪntuː/",type:"prep.",vi:"vào trong",ex:"Look into this.",cat:"Connectors & Adverbs"},
+{en:"until",ipa:"/ʌnˈtɪl/",type:"prep.",vi:"cho đến khi",ex:"Wait until Friday.",cat:"Connectors & Adverbs"},
+{en:"however",ipa:"/haʊˈevər/",type:"adv.",vi:"tuy nhiên",ex:"However, it's tricky.",cat:"Connectors & Adverbs"},
+{en:"together",ipa:"/təˈɡeðər/",type:"adv.",vi:"cùng nhau",ex:"Work together.",cat:"Connectors & Adverbs"},
+{en:"quickly",ipa:"/ˈkwɪkli/",type:"adv.",vi:"nhanh chóng",ex:"Fix it quickly.",cat:"Connectors & Adverbs"},
+{en:"actually",ipa:"/ˈæktʃuəli/",type:"adv.",vi:"thực ra",ex:"Actually, it's fine.",cat:"Connectors & Adverbs"},
+
+// ── CAT 6: Pronouns & Basics (50) ──
+{en:"I",ipa:"/aɪ/",type:"pron.",vi:"tôi",ex:"I am a developer.",cat:"Pronouns & Basics"},
+{en:"you",ipa:"/juː/",type:"pron.",vi:"bạn",ex:"Thank you.",cat:"Pronouns & Basics"},
+{en:"he",ipa:"/hiː/",type:"pron.",vi:"anh ấy",ex:"He is the lead.",cat:"Pronouns & Basics"},
+{en:"she",ipa:"/ʃiː/",type:"pron.",vi:"cô ấy",ex:"She knows Java.",cat:"Pronouns & Basics"},
+{en:"it",ipa:"/ɪt/",type:"pron.",vi:"nó",ex:"It works!",cat:"Pronouns & Basics"},
+{en:"we",ipa:"/wiː/",type:"pron.",vi:"chúng ta",ex:"We need to fix this.",cat:"Pronouns & Basics"},
+{en:"they",ipa:"/ðeɪ/",type:"pron.",vi:"họ",ex:"They approved it.",cat:"Pronouns & Basics"},
+{en:"my",ipa:"/maɪ/",type:"pron.",vi:"của tôi",ex:"My code is clean.",cat:"Pronouns & Basics"},
+{en:"your",ipa:"/jʊr/",type:"pron.",vi:"của bạn",ex:"Your turn.",cat:"Pronouns & Basics"},
+{en:"this",ipa:"/ðɪs/",type:"pron.",vi:"cái này",ex:"Fix this bug.",cat:"Pronouns & Basics"},
+{en:"that",ipa:"/ðæt/",type:"pron.",vi:"cái đó",ex:"That's correct.",cat:"Pronouns & Basics"},
+{en:"what",ipa:"/wɑːt/",type:"pron.",vi:"cái gì",ex:"What happened?",cat:"Pronouns & Basics"},
+{en:"which",ipa:"/wɪtʃ/",type:"pron.",vi:"cái nào",ex:"Which version?",cat:"Pronouns & Basics"},
+{en:"who",ipa:"/huː/",type:"pron.",vi:"ai",ex:"Who did this?",cat:"Pronouns & Basics"},
+{en:"where",ipa:"/wer/",type:"pron.",vi:"ở đâu",ex:"Where is the file?",cat:"Pronouns & Basics"},
+{en:"how",ipa:"/haʊ/",type:"pron.",vi:"như thế nào",ex:"How does it work?",cat:"Pronouns & Basics"},
+{en:"why",ipa:"/waɪ/",type:"pron.",vi:"tại sao",ex:"Why did it fail?",cat:"Pronouns & Basics"},
+{en:"all",ipa:"/ɔːl/",type:"det.",vi:"tất cả",ex:"All tests passed.",cat:"Pronouns & Basics"},
+{en:"some",ipa:"/sʌm/",type:"det.",vi:"một số, vài",ex:"Some bugs remain.",cat:"Pronouns & Basics"},
+{en:"any",ipa:"/ˈeni/",type:"det.",vi:"bất kỳ",ex:"Any questions?",cat:"Pronouns & Basics"},
+{en:"no",ipa:"/noʊ/",type:"det.",vi:"không",ex:"No errors found.",cat:"Pronouns & Basics"},
+{en:"yes",ipa:"/jes/",type:"excl.",vi:"có, vâng",ex:"Yes, I agree.",cat:"Pronouns & Basics"},
+{en:"not",ipa:"/nɑːt/",type:"adv.",vi:"không",ex:"It's not working.",cat:"Pronouns & Basics"},
+{en:"please",ipa:"/pliːz/",type:"adv.",vi:"làm ơn",ex:"Please check this.",cat:"Pronouns & Basics"},
+{en:"thank",ipa:"/θæŋk/",type:"v.",vi:"cảm ơn",ex:"Thank you so much.",cat:"Pronouns & Basics"},
+{en:"more",ipa:"/mɔːr/",type:"det.",vi:"thêm, hơn",ex:"We need more time.",cat:"Pronouns & Basics"},
+{en:"less",ipa:"/les/",type:"det.",vi:"ít hơn",ex:"Less code, less bugs.",cat:"Pronouns & Basics"},
+{en:"much",ipa:"/mʌtʃ/",type:"det.",vi:"nhiều",ex:"How much time?",cat:"Pronouns & Basics"},
+{en:"many",ipa:"/ˈmeni/",type:"det.",vi:"nhiều (đếm được)",ex:"Many users.",cat:"Pronouns & Basics"},
+{en:"each",ipa:"/iːtʃ/",type:"det.",vi:"mỗi",ex:"Each sprint.",cat:"Pronouns & Basics"},
+{en:"every",ipa:"/ˈevri/",type:"det.",vi:"mỗi, mọi",ex:"Every day.",cat:"Pronouns & Basics"},
+{en:"other",ipa:"/ˈʌðər/",type:"det.",vi:"khác",ex:"The other file.",cat:"Pronouns & Basics"},
+{en:"both",ipa:"/boʊθ/",type:"det.",vi:"cả hai",ex:"Both options work.",cat:"Pronouns & Basics"},
+{en:"most",ipa:"/moʊst/",type:"det.",vi:"hầu hết",ex:"Most developers know.",cat:"Pronouns & Basics"},
+{en:"few",ipa:"/fjuː/",type:"det.",vi:"một vài",ex:"A few changes.",cat:"Pronouns & Basics"},
+{en:"such",ipa:"/sʌtʃ/",type:"det.",vi:"như vậy",ex:"Such a good idea.",cat:"Pronouns & Basics"},
+{en:"own",ipa:"/oʊn/",type:"det.",vi:"riêng, của mình",ex:"My own project.",cat:"Pronouns & Basics"},
+{en:"even",ipa:"/ˈiːvn/",type:"adv.",vi:"thậm chí",ex:"Even better!",cat:"Pronouns & Basics"},
+{en:"like",ipa:"/laɪk/",type:"prep.",vi:"giống như, thích",ex:"I like this idea.",cat:"Pronouns & Basics"},
+{en:"than",ipa:"/ðæn/",type:"prep.",vi:"hơn (so sánh)",ex:"Faster than before.",cat:"Pronouns & Basics"},
+{en:"too",ipa:"/tuː/",type:"adv.",vi:"cũng, quá",ex:"Too many errors.",cat:"Pronouns & Basics"},
+{en:"quite",ipa:"/kwaɪt/",type:"adv.",vi:"khá là",ex:"Quite easy.",cat:"Pronouns & Basics"},
+{en:"while",ipa:"/waɪl/",type:"conj.",vi:"trong khi",ex:"While it loads...",cat:"Pronouns & Basics"},
+{en:"although",ipa:"/ɔːlˈðoʊ/",type:"conj.",vi:"mặc dù",ex:"Although it's hard.",cat:"Pronouns & Basics"},
+{en:"since",ipa:"/sɪns/",type:"conj.",vi:"kể từ, vì",ex:"Since yesterday.",cat:"Pronouns & Basics"},
+{en:"yet",ipa:"/jet/",type:"adv.",vi:"chưa, nhưng",ex:"Not done yet.",cat:"Pronouns & Basics"},
+{en:"almost",ipa:"/ˈɔːlmoʊst/",type:"adv.",vi:"gần như",ex:"Almost finished.",cat:"Pronouns & Basics"},
+{en:"else",ipa:"/els/",type:"adv.",vi:"khác nữa",ex:"Anything else?",cat:"Pronouns & Basics"},
+{en:"instead",ipa:"/ɪnˈsted/",type:"adv.",vi:"thay vào đó",ex:"Use this instead.",cat:"Pronouns & Basics"},
+{en:"at least",ipa:"/æt liːst/",type:"adv.",vi:"ít nhất",ex:"At least it works.",cat:"Pronouns & Basics"},
+];
+
+// ===== STATE =====
+let currentIndex = 0;
+let isFlipped = false;
+let autoSpeed = 6; // 0 = manual
+let autoTimer = null;
+let countdownVal = 0;
+let countdownInterval = null;
+
+const CATEGORIES = [...new Set(WORDS.map(w => w.cat))];
+
+// ===== DOM REFS =====
+const card = document.getElementById('card');
+const wordEn = document.getElementById('wordEn');
+const wordIpa = document.getElementById('wordIpa');
+const wordType = document.getElementById('wordType');
+const wordVi = document.getElementById('wordVi');
+const wordEx = document.getElementById('wordEx');
+const wordNum = document.getElementById('wordNum');
+const wordNum2 = document.getElementById('wordNum2');
+const currentNum = document.getElementById('currentNum');
+const progressBar = document.getElementById('progressBar');
+const catBadge = document.getElementById('catBadge');
+const cardArea = document.getElementById('cardArea');
+const autoRing = document.getElementById('autoRing');
+const ringFg = document.getElementById('ringFg');
+const ringTime = document.getElementById('ringTime');
+const completeScreen = document.getElementById('completeScreen');
+
+function loadCard(animate = true) {
+  if (currentIndex >= WORDS.length) {
+    completeScreen.classList.add('show');
+    return;
+  }
+  completeScreen.classList.remove('show');
+  const w = WORDS[currentIndex];
+  isFlipped = false;
+  card.classList.remove('flipped');
+
+  wordEn.textContent = w.en;
+  wordIpa.textContent = w.ipa;
+  wordType.textContent = w.type;
+  wordVi.textContent = w.vi;
+  wordEx.textContent = `"${w.ex}"`;
+  wordNum.textContent = `#${currentIndex + 1}`;
+  wordNum2.textContent = `#${currentIndex + 1}`;
+  currentNum.textContent = currentIndex + 1;
+  progressBar.style.width = ((currentIndex + 1) / WORDS.length * 100) + '%';
+  catBadge.textContent = w.cat;
+
+  if (animate) {
+    cardArea.classList.remove('animating');
+    void cardArea.offsetWidth;
+    cardArea.classList.add('animating');
+  }
+
+  resetAutoTimer();
+}
+
+function flipCard() {
+  isFlipped = !isFlipped;
+  card.classList.toggle('flipped', isFlipped);
+  if (isFlipped && autoSpeed > 0) {
+    // after flip, wait half the time then go next
+    clearTimeout(autoTimer);
+    clearInterval(countdownInterval);
+    const halfTime = Math.max(autoSpeed * 500, 1500);
+    startCountdown(halfTime / 1000);
+    autoTimer = setTimeout(() => nextCard(), halfTime);
+  }
+}
+
+function nextCard() {
+  if (currentIndex < WORDS.length - 1) {
+    currentIndex++;
+    loadCard(true);
+  } else {
+    completeScreen.classList.add('show');
+  }
+}
+
+function prevCard() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    loadCard(true);
+  }
+}
+
+function setSpeed(s) {
+  autoSpeed = s;
+  document.querySelectorAll('.btn-mode[data-speed]').forEach(btn => {
+    btn.classList.toggle('active', parseInt(btn.dataset.speed) === s);
+  });
+  autoRing.style.display = s > 0 ? 'block' : 'none';
+  resetAutoTimer();
+}
+
+function resetAutoTimer() {
+  clearTimeout(autoTimer);
+  clearInterval(countdownInterval);
+  if (autoSpeed > 0) {
+    startCountdown(autoSpeed);
+    autoTimer = setTimeout(() => {
+      if (!isFlipped) {
+        flipCard();
+      } else {
+        nextCard();
+      }
+    }, autoSpeed * 1000);
+  }
+}
+
+function startCountdown(secs) {
+  countdownVal = secs;
+  const total = secs;
+  const circumference = 94.25;
+  ringTime.textContent = Math.ceil(countdownVal);
+  ringFg.style.strokeDashoffset = 0;
+
+  clearInterval(countdownInterval);
+  countdownInterval = setInterval(() => {
+    countdownVal -= 0.1;
+    if (countdownVal <= 0) {
+      clearInterval(countdownInterval);
+      countdownVal = 0;
+    }
+    ringTime.textContent = Math.ceil(countdownVal);
+    const pct = 1 - (countdownVal / total);
+    ringFg.style.strokeDashoffset = circumference * pct;
+  }, 100);
+}
+
+function toggleCatMenu() {
+  const menu = document.getElementById('catMenu');
+  menu.classList.toggle('show');
+  if (menu.classList.contains('show')) buildCatMenu();
+}
+
+function buildCatMenu() {
+  const list = document.getElementById('catList');
+  list.innerHTML = '';
+  let startIdx = 0;
+  CATEGORIES.forEach(cat => {
+    const count = WORDS.filter(w => w.cat === cat).length;
+    const firstIdx = WORDS.findIndex(w => w.cat === cat);
+    const div = document.createElement('div');
+    div.className = 'cat-item';
+    div.innerHTML = `
+      <div>
+        <div class="cat-item-name">${cat}</div>
+        <div class="cat-item-range">Từ #${firstIdx+1} → #${firstIdx+count}</div>
+      </div>
+      <div class="cat-item-count">${count} từ</div>
+    `;
+    div.onclick = () => {
+      currentIndex = firstIdx;
+      loadCard(true);
+      document.getElementById('catMenu').classList.remove('show');
+    };
+    list.appendChild(div);
+  });
+}
+
+function restart() {
+  currentIndex = 0;
+  completeScreen.classList.remove('show');
+  loadCard(true);
+}
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); if(isFlipped) nextCard(); else flipCard(); }
+  if (e.key === 'ArrowLeft') { e.preventDefault(); prevCard(); }
+  if (e.key === 'Enter') { e.preventDefault(); flipCard(); }
+});
+
+// Touch swipe
+let touchStartX = 0;
+document.addEventListener('touchstart', e => touchStartX = e.touches[0].clientX);
+document.addEventListener('touchend', e => {
+  const diff = e.changedTouches[0].clientX - touchStartX;
+  if (Math.abs(diff) > 50) {
+    if (diff < 0) { if(isFlipped) nextCard(); else flipCard(); }
+    else prevCard();
+  }
+});
+
+// Init
+loadCard(false);
+</script>
+</body>
+</html>

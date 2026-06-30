@@ -1,5 +1,13 @@
 # Vault Operations Log
 
+## [2026-06-30] Study | Mastered time particles (~ji, ~fun, ~ni) in N5 Japanese
+- **Target**: `02_Areas/Japanese_N5/`
+- **Action**:
+    - Guided John through a targeted Micro-Raid on N5 time expressions: ~ji (hours), ~fun (minutes).
+    - Deepened understanding of the time particle `に` (rules for numerical vs. relative time).
+    - Resolved vocabulary and particle mistakes (e.g., `会議` spelling and `始まります` being intransitive with `が`).
+- **Status**: Success. Passed all checks with 100% accuracy.
+
 ## [2026-06-29] Dev | Audited cuacuonthienanh.vn & Executed SEO/AEO Master Strategy
 - **Target**: `01_Projects/seo_cua_cuon_dak_nong_plan.md` & Live Website
 - **Action**:

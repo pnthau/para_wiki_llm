@@ -1,11 +1,12 @@
 # Vault Operations Log
 
-## [2026-06-30] Study | Mastered time particles (~ji, ~fun, ~ni) in N5 Japanese
+## [2026-06-30] Study | Mastered time particles (~ji, ~fun, ~ni) and (N1 ka N2, goro vs kurai) in N5 Japanese
 - **Target**: `02_Areas/Japanese_N5/`
 - **Action**:
     - Guided John through a targeted Micro-Raid on N5 time expressions: ~ji (hours), ~fun (minutes).
     - Deepened understanding of the time particle `に` (rules for numerical vs. relative time).
-    - Resolved vocabulary and particle mistakes (e.g., `会議` spelling and `始まります` being intransitive with `が`).
+    - Introduced and mastered `N1 か N2` (selection) and `ごろ` vs `くらい` (point of time vs duration).
+    - Resolved vocabulary and particle mistakes (e.g., `会議` spelling, `歩いて` without `de` particle, and `始まります` being intransitive with `が`).
 - **Status**: Success. Passed all checks with 100% accuracy.
 
 ## [2026-06-29] Dev | Audited cuacuonthienanh.vn & Executed SEO/AEO Master Strategy

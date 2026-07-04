@@ -113,6 +113,7 @@ keywords: []
 - [[Programming_Fundamentals]]: Phân tích yêu cầu và Thuật toán cơ bản.
 - [[Web_AppSec_Spam_Defense]]: Phòng thủ chống spam đơn đặt hàng từ cơ bản đến tinh vi (Honeypot, Rate Limiting, Turnstile).
 - [[JSP_vs_Servlet]]: So sánh bản chất và vai trò phối hợp giữa JSP và Servlet trong MVC.
+- [[Java_Web_Classpath_Tomcat_IntelliJ_Config]]: Khắc phục lỗi Classpath nạp tài nguyên cấu hình trong IntelliJ Tomcat & thiết lập Gradle build chuẩn doanh nghiệp.
 
 ---
 

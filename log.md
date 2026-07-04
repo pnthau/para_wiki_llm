@@ -1,5 +1,15 @@
 # Vault Operations Log
 
+## [2026-07-04] Dev & Study | Solved Classpath Loading & IntelliJ Tomcat Artifact Resolution
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` & `D:\data\para_wiki_llm\02_Areas\IT_Knowledge\`
+- **Action**:
+    - Diagnosed Tomcat classloader failure caused by IntelliJ's broken artifact packaging, preventing `application.properties` from copying to `WEB-INF/classes`.
+    - Rewrote `ConfigLoader.java` using a **3-Layer Defensive Coding** strategy: Web Context ClassLoader -> Core Java ClassLoader -> Relative File System Path (IDE local fallback).
+    - Fixed the root cause inside IntelliJ's XML artifact configuration (`.idea/artifacts/fengshui_jewelry_main_war_exploded.xml`) by adding an explicit `<element id="directory-content">` instructions for resources.
+    - Set up **Delegate to Gradle** and configured explicit `sourceSets` in `build.gradle` to enforce correct classpath setups across teams (Enterprise Standard).
+    - Created Cornell-structured note [[Java_Web_Classpath_Tomcat_IntelliJ_Config]] in IT Knowledge and registered it under [[MOC_IT_Knowledge]].
+- **Status**: Success. All tests passed, configurations validated, and Tomcat deploys resource files successfully.
+
 ## [2026-06-30] Study | Mastered time grammar (~ji, ~fun, ~ni), (N1 ka N2, goro vs kurai), and (~kara ~made V) in N5 Japanese
 - **Target**: `02_Areas/Japanese_N5/`
 - **Action**:

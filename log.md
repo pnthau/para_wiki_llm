@@ -7,7 +7,7 @@
     - Rewrote `ConfigLoader.java` using a **3-Layer Defensive Coding** strategy: Web Context ClassLoader -> Core Java ClassLoader -> Relative File System Path (IDE local fallback).
     - Fixed the root cause inside IntelliJ's XML artifact configuration (`.idea/artifacts/fengshui_jewelry_main_war_exploded.xml`) by adding an explicit `<element id="directory-content">` instructions for resources.
     - Set up **Delegate to Gradle** and configured explicit `sourceSets` in `build.gradle` to enforce correct classpath setups across teams (Enterprise Standard).
-    - Created Cornell-structured note [[Java_Web_Classpath_Tomcat_IntelliJ_Config]] in IT Knowledge and registered it under [[MOC_IT_Knowledge]].
+    - Created Cornell-structured atomic notes [[Java_Web_Classpath_Resource_Loading]], [[IntelliJ_Artifact_Resource_Mapping]], and [[Gradle_Build_Delegation]] in IT Knowledge and registered them under [[MOC_IT_Knowledge]].
 - **Status**: Success. All tests passed, configurations validated, and Tomcat deploys resource files successfully.
 
 ## [2026-06-30] Study | Mastered time grammar (~ji, ~fun, ~ni), (N1 ka N2, goro vs kurai), and (~kara ~made V) in N5 Japanese

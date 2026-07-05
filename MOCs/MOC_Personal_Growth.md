@@ -46,6 +46,8 @@ keywords: []
 - [[SMART_Goal_Setting_Principles]]: Hệ thống đặt mục tiêu dựa trên khoa học não bộ.
 - [[Dreyfus_Model_Skill_Acquisition]]: Mô hình 5 giai đoạn phát triển kỹ năng.
 - [[Effective_Skill_Training_20_Hours]]: Quy tắc 20 giờ đầu tiên để thành thạo kỹ năng mới.
+- [[02_Areas/Personal/Shadow_Boxing_Principles|Shadow Boxing Principles]]: Các nguyên tắc nền tảng của Shadow Boxing.
+- [[02_Areas/Personal/Shadow_Learning_Methodology|Shadow Learning Methodology]]: Phương pháp học Shadow (Học bóng) từ thể thao đến học thuật.
 
 ## 🐣 Animal Husbandry & Farming (Nông nghiệp & Chăn nuôi)
 - [[01_Projects/Chicken_Tracking_Log|Nhật ký theo dõi đàn gà Mía]]: Bảng theo dõi đẻ trứng, chu kỳ ánh sáng và kế hoạch khắc phục sốc ánh sáng.

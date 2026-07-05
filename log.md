@@ -1,5 +1,12 @@
 # Vault Operations Log
 
+## [2026-07-05] Dev | Fixed ProductRepository DB Mapping Bug for YouTube URL
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry\src\main\java\com\fengshui\repository\ProductRepository.java`
+- **Action**:
+    - Fixed a critical mapping bug in `save()` method where parameter index 6 (`youtube_url`) was incorrectly mapped to `product.getDescription()`.
+    - Corrected the parameter mapping to `product.getYoutubeURL()` to ensure video URLs are stored properly during product creation.
+- **Status**: Success. Database save transaction validated.
+
 ## [2026-07-05] Study & Dev | Socratic Multi-Platform Video Embed Parser Integration
 - **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry\src\main\webapp\WEB-INF\views\user\product_detail.jsp`
 - **Action**:

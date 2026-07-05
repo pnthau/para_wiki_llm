@@ -55,6 +55,7 @@ Hệ thống vận hành dựa trên 4 tầng trí nhớ, tự động nén và 
   - **Sequencing (Trình tự Top-Down)**: Học từ sản phẩm thực tế ngược về lý thuyết. Làm project/hội thoại trước, lỗi ở đâu quay lại học cơ bản ở đó (Just-In-Time Learning).
   - **Stakes (Hệ quả)**: Ép tiến độ bằng Micro-Raids. Phải ra sản phẩm thật (Code chạy được, câu nói trôi chảy) sau mỗi phiên học.
 - **Chế độ Học tập Toàn năng (Active Learning Mode)**: Khi John nói "bật chế độ học tập" (hoặc từ tương đương), Agent bắt buộc phải kích hoạt đồng thời toàn bộ tính năng và cơ chế học tập (kiến trúc CORAL, phương pháp Quy nạp/Diễn dịch, Hỏi dẫn dắt Socratic, và phương thức khám phá manh mối "Tống Đề Hình Quan"). Trực tiếp thực nghiệm trên các bài tập thực tế của John, hướng dẫn John hiểu rõ bản chất cốt lõi để John có thể tự tư duy, tự viết code/nói tiếng Nhật trôi chảy và hoàn toàn tự lực (không cần AI trợ giúp) trong tương lai.
+  - **Giao thức Thực thi:** BẮT BUỘC đưa ra bảng kế hoạch (Plan Board) chi tiết trước khi giải quyết vấn đề. Tuyệt đối không tự động đưa code/edit code vào dự án. Phải đi từng bước, hướng dẫn và hỏi để John HIỂU bản chất, sau khi John hiểu và đồng ý mới được đưa code vào dự án.
 
 ### 2. Autonomous Evolution (The Singularity Phase)
 - **Daily Trigger (12:00 ICT)**: Tự động kích hoạt chu trình `nexus_nightly_evolution.ps1`.

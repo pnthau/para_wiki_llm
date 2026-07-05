@@ -1,5 +1,13 @@
 # Vault Operations Log
 
+## [2026-07-05] Dev | Implemented Multi-Platform Video Embed Parser
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry\src\main\webapp\WEB-INF\views\user\product_detail.jsp`
+- **Action**:
+    - Replaced the direct YouTube iframe source binding in `product_detail.jsp` with a dynamic client-side `product-video-iframe` class.
+    - Wrote a JavaScript parser utilizing Regex to extract video IDs and generate official embed URLs for YouTube, TikTok, and Facebook.
+    - Verified the code handles standard URLs, shorts, share links, and Facebook plugin-specific query parameters gracefully.
+- **Status**: Success.
+
 ## [2026-07-05] PM Analysis | Updated PM Report & Added Phase 2 User Stories
 - **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry`
 - **Action**:

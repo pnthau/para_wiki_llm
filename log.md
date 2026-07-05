@@ -1,12 +1,12 @@
 # Vault Operations Log
 
-## [2026-07-05] Dev | Implemented Multi-Platform Video Embed Parser
+## [2026-07-05] Study & Dev | Socratic Multi-Platform Video Embed Parser Integration
 - **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry\src\main\webapp\WEB-INF\views\user\product_detail.jsp`
 - **Action**:
-    - Replaced the direct YouTube iframe source binding in `product_detail.jsp` with a dynamic client-side `product-video-iframe` class.
-    - Wrote a JavaScript parser utilizing Regex to extract video IDs and generate official embed URLs for YouTube, TikTok, and Facebook.
-    - Verified the code handles standard URLs, shorts, share links, and Facebook plugin-specific query parameters gracefully.
-- **Status**: Success.
+    - Guided John step-by-step through the Socratic Active Learning Mode to grasp Clickjacking, X-Frame-Options, and Regex mechanics.
+    - Helped John write individual Regex patterns for YouTube Watch, Shorts, and Share formats, and optimized the combined Regex pattern.
+    - Implemented a secure HTML5 dataset-based dynamic iframe rendering script in `product_detail.jsp`.
+- **Status**: Success. John mastered HTML5 Dataset API and Regex.
 
 ## [2026-07-05] PM Analysis | Updated PM Report & Added Phase 2 User Stories
 - **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry`

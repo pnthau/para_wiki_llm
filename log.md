@@ -280,7 +280,6 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 - **Output**: `02_Areas/Strategy/Scaling_Founder_to_80_Engineers.md`
 - **Insight**: Tận dụng AI để mã hóa "Taste" và tự động hóa Onboarding/Code Review là chìa khóa để scaling không giới hạn. Đề xuất tích hợp "Sentiment Guard" và "Code Shadowing" vào hệ thống Nexus.
 - **Status**: Success.
-
 ## [2026-06-01] Lint | M2 Smart Linking (Orphans)
 - **Target**: 3 orphan notes (`AI_CORAL_Architecture`, `AI_Japanese_Tutor_Modern_Methods`, `Cách sử dụng chỉ mục...`).
 - **Action**: Added bidirectional links and registered in MOCs.

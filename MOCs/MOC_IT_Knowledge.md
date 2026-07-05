@@ -41,6 +41,7 @@ keywords: []
 - [[MySQL_8.4_Features]]: Cập nhật mới nhất về MySQL 8.4 LTS.
 
 ### Fundamentals & Basics
+- [[Java_Enum_Fundamentals]]: Bản chất Enum, Constructor và kỹ thuật map dữ liệu an toàn.
 - [[Java_Style_Guide]]: Quy ước lập trình Java (Google Style).
 - [[Java_JVM_Variables_DataTypes]]: JVM, Biến và Kiểu dữ liệu.
 - [[Java_Memory_Management]]: Quản lý bộ nhớ Stack & Heap, Pass-by-value.
@@ -113,6 +114,7 @@ keywords: []
 - [[Programming_Fundamentals]]: Phân tích yêu cầu và Thuật toán cơ bản.
 - [[Web_AppSec_Spam_Defense]]: Phòng thủ chống spam đơn đặt hàng từ cơ bản đến tinh vi (Honeypot, Rate Limiting, Turnstile).
 - [[JSP_vs_Servlet]]: So sánh bản chất và vai trò phối hợp giữa JSP và Servlet trong MVC.
+- [[JSP_Servlet_Exception_Data_Loss]]: Tái tạo dữ liệu giao diện khi Forward và xử lý lỗi Servlet.
 - [[Java_Web_Classpath_Resource_Loading]]: Nạp tài nguyên bằng Classpath và cơ chế nạp phòng thủ đa tầng.
 - [[IntelliJ_Artifact_Resource_Mapping]]: Khắc phục lỗi mất tài nguyên bằng cấu hình ánh xạ Artifact trong IntelliJ.
 - [[Gradle_Build_Delegation]]: Thiết lập ủy quyền trình biên dịch Gradle làm nguồn chân lý duy nhất.

@@ -116,6 +116,9 @@ keywords: []
 - [[Java_Web_Classpath_Resource_Loading]]: Nạp tài nguyên bằng Classpath và cơ chế nạp phòng thủ đa tầng.
 - [[IntelliJ_Artifact_Resource_Mapping]]: Khắc phục lỗi mất tài nguyên bằng cấu hình ánh xạ Artifact trong IntelliJ.
 - [[Gradle_Build_Delegation]]: Thiết lập ủy quyền trình biên dịch Gradle làm nguồn chân lý duy nhất.
+- [[Cloudinary_Java_InputStream_Upload_Error]]: Khắc phục lỗi upload InputStream trên Cloudinary Java SDK bằng mảng byte.
+- [[IntelliJ_Tomcat_Artifact_Resolution]]: Xử lý lỗi Tomcat Artifact Not Available (404) do cache hoặc thiếu tài nguyên.
+- [[Java_Servlet_Case_Sensitive_Parameters]]: Tính phân biệt chữ hoa/thường của các tham số HTTP truyền lên Servlet.
 
 ---
 

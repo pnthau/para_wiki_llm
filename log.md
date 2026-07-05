@@ -1,5 +1,15 @@
 # Vault Operations Log
 
+## [2026-07-05] Dev & Ingest | Cloudinary Upload Resolution & Vault Wiki Knowledge Capture
+- **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` & `D:\data\para_wiki_llm\02_Areas\IT_Knowledge\`
+- **Action**:
+    - Rolled back manual XML and classpath ConfigLoader configurations, returning to standard direct JDBC connection parameters in `BaseRepository.java` to stabilize John's local Tomcat runtime.
+    - Diagnosed the Cloudinary exception `Unrecognized file parameter sun.nio.ch.ChannelInputStream` inside `ProductAdminController.java`, resolving it by converting the `InputStream` from `Part.getInputStream()` to a native `byte[]` via `.readAllBytes()`.
+    - Identified a case-sensitivity mismatch between the hidden JSP input `imageUrl` and the controller parameter `imageURL`.
+    - Created three Cornell-structured atomic notes: [[Cloudinary_Java_InputStream_Upload_Error]], [[IntelliJ_Tomcat_Artifact_Resolution]], and [[Java_Servlet_Case_Sensitive_Parameters]] inside the IT Knowledge PARA vault.
+    - Updated [[MOC_IT_Knowledge]] to link and index the new files.
+- **Status**: Success. Codebase compiles and runs successfully, wiki structured and updated.
+
 ## [2026-07-04] Dev & Study | Solved Classpath Loading & IntelliJ Tomcat Artifact Resolution
 - **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry` & `D:\data\para_wiki_llm\02_Areas\IT_Knowledge\`
 - **Action**:

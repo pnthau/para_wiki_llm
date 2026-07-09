@@ -340,3 +340,5 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 ## [2026-07-09] Ingest | Web Search 'Tribe of Mentors' (Lời khuyên từ những nhà cố vấn hàng đầu thế giới) vào 03_Resources
 ## [2026-07-09] Ingest | Đã nạp tài liệu hướng dẫn tích hợp AI (Gemini Pro) vào SDLC (Pre-coding, Coding, Review, Testing, Debug) vào thư mục IT_Knowledge.
 
+## [2026-07-09] Ingest | Lưu lại ý tưởng biện chứng chiến lược chọn công nghệ Web Crawling (Black-box vs Fundamentals) vào IT_Knowledge.
+

@@ -112,6 +112,7 @@ keywords: []
 - [[GitHub_Branch_Protection_Rules]]: Thiết lập bắt buộc review chéo và bảo vệ nhánh chính trên GitHub.
 - [[Java_Maven_Lombok]]: Quản lý dự án với Maven và tối ưu code với Lombok.
 - [[Programming_Fundamentals]]: Phân tích yêu cầu và Thuật toán cơ bản.
+- [[Web_Crawling_Strategy]]: Chiến lược chọn công cụ Crawl dữ liệu (Black-box vs Fundamentals).
 - [[Web_AppSec_Spam_Defense]]: Phòng thủ chống spam đơn đặt hàng từ cơ bản đến tinh vi (Honeypot, Rate Limiting, Turnstile).
 - [[JSP_vs_Servlet]]: So sánh bản chất và vai trò phối hợp giữa JSP và Servlet trong MVC.
 - [[JSP_Servlet_Exception_Data_Loss]]: Tái tạo dữ liệu giao diện khi Forward và xử lý lỗi Servlet.

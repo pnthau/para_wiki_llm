@@ -125,6 +125,7 @@ keywords: []
 ---
 
 ## 🏗️ Kiến trúc & Hệ thống AI
+- [[AI_in_SDLC_Integration]]: Tích hợp AI (Gemini Pro) vào quy trình SDLC (Pre-coding, TDD, Review, Debug).
 - [[MCP_ADK_Frameworks]]: Chuẩn hóa kết nối (MCP) và Khung kiến trúc Agent (ADK).
 - [[Multi_Agent_AI_Systems]]: Từ sự tự tin đến sự xác minh (NASA Case Study).
 - [[Scaling_Founder_to_80_Engineers]]: AI-Driven Scaling (Founder to 80 Engineers Case Study).

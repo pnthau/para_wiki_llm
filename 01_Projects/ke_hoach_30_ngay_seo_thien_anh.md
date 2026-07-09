@@ -149,9 +149,9 @@
 - [ ] Upload 1 video có sẵn (nếu có) hoặc để trống, sẽ upload sau
 
 ### Thứ Tư 09/07 — BÀI VIẾT MỚI #1: So sánh khe thoáng vs tấm liền (30 phút)
-- [ ] Yêu cầu AI soạn bài viết: *"So sánh cửa cuốn khe thoáng và tấm liền cho nhà phố Gia Nghĩa"*
-- [ ] Copy nội dung → Đăng lên website mục Blog/Tin tức
-- [ ] Đặt URL: `/so-sanh-cua-cuon-khe-thoang-tam-lien`
+- [x] Đã nhờ AI soạn và đăng bài viết thành công.
+- [x] Đặt URL: `/so-sanh-cua-cuon-khe-thoang-va-tam-lien`
+- [x] Đã nhúng thành công Link Google Maps vào phần liên hệ.
 - [ ] Chia sẻ bài lên Facebook Fanpage
 
 ### Thứ Năm 10/07 — Citation #4 + #5: LinkedIn + Pinterest (20 phút)
@@ -176,7 +176,7 @@
 
 ### Chủ Nhật 13/07 — BÀI VIẾT MỚI #2: Chọn bình lưu điện (30 phút)
 - [x] Yêu cầu AI soạn: *"Hướng dẫn chọn bình lưu điện cửa cuốn phù hợp khí hậu Đắk Nông"*
-- [x] Đăng lên website + Chia sẻ Facebook
+- [x] Đăng lên website (Nhớ nhúng Link Google Maps vào chân bài) + Chia sẻ Facebook
 
 ---
 
@@ -222,7 +222,7 @@
 
 ### Thứ Bảy 19/07 — BÀI VIẾT MỚI #3: Bảng giá sửa cửa cuốn 2026 (30 phút)
 - [ ] Yêu cầu AI soạn: *"Bảng giá sửa cửa cuốn tại Đắk Nông 2026 — Thiên Anh Door"*
-- [ ] Đăng lên website + Submit URL lên Google Search Console
+- [ ] Đăng lên website (Nhớ nhúng Link Google Maps) + Submit URL lên Google Search Console
 - [ ] Chia sẻ lên Facebook + Zalo
 
 ### Chủ Nhật 20/07 — Citation #11 + #12: Apple Business + TrangVang.com.vn (15 phút)

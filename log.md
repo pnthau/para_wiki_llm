@@ -336,3 +336,7 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
     - Mapped keywords and tags (`[psychology, personality, intelligence, genetics, personal-growth]`) into YAML v4.0 frontmatter.
     - Updated `[[MOC_Personal_Growth]]` to ensure robust linkage within the Persistent Knowledge Wiki.
 - **Status**: Success.
+## [2026-07-06] Ingest | Lưu kế hoạch tích hợp VNPay Payment_Integration_Plan.md
+## [2026-07-09] Ingest | Web Search 'Tribe of Mentors' (Lời khuyên từ những nhà cố vấn hàng đầu thế giới) vào 03_Resources
+## [2026-07-09] Ingest | Đã nạp tài liệu hướng dẫn tích hợp AI (Gemini Pro) vào SDLC (Pre-coding, Coding, Review, Testing, Debug) vào thư mục IT_Knowledge.
+

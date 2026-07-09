@@ -134,10 +134,14 @@ AI không xếp hạng website như Google truyền thống. AI tổng hợp th�
 - Mỗi bài viết trên web PHẢI có **đoạn Direct Answer** (100-150 từ) ngay đầu bài
 - Định dạng Q&A rõ ràng: **Hỏi** → **Trả lời trực tiếp** → Chi tiết
 - FAQ Schema markup trên mỗi bài viết quan trọng
+- **Nhúng link Google Maps:** Bắt buộc chèn link trỏ về Bản đồ Google Maps của doanh nghiệp ở phần Liên hệ để bơm Entity.
 
 **C. Brand Mention Consistency (Nhắc tên thương hiệu nhất quán):**
 - Trên mọi bài viết, luôn xuất hiện cụm: `Thiên Anh Door - Cửa Cuốn Đắk Nông`
 - Không bao giờ viết chỉ "Thiên Anh" hoặc chỉ "Cửa cuốn" — phải là cả cụm đầy đủ
+
+**D. Chiến lược phòng thủ Spam SEO (Local Authenticity):**
+- Sử dụng Hình ảnh và Video quay thực tế tại công trình có chứa dữ liệu định vị (Geotagging GPS). AI 2026 sẽ quét thẻ EXIF để xác thực tính có thật của doanh nghiệp so với đối thủ spam.
 
 ### MŨI 5: VIDEO & SOCIAL SIGNALS — MỞ RỘNG MẶT TRẬN (Tuần 3+)
 

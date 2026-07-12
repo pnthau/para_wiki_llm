@@ -350,4 +350,10 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
     - Programmed `study.py` - an interactive terminal-based learning utility utilizing Windows `winsound` for instant audio playback, repeat mode, and dynamic Shadowing drills (with Beep signals and auto-calculated sleep times).
 - **Status**: Success.
 
+## [2026-07-12] Study | Mastered N5 Adjectives (Attributive & Predicative Connections)
+- **Target**: N5 Grammar Mastery (Adjective modifying Noun + Predicative `な`-adjective linking).
+- **Action**: Guided John to practice classification of `い` and `な` adjectives. Mentored conversion errors (ba vs pa in 先輩) and predicative logic (`しんせつですてき` using `で` connection and dropping `な` before `です`).
+- **Status**: Completed with 100% correct drills. John sentiment: High Focus, Bushido Spirit.
+
+
 

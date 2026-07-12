@@ -1,0 +1,1026 @@
+[
+    {
+        "id": 1,
+        "name": "Thuần Càn",
+        "han": "乾",
+        "lines": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Trời trên trời — vạn vật hanh thông, rồng bay lên trời. Đây là quẻ của sức mạnh, sáng tạo và khởi đầu vĩ đại.",
+        "advice": "Tự tin tiến bước, thời cơ đã đến. Hãy hành động mạnh mẽ và quyết đoán."
+    },
+    {
+        "id": 2,
+        "name": "Thuần Khôn",
+        "han": "坤",
+        "lines": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Đất dày đức lớn, bao dung vạn vật. Quẻ của sự nuôi dưỡng, khiêm nhường và bền bỉ.",
+        "advice": "Thuận theo tự nhiên, khiêm nhường sẽ thành công. Lắng nghe và hỗ trợ người khác."
+    },
+    {
+        "id": 3,
+        "name": "Thủy Lôi Truân",
+        "han": "屯",
+        "lines": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Khó khăn ban đầu nhưng ẩn chứa tiềm năng lớn lao. Như hạt giống nảy mầm xuyên qua đất.",
+        "advice": "Kiên nhẫn chờ đợi, đừng vội vàng. Tìm người có kinh nghiệm giúp đỡ."
+    },
+    {
+        "id": 4,
+        "name": "Sơn Thủy Mông",
+        "han": "蒙",
+        "lines": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Mông muội cần được khai sáng. Như suối nước chảy dưới chân núi, cần được dẫn dắt đúng hướng.",
+        "advice": "Hãy tìm thầy giỏi, khiêm tốn học hỏi. Đừng xấu hổ khi hỏi."
+    },
+    {
+        "id": 5,
+        "name": "Thủy Thiên Nhu",
+        "han": "需",
+        "lines": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Chờ đợi đúng thời điểm sẽ hanh thông. Mây tụ trên trời — mưa sẽ đến đúng lúc.",
+        "advice": "Bình tĩnh, tin tưởng vào quá trình. Chuẩn bị kỹ trong khi chờ đợi."
+    },
+    {
+        "id": 6,
+        "name": "Thiên Thủy Tụng",
+        "han": "訟",
+        "lines": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "fortune": "Hung",
+        "meaning": "Tranh chấp, kiện tụng — bất lợi cho cả hai bên. Nước và trời đi ngược chiều.",
+        "advice": "Hòa giải tốt hơn đối đầu. Lui một bước biển rộng trời cao."
+    },
+    {
+        "id": 7,
+        "name": "Địa Thủy Sư",
+        "han": "師",
+        "lines": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Cần kỷ luật và tổ chức để vượt qua thử thách. Quẻ của lãnh đạo và đội ngũ.",
+        "advice": "Tìm người dẫn dắt có kinh nghiệm. Kỷ luật bản thân là chìa khóa."
+    },
+    {
+        "id": 8,
+        "name": "Thủy Địa Tỷ",
+        "han": "比",
+        "lines": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Gần gũi, hợp tác mang lại may mắn. Nước trên đất — tự nhiên hòa hợp.",
+        "advice": "Xây dựng mối quan hệ tốt đẹp. Đoàn kết là sức mạnh."
+    },
+    {
+        "id": 9,
+        "name": "Phong Thiên Tiểu Súc",
+        "han": "小畜",
+        "lines": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+        ],
+        "fortune": "Cát",
+        "meaning": "Tích lũy dần dần từ những điều nhỏ bé. Gió thổi trên trời — nhẹ nhàng nhưng bền bỉ.",
+        "advice": "Đừng nóng vội, kiên trì tích lũy. Thành công đến từ sự bền bỉ."
+    },
+    {
+        "id": 10,
+        "name": "Thiên Trạch Lý",
+        "han": "履",
+        "lines": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "fortune": "Cát",
+        "meaning": "Đi đúng đạo, hành xử đúng mực. Bước đi cẩn trọng sẽ an toàn.",
+        "advice": "Cẩn thận từng bước, giữ lễ nghĩa. Đi chậm mà chắc."
+    },
+    {
+        "id": 11,
+        "name": "Địa Thiên Thái",
+        "han": "泰",
+        "lines": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Trời đất giao hòa — vạn sự hanh thông. Đây là quẻ tốt lành nhất, mọi việc đều thuận.",
+        "advice": "Thời điểm vàng để hành động lớn. Nắm bắt cơ hội ngay!"
+    },
+    {
+        "id": 12,
+        "name": "Thiên Địa Bĩ",
+        "han": "否",
+        "lines": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+        ],
+        "fortune": "Hung",
+        "meaning": "Bế tắc, trì trệ — trời đất không giao. Nhưng sau cơn bĩ cực sẽ đến hồi thái lai.",
+        "advice": "Giữ vững lập trường, ẩn mình chờ thời. Bĩ cực thái lai."
+    },
+    {
+        "id": 13,
+        "name": "Thiên Hỏa Đồng Nhân",
+        "han": "同人",
+        "lines": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+        ],
+        "fortune": "Cát",
+        "meaning": "Hợp tác cùng mọi người — đồng lòng sẽ thành. Lửa bốc lên trời, sáng rõ cho tất cả.",
+        "advice": "Mở rộng giao thiệp, tìm đồng minh. Cùng chí hướng thì cùng thành công."
+    },
+    {
+        "id": 14,
+        "name": "Hỏa Thiên Đại Hữu",
+        "han": "大有",
+        "lines": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Đại phúc đại lộc — sở hữu dồi dào. Lửa chiếu sáng trên trời cao.",
+        "advice": "Dùng tài sản và quyền lực để làm việc thiện. Càng cho đi càng nhận lại."
+    },
+    {
+        "id": 15,
+        "name": "Địa Sơn Khiêm",
+        "han": "謙",
+        "lines": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Khiêm nhường mang đến phúc lành vĩnh cửu. Núi ẩn dưới đất — tài năng không cần phô trương.",
+        "advice": "Càng khiêm tốn càng được quý trọng. Đây là đức tính quý nhất."
+    },
+    {
+        "id": 16,
+        "name": "Lôi Địa Dự",
+        "han": "豫",
+        "lines": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Vui vẻ, hào hứng — chuẩn bị chu đáo sẽ thành công. Sấm vang trên đất.",
+        "advice": "Lên kế hoạch kỹ trước khi hành động. Tinh thần lạc quan là sức mạnh."
+    },
+    {
+        "id": 17,
+        "name": "Trạch Lôi Tùy",
+        "han": "隨",
+        "lines": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Thuận theo thời thế, linh hoạt thích ứng. Sấm trong đầm — thuận theo tự nhiên.",
+        "advice": "Đi theo xu hướng đúng, đừng cố chống lại dòng chảy."
+    },
+    {
+        "id": 18,
+        "name": "Sơn Phong Cổ",
+        "han": "蠱",
+        "lines": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Cần sửa chữa sai lầm từ quá khứ. Như con sâu trong gỗ — phải xử lý gốc rễ.",
+        "advice": "Dũng cảm đối mặt với vấn đề cũ. Sửa sai là khởi đầu mới."
+    },
+    {
+        "id": 19,
+        "name": "Địa Trạch Lâm",
+        "han": "臨",
+        "lines": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Thời cơ lớn đang đến gần. Đất bên hồ — vạn vật đang nảy nở.",
+        "advice": "Chuẩn bị sẵn sàng để nắm bắt. Cơ hội không chờ đợi ai."
+    },
+    {
+        "id": 20,
+        "name": "Phong Địa Quán",
+        "han": "觀",
+        "lines": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Quan sát kỹ trước khi hành động. Gió thổi trên đất — nhìn xa trông rộng.",
+        "advice": "Dành thời gian suy ngẫm, đừng vội quyết định. Người trí quan sát trước."
+    },
+    {
+        "id": 21,
+        "name": "Hỏa Lôi Phệ Hạp",
+        "han": "噬嗑",
+        "lines": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "fortune": "Cát",
+        "meaning": "Quyết đoán xử lý vấn đề — như cắn đứt chướng ngại. Công lý sẽ được thực thi.",
+        "advice": "Đối mặt và giải quyết dứt khoát. Đừng để vấn đề kéo dài."
+    },
+    {
+        "id": 22,
+        "name": "Sơn Hỏa Bí",
+        "han": "賁",
+        "lines": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "fortune": "Cát",
+        "meaning": "Vẻ đẹp tỏa sáng — hình thức và nội dung hài hòa. Lửa dưới chân núi tô điểm cảnh vật.",
+        "advice": "Chú trọng hình ảnh bản thân nhưng đừng quên nội dung bên trong."
+    },
+    {
+        "id": 23,
+        "name": "Sơn Địa Bác",
+        "han": "剝",
+        "lines": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "fortune": "Hung",
+        "meaning": "Suy thoái, mục nát dần. Núi trên đất mỏng — nền tảng đang lung lay.",
+        "advice": "Giữ vững nền tảng, tuyệt đối đừng mạo hiểm lúc này."
+    },
+    {
+        "id": 24,
+        "name": "Địa Lôi Phục",
+        "han": "復",
+        "lines": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Quay trở lại, hồi phục — khởi đầu mới tràn đầy hy vọng. Một tia sáng trong bóng tối.",
+        "advice": "Tin vào khả năng hồi phục của bản thân. Mỗi ngày mới là cơ hội mới."
+    },
+    {
+        "id": 25,
+        "name": "Thiên Lôi Vô Vọng",
+        "han": "無妄",
+        "lines": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+        ],
+        "fortune": "Cát",
+        "meaning": "Chân thành, không giả dối sẽ được phước. Hành động thuận theo lẽ trời.",
+        "advice": "Sống thật với chính mình. Đừng cố tạo ra điều không phải của mình."
+    },
+    {
+        "id": 26,
+        "name": "Sơn Thiên Đại Súc",
+        "han": "大畜",
+        "lines": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Tích lũy lớn lao — tri thức và tài sản dồi dào. Núi chứa trời — tiềm năng vô hạn.",
+        "advice": "Đầu tư mạnh cho bản thân và kiến thức. Đây là thời điểm tích lũy."
+    },
+    {
+        "id": 27,
+        "name": "Sơn Lôi Di",
+        "han": "頤",
+        "lines": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Nuôi dưỡng thân tâm — chăm sóc bản thân và người khác. Chú ý đến nguồn năng lượng.",
+        "advice": "Ăn uống, nghỉ ngơi điều độ. Nuôi dưỡng tâm hồn bằng tri thức tốt."
+    },
+    {
+        "id": 28,
+        "name": "Trạch Phong Đại Quá",
+        "han": "大過",
+        "lines": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ],
+        "fortune": "Hung",
+        "meaning": "Vượt quá giới hạn — áp lực quá lớn. Cây cột chính đang oằn mình.",
+        "advice": "Giảm tải ngay lập tức. Cần cân bằng lại cuộc sống."
+    },
+    {
+        "id": 29,
+        "name": "Thuần Khảm",
+        "han": "坎",
+        "lines": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+        ],
+        "fortune": "Hung",
+        "meaning": "Hiểm trở chồng chất — nước sâu nối tiếp nước sâu. Nhưng nước luôn tìm được đường.",
+        "advice": "Giữ vững niềm tin, nước chảy đá mòn. Khó khăn này sẽ qua."
+    },
+    {
+        "id": 30,
+        "name": "Thuần Ly",
+        "han": "離",
+        "lines": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+        ],
+        "fortune": "Cát",
+        "meaning": "Ánh sáng, trí tuệ tỏa sáng — lửa bám vào nhiên liệu mà cháy. Sự sáng suốt và nhiệt huyết.",
+        "advice": "Kiên trì theo đuổi lý tưởng. Để trí tuệ dẫn đường cho hành động."
+    },
+    {
+        "id": 31,
+        "name": "Trạch Sơn Hàm",
+        "han": "咸",
+        "lines": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Cảm ứng qua lại — tình cảm chân thành. Hồ trên núi, tim hồ cảm ứng nhau.",
+        "advice": "Mở lòng đón nhận. Tình duyên và các mối quan hệ rất thuận lợi."
+    },
+    {
+        "id": 32,
+        "name": "Lôi Phong Hằng",
+        "han": "恆",
+        "lines": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Bền bỉ, kiên trì — sấm và gió cùng hành. Sự kiên định sẽ dẫn đến thành công.",
+        "advice": "Giữ vững con đường đã chọn. ĐỪNG BỎ CUỘC giữa chừng."
+    },
+    {
+        "id": 33,
+        "name": "Thiên Sơn Độn",
+        "han": "遯",
+        "lines": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Rút lui đúng lúc là trí tuệ. Núi dưới trời — biết lùi để bảo toàn lực lượng.",
+        "advice": "Tạm rút lui không phải hèn nhát. Biết lùi là để tiến xa hơn."
+    },
+    {
+        "id": 34,
+        "name": "Lôi Thiên Đại Tráng",
+        "han": "大壯",
+        "lines": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Sức mạnh lớn lao, năng lượng dồi dào. Sấm vang trên trời — uy lực vô song.",
+        "advice": "Dùng sức mạnh đúng chỗ, đừng lạm dụng quyền lực."
+    },
+    {
+        "id": 35,
+        "name": "Hỏa Địa Tấn",
+        "han": "晉",
+        "lines": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Tiến lên phía trước — mặt trời mọc trên đất. Sự nghiệp thăng tiến, quang minh chính đại.",
+        "advice": "Tự tin thể hiện bản thân. Thời điểm thuận lợi để tiến lên."
+    },
+    {
+        "id": 36,
+        "name": "Địa Hỏa Minh Di",
+        "han": "明夷",
+        "lines": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "fortune": "Hung",
+        "meaning": "Ánh sáng bị che lấp — tài năng bị vùi dập. Mặt trời lặn dưới đất.",
+        "advice": "Ẩn mình chờ thời, giữ trí tuệ bên trong. Đừng phô trương lúc này."
+    },
+    {
+        "id": 37,
+        "name": "Phong Hỏa Gia Nhân",
+        "han": "家人",
+        "lines": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+        ],
+        "fortune": "Cát",
+        "meaning": "Gia đình hòa thuận — nền tảng vững chắc cho mọi thành công.",
+        "advice": "Chăm sóc gia đình trước tiên. Gia hòa vạn sự hưng."
+    },
+    {
+        "id": 38,
+        "name": "Hỏa Trạch Khuể",
+        "han": "睽",
+        "lines": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Đối lập, bất đồng — lửa và nước đi ngược chiều. Nhưng đối lập cũng tạo ra sáng tạo.",
+        "advice": "Tìm điểm chung trong khác biệt. Đa dạng là sức mạnh."
+    },
+    {
+        "id": 39,
+        "name": "Thủy Sơn Kiển",
+        "han": "蹇",
+        "lines": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ],
+        "fortune": "Hung",
+        "meaning": "Khó khăn trước mặt — nước trên núi, đường đi hiểm trở.",
+        "advice": "Tìm người giúp đỡ, đừng đi một mình. Cùng nhau vượt khó."
+    },
+    {
+        "id": 40,
+        "name": "Lôi Thủy Giải",
+        "han": "解",
+        "lines": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Giải thoát — vấn đề đang được tháo gỡ. Mưa sấm giải tỏa căng thẳng.",
+        "advice": "Hành động ngay khi cơ hội đến. Giải quyết dứt điểm, đừng để lại."
+    },
+    {
+        "id": 41,
+        "name": "Sơn Trạch Tổn",
+        "han": "損",
+        "lines": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Giảm bớt để cân bằng. Bớt ở dưới thêm ở trên — hy sinh ngắn hạn cho dài hạn.",
+        "advice": "Chấp nhận mất mát nhỏ để đạt được điều lớn hơn."
+    },
+    {
+        "id": 42,
+        "name": "Phong Lôi Ích",
+        "han": "益",
+        "lines": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Được thêm, lợi ích gia tăng. Gió và sấm cùng hỗ trợ — vạn sự được tăng cường.",
+        "advice": "Thời điểm tuyệt vời để đầu tư, mở rộng và bắt đầu dự án mới."
+    },
+    {
+        "id": 43,
+        "name": "Trạch Thiên Quải",
+        "han": "夬",
+        "lines": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Quyết đoán loại bỏ điều xấu. Nước hồ dâng lên trời — quyết tâm vượt qua.",
+        "advice": "Dứt khoát hành động, loại bỏ thói quen xấu. Đừng do dự."
+    },
+    {
+        "id": 44,
+        "name": "Thiên Phong Cấu",
+        "han": "姤",
+        "lines": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Gặp gỡ bất ngờ — cần cảnh giác. Gió dưới trời, lan tỏa khắp nơi.",
+        "advice": "Đánh giá kỹ trước khi tin tưởng. Không phải cơ hội nào cũng tốt."
+    },
+    {
+        "id": 45,
+        "name": "Trạch Địa Tụy",
+        "han": "萃",
+        "lines": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Tụ hội, đoàn kết sức mạnh. Nước hồ trên đất — muôn dòng tụ về.",
+        "advice": "Tham gia cộng đồng, xây dựng đội nhóm. Đoàn kết sẽ mạnh."
+    },
+    {
+        "id": 46,
+        "name": "Địa Phong Thăng",
+        "han": "升",
+        "lines": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Thăng tiến vượt bậc — cây mọc từ đất lên cao. Tiến lên không ngừng.",
+        "advice": "Nỗ lực sẽ được đền đáp. Cứ kiên trì, bạn đang đi đúng hướng!"
+    },
+    {
+        "id": 47,
+        "name": "Trạch Thủy Khốn",
+        "han": "困",
+        "lines": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+        ],
+        "fortune": "Hung",
+        "meaning": "Khốn khó, bế tắc — nước hồ cạn kiệt. Nhưng quân tử khốn mà không mất chí.",
+        "advice": "Giữ vững tinh thần, đây chỉ là giai đoạn. Lời nói lúc này ít người tin."
+    },
+    {
+        "id": 48,
+        "name": "Thủy Phong Tỉnh",
+        "han": "井",
+        "lines": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Giếng nước nuôi sống muôn người — nguồn tài nguyên không cạn nếu biết gìn giữ.",
+        "advice": "Phát triển kỹ năng cốt lõi. Tri thức là giếng nước không bao giờ cạn."
+    },
+    {
+        "id": 49,
+        "name": "Trạch Hỏa Cách",
+        "han": "革",
+        "lines": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Cách mạng, thay đổi lớn lao — lửa trong hồ, biến đổi toàn diện.",
+        "advice": "Đừng sợ thay đổi. Đây là lúc cần đột phá và đổi mới."
+    },
+    {
+        "id": 50,
+        "name": "Hỏa Phong Đỉnh",
+        "han": "鼎",
+        "lines": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Đỉnh vạc — biểu tượng của sự chuyển hóa và thành tựu lớn. Lửa nấu chín mọi thứ.",
+        "advice": "Chuyển hóa bản thân, nâng cấp toàn diện. Thành quả lớn đang chờ."
+    },
+    {
+        "id": 51,
+        "name": "Thuần Chấn",
+        "han": "震",
+        "lines": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Sấm động liên hồi — chấn động nhưng cũng là khởi đầu mới.",
+        "advice": "Bình tĩnh giữa biến động. Sau cơn giông là trời quang."
+    },
+    {
+        "id": 52,
+        "name": "Thuần Cấn",
+        "han": "艮",
+        "lines": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Núi chồng núi — biết dừng đúng lúc. Tĩnh lặng để suy ngẫm.",
+        "advice": "Dừng lại, suy nghĩ trước khi hành động tiếp. Tĩnh sinh tuệ."
+    },
+    {
+        "id": 53,
+        "name": "Phong Sơn Tiệm",
+        "han": "漸",
+        "lines": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+        ],
+        "fortune": "Cát",
+        "meaning": "Tiến dần từng bước — như cây mọc trên núi, chậm nhưng vững chắc.",
+        "advice": "Từng bước một, đừng nhảy cóc. Tiến chậm mà chắc sẽ đến đích."
+    },
+    {
+        "id": 54,
+        "name": "Lôi Trạch Quy Muội",
+        "han": "歸妹",
+        "lines": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+        ],
+        "fortune": "Hung",
+        "meaning": "Hành động vội vàng, không đúng trình tự — sấm trên hồ gây hỗn loạn.",
+        "advice": "Đừng vội vàng, suy xét kỹ trước khi cam kết. Nóng vội sẽ hối hận."
+    },
+    {
+        "id": 55,
+        "name": "Lôi Hỏa Phong",
+        "han": "豐",
+        "lines": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Phong phú, thịnh vượng — sấm và lửa cùng rực sáng. Đỉnh cao thành tựu.",
+        "advice": "Tận hưởng thành quả nhưng đừng kiêu ngạo. Chuẩn bị cho giai đoạn tiếp."
+    },
+    {
+        "id": 56,
+        "name": "Hỏa Sơn Lữ",
+        "han": "旅",
+        "lines": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Lữ hành, phiêu bạt — lửa trên núi cháy nhanh rồi tắt. Cần cẩn trọng nơi đất khách.",
+        "advice": "Khiêm tốn, cẩn trọng khi ở vị trí mới. Xây dựng quan hệ tốt."
+    },
+    {
+        "id": 57,
+        "name": "Thuần Tốn",
+        "han": "巽",
+        "lines": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+        ],
+        "fortune": "Cát",
+        "meaning": "Gió nhẹ thổi liên tục — sự thâm nhập dần dần. Mềm mỏng mà hiệu quả.",
+        "advice": "Kiên trì với mục tiêu, mềm dẻo trong phương pháp. Nước chảy đá mòn."
+    },
+    {
+        "id": 58,
+        "name": "Thuần Đoài",
+        "han": "兌",
+        "lines": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Hồ nối hồ — vui vẻ, hòa đồng. Niềm vui lan tỏa và kết nối mọi người.",
+        "advice": "Chia sẻ niềm vui, giao tiếp cởi mở. Vui vẻ là sức mạnh thật sự."
+    },
+    {
+        "id": 59,
+        "name": "Phong Thủy Hoán",
+        "han": "渙",
+        "lines": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Phân tán, tan rã rồi tái hợp. Gió thổi trên nước — phân tán để rồi tụ lại.",
+        "advice": "Buông bỏ cố chấp, mở rộng tầm nhìn. Đôi khi cần phá vỡ để xây lại."
+    },
+    {
+        "id": 60,
+        "name": "Thủy Trạch Tiết",
+        "han": "節",
+        "lines": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Tiết chế, điều độ — nước trong hồ có giới hạn. Biết đủ là đủ.",
+        "advice": "Giữ kỷ luật và điều độ trong mọi việc. Quá đà sẽ phản tác dụng."
+    },
+    {
+        "id": 61,
+        "name": "Phong Trạch Trung Phu",
+        "han": "中孚",
+        "lines": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+        ],
+        "fortune": "Đại Cát",
+        "meaning": "Thành tín từ trong lòng — gió trên hồ lan tỏa. Lòng tin chân thành lay động muôn người.",
+        "advice": "Giữ chữ tín, thành thật với mọi người. Niềm tin là tài sản quý nhất."
+    },
+    {
+        "id": 62,
+        "name": "Lôi Sơn Tiểu Quá",
+        "han": "小過",
+        "lines": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Hơi vượt quá — sấm trên núi, tiếng vang mạnh hơn thực lực. Làm việc nhỏ thì tốt.",
+        "advice": "Đừng cố làm quá lớn. Bắt đầu từ việc nhỏ, hoàn thành rồi mở rộng."
+    },
+    {
+        "id": 63,
+        "name": "Thủy Hỏa Ký Tế",
+        "han": "既濟",
+        "lines": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+        ],
+        "fortune": "Cát",
+        "meaning": "Đã hoàn thành — nước trên lửa, mọi thứ đã đúng vị trí. Nhưng cần cảnh giác.",
+        "advice": "Duy trì thành quả, đừng chủ quan. Thành công cần được bảo vệ."
+    },
+    {
+        "id": 64,
+        "name": "Hỏa Thủy Vị Tế",
+        "han": "未濟",
+        "lines": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+        ],
+        "fortune": "Trung Bình",
+        "meaning": "Chưa hoàn thành — lửa trên nước, mọi thứ chưa đúng chỗ. Nhưng đầy tiềm năng phía trước.",
+        "advice": "Con đường vẫn còn dài. Kiên trì và tin tưởng — kết quả tốt đẹp sẽ đến."
+    }
+]

@@ -342,3 +342,12 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 
 ## [2026-07-09] Ingest | Lưu lại ý tưởng biện chứng chiến lược chọn công nghệ Web Crawling (Black-box vs Fundamentals) vào IT_Knowledge.
 
+## [2026-07-12] Dev | Created Terminal Audio Study Reader for N5 Unit 5
+- **Target**: `D:\data\para_wiki_llm\03_Resources\Study_Readers\U5_Listen`
+- **Action**:
+    - Created `transcribe.py` (scratch) using `pydub` and `SpeechRecognition` to automatically split `u5_audio_listen.mp3` by silence into 5 wav sentences and transcribe them.
+    - Curated and enriched `transcript.json` with Japanese text, Romaji, Vietnamese translation, and detailed grammar/vocabulary analysis.
+    - Programmed `study.py` - an interactive terminal-based learning utility utilizing Windows `winsound` for instant audio playback, repeat mode, and dynamic Shadowing drills (with Beep signals and auto-calculated sleep times).
+- **Status**: Success.
+
+

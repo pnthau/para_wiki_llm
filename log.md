@@ -355,5 +355,11 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 - **Action**: Guided John to practice classification of `い` and `な` adjectives. Mentored conversion errors (ba vs pa in 先輩) and predicative logic (`しんせつですてき` using `で` connection and dropping `な` before `です`).
 - **Status**: Completed with 100% correct drills. John sentiment: High Focus, Bushido Spirit.
 
+## [2026-07-12] Study | Mastered N5 Adjective Traps (Na-Adjectives ending in -i)
+- **Target**: N5 Adjective Traps (綺麗 - きれい, 有名 - ゆうめい, 嫌い - きらい).
+- **Action**: Guided John to recognize that these adjectives are na-adjectives despite ending with 'i' sound. Taught Kanji-based rules (Okurigana position) to prevent future classification mistakes. Ran 3/3 successful translation drills.
+- **Status**: Completed with 100% accuracy. John sentiment: Confident, Active Learning.
+
+
 
 

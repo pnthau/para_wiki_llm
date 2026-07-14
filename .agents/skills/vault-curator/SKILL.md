@@ -41,13 +41,19 @@ Gộp các Module M1, M2, M3 từ v2.0.
 - **Workflow**: Nhận câu hỏi → Tìm kiếm trong Wiki (Index/MOCs/Grep) → Tổng hợp câu trả lời → **Lưu câu trả lời giá trị vào Wiki** (nếu là synthesis mới).
 - **Artifacts**: Tạo các "Synthesis Pages" hoặc "Comparison Tables" trực tiếp vào `02_Areas/`.
 
-### 3. Lint (Bảo trì & Tối ưu)
-Gộp các Module M4, M5, M6, M7 từ v2.0.
-- **Atomic Check (M4)**: Tỉa nhỏ các note quá dài.
-- **Smart Cleanup (M5)**: Dedup, Auto-Archive dự án hoàn thành.
-- **Vault Diet (M6)**: Loại bỏ file rác, binary lớn.
-- **Health Score (M7)**: Chạy script `vault-health.sh` để xuất Dashboard.
-- **Mandate**: Ghi lại kết quả Lint vào `log.md`.
+### 3. Lint (Bảo trì & Tối ưu — Karpathy 6-Point Protocol)
+Bao gồm cả Kiểm tra Hạ tầng (Structural) & Kiểm tra Ngữ nghĩa (Semantic):
+- **Structural Checks**:
+  - **Health Score**: Chạy `vault-health.sh` xuất chỉ số Linkage, MOC Coverage, YAML, Freshness, Atomicity.
+  - **Vault Cleanup & Diet**: Thu dọn rác (`vault-cleanup.sh`), tỉa nhỏ note >300 dòng, loại bỏ file lớn (`vault-diet-check.sh`).
+- **Semantic Checks (LLM Wiki Lint Protocol)**:
+  - **1. Contradictions**: Quét và đối soát mâu thuẫn/xung đột tri thức giữa các note.
+  - **2. Orphan Pages**: Phát hiện các trang mồ côi (thiếu inbound links từ MOCs/note khác).
+  - **3. Missing Concepts**: Phát hiện thuật ngữ/khái niệm quan trọng được đề cập nhiều nhưng chưa có note riêng.
+  - **4. Outdated Claims**: Gắn cờ thông tin cũ hoặc mâu thuẫn với tài liệu mới hấp thụ (`00_Raw/`).
+  - **5. Format Compliance**: Kiểm tra tuân thủ YAML frontmatter v4.0 & Hybrid PARA layout.
+  - **6. Actionable Report**: Trình bày kết quả dạng danh sách đánh số kèm gợi ý sửa (Quick Wins) cụ thể.
+- **Mandate**: Ghi kết quả Lint vào `log.md`.
 
 ---
 

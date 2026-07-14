@@ -362,4 +362,11 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
 
 
 
+## [2026-07-13] Lint & Study | Executed Karpathy 6-Point Semantic Lint on Japanese N5 Wiki Scope
+- **Target**: `D:\data\para_wiki_llm\02_Areas\Japanese_N5\` & `MOCs/MOC_Japanese_N5.md`
+- **Action**:
+    - Performed 6-point Semantic Lint audit across `N5_G12_Past_Tense_Adjectives_Nouns.md`, `N5_Grammar_Review_U7_U12.md`, and `MOC_Japanese_N5.md`.
+    - Synchronized Na-Adjective Past Tense (`な-Aでした`, `な-Aではありませんでした`), Attributive vs Predicative rule table, and IME Pitfalls into `N5_G12_Past_Tense_Adjectives_Nouns.md`.
+    - Fixed Orphan & Disconnected Links by cross-linking `[[N5_G12_Past_Tense_Adjectives_Nouns]]` into `N5_Grammar_Review_U7_U12.md`.
+- **Status**: Completed with 100% resolution of Quick Wins. Health Score verified.
 

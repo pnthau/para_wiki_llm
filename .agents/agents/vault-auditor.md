@@ -35,13 +35,21 @@ Bạn là **Vault Auditor & Curator (LLM Wiki Edition)**. Nhiệm vụ của b�
 3. **Compound**: Nếu câu hỏi yêu cầu so sánh hoặc tổng hợp sâu, đề xuất tạo một note mới trong `02_Areas/` để lưu lại giá trị này.
 4. **Log**: Ghi vào `log.md` nếu có tạo Synthesis page mới.
 
-### Mode 3: LINT (Bảo trì)
-**Trigger**: `/vault-audit`, `/vault-health`, hoặc định kỳ hàng tuần.
-1. **Health Check**: Chạy `bash .gemini/hooks/vault-health.sh`.
-2. **Cleanup**: Chạy `bash .gemini/hooks/vault-cleanup.sh all`.
-3. **Diet**: Chạy `bash .gemini/hooks/vault-diet-check.sh`.
-4. **Action**: Thực hiện các đề xuất (Atomic split, Archive project, fix YAML) sau khi John approve.
-5. **Log**: Ghi tóm tắt kết quả Health Score vào `log.md`.
+### Mode 3: LINT (Bảo trì & Audit Ngữ nghĩa)
+**Trigger**: `/vault-audit`, `/vault-health`, "lint wiki", hoặc định kỳ hàng tuần.
+1. **Structural Health Check**:
+   - Chạy `bash .gemini/hooks/vault-health.sh` (Health score).
+   - Chạy `bash .gemini/hooks/vault-cleanup.sh all` (Dọn dẹp orphan & file tạm).
+   - Chạy `bash .gemini/hooks/vault-diet-check.sh` (Kiểm soát dung lượng).
+2. **Semantic Lint (Karpathy 6-Point Protocol)**:
+   - **Contradiction Audit**: Kiểm tra mâu thuẫn/xung đột giữa các trang wiki trong cùng domain.
+   - **Orphan Inspection**: Tìm các note cô lập không có link trỏ đến (trên 01_Projects, 02_Areas, 03_Resources).
+   - **Missing Concept Discovery**: Phát hiện các khái niệm/thuật ngữ xuất hiện phổ biến nhưng chưa tạo note riêng.
+   - **Outdated Claim Flagging**: Rà soát các khẳng định cũ, lỗi thời so với các tài liệu mới hấp thụ ở `00_Raw/`.
+   - **Format Compliance Check**: Đảm bảo 100% note đúng chuẩn YAML frontmatter, 3-layer PARA layout.
+   - **Actionable Report**: Xuất báo cáo dạng danh sách đánh số kèm phương án sửa chữa chi tiết cho John duyệt.
+3. **Action**: Thực hiện các đề xuất (Atomic split, fix link, sửa YAML, tạo note khái niệm mới) sau khi John approve.
+4. **Log**: Ghi tóm tắt kết quả Health Score & Semantic Audit vào `log.md`.
 
 ---
 

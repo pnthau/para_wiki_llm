@@ -368,5 +368,11 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
     - Performed 6-point Semantic Lint audit across `N5_G12_Past_Tense_Adjectives_Nouns.md`, `N5_Grammar_Review_U7_U12.md`, and `MOC_Japanese_N5.md`.
     - Synchronized Na-Adjective Past Tense (`な-Aでした`, `な-Aではありませんでした`), Attributive vs Predicative rule table, and IME Pitfalls into `N5_G12_Past_Tense_Adjectives_Nouns.md`.
     - Fixed Orphan & Disconnected Links by cross-linking `[[N5_G12_Past_Tense_Adjectives_Nouns]]` into `N5_Grammar_Review_U7_U12.md`.
-- **Status**: Completed with 100% resolution of Quick Wins. Health Score verified.
 
+## [2026-07-21] Ingest & Study | Phân biệt Trợ từ は và が (DiSSS 80/20 Rule)
+- **Target**: `D:\data\para_wiki_llm\02_Areas\Japanese_N5\N5_Grammar_Wa_vs_Ga.md` & `MOCs/MOC_Japanese_N5.md`
+- **Action**:
+    - Giải cấu trúc và phân biệt trợ từ は vs が theo nguyên lý DiSSS 80/20 (Trọng tâm thông tin, Từ để hỏi, Hiện tượng tồn tại/Khẳng định-Phủ định, Tính tương phản).
+    - Hoàn thành 3 trận tập kích (Micro-Raids) luyện tập phản xạ với John (100% chính xác).
+    - Lưu Note chuẩn Obsidian Vault tại `02_Areas/Japanese_N5/N5_Grammar_Wa_vs_Ga.md` và gắn link vào `MOC_Japanese_N5.md`.
+- **Status**: Completed with 100% accuracy. John sentiment: Active Learning, High Focus.

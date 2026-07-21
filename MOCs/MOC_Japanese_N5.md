@@ -37,6 +37,7 @@ keywords: []
 - [[NIX_Digital_U1_Vocab_Grammar]]: Ngữ pháp & Từ vựng Unit 1 (Giới thiệu bản thân).
 - [[N5_Grammar_Review_U7_U12]]: Tổng hợp Ngữ pháp trọng tâm Unit 7-12.
 - [[N5_Grammar_Wa_vs_Ga]]: Phân biệt Trợ từ は và が (DiSSS 80/20 Rule).
+- [[N5_Grammar_Adjective_Connecting]]: Ngữ pháp Nối Tính từ (くて, で, ですが).
 - [[N5_Vocabulary_Review_Master]]: Danh sách từ vựng tổng hợp N5.
 
 ### 🎭 Roleplay Scripts (Chi tiết)

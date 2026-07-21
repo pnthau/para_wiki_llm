@@ -376,3 +376,12 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
     - Hoàn thành 3 trận tập kích (Micro-Raids) luyện tập phản xạ với John (100% chính xác).
     - Lưu Note chuẩn Obsidian Vault tại `02_Areas/Japanese_N5/N5_Grammar_Wa_vs_Ga.md` và gắn link vào `MOC_Japanese_N5.md`.
 - **Status**: Completed with 100% accuracy. John sentiment: Active Learning, High Focus.
+
+## [2026-07-21] Ingest & Study | Ngữ pháp Nối Tính từ N5 (DiSSS 80/20 Rule)
+- **Target**: `D:\data\para_wiki_llm\02_Areas\Japanese_N5\N5_Grammar_Adjective_Connecting.md` & `MOCs/MOC_Japanese_N5.md`
+- **Action**:
+    - Phân tích và hướng dẫn ngữ pháp nối tính từ đuôi い (`くて`), tính từ đuôi な / Danh từ (`で`), và nối đối lập (`ですが`).
+    - Phân tích đoạn văn thực tế về quán Bún Riêu của John (`家の近くにブンジエウがあります...`), sửa lỗi trợ từ bữa ăn (`朝ご飯に`) và nâng cấp đoạn văn dùng `ですが` & `くて`.
+    - Hoàn thành 3 trận tập kích (Micro-Raids) với tỉ lệ chính xác 100%.
+    - Lưu Note chuẩn Obsidian Vault tại `02_Areas/Japanese_N5/N5_Grammar_Adjective_Connecting.md` và gắn link vào `MOC_Japanese_N5.md`.
+- **Status**: Completed with 100% accuracy. John sentiment: Active Learning, High Engagement.

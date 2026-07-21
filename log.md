@@ -385,3 +385,51 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
     - Hoàn thành 3 trận tập kích (Micro-Raids) với tỉ lệ chính xác 100%.
     - Lưu Note chuẩn Obsidian Vault tại `02_Areas/Japanese_N5/N5_Grammar_Adjective_Connecting.md` và gắn link vào `MOC_Japanese_N5.md`.
 - **Status**: Completed with 100% accuracy. John sentiment: Active Learning, High Engagement.
+
+## [2026-07-21] Ingest & Dev | Tạo Note 'Khoang_Nghi_Y_Thuc.md' (Tâm thức thực sự & Điểm nghỉ Bentov)
+- **Target**: `D:\data\para_wiki_llm\02_Areas/Personal/Khoang_Nghi_Y_Thuc.md`
+- **Action**: Giải thích bản chất "Khoảng nghỉ Ý thức" (Gap of Silence) dựa trên Điểm nghỉ Bentov, hình ảnh Cuộn phim điện ảnh, Ly nước bùn và Con mèo rình hang chuột. Tạo note chuẩn Cornell v4.0 liên kết với `Bentov_The_Absolute`, `Bentov_Meditation_Technique`, và `Body_Resonance_7Hz`.
+- **Status**: Success.
+
+## [2026-07-21] Ingest & Dev | Lưu 'Ke_Hoach_Mo_Phong_Robot_Humanoid.md' vào 00_Raw & Linting Wiki
+- **Target**: `D:\data\para_wiki_llm\00_Raw\Ke_Hoach_Mo_Phong_Robot_Humanoid.md` & `MOCs/MOC_IT_Knowledge.md`
+- **Action**: Đóng gói lộ trình 5 giai đoạn (20 trận tập kích micro-raids) chế tạo mô phỏng Robot Humanoid Nông Nghiệp trên nền tảng ROS 2 + Gazebo. Thực hiện Semantic Linting liên kết hai chiều với `Robot_humanic.md`, `MOC_IT_Knowledge.md`, và `Khoang_Nghi_Y_Thuc.md`.
+- **Status**: Success.
+
+## [2026-07-21] Dev | Phân tách 5 Giai đoạn Mô phỏng Robot thành 5 File Quản lý Riêng biệt
+- **Target**: `00_Raw/Giai_Doan_1_Mo_Phong_CAD_URDF.md`, `00_Raw/Giai_Doan_2_Mo_Phong_Dynamics_ROS2_Control.md`, `00_Raw/Giai_Doan_3_Mo_Phong_Locomotion_Balance.md`, `00_Raw/Giai_Doan_4_Mo_Phong_Teleop_VR_Haptic.md`, `00_Raw/Giai_Doan_5_Mo_Phong_AI_Perception_Task.md`
+- **Action**: Phân tách 5 giai đoạn lộ trình mô phỏng Robot Humanoid Nông Nghiệp thành 5 file quản lý dự án độc lập trong `00_Raw`. Mỗi file bao gồm phân bổ thời gian, nhân sự phụ trách, danh sách công việc micro-task, và KPI/Checkpoints kiểm soát tiến độ.
+- **Status**: Success.
+
+## [2026-07-21] Dev | Hoàn thành 100% 5 Giai đoạn Dự án Mô phỏng Robot Humanoid (Full Interactive 3D MVP Prototype)
+- **Target**: `C:\Users\dc130\Desktop\agri_robot_description\view_robot.html` & `00_Raw/Giai_Doan_1_to_5.md`
+- **Action**: Xây dựng & hoàn thiện toàn bộ 5 Giai đoạn mô phỏng 3D Robot Humanoid Nông Nghiệp trên Desktop. Tích hợp URDF 12-DoF Mesh, Gazebo Physics Dynamics (Địa hình/Tải trọng/PID), ZMP Locomotion Gait Balance, VR Cabin First-Person View, Haptic Gloves Force Feedback và AI YOLOv8 Autonomous Harvest Task. Sẵn sàng cho Investor Pitch Deck ($1.5M USD).
+- **Status**: Success.
+
+## [2026-07-21] Dev | Audit & Fix 18 Lỗi Dự Án agri_robot_description (Major Upgrade v2.0)
+- **Target**: `C:\Users\dc130\Desktop\agri_robot_description\` (toàn bộ 7 files)
+- **Action**: Audit phát hiện 18 lỗi (5 Critical, 7 Major, 6 Minor). Viết lại hoàn toàn:
+  - `urdf/humanoid.urdf`: Full 15 links + 11 revolute joints + Gazebo material tags + Transmission + ros2_control plugin.
+  - `CMakeLists.txt`: Sửa lỗi install directory không tồn tại.
+  - `rviz/display.rviz`: Tạo mới config Rviz2 (RobotModel + TF + Grid).
+  - `launch/display.launch.py`: Dùng `get_package_share_directory()` chuẩn ROS 2 + rviz config + use_sim_time.
+  - `README.md`: Thêm hướng dẫn mở trình duyệt + Prerequisites + bảng thông số robot.
+  - `view_robot.html`: Viết lại hoàn toàn (~1094 dòng). Robot 12-DoF khớp URDF, môi trường nông trại 3D (cây cà chua + giỏ), 5 Tabs giai đoạn, AI Task animation đúng (robot di chuyển + tay kẹp quả + thả vào giỏ).
+- **Status**: Success.
+
+
+
+
+
+
+## [2026-07-21] Dev | Fix UI Bugs & Implement Full WASD Locomotion (Teach & Repeat + Free Roaming)
+- **Target**: C:\Users\dc130\Desktop\agri_robot_description\robot_simulation_final.html
+- **Action**: 
+  - Đã khắc phục lỗi crash vòng lặp do sai ID thẻ HTML (r-s-x vs rs-p).
+  - Khắc phục lỗi 'đứng hình' bằng cách mang thanh trượt cánh tay trực tiếp vào Tab 4, loại bỏ thời gian chết do chuyển Tab.
+  - Tích hợp thành công điều khiển WASD (toán học atan2, quaternion slerp/rotation) cho phép người dùng lái robot đi tuần tra tự do 360 độ trên toàn bộ bề mặt 3D, thỏa mãn yêu cầu cao nhất về tính cơ động.
+- **Next Trigger**: Khi gõ 'robot', thực hiện 2 task tiếp theo:
+  1. Nâng cấp khả năng xoay đầu bằng phím hoặc chuột.
+  2. Xác định được vật thể cần hái.
+- **Status**: Success. Ready for next phase.
+

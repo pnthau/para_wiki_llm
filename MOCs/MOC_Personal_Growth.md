@@ -23,9 +23,11 @@ keywords: []
 - [[Michio_Kushi_Meditation_Concept]]: Tư duy về Thiên - Địa lực và sự xóa bỏ bế tắc.
 
 ### 🧘 Hướng dẫn Thực hành
+- [[Khoang_Nghi_Y_Thuc]]: Bản chất Khoảng nghỉ Ý thức (Gap of Silence) & 4 Hình ảnh trực quan (Con lắc Bentov, Ly nước bùn, Cuộn phim, Rình chuột).
 - [[Bentov_Meditation_Technique]]: Kỹ thuật quan sát vi rung động và "Điểm nghỉ".
 - [[Kushi_Meditation_Guide]]: Quy trình 2 giai đoạn: Vô niệm và Kiến tạo thực tại.
 - [[Kushi_Meditation_Secret.excalidraw|Sơ đồ năng lượng Kushi]]: Hình ảnh hóa luồng Thiên - Địa lực.
+
 
 ## 🃏 Poker Mindset (Linked from [[MOC_Poker]])
 *   [[Poker_Classification_Framework]]

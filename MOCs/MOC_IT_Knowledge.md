@@ -126,8 +126,11 @@ keywords: []
 ---
 
 ## 🏗️ Kiến trúc & Hệ thống AI
+- [[00_Raw/Ke_Hoach_Mo_Phong_Robot_Humanoid|Ke_Hoach_Mo_Phong_Robot_Humanoid]]: Lộ trình 5 giai đoạn mô phỏng Robot Humanoid Nông Nghiệp (ROS 2 + Gazebo).
+- [[00_Raw/Inbox/Robot_humanic|Robot_humanic]]: Thiết kế tổng quan & Kế hoạch xin vốn Series A cho Robot Humanoid.
 - [[AI_in_SDLC_Integration]]: Tích hợp AI (Gemini Pro) vào quy trình SDLC (Pre-coding, TDD, Review, Debug).
 - [[MCP_ADK_Frameworks]]: Chuẩn hóa kết nối (MCP) và Khung kiến trúc Agent (ADK).
+
 - [[Multi_Agent_AI_Systems]]: Từ sự tự tin đến sự xác minh (NASA Case Study).
 - [[Scaling_Founder_to_80_Engineers]]: AI-Driven Scaling (Founder to 80 Engineers Case Study).
 - [[LLM_Wiki]]: Khái niệm Wiki theo Andrej Karpathy.

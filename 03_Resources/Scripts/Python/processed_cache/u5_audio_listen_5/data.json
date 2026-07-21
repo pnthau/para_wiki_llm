@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "start": 3000,
+    "end": 9000,
+    "jp": "打ち山さん来週夏祭りがありますね そうですね",
+    "vn": "Uchiyama-san, tuần sau có lễ hội mùa hè phải không?",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_5\\sentence_1.wav",
+    "pause": 7.0
+  },
+  {
+    "id": 2,
+    "start": 9000,
+    "end": 12000,
+    "jp": "打ち山さんは行きますか?",
+    "vn": "Ông Uchiyama sẽ đi chứ?",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_5\\sentence_2.wav",
+    "pause": 4.0
+  },
+  {
+    "id": 3,
+    "start": 12000,
+    "end": 17000,
+    "jp": "いえ、行きません 仕事です",
+    "vn": "Không, tôi không đi. Tôi có việc.",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_5\\sentence_3.wav",
+    "pause": 6.0
+  },
+  {
+    "id": 4,
+    "start": 17000,
+    "end": 19000,
+    "jp": "そうですか",
+    "vn": "có phải vậy không",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_5\\sentence_4.wav",
+    "pause": 3.0
+  }
+]

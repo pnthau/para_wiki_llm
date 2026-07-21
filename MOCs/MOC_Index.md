@@ -11,8 +11,9 @@ keywords: []
 
 > **Tóm tắt:** Điểm khởi đầu cho toàn bộ hệ thống quản lý kiến thức cá nhân của John.
 
-## 🤖 Hướng dẫn AI (Auto-Indexing Rule)
-*Khi thêm hoặc sửa bất kỳ note nào, AI phải tự động cập nhật liên kết vào MOC tương ứng bên dưới.*
+## 🤖 Hướng dẫn AI (Auto-Indexing Rule & B-Tree Auto-Split)
+- *Khi thêm hoặc sửa bất kỳ note nào, AI phải tự động cập nhật liên kết vào MOC tương ứng bên dưới.*
+- **[B-Tree Rule]:** *Nếu một MOC con chứa vượt quá 20 links, AI phải tự động tách (Split Node) thành 2 hoặc nhiều MOC cấp thấp hơn (Ví dụ: tách MOC_Java thành MOC_Java_Core và MOC_Java_Spring) để đảm bảo độ sâu và cân bằng của cây tri thức.*
 
 ## 📁 Maps of Content (MOCs)
 

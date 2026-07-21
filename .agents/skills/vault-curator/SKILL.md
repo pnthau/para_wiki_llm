@@ -38,7 +38,7 @@ Gộp các Module M1, M2, M3 từ v2.0.
 - **Mandate**: Mỗi lần Ingest thành công, phải append 1 dòng vào `log.md`.
 
 ### 2. Query (Truy vấn & Tổng hợp)
-- **Workflow**: Nhận câu hỏi → Tìm kiếm trong Wiki (Index/MOCs/Grep) → Tổng hợp câu trả lời → **Lưu câu trả lời giá trị vào Wiki** (nếu là synthesis mới).
+- **Workflow (HashMap O(1))**: Nhận câu hỏi → **Tra cứu `hash_index.json` trước tiên** để lấy trực tiếp đường dẫn file (O(1 lookup)). Chỉ dùng Grep/MOCs duyệt cây (B-Tree traversal) khi không tìm thấy trong Bảng Băm. → Tổng hợp câu trả lời → **Lưu câu trả lời giá trị vào Wiki** (nếu là synthesis mới).
 - **Artifacts**: Tạo các "Synthesis Pages" hoặc "Comparison Tables" trực tiếp vào `02_Areas/`.
 
 ### 3. Lint (Bảo trì & Tối ưu — Karpathy 6-Point Protocol)
@@ -46,6 +46,7 @@ Bao gồm cả Kiểm tra Hạ tầng (Structural) & Kiểm tra Ngữ nghĩa (Se
 - **Structural Checks**:
   - **Health Score**: Chạy `vault-health.sh` xuất chỉ số Linkage, MOC Coverage, YAML, Freshness, Atomicity.
   - **Vault Cleanup & Diet**: Thu dọn rác (`vault-cleanup.sh`), tỉa nhỏ note >300 dòng, loại bỏ file lớn (`vault-diet-check.sh`).
+  - **B-Tree Node Split (Auto-Balance)**: Kiểm tra các thư mục/MOC. Nếu một MOC/Folder chứa **vượt quá 20 links/files**, bắt buộc đề xuất Split (tách thành 2 MOC con) để đảm bảo cây thư mục cân bằng (Balanced Tree).
 - **Semantic Checks (LLM Wiki Lint Protocol)**:
   - **1. Contradictions**: Quét và đối soát mâu thuẫn/xung đột tri thức giữa các note.
   - **2. Orphan Pages**: Phát hiện các trang mồ côi (thiếu inbound links từ MOCs/note khác).
@@ -82,3 +83,4 @@ Nằm trong `MOCs/`. Bản đồ tổng thể dẫn đến các MOC Domain. LLM 
 
 - **`agents/vault-auditor`**: Runner chính thực thi Ingest, Query, Lint.
 - **`hooks/vault-*.sh`**: Các công cụ hạ tầng để tính toán chỉ số sức khỏe và cleanup.
+- **`scripts/hash_indexer.py`**: Script Python chạy ngầm, băm (Hash) các keywords/tags từ YAML frontmatter thành `hash_index.json` (Bảng Băm O(1)).

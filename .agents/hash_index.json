@@ -1,0 +1,4005 @@
+{
+  "agents": [
+    "AGENTS.md",
+    "02_Areas/IT_Knowledge/AI_Agent_Memory_Architecture_CoALA.md"
+  ],
+  "gemini": [
+    "GEMINI.md",
+    "02_Areas/IT_Knowledge/GEMINI.md",
+    "02_Areas/Japanese_N5/GEMINI.md",
+    "02_Areas/Personal/GEMINI.md"
+  ],
+  "log": [
+    "log.md"
+  ],
+  "memory": [
+    "MEMORY.md",
+    "02_Areas/IT_Knowledge/AI_Agent_Memory_Architecture_CoALA.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Memory_System.md",
+    "02_Areas/IT_Knowledge/Java_Memory_Management.md",
+    "02_Areas/IT_Knowledge/Java_Static_Keyword.md"
+  ],
+  "backup và recovery": [
+    "00_Raw/Backup và Recovery.md"
+  ],
+  "bảng trong css": [
+    "00_Raw/Bảng trong CSS.md"
+  ],
+  "bảo mật và phân quyền (security & authorization)": [
+    "00_Raw/Bảo mật và Phân quyền (Security & Authorization).md"
+  ],
+  "callablestatement interface trong jdbc": [
+    "00_Raw/CallableStatement Interface trong JDBC.md"
+  ],
+  "context engineering 2": [
+    "00_Raw/Context Engineering 2.md"
+  ],
+  "css là gì": [
+    "00_Raw/CSS là gì.md"
+  ],
+  "các loại trí nhớ ai agent cần": [
+    "00_Raw/Các loại trí nhớ AI agent cần.md"
+  ],
+  "các vai trò trong hệ thống csdl (actors)": [
+    "00_Raw/Các vai trò trong Hệ thống CSDL (Actors).md"
+  ],
+  "các yêu cầu query của csdl furama": [
+    "00_Raw/Các yêu cầu query của csdl Furama.md"
+  ],
+  "câu hỏi phỏng vấn database - chương 1": [
+    "00_Raw/Câu hỏi phỏng vấn Database - Chương 1.md"
+  ],
+  "cú pháp của css": [
+    "00_Raw/Cú pháp của CSS.md"
+  ],
+  "danh sách trong css": [
+    "00_Raw/Danh sách trong CSS.md"
+  ],
+  "data, database, các loại database": [
+    "00_Raw/Data, database, các loại database.md"
+  ],
+  "database system và relational db": [
+    "00_Raw/Database System và Relational DB.md"
+  ],
+  "database transaction (acid)": [
+    "00_Raw/Database Transaction (ACID).md"
+  ],
+  "fengshui-jewelry": [
+    "00_Raw/FengShui_Jewelry_Web_Mindmap.md"
+  ],
+  "mindmap": [
+    "00_Raw/FengShui_Jewelry_Web_Mindmap.md"
+  ],
+  "excalidraw": [
+    "00_Raw/FengShui_Jewelry_Web_Mindmap.md"
+  ],
+  "fengshui_jewelry_web_mindmap": [
+    "00_Raw/FengShui_Jewelry_Web_Mindmap.md"
+  ],
+  "project": [
+    "00_Raw/FengShui_Jewelry_Web_Mindmap.md",
+    "01_Projects/Chicken_Tracking_Log.md",
+    "01_Projects/danh_sach_tu_khoa_seo_it_canh_tranh.md",
+    "01_Projects/IntelliJ_Presentation_Final_Script.md",
+    "01_Projects/Japanese_N5_Study_Plan.md",
+    "01_Projects/Java_Learning_Log.md",
+    "01_Projects/Master_Progress_Log.md",
+    "01_Projects/NEJ_N5_4_Phase_Study_Plan.md"
+  ],
+  "genki_japanese_greeting": [
+    "00_Raw/Genki_Japanese_Greeting.md"
+  ],
+  "ghi nhớ 10 nguyên tắc cơ bản": [
+    "00_Raw/Ghi nhớ 10 nguyên tắc cơ bản.md"
+  ],
+  "hệ thống ai đa tác nhân (multi-agent)": [
+    "00_Raw/hệ thống AI Đa tác nhân (Multi-Agent).md"
+  ],
+  "optics": [
+    "00_Raw/idea_kinh_nhin_thay_anh_sang.md"
+  ],
+  "ideas": [
+    "00_Raw/idea_kinh_nhin_thay_anh_sang.md"
+  ],
+  "future-project": [
+    "00_Raw/idea_kinh_nhin_thay_anh_sang.md"
+  ],
+  "physics": [
+    "00_Raw/idea_kinh_nhin_thay_anh_sang.md",
+    "02_Areas/Personal/Bentov_Holographic_Universe.md",
+    "02_Areas/Personal/Bentov_Subjective_Time.md",
+    "02_Areas/Personal/Bentov_The_Absolute.md"
+  ],
+  "idea_kinh_nhin_thay_anh_sang": [
+    "00_Raw/idea_kinh_nhin_thay_anh_sang.md"
+  ],
+  "jdbc tutorial": [
+    "00_Raw/JDBC tutorial.md"
+  ],
+  "khi nào không nên dùng dbms": [
+    "00_Raw/Khi nào KHÔNG nên dùng DBMS.md"
+  ],
+  "kiểm soát dư thừa và chuẩn hóa dữ liệu (normalization)": [
+    "00_Raw/Kiểm soát Dư thừa và Chuẩn hóa dữ liệu (Normalization).md"
+  ],
+  "learning course  nix digital 1": [
+    "00_Raw/Learning course  NiX Digital 1.md",
+    "04_Archives/Processed_Raw_2026_05_11/Learning course  NiX Digital 1.md"
+  ],
+  "learning course  nix digital 2": [
+    "00_Raw/Learning course  NiX Digital 2.md",
+    "04_Archives/Processed_Raw_2026_05_11/Learning course  NiX Digital 2.md"
+  ],
+  "learning course  nix digital 3": [
+    "00_Raw/Learning course  NiX Digital 3.md",
+    "04_Archives/Processed_Raw_2026_05_11/Learning course  NiX Digital 3.md"
+  ],
+  "learning course  nix digital 4": [
+    "00_Raw/Learning course  NiX Digital 4.md",
+    "04_Archives/Processed_Raw_2026_05_11/Learning course  NiX Digital 4.md"
+  ],
+  "learning course  nix digital 5": [
+    "00_Raw/Learning course  NiX Digital 5.md",
+    "04_Archives/Processed_Raw_2026_05_11/Learning course  NiX Digital 5.md"
+  ],
+  "learning course  nix digital 6": [
+    "00_Raw/Learning course  NiX Digital 6.md",
+    "04_Archives/Processed_Raw_2026_05_11/Learning course  NiX Digital 6.md"
+  ],
+  "learning course  nix digital": [
+    "00_Raw/Learning course  NiX Digital.md",
+    "04_Archives/Processed_Raw_2026_05_11/Learning course  NiX Digital.md"
+  ],
+  "liễu phàm tứ huấn 1": [
+    "00_Raw/Liễu phàm tứ huấn 1.md"
+  ],
+  "liễu phàm tứ huấn 2": [
+    "00_Raw/Liễu phàm tứ huấn 2.md"
+  ],
+  "lịch sử phát triển database": [
+    "00_Raw/Lịch sử phát triển Database.md"
+  ],
+  "mcp and adk": [
+    "00_Raw/MCP and ADK.md"
+  ],
+  "mạng nơ-ron đồ thị (graph neural networks - gnns)": [
+    "00_Raw/Mạng nơ-ron Đồ thị (Graph Neural Networks - GNNs).md"
+  ],
+  "phát triển phần mềm theo hướng đặc tả (spec-driven development)": [
+    "00_Raw/phát triển phần mềm theo hướng đặc tả (Spec-Driven Development).md"
+  ],
+  "phát triển thần tốc từ 1 người sáng lập lên đội ngũ 80": [
+    "00_Raw/phát triển thần tốc từ 1 người sáng lập lên đội ngũ 80.md"
+  ],
+  "phân biệt các câu lệnh dml, ddl": [
+    "00_Raw/Phân biệt các câu lệnh DML, DDL.md"
+  ],
+  "phông chữ với css": [
+    "00_Raw/Phông chữ với CSS.md"
+  ],
+  "ràng buộc toàn vẹn (integrity constraints)": [
+    "00_Raw/Ràng buộc Toàn vẹn (Integrity Constraints).md"
+  ],
+  "selector khác nhau trong css": [
+    "00_Raw/Selector khác nhau trong CSS.md"
+  ],
+  "sử dụng màu sắc trong trang web": [
+    "00_Raw/Sử dụng màu sắc trong trang web.md"
+  ],
+  "transaction": [
+    "00_Raw/Transaction.md",
+    "02_Areas/IT_Knowledge/JDBC_Transaction_Savepoint_vs_Batch.md"
+  ],
+  "tribe_of_mentors_web_search": [
+    "00_Raw/Tribe_of_Mentors_Web_Search.md"
+  ],
+  "triggers và stored procedures": [
+    "00_Raw/Triggers và Stored Procedures.md"
+  ],
+  "truy vấn siêu tốc bằng index": [
+    "00_Raw/Truy vấn siêu tốc bằng Index.md"
+  ],
+  "tâm lý học yale 13": [
+    "00_Raw/Tâm lý học Yale 13.md"
+  ],
+  "điều chỉnh màu nền và ảnh nền": [
+    "00_Raw/Điều chỉnh màu nền và ảnh nền.md"
+  ],
+  "đường viền trong css": [
+    "00_Raw/Đường viền trong CSS.md"
+  ],
+  "ưu điểm của hệ thống csdl (dbms advantages)": [
+    "00_Raw/Ưu điểm của Hệ thống CSDL (DBMS Advantages).md"
+  ],
+  "anti_fraud_dev_roadmap": [
+    "01_Projects/anti_fraud_dev_roadmap.md"
+  ],
+  "bai_bao_lua_dao_vn_2026": [
+    "01_Projects/bai_bao_lua_dao_vn_2026.md"
+  ],
+  "bai_viet_bang_gia_sua_cua_cuon_dak_nong_2026": [
+    "01_Projects/bai_viet_bang_gia_sua_cua_cuon_dak_nong_2026.md"
+  ],
+  "bai_viet_bao_ve_cua_cuon_mua_mua_tay_nguyen": [
+    "01_Projects/bai_viet_bao_ve_cua_cuon_mua_mua_tay_nguyen.md"
+  ],
+  "bai_viet_chon_binh_luu_dien_cua_cuon": [
+    "01_Projects/bai_viet_chon_binh_luu_dien_cua_cuon.md"
+  ],
+  "bai_viet_cong_nghe_cua_cuon_moi_nhat": [
+    "01_Projects/bai_viet_cong_nghe_cua_cuon_moi_nhat.md"
+  ],
+  "bai_viet_dich_vu_sua_cua_cuon_gia_nghia_seo": [
+    "01_Projects/bai_viet_dich_vu_sua_cua_cuon_gia_nghia_seo.md"
+  ],
+  "bai_viet_huong_dan_mo_cua_cuon_khi_mat_dien": [
+    "01_Projects/bai_viet_huong_dan_mo_cua_cuon_khi_mat_dien.md"
+  ],
+  "bai_viet_pr_medium_cua_cuon_dak_nong": [
+    "01_Projects/bai_viet_pr_medium_cua_cuon_dak_nong.md"
+  ],
+  "bai_viet_so_sanh_cua_cuon_khe_thoang_vs_tam_lien": [
+    "01_Projects/bai_viet_so_sanh_cua_cuon_khe_thoang_vs_tam_lien.md"
+  ],
+  "bai_viet_tai_sao_cua_cuon_keu_to_va_cach_khac_phuc": [
+    "01_Projects/bai_viet_tai_sao_cua_cuon_keu_to_va_cach_khac_phuc.md"
+  ],
+  "bai_viet_thien_anh_door_da_sua": [
+    "01_Projects/bai_viet_thien_anh_door_da_sua.md"
+  ],
+  "ga-expert": [
+    "01_Projects/Chicken_Tracking_Log.md"
+  ],
+  "light-shock": [
+    "01_Projects/Chicken_Tracking_Log.md"
+  ],
+  "nuoi-ga": [
+    "01_Projects/Chicken_Tracking_Log.md"
+  ],
+  "chicken_tracking_log": [
+    "01_Projects/Chicken_Tracking_Log.md"
+  ],
+  "chi_tiet_chien_luoc_seo_cua_cuon_dak_nong": [
+    "01_Projects/chi_tiet_chien_luoc_seo_cua_cuon_dak_nong.md"
+  ],
+  "danh_sach_citation_va_nap_chuan_seo": [
+    "01_Projects/danh_sach_citation_va_nap_chuan_seo.md"
+  ],
+  "danh_sach_tu_khoa_content_dak_nong": [
+    "01_Projects/danh_sach_tu_khoa_content_dak_nong.md"
+  ],
+  "danh_sach_tu_khoa_seo_it_canh_tranh": [
+    "01_Projects/danh_sach_tu_khoa_seo_it_canh_tranh.md"
+  ],
+  "keywords": [
+    "01_Projects/danh_sach_tu_khoa_seo_it_canh_tranh.md"
+  ],
+  "dak-nong": [
+    "01_Projects/danh_sach_tu_khoa_seo_it_canh_tranh.md"
+  ],
+  "seo": [
+    "01_Projects/danh_sach_tu_khoa_seo_it_canh_tranh.md",
+    "02_Areas/Business/SEO_CuaCuonThienAnh.md"
+  ],
+  "fengshui_jewelry_web_db_design": [
+    "01_Projects/FengShui_Jewelry_Web_DB_Design.md"
+  ],
+  "fengshui_jewelry_web_specification": [
+    "01_Projects/FengShui_Jewelry_Web_Specification.md"
+  ],
+  "investment": [
+    "01_Projects/Green_Housing_Proposal.md"
+  ],
+  "green_housing_proposal": [
+    "01_Projects/Green_Housing_Proposal.md"
+  ],
+  "business": [
+    "01_Projects/Green_Housing_Proposal.md",
+    "02_Areas/Business/Du_An_Suong_Sam_Ruoi_Linh_Den_Ga.md",
+    "02_Areas/Business/Pitch_Deck_Nong_Nghiep_Tuan_Hoan.md",
+    "02_Areas/Business/SEO_CuaCuonThienAnh.md"
+  ],
+  "green-housing": [
+    "01_Projects/Green_Housing_Proposal.md"
+  ],
+  "proposal": [
+    "01_Projects/Green_Housing_Proposal.md"
+  ],
+  "huong_dan_tao_map_ve_tinh_chi_tiet": [
+    "01_Projects/huong_dan_tao_map_ve_tinh_chi_tiet.md"
+  ],
+  "pbl": [
+    "01_Projects/IntelliJ_Presentation_Final_Script.md",
+    "02_Areas/Japanese_N5/IntelliJ_Presentation_Japanese_Script.md"
+  ],
+  "intellij_presentation_final_script": [
+    "01_Projects/IntelliJ_Presentation_Final_Script.md"
+  ],
+  "intellij": [
+    "01_Projects/IntelliJ_Presentation_Final_Script.md",
+    "02_Areas/IT_Knowledge/Gradle_Build_Delegation.md",
+    "02_Areas/IT_Knowledge/IntelliJ_Artifact_Resource_Mapping.md",
+    "02_Areas/IT_Knowledge/IntelliJ_Tomcat_Artifact_Resolution.md",
+    "02_Areas/Japanese_N5/IntelliJ_Presentation_Japanese_Script.md"
+  ],
+  "presentation": [
+    "01_Projects/IntelliJ_Presentation_Final_Script.md",
+    "02_Areas/Japanese_N5/IntelliJ_Presentation_Japanese_Script.md",
+    "02_Areas/Japanese_N5/Japanese_Presentation_Roadmap.md"
+  ],
+  "japanese": [
+    "01_Projects/IntelliJ_Presentation_Final_Script.md",
+    "01_Projects/Japanese_N5_Katakana_IT_Raid.md",
+    "01_Projects/Japanese_N5_Reboot_Mastery.md",
+    "01_Projects/Japanese_N5_Roleplay_Log.md",
+    "01_Projects/Japanese_N5_Study_Plan.md",
+    "01_Projects/Japanese_N5_Unit1_Mastery.md",
+    "01_Projects/NEJ_N5_4_Phase_Study_Plan.md",
+    "02_Areas/Japanese_N5/AI_Japanese_Tutor_Modern_Methods.md",
+    "02_Areas/Japanese_N5/Anki_N5_U12.md",
+    "02_Areas/Japanese_N5/GEMINI.md",
+    "02_Areas/Japanese_N5/IntelliJ_Presentation_Japanese_Script.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Video_Context.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Vocabulary.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Video_Context.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Vocabulary.md",
+    "02_Areas/Japanese_N5/Japanese_N5_Exercise_Essay_Travel.md",
+    "02_Areas/Japanese_N5/Japanese_Presentation_Roadmap.md",
+    "02_Areas/Japanese_N5/Mistakes_2026-05-15.md",
+    "02_Areas/Japanese_N5/Mistakes_2026-06-05.md",
+    "02_Areas/Japanese_N5/N5_13_Essential_Grammar_NEJ.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Danang.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Hanoi.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Vietnam.md",
+    "02_Areas/Japanese_N5/N5_Essay_Travel_Email_Guide.md",
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md",
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md",
+    "02_Areas/Japanese_N5/N5_G12_Adverbial_Adjectives.md",
+    "02_Areas/Japanese_N5/N5_G12_Comparison.md",
+    "02_Areas/Japanese_N5/N5_G12_Hou_ga_ii_desu.md",
+    "02_Areas/Japanese_N5/N5_G12_Invitation_Forms.md",
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md",
+    "02_Areas/Japanese_N5/N5_G12_Tari_Tari_shimasu.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Review_U7_U12.md",
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md",
+    "02_Areas/Japanese_N5/N5_Travel_Vocabulary_Vietnam.md",
+    "02_Areas/Japanese_N5/N5_U12_Audio_Transcription.md",
+    "02_Areas/Japanese_N5/N5_Unit_12_Video_Context.md",
+    "02_Areas/Japanese_N5/N5_Unit_12_Vocabulary.md",
+    "02_Areas/Japanese_N5/N5_Vocabulary_Review_Master.md",
+    "02_Areas/Japanese_N5/NiX_Digital_Total_Ingest_Hub.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U10_Kanji.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U12_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Vocab_Grammar.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Basic_To_Advanced.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Listening_Speaking.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Grammar_Annotated.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Script_3P.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Script_John.md",
+    "02_Areas/Japanese_N5/Roleplay_2_Grammar_Annotated.md",
+    "02_Areas/Japanese_N5/Roleplay_2_Script_3P.md",
+    "02_Areas/Japanese_N5/Roleplay_Script_Practice.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit1.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit2.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit4.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_001-005.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_006-010.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_011-015.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_016-020.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-025.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-030.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_031-037.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_039-043.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_044-048.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_049-052.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_053-055.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_057-065.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_065-075.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_075.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_076.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_078.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_080.md",
+    "03_Resources/Japanese_N5/gem_n5_genki.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_1_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_2_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_3_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_4_Gemini.md",
+    "MOCs/MOC_Japanese_N5.md"
+  ],
+  "it": [
+    "01_Projects/Japanese_N5_Katakana_IT_Raid.md",
+    "02_Areas/IT_Knowledge/AI_CORAL_Architecture.md",
+    "02_Areas/IT_Knowledge/CSS_Backgrounds.md",
+    "02_Areas/IT_Knowledge/CSS_Basics.md",
+    "02_Areas/IT_Knowledge/CSS_Borders.md",
+    "02_Areas/IT_Knowledge/CSS_Colors.md",
+    "02_Areas/IT_Knowledge/CSS_Fonts.md",
+    "02_Areas/IT_Knowledge/CSS_Lists.md",
+    "02_Areas/IT_Knowledge/CSS_Modern_Nav_Menu.md",
+    "02_Areas/IT_Knowledge/CSS_Selectors.md",
+    "02_Areas/IT_Knowledge/CSS_Syntax.md",
+    "02_Areas/IT_Knowledge/CSS_Tables.md",
+    "02_Areas/IT_Knowledge/GEMINI.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Agent_Skills_Framework.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Configuration.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Context_Efficiency.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Core_Features.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Essentials.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Essential_Commands.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_MCP_Integration.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Memory_System.md",
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md",
+    "02_Areas/IT_Knowledge/Git_Basics.md",
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md",
+    "02_Areas/IT_Knowledge/HTML_Basics.md",
+    "02_Areas/IT_Knowledge/JavaScript_Basics.md",
+    "02_Areas/IT_Knowledge/Java_24_Spring_Boot_3.5_Breakthroughs.md",
+    "02_Areas/IT_Knowledge/Java_3_Layer_Architecture.md",
+    "02_Areas/IT_Knowledge/Java_Abstract_Interface.md",
+    "02_Areas/IT_Knowledge/Java_Access_Modifiers.md",
+    "02_Areas/IT_Knowledge/Java_Annotations.md",
+    "02_Areas/IT_Knowledge/Java_Arrays.md",
+    "02_Areas/IT_Knowledge/Java_Builtin_Interfaces.md",
+    "02_Areas/IT_Knowledge/Java_Classes_Objects.md",
+    "02_Areas/IT_Knowledge/Java_Classes_Objects_Detailed.md",
+    "02_Areas/IT_Knowledge/Java_Classes_Objects_Review.md",
+    "02_Areas/IT_Knowledge/Java_Collections_Framework.md",
+    "02_Areas/IT_Knowledge/Java_Composition_SOLID.md",
+    "02_Areas/IT_Knowledge/Java_Design_LoL_Example.md",
+    "02_Areas/IT_Knowledge/Java_Design_Principles.md",
+    "02_Areas/IT_Knowledge/Java_DI_IoC_Principles.md",
+    "02_Areas/IT_Knowledge/Java_DSA_CustomArrayList_SRP.md",
+    "02_Areas/IT_Knowledge/Java_DSA_LinkedList_OCP.md",
+    "02_Areas/IT_Knowledge/Java_Functional_Programming.md",
+    "02_Areas/IT_Knowledge/Java_Generics_Stack_Queue.md",
+    "02_Areas/IT_Knowledge/Java_Inheritance.md",
+    "02_Areas/IT_Knowledge/Java_IO_Streams_Text.md",
+    "02_Areas/IT_Knowledge/Java_JVM_Variables_DataTypes.md",
+    "02_Areas/IT_Knowledge/Java_Maven_Lombok.md",
+    "02_Areas/IT_Knowledge/Java_Memory_Management.md",
+    "02_Areas/IT_Knowledge/Java_Methods.md",
+    "02_Areas/IT_Knowledge/Java_OOP_Summary.md",
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Casting.md",
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Insight.md",
+    "02_Areas/IT_Knowledge/Java_Search_Algorithms.md",
+    "02_Areas/IT_Knowledge/Java_Static_Keyword.md",
+    "02_Areas/IT_Knowledge/Java_Strings_Regex.md",
+    "02_Areas/IT_Knowledge/Java_Style_Guide.md",
+    "02_Areas/IT_Knowledge/Java_Variables_DataTypes.md",
+    "02_Areas/IT_Knowledge/LLM_Wiki.md",
+    "02_Areas/IT_Knowledge/Markdown.md",
+    "02_Areas/IT_Knowledge/Obsidian.md",
+    "02_Areas/IT_Knowledge/Programming_Fundamentals.md",
+    "02_Areas/IT_Knowledge/RAG_Retrieval_Augmented_Generation.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Video_Context.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Vocabulary.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Video_Context.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Vocabulary.md",
+    "03_Resources/Agent_Skills/Creating_Skills_Guide.md",
+    "03_Resources/Templates/Cornell_Note_Table_Template.md",
+    "03_Resources/Templates/Cornell_Note_Template.md",
+    "MOCs/MOC_IT_Knowledge.md"
+  ],
+  "japanese_n5_katakana_it_raid": [
+    "01_Projects/Japanese_N5_Katakana_IT_Raid.md"
+  ],
+  "katakana": [
+    "01_Projects/Japanese_N5_Katakana_IT_Raid.md",
+    "02_Areas/Japanese_N5/IT_Japanese_N5_Essential_Katakana.md"
+  ],
+  "reboot": [
+    "01_Projects/Japanese_N5_Katakana_IT_Raid.md",
+    "01_Projects/Japanese_N5_Reboot_Mastery.md"
+  ],
+  "n5": [
+    "01_Projects/Japanese_N5_Katakana_IT_Raid.md",
+    "01_Projects/Japanese_N5_Reboot_Mastery.md",
+    "01_Projects/Japanese_N5_Roleplay_Log.md",
+    "01_Projects/Japanese_N5_Study_Plan.md",
+    "01_Projects/Japanese_N5_Unit1_Mastery.md",
+    "01_Projects/NEJ_N5_4_Phase_Study_Plan.md",
+    "02_Areas/Japanese_N5/AI_Japanese_Tutor_Modern_Methods.md",
+    "02_Areas/Japanese_N5/Anki_N5_U12.md",
+    "02_Areas/Japanese_N5/IntelliJ_Presentation_Japanese_Script.md",
+    "02_Areas/Japanese_N5/IT_Japanese_N5_Essential_Katakana.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Video_Context.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Vocabulary.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Video_Context.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Vocabulary.md",
+    "02_Areas/Japanese_N5/Japanese_N5_Exercise_Essay_Travel.md",
+    "02_Areas/Japanese_N5/Mistakes_2026-06-05.md",
+    "02_Areas/Japanese_N5/N5_13_Essential_Grammar_NEJ.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Danang.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Hanoi.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Vietnam.md",
+    "02_Areas/Japanese_N5/N5_Essay_Travel_Email_Guide.md",
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md",
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md",
+    "02_Areas/Japanese_N5/N5_G12_Adverbial_Adjectives.md",
+    "02_Areas/Japanese_N5/N5_G12_Comparison.md",
+    "02_Areas/Japanese_N5/N5_G12_Hou_ga_ii_desu.md",
+    "02_Areas/Japanese_N5/N5_G12_Invitation_Forms.md",
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md",
+    "02_Areas/Japanese_N5/N5_G12_Tari_Tari_shimasu.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Demo.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Isshoni.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Mo.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Review_U7_U12.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Toki.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Ya.md",
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md",
+    "02_Areas/Japanese_N5/N5_Travel_Vocabulary_Vietnam.md",
+    "02_Areas/Japanese_N5/N5_U12_Audio_Transcription.md",
+    "02_Areas/Japanese_N5/N5_U5_Daily_Routines_Vocab.md",
+    "02_Areas/Japanese_N5/N5_Unit_12_Video_Context.md",
+    "02_Areas/Japanese_N5/N5_Unit_12_Vocabulary.md",
+    "02_Areas/Japanese_N5/N5_Vocabulary_Review_Master.md",
+    "02_Areas/Japanese_N5/NiX_Digital_Total_Ingest_Hub.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U10_Kanji.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U12_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Vocab_Grammar.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Basic_To_Advanced.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Listening_Speaking.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Grammar_Annotated.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Script_3P.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Script_John.md",
+    "02_Areas/Japanese_N5/Roleplay_2_Grammar_Annotated.md",
+    "02_Areas/Japanese_N5/Roleplay_2_Script_3P.md",
+    "02_Areas/Japanese_N5/Roleplay_Script_Practice.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit1.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit2.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit4.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_001-005.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_006-010.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_011-015.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_016-020.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-025.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-030.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_031-037.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_039-043.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_044-048.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_049-052.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_053-055.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_057-065.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_065-075.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_075.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_076.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_078.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_080.md",
+    "03_Resources/Japanese_N5/gem_n5_genki.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_1_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_2_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_3_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_4_Gemini.md",
+    "MOCs/MOC_Japanese_N5.md"
+  ],
+  "japanese_n5_reboot_mastery": [
+    "01_Projects/Japanese_N5_Reboot_Mastery.md"
+  ],
+  "kanji": [
+    "01_Projects/Japanese_N5_Reboot_Mastery.md",
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U10_Kanji.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U4_Kanji.md"
+  ],
+  "unit1": [
+    "01_Projects/Japanese_N5_Reboot_Mastery.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit1.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_001-005.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_006-010.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_011-015.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_016-020.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-025.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-030.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_031-037.md"
+  ],
+  "identity": [
+    "01_Projects/Japanese_N5_Reboot_Mastery.md"
+  ],
+  "roleplay": [
+    "01_Projects/Japanese_N5_Roleplay_Log.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Listening_Speaking.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Grammar_Annotated.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Script_3P.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Script_John.md",
+    "02_Areas/Japanese_N5/Roleplay_2_Grammar_Annotated.md",
+    "02_Areas/Japanese_N5/Roleplay_2_Script_3P.md",
+    "02_Areas/Japanese_N5/Roleplay_Script_Practice.md"
+  ],
+  "japanese_n5_roleplay_log": [
+    "01_Projects/Japanese_N5_Roleplay_Log.md"
+  ],
+  "practice-log": [
+    "01_Projects/Japanese_N5_Roleplay_Log.md"
+  ],
+  "progress": [
+    "01_Projects/Japanese_N5_Study_Plan.md",
+    "01_Projects/Japanese_N5_Unit1_Mastery.md",
+    "01_Projects/Java_Learning_Log.md",
+    "01_Projects/Master_Progress_Log.md",
+    "01_Projects/NEJ_N5_4_Phase_Study_Plan.md",
+    "02_Areas/Japanese_N5/Japanese_N5_Exercise_Essay_Travel.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/PROGRESS.md"
+  ],
+  "japanese_n5_study_plan": [
+    "01_Projects/Japanese_N5_Study_Plan.md"
+  ],
+  "roadmap": [
+    "01_Projects/Japanese_N5_Study_Plan.md",
+    "01_Projects/Java_Learning_Log.md",
+    "01_Projects/NEJ_N5_4_Phase_Study_Plan.md",
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Basic_To_Advanced.md"
+  ],
+  "unit-1": [
+    "01_Projects/Japanese_N5_Unit1_Mastery.md"
+  ],
+  "japanese_n5_unit1_mastery": [
+    "01_Projects/Japanese_N5_Unit1_Mastery.md"
+  ],
+  "solid": [
+    "01_Projects/Java_Learning_Log.md",
+    "02_Areas/IT_Knowledge/Java_Composition_SOLID.md",
+    "02_Areas/IT_Knowledge/Java_DSA_CustomArrayList_SRP.md"
+  ],
+  "dsa": [
+    "01_Projects/Java_Learning_Log.md",
+    "02_Areas/IT_Knowledge/Java_Composition_SOLID.md",
+    "02_Areas/IT_Knowledge/Java_DSA_CustomArrayList_SRP.md",
+    "02_Areas/IT_Knowledge/Java_DSA_LinkedList_OCP.md"
+  ],
+  "java": [
+    "01_Projects/Java_Learning_Log.md",
+    "02_Areas/IT_Knowledge/Cloudinary_Java_InputStream_Upload_Error.md",
+    "02_Areas/IT_Knowledge/Composite_Key.md",
+    "02_Areas/IT_Knowledge/Java_21_Enterprise_Evolution_2026.md",
+    "02_Areas/IT_Knowledge/Java_24_Spring_Boot_3.5_Breakthroughs.md",
+    "02_Areas/IT_Knowledge/Java_3_Layer_Architecture.md",
+    "02_Areas/IT_Knowledge/Java_Abstract_Interface.md",
+    "02_Areas/IT_Knowledge/Java_Access_Modifiers.md",
+    "02_Areas/IT_Knowledge/Java_Annotations.md",
+    "02_Areas/IT_Knowledge/Java_Arrays.md",
+    "02_Areas/IT_Knowledge/Java_Builtin_Interfaces.md",
+    "02_Areas/IT_Knowledge/Java_Classes_Objects.md",
+    "02_Areas/IT_Knowledge/Java_Classes_Objects_Detailed.md",
+    "02_Areas/IT_Knowledge/Java_Classes_Objects_Review.md",
+    "02_Areas/IT_Knowledge/Java_Collections_Framework.md",
+    "02_Areas/IT_Knowledge/Java_Composition_SOLID.md",
+    "02_Areas/IT_Knowledge/Java_Design_LoL_Example.md",
+    "02_Areas/IT_Knowledge/Java_Design_Principles.md",
+    "02_Areas/IT_Knowledge/Java_DI_IoC_Principles.md",
+    "02_Areas/IT_Knowledge/Java_DSA_CustomArrayList_SRP.md",
+    "02_Areas/IT_Knowledge/Java_DSA_LinkedList_OCP.md",
+    "02_Areas/IT_Knowledge/Java_Enum_Fundamentals.md",
+    "02_Areas/IT_Knowledge/Java_Functional_Programming.md",
+    "02_Areas/IT_Knowledge/Java_Generics_Stack_Queue.md",
+    "02_Areas/IT_Knowledge/Java_Inheritance.md",
+    "02_Areas/IT_Knowledge/Java_IO_Streams_Text.md",
+    "02_Areas/IT_Knowledge/Java_JDBC_Connection_Pool.md",
+    "02_Areas/IT_Knowledge/Java_JVM_Variables_DataTypes.md",
+    "02_Areas/IT_Knowledge/Java_Maven_Lombok.md",
+    "02_Areas/IT_Knowledge/Java_Memory_Management.md",
+    "02_Areas/IT_Knowledge/Java_Methods.md",
+    "02_Areas/IT_Knowledge/Java_OOP_Summary.md",
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Casting.md",
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Insight.md",
+    "02_Areas/IT_Knowledge/Java_Search_Algorithms.md",
+    "02_Areas/IT_Knowledge/Java_Servlet_Case_Sensitive_Parameters.md",
+    "02_Areas/IT_Knowledge/Java_Static_Keyword.md",
+    "02_Areas/IT_Knowledge/Java_Strings_Regex.md",
+    "02_Areas/IT_Knowledge/Java_Style_Guide.md",
+    "02_Areas/IT_Knowledge/Java_Variables_DataTypes.md",
+    "02_Areas/IT_Knowledge/Java_Web_Classpath_Resource_Loading.md",
+    "02_Areas/IT_Knowledge/Java_Web_Review_FrontController_Redirect_Forward.md",
+    "02_Areas/IT_Knowledge/JDBC_CallableStatement_StoredProcedure.md",
+    "02_Areas/IT_Knowledge/JDBC_Core_Architecture.md",
+    "02_Areas/IT_Knowledge/JDBC_Transaction_Savepoint_vs_Batch.md",
+    "02_Areas/IT_Knowledge/JSP_Servlet_Exception_Data_Loss.md",
+    "02_Areas/IT_Knowledge/JSP_vs_Servlet.md",
+    "02_Areas/IT_Knowledge/Tomcat9_Java17_Access_Denied_Fix.md",
+    "02_Areas/IT_Knowledge/Web_AppSec_Spam_Defense.md",
+    "02_Areas/IT_Knowledge/Web_Crawling_Strategy.md",
+    "03_Resources/Templates/Cornell_Note_Table_Template.md",
+    "03_Resources/Templates/Cornell_Note_Template.md"
+  ],
+  "java_learning_log": [
+    "01_Projects/Java_Learning_Log.md"
+  ],
+  "ke_hoach_30_ngay_seo_thien_anh": [
+    "01_Projects/ke_hoach_30_ngay_seo_thien_anh.md"
+  ],
+  "ke_hoach_map_ve_tinh_thien_anh": [
+    "01_Projects/ke_hoach_map_ve_tinh_thien_anh.md"
+  ],
+  "kich_ban_video_seo_cua_cuon_vo_nuoc": [
+    "01_Projects/kich_ban_video_seo_cua_cuon_vo_nuoc.md"
+  ],
+  "landing_page_cua_cuon_dak_nong": [
+    "01_Projects/landing_page_cua_cuon_dak_nong.md"
+  ],
+  "master_progress_log": [
+    "01_Projects/Master_Progress_Log.md"
+  ],
+  "tracking": [
+    "01_Projects/Master_Progress_Log.md"
+  ],
+  "dashboard": [
+    "01_Projects/Master_Progress_Log.md"
+  ],
+  "nej_n5_4_phase_study_plan": [
+    "01_Projects/NEJ_N5_4_Phase_Study_Plan.md"
+  ],
+  "nej": [
+    "01_Projects/NEJ_N5_4_Phase_Study_Plan.md",
+    "02_Areas/Japanese_N5/N5_13_Essential_Grammar_NEJ.md",
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit1.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit2.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit4.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_001-005.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_006-010.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_011-015.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_016-020.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-025.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-030.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_031-037.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_039-043.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_044-048.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_049-052.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_053-055.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_057-065.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_065-075.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_075.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_076.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_078.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_080.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_1_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_2_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_3_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_4_Gemini.md"
+  ],
+  "java_web": [
+    "01_Projects/Payment_Integration_Plan.md"
+  ],
+  "payment": [
+    "01_Projects/Payment_Integration_Plan.md"
+  ],
+  "vnpay": [
+    "01_Projects/Payment_Integration_Plan.md"
+  ],
+  "ecommerce": [
+    "01_Projects/Payment_Integration_Plan.md"
+  ],
+  "plan": [
+    "01_Projects/Payment_Integration_Plan.md"
+  ],
+  "payment_integration_plan": [
+    "01_Projects/Payment_Integration_Plan.md"
+  ],
+  "quy_trinh_tao_video_seo_bang_gemini": [
+    "01_Projects/quy_trinh_tao_video_seo_bang_gemini.md"
+  ],
+  "seo_cua_cuon_dak_nong_plan": [
+    "01_Projects/seo_cua_cuon_dak_nong_plan.md"
+  ],
+  "servlet_jsp_project_structure": [
+    "01_Projects/Servlet_JSP_Project_Structure.md"
+  ],
+  "english_adjectives_and_pronunciation_mastery": [
+    "02_Areas/English_Adjectives_and_Pronunciation_Mastery.md"
+  ],
+  "nexus": [
+    "02_Areas/Learning_System_Multi_Agent.md",
+    "02_Areas/Nexus_Neuro_Sync.md",
+    "02_Areas/Systems_Thinking_Protocol.md",
+    "02_Areas/Personal/Ultralearning_Upgrade_Plan.md"
+  ],
+  "architecture": [
+    "02_Areas/Learning_System_Multi_Agent.md",
+    "02_Areas/IT_Knowledge/Java_3_Layer_Architecture.md",
+    "02_Areas/IT_Knowledge/Java_DI_IoC_Principles.md",
+    "02_Areas/IT_Knowledge/Java_JDBC_Connection_Pool.md",
+    "02_Areas/IT_Knowledge/JDBC_CallableStatement_StoredProcedure.md",
+    "02_Areas/IT_Knowledge/JDBC_Core_Architecture.md",
+    "02_Areas/IT_Knowledge/JDBC_Transaction_Savepoint_vs_Batch.md",
+    "02_Areas/IT_Knowledge/MCP_ADK_Frameworks.md",
+    "02_Areas/IT_Knowledge/Multi_Agent_AI_Systems.md"
+  ],
+  "multi-agent": [
+    "02_Areas/Learning_System_Multi_Agent.md",
+    "02_Areas/IT_Knowledge/AI_CORAL_Architecture.md",
+    "02_Areas/IT_Knowledge/Multi_Agent_AI_Systems.md"
+  ],
+  "meta-learning": [
+    "02_Areas/Learning_System_Multi_Agent.md",
+    "02_Areas/Systems_Thinking_Protocol.md",
+    "02_Areas/Personal/Learning_How_To_Learn.md"
+  ],
+  "learning_system_multi_agent": [
+    "02_Areas/Learning_System_Multi_Agent.md"
+  ],
+  "learning": [
+    "02_Areas/Learning_System_Multi_Agent.md",
+    "02_Areas/Personal/Intelligence_Types_Summary.md"
+  ],
+  "midnight_evolution_protocol": [
+    "02_Areas/Midnight_Evolution_Protocol.md"
+  ],
+  "system": [
+    "02_Areas/Midnight_Evolution_Protocol.md",
+    "02_Areas/Wiki_Expansion_Protocol.md",
+    "MOCs/MOC_Index.md"
+  ],
+  "quota-management": [
+    "02_Areas/Midnight_Evolution_Protocol.md"
+  ],
+  "singularity": [
+    "02_Areas/Midnight_Evolution_Protocol.md"
+  ],
+  "automation": [
+    "02_Areas/Midnight_Evolution_Protocol.md",
+    "02_Areas/Wiki_Expansion_Protocol.md",
+    "02_Areas/IT_Knowledge/MCP_ADK_Frameworks.md",
+    "02_Areas/IT_Knowledge/MySQL_Stored_Procedures.md",
+    "02_Areas/IT_Knowledge/MySQL_Triggers.md"
+  ],
+  "self-evolution": [
+    "02_Areas/Midnight_Evolution_Protocol.md",
+    "02_Areas/Personal/Learning_How_To_Learn.md"
+  ],
+  "neuro-management": [
+    "02_Areas/Nexus_Neuro_Sync.md"
+  ],
+  "energy-management": [
+    "02_Areas/Nexus_Neuro_Sync.md",
+    "02_Areas/Personal/Ultradian_Rhythm.md"
+  ],
+  "nexus_neuro_sync": [
+    "02_Areas/Nexus_Neuro_Sync.md"
+  ],
+  "productivity": [
+    "02_Areas/Nexus_Neuro_Sync.md",
+    "02_Areas/IT_Knowledge/Effective_Information_Search.md",
+    "02_Areas/Personal/Flow.md",
+    "02_Areas/Personal/Goal_Decomposition.md",
+    "02_Areas/Personal/Human_AI_Synergy.md",
+    "02_Areas/Personal/Learning_How_To_Learn.md",
+    "02_Areas/Personal/Strategic_Learning_Framework.md",
+    "02_Areas/Personal/Ultradian_Rhythm.md",
+    "03_Resources/Agent_Skills/pomodoro_dopamine_manager.md"
+  ],
+  "neuro-sync": [
+    "02_Areas/Nexus_Neuro_Sync.md"
+  ],
+  "systems-thinking": [
+    "02_Areas/Systems_Thinking_Protocol.md",
+    "02_Areas/IT_Knowledge/Furama_DB_Systems_Analysis.md",
+    "02_Areas/Personal/Collective_Intelligence.md"
+  ],
+  "systems_thinking_protocol": [
+    "02_Areas/Systems_Thinking_Protocol.md"
+  ],
+  "ingest": [
+    "02_Areas/Systems_Thinking_Protocol.md",
+    "02_Areas/Wiki_Expansion_Protocol.md"
+  ],
+  "learning-architecture": [
+    "02_Areas/Systems_Thinking_Protocol.md"
+  ],
+  "wiki_expansion_protocol": [
+    "02_Areas/Wiki_Expansion_Protocol.md"
+  ],
+  "wiki": [
+    "02_Areas/Wiki_Expansion_Protocol.md",
+    "02_Areas/IT_Knowledge/LLM_Wiki.md",
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md"
+  ],
+  "expansion": [
+    "02_Areas/Wiki_Expansion_Protocol.md"
+  ],
+  "ga_nuoi_benh_ly_ho_hap": [
+    "02_Areas/Agriculture/Ga_Nuoi_Benh_Ly_Ho_Hap.md"
+  ],
+  "thu-y": [
+    "02_Areas/Agriculture/Ga_Nuoi_Benh_Ly_Ho_Hap.md",
+    "02_Areas/Agriculture/Ga_Nuoi_Kinh_Nghiem_Thuc_Chien.md"
+  ],
+  "ga-nuoi": [
+    "02_Areas/Agriculture/Ga_Nuoi_Benh_Ly_Ho_Hap.md",
+    "02_Areas/Agriculture/Ga_Nuoi_Kinh_Nghiem_Thuc_Chien.md"
+  ],
+  "doxy5000": [
+    "02_Areas/Agriculture/Ga_Nuoi_Benh_Ly_Ho_Hap.md"
+  ],
+  "agriculture": [
+    "02_Areas/Agriculture/Ga_Nuoi_Benh_Ly_Ho_Hap.md",
+    "02_Areas/Agriculture/Ga_Nuoi_Kinh_Nghiem_Thuc_Chien.md",
+    "02_Areas/Business/Du_An_Suong_Sam_Ruoi_Linh_Den_Ga.md",
+    "02_Areas/Business/Pitch_Deck_Nong_Nghiep_Tuan_Hoan.md"
+  ],
+  "benh-ho-hap": [
+    "02_Areas/Agriculture/Ga_Nuoi_Benh_Ly_Ho_Hap.md"
+  ],
+  "vaccine": [
+    "02_Areas/Agriculture/Ga_Nuoi_Kinh_Nghiem_Thuc_Chien.md"
+  ],
+  "vi-sinh": [
+    "02_Areas/Agriculture/Ga_Nuoi_Kinh_Nghiem_Thuc_Chien.md"
+  ],
+  "ga_nuoi_kinh_nghiem_thuc_chien": [
+    "02_Areas/Agriculture/Ga_Nuoi_Kinh_Nghiem_Thuc_Chien.md"
+  ],
+  "meo-vat": [
+    "02_Areas/Agriculture/Ga_Nuoi_Kinh_Nghiem_Thuc_Chien.md"
+  ],
+  "bsf": [
+    "02_Areas/Business/Du_An_Suong_Sam_Ruoi_Linh_Den_Ga.md"
+  ],
+  "du_an_suong_sam_ruoi_linh_den_ga": [
+    "02_Areas/Business/Du_An_Suong_Sam_Ruoi_Linh_Den_Ga.md"
+  ],
+  "circular-economy": [
+    "02_Areas/Business/Du_An_Suong_Sam_Ruoi_Linh_Den_Ga.md",
+    "02_Areas/Business/Pitch_Deck_Nong_Nghiep_Tuan_Hoan.md"
+  ],
+  "chicken": [
+    "02_Areas/Business/Du_An_Suong_Sam_Ruoi_Linh_Den_Ga.md",
+    "02_Areas/Business/Pitch_Deck_Nong_Nghiep_Tuan_Hoan.md"
+  ],
+  "ginseng": [
+    "02_Areas/Business/Du_An_Suong_Sam_Ruoi_Linh_Den_Ga.md",
+    "02_Areas/Business/Pitch_Deck_Nong_Nghiep_Tuan_Hoan.md"
+  ],
+  "fundraising": [
+    "02_Areas/Business/Pitch_Deck_Nong_Nghiep_Tuan_Hoan.md"
+  ],
+  "pitch_deck_nong_nghiep_tuan_hoan": [
+    "02_Areas/Business/Pitch_Deck_Nong_Nghiep_Tuan_Hoan.md"
+  ],
+  "local-seo": [
+    "02_Areas/Business/SEO_CuaCuonThienAnh.md"
+  ],
+  "thien-anh-door": [
+    "02_Areas/Business/SEO_CuaCuonThienAnh.md"
+  ],
+  "seo_cuacuonthienanh": [
+    "02_Areas/Business/SEO_CuaCuonThienAnh.md"
+  ],
+  "marketing": [
+    "02_Areas/Business/SEO_CuaCuonThienAnh.md"
+  ],
+  "acid": [
+    "02_Areas/IT_Knowledge/ACID_Properties.md"
+  ],
+  "database": [
+    "02_Areas/IT_Knowledge/ACID_Properties.md",
+    "02_Areas/IT_Knowledge/Database_Fundamentals_Ch1.md",
+    "02_Areas/IT_Knowledge/Database_Indexing_Fundamentals.md",
+    "02_Areas/IT_Knowledge/Furama_DB_Systems_Analysis.md",
+    "02_Areas/IT_Knowledge/Java_JDBC_Connection_Pool.md",
+    "02_Areas/IT_Knowledge/JDBC_CallableStatement_StoredProcedure.md",
+    "02_Areas/IT_Knowledge/JDBC_Core_Architecture.md",
+    "02_Areas/IT_Knowledge/JDBC_Transaction_Savepoint_vs_Batch.md",
+    "02_Areas/IT_Knowledge/Relational_Database_Fundamentals.md",
+    "02_Areas/IT_Knowledge/SQL_Views.md"
+  ],
+  "reliability": [
+    "02_Areas/IT_Knowledge/ACID_Properties.md"
+  ],
+  "acid_properties": [
+    "02_Areas/IT_Knowledge/ACID_Properties.md"
+  ],
+  "transactions": [
+    "02_Areas/IT_Knowledge/ACID_Properties.md"
+  ],
+  "it_knowledge": [
+    "02_Areas/IT_Knowledge/ACID_Properties.md",
+    "02_Areas/IT_Knowledge/Active_Learning.md",
+    "02_Areas/IT_Knowledge/Adaptive_Hash_Index.md",
+    "02_Areas/IT_Knowledge/AI_Agent_Memory_Architecture_CoALA.md",
+    "02_Areas/IT_Knowledge/AI_in_SDLC_Integration.md",
+    "02_Areas/IT_Knowledge/B-Tree_Architecture.md",
+    "02_Areas/IT_Knowledge/Blooms_Taxonomy.md",
+    "02_Areas/IT_Knowledge/Cloudinary_Java_InputStream_Upload_Error.md",
+    "02_Areas/IT_Knowledge/Common_Table_Expressions.md",
+    "02_Areas/IT_Knowledge/Composite_Key.md",
+    "02_Areas/IT_Knowledge/Critical_Thinking.md",
+    "02_Areas/IT_Knowledge/CSS_Responsive_Design.md",
+    "02_Areas/IT_Knowledge/Database_Fundamentals_Ch1.md",
+    "02_Areas/IT_Knowledge/Database_Indexing_Fundamentals.md",
+    "02_Areas/IT_Knowledge/Digital_Literacy.md",
+    "02_Areas/IT_Knowledge/Effective_Information_Search.md",
+    "02_Areas/IT_Knowledge/Effective_Information_Search_Gathering.md",
+    "02_Areas/IT_Knowledge/Effective_Report_Writing.md",
+    "02_Areas/IT_Knowledge/Executive_Summary.md",
+    "02_Areas/IT_Knowledge/Full_Text_Search_MySQL.md",
+    "02_Areas/IT_Knowledge/Furama_SQL_Solutions_1_27.md",
+    "02_Areas/IT_Knowledge/Gradle_Build_Delegation.md",
+    "02_Areas/IT_Knowledge/Guided_Questioning.md",
+    "02_Areas/IT_Knowledge/Higher_Order_Thinking.md",
+    "02_Areas/IT_Knowledge/Improving_Question_Quality.md",
+    "02_Areas/IT_Knowledge/Information_Literacy.md",
+    "02_Areas/IT_Knowledge/IntelliJ_Artifact_Resource_Mapping.md",
+    "02_Areas/IT_Knowledge/IntelliJ_Tomcat_Artifact_Resolution.md",
+    "02_Areas/IT_Knowledge/Java_21_Enterprise_Evolution_2026.md",
+    "02_Areas/IT_Knowledge/Java_Enum_Fundamentals.md",
+    "02_Areas/IT_Knowledge/Java_JDBC_Connection_Pool.md",
+    "02_Areas/IT_Knowledge/Java_Servlet_Case_Sensitive_Parameters.md",
+    "02_Areas/IT_Knowledge/Java_Web_Classpath_Resource_Loading.md",
+    "02_Areas/IT_Knowledge/Java_Web_Review_FrontController_Redirect_Forward.md",
+    "02_Areas/IT_Knowledge/JDBC_CallableStatement_StoredProcedure.md",
+    "02_Areas/IT_Knowledge/JDBC_Core_Architecture.md",
+    "02_Areas/IT_Knowledge/JDBC_Transaction_Savepoint_vs_Batch.md",
+    "02_Areas/IT_Knowledge/JSP_Servlet_Exception_Data_Loss.md",
+    "02_Areas/IT_Knowledge/JSP_vs_Servlet.md",
+    "02_Areas/IT_Knowledge/Junction_Table.md",
+    "02_Areas/IT_Knowledge/Many_To_Many_Relationship.md",
+    "02_Areas/IT_Knowledge/MCP_ADK_Frameworks.md",
+    "02_Areas/IT_Knowledge/Multi_Agent_AI_Systems.md",
+    "02_Areas/IT_Knowledge/MySQL_8.4_Features.md",
+    "02_Areas/IT_Knowledge/MySQL_Creation_Constraints.md",
+    "02_Areas/IT_Knowledge/MySQL_Functions.md",
+    "02_Areas/IT_Knowledge/MySQL_Indexing_Performance.md",
+    "02_Areas/IT_Knowledge/MySQL_Index_Deep_Dive.md",
+    "02_Areas/IT_Knowledge/MySQL_Stored_Procedures.md",
+    "02_Areas/IT_Knowledge/MySQL_Triggers.md",
+    "02_Areas/IT_Knowledge/One_To_Many_Relationship.md",
+    "02_Areas/IT_Knowledge/Peer_Review.md",
+    "02_Areas/IT_Knowledge/Probing_Questions.md",
+    "02_Areas/IT_Knowledge/Question_Answer_Formats.md",
+    "02_Areas/IT_Knowledge/Relational_Database_Fundamentals.md",
+    "02_Areas/IT_Knowledge/Relational_Data_Model.md",
+    "02_Areas/IT_Knowledge/Report_Structure.md",
+    "02_Areas/IT_Knowledge/Socratic_Method.md",
+    "02_Areas/IT_Knowledge/Source_Evaluation.md",
+    "02_Areas/IT_Knowledge/SQL_Advanced_Filtering.md",
+    "02_Areas/IT_Knowledge/SQL_Aggregations.md",
+    "02_Areas/IT_Knowledge/SQL_DEEP_RAID_PRACTICE.md",
+    "02_Areas/IT_Knowledge/SQL_EXECUTION_ORDER_MASTERY.md",
+    "02_Areas/IT_Knowledge/SQL_GFRB_THINKING_FRAMEWORK.md",
+    "02_Areas/IT_Knowledge/SQL_Join_Fundamentals.md",
+    "02_Areas/IT_Knowledge/SQL_Mastery_100_Questions.md",
+    "02_Areas/IT_Knowledge/SQL_Views.md",
+    "02_Areas/IT_Knowledge/Surrogate_Key.md",
+    "02_Areas/IT_Knowledge/Tactical_Questioning_Strategies.md",
+    "02_Areas/IT_Knowledge/Tomcat9_Java17_Access_Denied_Fix.md",
+    "02_Areas/IT_Knowledge/Web_AppSec_Spam_Defense.md",
+    "02_Areas/IT_Knowledge/Web_Crawling_Strategy.md"
+  ],
+  "active_learning": [
+    "02_Areas/IT_Knowledge/Active_Learning.md"
+  ],
+  "education": [
+    "02_Areas/IT_Knowledge/Active_Learning.md",
+    "02_Areas/IT_Knowledge/Higher_Order_Thinking.md",
+    "02_Areas/IT_Knowledge/Information_Literacy.md",
+    "02_Areas/Personal/Theory_of_Multiple_Intelligences.md"
+  ],
+  "learning-theory": [
+    "02_Areas/IT_Knowledge/Active_Learning.md"
+  ],
+  "student-centered": [
+    "02_Areas/IT_Knowledge/Active_Learning.md"
+  ],
+  "adaptive_hash_index": [
+    "02_Areas/IT_Knowledge/Adaptive_Hash_Index.md"
+  ],
+  "mysql": [
+    "02_Areas/IT_Knowledge/Adaptive_Hash_Index.md",
+    "02_Areas/IT_Knowledge/Full_Text_Search_MySQL.md",
+    "02_Areas/IT_Knowledge/MySQL_8.4_Features.md",
+    "02_Areas/IT_Knowledge/MySQL_Creation_Constraints.md",
+    "02_Areas/IT_Knowledge/MySQL_Functions.md",
+    "02_Areas/IT_Knowledge/MySQL_Indexing_Performance.md",
+    "02_Areas/IT_Knowledge/MySQL_Index_Deep_Dive.md",
+    "02_Areas/IT_Knowledge/MySQL_Stored_Procedures.md",
+    "02_Areas/IT_Knowledge/MySQL_Triggers.md",
+    "02_Areas/IT_Knowledge/Relational_Database_Fundamentals.md",
+    "02_Areas/IT_Knowledge/SQL_Advanced_Filtering.md",
+    "02_Areas/IT_Knowledge/SQL_Aggregations.md"
+  ],
+  "hash-index": [
+    "02_Areas/IT_Knowledge/Adaptive_Hash_Index.md",
+    "02_Areas/IT_Knowledge/MySQL_Index_Deep_Dive.md"
+  ],
+  "innodb": [
+    "02_Areas/IT_Knowledge/Adaptive_Hash_Index.md"
+  ],
+  "performance": [
+    "02_Areas/IT_Knowledge/Adaptive_Hash_Index.md",
+    "02_Areas/IT_Knowledge/Common_Table_Expressions.md",
+    "02_Areas/IT_Knowledge/Database_Indexing_Fundamentals.md",
+    "02_Areas/IT_Knowledge/Full_Text_Search_MySQL.md",
+    "02_Areas/IT_Knowledge/MySQL_Indexing_Performance.md",
+    "02_Areas/IT_Knowledge/MySQL_Index_Deep_Dive.md",
+    "02_Areas/IT_Knowledge/MySQL_Triggers.md",
+    "02_Areas/IT_Knowledge/SQL_Aggregations.md",
+    "02_Areas/IT_Knowledge/Surrogate_Key.md",
+    "02_Areas/Personal/Flow.md"
+  ],
+  "cognitive-architecture": [
+    "02_Areas/IT_Knowledge/AI_Agent_Memory_Architecture_CoALA.md"
+  ],
+  "ai": [
+    "02_Areas/IT_Knowledge/AI_Agent_Memory_Architecture_CoALA.md",
+    "02_Areas/IT_Knowledge/AI_CORAL_Architecture.md",
+    "02_Areas/IT_Knowledge/AI_in_SDLC_Integration.md",
+    "02_Areas/IT_Knowledge/LLM_Wiki.md",
+    "02_Areas/IT_Knowledge/Multi_Agent_AI_Systems.md",
+    "02_Areas/IT_Knowledge/RAG_Retrieval_Augmented_Generation.md",
+    "02_Areas/Personal/Human_AI_Synergy.md"
+  ],
+  "coala": [
+    "02_Areas/IT_Knowledge/AI_Agent_Memory_Architecture_CoALA.md"
+  ],
+  "ai_agent_memory_architecture_coala": [
+    "02_Areas/IT_Knowledge/AI_Agent_Memory_Architecture_CoALA.md"
+  ],
+  "coral": [
+    "02_Areas/IT_Knowledge/AI_CORAL_Architecture.md"
+  ],
+  "evolution": [
+    "02_Areas/IT_Knowledge/AI_CORAL_Architecture.md"
+  ],
+  "ai_coral_architecture": [
+    "02_Areas/IT_Knowledge/AI_CORAL_Architecture.md"
+  ],
+  "gemini_pro": [
+    "02_Areas/IT_Knowledge/AI_in_SDLC_Integration.md"
+  ],
+  "tdd": [
+    "02_Areas/IT_Knowledge/AI_in_SDLC_Integration.md"
+  ],
+  "software_engineering": [
+    "02_Areas/IT_Knowledge/AI_in_SDLC_Integration.md"
+  ],
+  "agile": [
+    "02_Areas/IT_Knowledge/AI_in_SDLC_Integration.md"
+  ],
+  "sdlc": [
+    "02_Areas/IT_Knowledge/AI_in_SDLC_Integration.md"
+  ],
+  "code_review": [
+    "02_Areas/IT_Knowledge/AI_in_SDLC_Integration.md"
+  ],
+  "ai_in_sdlc_integration": [
+    "02_Areas/IT_Knowledge/AI_in_SDLC_Integration.md"
+  ],
+  "b-tree": [
+    "02_Areas/IT_Knowledge/B-Tree_Architecture.md",
+    "02_Areas/IT_Knowledge/Database_Indexing_Fundamentals.md",
+    "02_Areas/IT_Knowledge/MySQL_Index_Deep_Dive.md"
+  ],
+  "data-structure": [
+    "02_Areas/IT_Knowledge/B-Tree_Architecture.md"
+  ],
+  "algorithm": [
+    "02_Areas/IT_Knowledge/B-Tree_Architecture.md"
+  ],
+  "b-tree_architecture": [
+    "02_Areas/IT_Knowledge/B-Tree_Architecture.md"
+  ],
+  "indexing": [
+    "02_Areas/IT_Knowledge/B-Tree_Architecture.md",
+    "02_Areas/IT_Knowledge/Full_Text_Search_MySQL.md",
+    "02_Areas/IT_Knowledge/MySQL_Indexing_Performance.md",
+    "02_Areas/IT_Knowledge/MySQL_Index_Deep_Dive.md"
+  ],
+  "pedagogy": [
+    "02_Areas/IT_Knowledge/Blooms_Taxonomy.md",
+    "02_Areas/IT_Knowledge/Guided_Questioning.md",
+    "02_Areas/IT_Knowledge/Higher_Order_Thinking.md",
+    "02_Areas/IT_Knowledge/Improving_Question_Quality.md",
+    "02_Areas/IT_Knowledge/Question_Answer_Formats.md",
+    "02_Areas/IT_Knowledge/Socratic_Method.md",
+    "02_Areas/IT_Knowledge/Tactical_Questioning_Strategies.md",
+    "02_Areas/Personal/Learning_Level_Assessment.md"
+  ],
+  "blooms-taxonomy": [
+    "02_Areas/IT_Knowledge/Blooms_Taxonomy.md",
+    "02_Areas/IT_Knowledge/Higher_Order_Thinking.md",
+    "02_Areas/IT_Knowledge/Question_Answer_Formats.md",
+    "02_Areas/Personal/Learning_Level_Assessment.md"
+  ],
+  "blooms_taxonomy": [
+    "02_Areas/IT_Knowledge/Blooms_Taxonomy.md"
+  ],
+  "learning-levels": [
+    "02_Areas/IT_Knowledge/Blooms_Taxonomy.md",
+    "02_Areas/Personal/Learning_Level_Assessment.md"
+  ],
+  "psychology": [
+    "02_Areas/IT_Knowledge/Blooms_Taxonomy.md",
+    "02_Areas/Personal/Flow.md",
+    "02_Areas/Personal/Growth_Mindset.md",
+    "02_Areas/Personal/Metacognition.md",
+    "02_Areas/Personal/Theory_of_Multiple_Intelligences.md",
+    "02_Areas/Personal/Tieu_Ly_Tang_Dao.md",
+    "02_Areas/Personal/Yale_Psychology_13_Individual_Differences.md",
+    "02_Areas/Strategy/Vo_Trung_Sinh_Huu_Analysis.md"
+  ],
+  "cloudinary_java_inputstream_upload_error": [
+    "02_Areas/IT_Knowledge/Cloudinary_Java_InputStream_Upload_Error.md"
+  ],
+  "servlet": [
+    "02_Areas/IT_Knowledge/Cloudinary_Java_InputStream_Upload_Error.md",
+    "02_Areas/IT_Knowledge/Java_Servlet_Case_Sensitive_Parameters.md",
+    "02_Areas/IT_Knowledge/Java_Web_Review_FrontController_Redirect_Forward.md",
+    "02_Areas/IT_Knowledge/JSP_Servlet_Exception_Data_Loss.md",
+    "02_Areas/IT_Knowledge/JSP_vs_Servlet.md"
+  ],
+  "exception": [
+    "02_Areas/IT_Knowledge/Cloudinary_Java_InputStream_Upload_Error.md"
+  ],
+  "cloudinary": [
+    "02_Areas/IT_Knowledge/Cloudinary_Java_InputStream_Upload_Error.md"
+  ],
+  "inputstream": [
+    "02_Areas/IT_Knowledge/Cloudinary_Java_InputStream_Upload_Error.md"
+  ],
+  "common_table_expressions": [
+    "02_Areas/IT_Knowledge/Common_Table_Expressions.md"
+  ],
+  "cte": [
+    "02_Areas/IT_Knowledge/Common_Table_Expressions.md"
+  ],
+  "subquery": [
+    "02_Areas/IT_Knowledge/Common_Table_Expressions.md"
+  ],
+  "sql": [
+    "02_Areas/IT_Knowledge/Common_Table_Expressions.md",
+    "02_Areas/IT_Knowledge/Full_Text_Search_MySQL.md",
+    "02_Areas/IT_Knowledge/Furama_DB_Systems_Analysis.md",
+    "02_Areas/IT_Knowledge/Furama_SQL_Solutions_1_27.md",
+    "02_Areas/IT_Knowledge/MySQL_Creation_Constraints.md",
+    "02_Areas/IT_Knowledge/MySQL_Functions.md",
+    "02_Areas/IT_Knowledge/MySQL_Indexing_Performance.md",
+    "02_Areas/IT_Knowledge/MySQL_Index_Deep_Dive.md",
+    "02_Areas/IT_Knowledge/MySQL_Stored_Procedures.md",
+    "02_Areas/IT_Knowledge/MySQL_Triggers.md",
+    "02_Areas/IT_Knowledge/Relational_Database_Fundamentals.md",
+    "02_Areas/IT_Knowledge/SQL_Advanced_Filtering.md",
+    "02_Areas/IT_Knowledge/SQL_Aggregations.md",
+    "02_Areas/IT_Knowledge/SQL_DEEP_RAID_PRACTICE.md",
+    "02_Areas/IT_Knowledge/SQL_EXECUTION_ORDER_MASTERY.md",
+    "02_Areas/IT_Knowledge/SQL_GFRB_THINKING_FRAMEWORK.md",
+    "02_Areas/IT_Knowledge/SQL_Join_Fundamentals.md",
+    "02_Areas/IT_Knowledge/SQL_Mastery_100_Questions.md",
+    "02_Areas/IT_Knowledge/SQL_Views.md"
+  ],
+  "readability": [
+    "02_Areas/IT_Knowledge/Common_Table_Expressions.md"
+  ],
+  "composite_key": [
+    "02_Areas/IT_Knowledge/Composite_Key.md"
+  ],
+  "surrogate-key": [
+    "02_Areas/IT_Knowledge/Composite_Key.md"
+  ],
+  "jpa": [
+    "02_Areas/IT_Knowledge/Composite_Key.md"
+  ],
+  "database-design": [
+    "02_Areas/IT_Knowledge/Composite_Key.md",
+    "02_Areas/IT_Knowledge/Junction_Table.md",
+    "02_Areas/IT_Knowledge/Many_To_Many_Relationship.md",
+    "02_Areas/IT_Knowledge/One_To_Many_Relationship.md",
+    "02_Areas/IT_Knowledge/SQL_Mastery_100_Questions.md",
+    "02_Areas/IT_Knowledge/Surrogate_Key.md"
+  ],
+  "composite-key": [
+    "02_Areas/IT_Knowledge/Composite_Key.md"
+  ],
+  "hibernate": [
+    "02_Areas/IT_Knowledge/Composite_Key.md"
+  ],
+  "critical_thinking": [
+    "02_Areas/IT_Knowledge/Critical_Thinking.md"
+  ],
+  "logic": [
+    "02_Areas/IT_Knowledge/Critical_Thinking.md"
+  ],
+  "evaluation": [
+    "02_Areas/IT_Knowledge/Critical_Thinking.md",
+    "02_Areas/IT_Knowledge/Peer_Review.md"
+  ],
+  "inquiry": [
+    "02_Areas/IT_Knowledge/Critical_Thinking.md"
+  ],
+  "critical-thinking": [
+    "02_Areas/IT_Knowledge/Critical_Thinking.md",
+    "02_Areas/IT_Knowledge/Improving_Question_Quality.md",
+    "02_Areas/IT_Knowledge/Question_Answer_Formats.md",
+    "02_Areas/IT_Knowledge/Socratic_Method.md",
+    "02_Areas/IT_Knowledge/Source_Evaluation.md"
+  ],
+  "web-basics": [
+    "02_Areas/IT_Knowledge/CSS_Backgrounds.md",
+    "02_Areas/IT_Knowledge/CSS_Basics.md",
+    "02_Areas/IT_Knowledge/CSS_Borders.md",
+    "02_Areas/IT_Knowledge/CSS_Colors.md",
+    "02_Areas/IT_Knowledge/CSS_Fonts.md",
+    "02_Areas/IT_Knowledge/CSS_Lists.md",
+    "02_Areas/IT_Knowledge/CSS_Modern_Nav_Menu.md",
+    "02_Areas/IT_Knowledge/CSS_Selectors.md",
+    "02_Areas/IT_Knowledge/CSS_Syntax.md",
+    "02_Areas/IT_Knowledge/CSS_Tables.md",
+    "02_Areas/IT_Knowledge/HTML_Basics.md",
+    "02_Areas/IT_Knowledge/JavaScript_Basics.md",
+    "02_Areas/IT_Knowledge/JSP_vs_Servlet.md"
+  ],
+  "background": [
+    "02_Areas/IT_Knowledge/CSS_Backgrounds.md"
+  ],
+  "css": [
+    "02_Areas/IT_Knowledge/CSS_Backgrounds.md",
+    "02_Areas/IT_Knowledge/CSS_Basics.md",
+    "02_Areas/IT_Knowledge/CSS_Borders.md",
+    "02_Areas/IT_Knowledge/CSS_Colors.md",
+    "02_Areas/IT_Knowledge/CSS_Fonts.md",
+    "02_Areas/IT_Knowledge/CSS_Lists.md",
+    "02_Areas/IT_Knowledge/CSS_Modern_Nav_Menu.md",
+    "02_Areas/IT_Knowledge/CSS_Responsive_Design.md",
+    "02_Areas/IT_Knowledge/CSS_Selectors.md",
+    "02_Areas/IT_Knowledge/CSS_Syntax.md",
+    "02_Areas/IT_Knowledge/CSS_Tables.md"
+  ],
+  "layout": [
+    "02_Areas/IT_Knowledge/CSS_Backgrounds.md",
+    "02_Areas/IT_Knowledge/CSS_Borders.md",
+    "02_Areas/IT_Knowledge/CSS_Colors.md",
+    "02_Areas/IT_Knowledge/CSS_Modern_Nav_Menu.md"
+  ],
+  "css_backgrounds": [
+    "02_Areas/IT_Knowledge/CSS_Backgrounds.md"
+  ],
+  "css_basics": [
+    "02_Areas/IT_Knowledge/CSS_Basics.md"
+  ],
+  "css_borders": [
+    "02_Areas/IT_Knowledge/CSS_Borders.md"
+  ],
+  "border": [
+    "02_Areas/IT_Knowledge/CSS_Borders.md"
+  ],
+  "css_colors": [
+    "02_Areas/IT_Knowledge/CSS_Colors.md"
+  ],
+  "color": [
+    "02_Areas/IT_Knowledge/CSS_Colors.md"
+  ],
+  "css_fonts": [
+    "02_Areas/IT_Knowledge/CSS_Fonts.md"
+  ],
+  "font": [
+    "02_Areas/IT_Knowledge/CSS_Fonts.md"
+  ],
+  "typography": [
+    "02_Areas/IT_Knowledge/CSS_Fonts.md"
+  ],
+  "list": [
+    "02_Areas/IT_Knowledge/CSS_Lists.md"
+  ],
+  "css_lists": [
+    "02_Areas/IT_Knowledge/CSS_Lists.md"
+  ],
+  "flexbox": [
+    "02_Areas/IT_Knowledge/CSS_Modern_Nav_Menu.md"
+  ],
+  "css_modern_nav_menu": [
+    "02_Areas/IT_Knowledge/CSS_Modern_Nav_Menu.md"
+  ],
+  "navigation": [
+    "02_Areas/IT_Knowledge/CSS_Modern_Nav_Menu.md"
+  ],
+  "web-design": [
+    "02_Areas/IT_Knowledge/CSS_Responsive_Design.md"
+  ],
+  "responsive": [
+    "02_Areas/IT_Knowledge/CSS_Responsive_Design.md"
+  ],
+  "grid": [
+    "02_Areas/IT_Knowledge/CSS_Responsive_Design.md"
+  ],
+  "css_responsive_design": [
+    "02_Areas/IT_Knowledge/CSS_Responsive_Design.md"
+  ],
+  "css_selectors": [
+    "02_Areas/IT_Knowledge/CSS_Selectors.md"
+  ],
+  "selector": [
+    "02_Areas/IT_Knowledge/CSS_Selectors.md"
+  ],
+  "syntax": [
+    "02_Areas/IT_Knowledge/CSS_Syntax.md"
+  ],
+  "css_syntax": [
+    "02_Areas/IT_Knowledge/CSS_Syntax.md"
+  ],
+  "css_tables": [
+    "02_Areas/IT_Knowledge/CSS_Tables.md"
+  ],
+  "table": [
+    "02_Areas/IT_Knowledge/CSS_Tables.md"
+  ],
+  "dbms": [
+    "02_Areas/IT_Knowledge/Database_Fundamentals_Ch1.md"
+  ],
+  "fundamentals": [
+    "02_Areas/IT_Knowledge/Database_Fundamentals_Ch1.md",
+    "02_Areas/IT_Knowledge/Java_Classes_Objects_Detailed.md"
+  ],
+  "database_fundamentals_ch1": [
+    "02_Areas/IT_Knowledge/Database_Fundamentals_Ch1.md"
+  ],
+  "scalability": [
+    "02_Areas/IT_Knowledge/Database_Indexing_Fundamentals.md",
+    "02_Areas/IT_Knowledge/Surrogate_Key.md"
+  ],
+  "database_indexing_fundamentals": [
+    "02_Areas/IT_Knowledge/Database_Indexing_Fundamentals.md"
+  ],
+  "index": [
+    "02_Areas/IT_Knowledge/Database_Indexing_Fundamentals.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit1.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit2.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit4.md",
+    "MOCs/MOC_Index.md",
+    "MOCs/MOC_IT_Knowledge.md",
+    "MOCs/MOC_Japanese_N5.md",
+    "MOCs/MOC_Poker.md"
+  ],
+  "information-management": [
+    "02_Areas/IT_Knowledge/Digital_Literacy.md"
+  ],
+  "digital-skills": [
+    "02_Areas/IT_Knowledge/Digital_Literacy.md"
+  ],
+  "technology": [
+    "02_Areas/IT_Knowledge/Digital_Literacy.md"
+  ],
+  "digital_literacy": [
+    "02_Areas/IT_Knowledge/Digital_Literacy.md"
+  ],
+  "information-literacy": [
+    "02_Areas/IT_Knowledge/Effective_Information_Search.md",
+    "02_Areas/IT_Knowledge/Effective_Information_Search_Gathering.md",
+    "02_Areas/IT_Knowledge/Information_Literacy.md"
+  ],
+  "research": [
+    "02_Areas/IT_Knowledge/Effective_Information_Search.md",
+    "02_Areas/IT_Knowledge/Effective_Information_Search_Gathering.md",
+    "02_Areas/IT_Knowledge/Information_Literacy.md",
+    "02_Areas/IT_Knowledge/Source_Evaluation.md"
+  ],
+  "effective_information_search": [
+    "02_Areas/IT_Knowledge/Effective_Information_Search.md"
+  ],
+  "search-techniques": [
+    "02_Areas/IT_Knowledge/Effective_Information_Search.md"
+  ],
+  "information-gathering": [
+    "02_Areas/IT_Knowledge/Effective_Information_Search_Gathering.md"
+  ],
+  "digital-literacy": [
+    "02_Areas/IT_Knowledge/Effective_Information_Search_Gathering.md"
+  ],
+  "effective_information_search_gathering": [
+    "02_Areas/IT_Knowledge/Effective_Information_Search_Gathering.md"
+  ],
+  "task-management": [
+    "02_Areas/IT_Knowledge/Effective_Report_Writing.md"
+  ],
+  "effective_report_writing": [
+    "02_Areas/IT_Knowledge/Effective_Report_Writing.md"
+  ],
+  "business-communication": [
+    "02_Areas/IT_Knowledge/Effective_Report_Writing.md"
+  ],
+  "documentation": [
+    "02_Areas/IT_Knowledge/Effective_Report_Writing.md",
+    "02_Areas/IT_Knowledge/Markdown.md"
+  ],
+  "report-writing": [
+    "02_Areas/IT_Knowledge/Effective_Report_Writing.md"
+  ],
+  "communication": [
+    "02_Areas/IT_Knowledge/Executive_Summary.md",
+    "02_Areas/IT_Knowledge/Report_Structure.md"
+  ],
+  "writing": [
+    "02_Areas/IT_Knowledge/Executive_Summary.md",
+    "02_Areas/IT_Knowledge/Report_Structure.md",
+    "02_Areas/Japanese_N5/N5_Essay_Travel_Email_Guide.md"
+  ],
+  "executive_summary": [
+    "02_Areas/IT_Knowledge/Executive_Summary.md"
+  ],
+  "management": [
+    "02_Areas/IT_Knowledge/Executive_Summary.md"
+  ],
+  "search-engine": [
+    "02_Areas/IT_Knowledge/Full_Text_Search_MySQL.md"
+  ],
+  "full_text_search_mysql": [
+    "02_Areas/IT_Knowledge/Full_Text_Search_MySQL.md"
+  ],
+  "full-text-search": [
+    "02_Areas/IT_Knowledge/Full_Text_Search_MySQL.md"
+  ],
+  "furama": [
+    "02_Areas/IT_Knowledge/Furama_DB_Systems_Analysis.md",
+    "02_Areas/IT_Knowledge/Furama_SQL_Solutions_1_27.md"
+  ],
+  "iceberg-model": [
+    "02_Areas/IT_Knowledge/Furama_DB_Systems_Analysis.md"
+  ],
+  "furama_db_systems_analysis": [
+    "02_Areas/IT_Knowledge/Furama_DB_Systems_Analysis.md"
+  ],
+  "database-practice": [
+    "02_Areas/IT_Knowledge/Furama_SQL_Solutions_1_27.md"
+  ],
+  "furama_sql_solutions_1_27": [
+    "02_Areas/IT_Knowledge/Furama_SQL_Solutions_1_27.md"
+  ],
+  "query-mastery": [
+    "02_Areas/IT_Knowledge/Furama_SQL_Solutions_1_27.md"
+  ],
+  "gemini_cli_agent_skills_framework": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Agent_Skills_Framework.md"
+  ],
+  "gemini-cli": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Agent_Skills_Framework.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Configuration.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Context_Efficiency.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Core_Features.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Essentials.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Essential_Commands.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_MCP_Integration.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Memory_System.md",
+    "03_Resources/Agent_Skills/Creating_Skills_Guide.md"
+  ],
+  "tools": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Agent_Skills_Framework.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Configuration.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Context_Efficiency.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Core_Features.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Essentials.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Essential_Commands.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_MCP_Integration.md",
+    "02_Areas/IT_Knowledge/Gemini_CLI_Memory_System.md",
+    "02_Areas/IT_Knowledge/Git_Basics.md",
+    "02_Areas/IT_Knowledge/Java_Maven_Lombok.md",
+    "02_Areas/IT_Knowledge/Markdown.md",
+    "02_Areas/IT_Knowledge/Obsidian.md"
+  ],
+  "agent-skills": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Agent_Skills_Framework.md",
+    "03_Resources/Agent_Skills/Creating_Skills_Guide.md"
+  ],
+  "configuration": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Configuration.md"
+  ],
+  "gemini_cli_configuration": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Configuration.md"
+  ],
+  "gemini_cli_context_efficiency": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Context_Efficiency.md"
+  ],
+  "optimization": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Context_Efficiency.md",
+    "02_Areas/IT_Knowledge/SQL_Advanced_Filtering.md"
+  ],
+  "gemini_cli_core_features": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Core_Features.md"
+  ],
+  "features": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Core_Features.md"
+  ],
+  "handbook": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Essentials.md"
+  ],
+  "gemini_cli_essentials": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Essentials.md"
+  ],
+  "gemini_cli_essential_commands": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Essential_Commands.md"
+  ],
+  "commands": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Essential_Commands.md"
+  ],
+  "gemini_cli_mcp_integration": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_MCP_Integration.md"
+  ],
+  "mcp": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_MCP_Integration.md",
+    "02_Areas/IT_Knowledge/MCP_ADK_Frameworks.md"
+  ],
+  "gemini_cli_memory_system": [
+    "02_Areas/IT_Knowledge/Gemini_CLI_Memory_System.md"
+  ],
+  "code-review": [
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md",
+    "02_Areas/IT_Knowledge/Java_Web_Review_FrontController_Redirect_Forward.md"
+  ],
+  "teamwork": [
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md",
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md",
+    "02_Areas/Personal/Effective_Teamwork_Synergy.md"
+  ],
+  "branch protection": [
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md"
+  ],
+  "branch-protection": [
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md"
+  ],
+  "github_branch_protection_rules": [
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md"
+  ],
+  "github": [
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md",
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md"
+  ],
+  "require reviews": [
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md"
+  ],
+  "github settings": [
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md"
+  ],
+  "peer review": [
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md"
+  ],
+  "git": [
+    "02_Areas/IT_Knowledge/GitHub_Branch_Protection_Rules.md",
+    "02_Areas/IT_Knowledge/Git_Basics.md",
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md"
+  ],
+  "fullstack": [
+    "02_Areas/IT_Knowledge/Git_Basics.md"
+  ],
+  "git_basics": [
+    "02_Areas/IT_Knowledge/Git_Basics.md"
+  ],
+  "pull request": [
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md"
+  ],
+  "git workflow": [
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md"
+  ],
+  "merge conflict": [
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md"
+  ],
+  "merge-conflict": [
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md"
+  ],
+  "github flow": [
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md"
+  ],
+  "git_teamwork_workflow": [
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md"
+  ],
+  "workflow": [
+    "02_Areas/IT_Knowledge/Git_Teamwork_Workflow.md"
+  ],
+  "gradle_build_delegation": [
+    "02_Areas/IT_Knowledge/Gradle_Build_Delegation.md"
+  ],
+  "source-of-truth": [
+    "02_Areas/IT_Knowledge/Gradle_Build_Delegation.md"
+  ],
+  "build-delegation": [
+    "02_Areas/IT_Knowledge/Gradle_Build_Delegation.md"
+  ],
+  "gradle": [
+    "02_Areas/IT_Knowledge/Gradle_Build_Delegation.md"
+  ],
+  "build-tools": [
+    "02_Areas/IT_Knowledge/Gradle_Build_Delegation.md"
+  ],
+  "guided_questioning": [
+    "02_Areas/IT_Knowledge/Guided_Questioning.md"
+  ],
+  "guided-learning": [
+    "02_Areas/IT_Knowledge/Guided_Questioning.md"
+  ],
+  "scaffolding": [
+    "02_Areas/IT_Knowledge/Guided_Questioning.md"
+  ],
+  "higher_order_thinking": [
+    "02_Areas/IT_Knowledge/Higher_Order_Thinking.md"
+  ],
+  "cognitive-skills": [
+    "02_Areas/IT_Knowledge/Higher_Order_Thinking.md"
+  ],
+  "html": [
+    "02_Areas/IT_Knowledge/HTML_Basics.md"
+  ],
+  "html_basics": [
+    "02_Areas/IT_Knowledge/HTML_Basics.md"
+  ],
+  "improving_question_quality": [
+    "02_Areas/IT_Knowledge/Improving_Question_Quality.md"
+  ],
+  "assessment": [
+    "02_Areas/IT_Knowledge/Improving_Question_Quality.md",
+    "02_Areas/Personal/Learning_Level_Assessment.md"
+  ],
+  "question-quality": [
+    "02_Areas/IT_Knowledge/Improving_Question_Quality.md"
+  ],
+  "information_literacy": [
+    "02_Areas/IT_Knowledge/Information_Literacy.md"
+  ],
+  "skill": [
+    "02_Areas/IT_Knowledge/Information_Literacy.md"
+  ],
+  "war-exploded": [
+    "02_Areas/IT_Knowledge/IntelliJ_Artifact_Resource_Mapping.md"
+  ],
+  "intellij_artifact_resource_mapping": [
+    "02_Areas/IT_Knowledge/IntelliJ_Artifact_Resource_Mapping.md"
+  ],
+  "config": [
+    "02_Areas/IT_Knowledge/IntelliJ_Artifact_Resource_Mapping.md"
+  ],
+  "artifact": [
+    "02_Areas/IT_Knowledge/IntelliJ_Artifact_Resource_Mapping.md",
+    "02_Areas/IT_Knowledge/IntelliJ_Tomcat_Artifact_Resolution.md"
+  ],
+  "tomcat": [
+    "02_Areas/IT_Knowledge/IntelliJ_Artifact_Resource_Mapping.md",
+    "02_Areas/IT_Knowledge/IntelliJ_Tomcat_Artifact_Resolution.md",
+    "02_Areas/IT_Knowledge/Tomcat9_Java17_Access_Denied_Fix.md"
+  ],
+  "404-error": [
+    "02_Areas/IT_Knowledge/IntelliJ_Tomcat_Artifact_Resolution.md"
+  ],
+  "deployment": [
+    "02_Areas/IT_Knowledge/IntelliJ_Tomcat_Artifact_Resolution.md"
+  ],
+  "intellij_tomcat_artifact_resolution": [
+    "02_Areas/IT_Knowledge/IntelliJ_Tomcat_Artifact_Resolution.md"
+  ],
+  "javascript": [
+    "02_Areas/IT_Knowledge/JavaScript_Basics.md"
+  ],
+  "javascript_basics": [
+    "02_Areas/IT_Knowledge/JavaScript_Basics.md"
+  ],
+  "java_21_enterprise_evolution_2026": [
+    "02_Areas/IT_Knowledge/Java_21_Enterprise_Evolution_2026.md"
+  ],
+  "spring-boot": [
+    "02_Areas/IT_Knowledge/Java_21_Enterprise_Evolution_2026.md",
+    "02_Areas/IT_Knowledge/Java_24_Spring_Boot_3.5_Breakthroughs.md"
+  ],
+  "virtual-threads": [
+    "02_Areas/IT_Knowledge/Java_21_Enterprise_Evolution_2026.md"
+  ],
+  "backend": [
+    "02_Areas/IT_Knowledge/Java_21_Enterprise_Evolution_2026.md",
+    "02_Areas/IT_Knowledge/Java_24_Spring_Boot_3.5_Breakthroughs.md"
+  ],
+  "nexus-evolution": [
+    "02_Areas/IT_Knowledge/Java_21_Enterprise_Evolution_2026.md"
+  ],
+  "java_24_spring_boot_3.5_breakthroughs": [
+    "02_Areas/IT_Knowledge/Java_24_Spring_Boot_3.5_Breakthroughs.md"
+  ],
+  "java24": [
+    "02_Areas/IT_Knowledge/Java_24_Spring_Boot_3.5_Breakthroughs.md"
+  ],
+  "java_3_layer_architecture": [
+    "02_Areas/IT_Knowledge/Java_3_Layer_Architecture.md"
+  ],
+  "web": [
+    "02_Areas/IT_Knowledge/Java_3_Layer_Architecture.md",
+    "02_Areas/IT_Knowledge/Java_Web_Classpath_Resource_Loading.md"
+  ],
+  "3-layer": [
+    "02_Areas/IT_Knowledge/Java_3_Layer_Architecture.md"
+  ],
+  "oop": [
+    "02_Areas/IT_Knowledge/Java_Abstract_Interface.md",
+    "02_Areas/IT_Knowledge/Java_Access_Modifiers.md",
+    "02_Areas/IT_Knowledge/Java_Classes_Objects.md",
+    "02_Areas/IT_Knowledge/Java_Classes_Objects_Review.md",
+    "02_Areas/IT_Knowledge/Java_Design_LoL_Example.md",
+    "02_Areas/IT_Knowledge/Java_Design_Principles.md",
+    "02_Areas/IT_Knowledge/Java_Inheritance.md",
+    "02_Areas/IT_Knowledge/Java_Methods.md",
+    "02_Areas/IT_Knowledge/Java_OOP_Summary.md",
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Casting.md",
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Insight.md"
+  ],
+  "java_abstract_interface": [
+    "02_Areas/IT_Knowledge/Java_Abstract_Interface.md"
+  ],
+  "java_access_modifiers": [
+    "02_Areas/IT_Knowledge/Java_Access_Modifiers.md"
+  ],
+  "java_annotations": [
+    "02_Areas/IT_Knowledge/Java_Annotations.md"
+  ],
+  "intermediate": [
+    "02_Areas/IT_Knowledge/Java_Annotations.md"
+  ],
+  "annotations": [
+    "02_Areas/IT_Knowledge/Java_Annotations.md"
+  ],
+  "java_arrays": [
+    "02_Areas/IT_Knowledge/Java_Arrays.md"
+  ],
+  "arrays": [
+    "02_Areas/IT_Knowledge/Java_Arrays.md"
+  ],
+  "interfaces": [
+    "02_Areas/IT_Knowledge/Java_Builtin_Interfaces.md"
+  ],
+  "java_builtin_interfaces": [
+    "02_Areas/IT_Knowledge/Java_Builtin_Interfaces.md"
+  ],
+  "java_classes_objects": [
+    "02_Areas/IT_Knowledge/Java_Classes_Objects.md"
+  ],
+  "classes": [
+    "02_Areas/IT_Knowledge/Java_Classes_Objects.md"
+  ],
+  "objects": [
+    "02_Areas/IT_Knowledge/Java_Classes_Objects.md"
+  ],
+  "java_classes_objects_detailed": [
+    "02_Areas/IT_Knowledge/Java_Classes_Objects_Detailed.md"
+  ],
+  "loops": [
+    "02_Areas/IT_Knowledge/Java_Classes_Objects_Detailed.md"
+  ],
+  "methods": [
+    "02_Areas/IT_Knowledge/Java_Classes_Objects_Review.md",
+    "02_Areas/IT_Knowledge/Java_Methods.md"
+  ],
+  "java_classes_objects_review": [
+    "02_Areas/IT_Knowledge/Java_Classes_Objects_Review.md"
+  ],
+  "java_collections_framework": [
+    "02_Areas/IT_Knowledge/Java_Collections_Framework.md"
+  ],
+  "collections": [
+    "02_Areas/IT_Knowledge/Java_Collections_Framework.md"
+  ],
+  "jcf": [
+    "02_Areas/IT_Knowledge/Java_Collections_Framework.md"
+  ],
+  "lsp": [
+    "02_Areas/IT_Knowledge/Java_Composition_SOLID.md"
+  ],
+  "isp": [
+    "02_Areas/IT_Knowledge/Java_Composition_SOLID.md"
+  ],
+  "composition": [
+    "02_Areas/IT_Knowledge/Java_Composition_SOLID.md"
+  ],
+  "java_composition_solid": [
+    "02_Areas/IT_Knowledge/Java_Composition_SOLID.md"
+  ],
+  "java_design_lol_example": [
+    "02_Areas/IT_Knowledge/Java_Design_LoL_Example.md"
+  ],
+  "design-patterns": [
+    "02_Areas/IT_Knowledge/Java_Design_LoL_Example.md"
+  ],
+  "design-principles": [
+    "02_Areas/IT_Knowledge/Java_Design_Principles.md"
+  ],
+  "java_design_principles": [
+    "02_Areas/IT_Knowledge/Java_Design_Principles.md"
+  ],
+  "dependency-injection": [
+    "02_Areas/IT_Knowledge/Java_DI_IoC_Principles.md"
+  ],
+  "spring": [
+    "02_Areas/IT_Knowledge/Java_DI_IoC_Principles.md"
+  ],
+  "java_di_ioc_principles": [
+    "02_Areas/IT_Knowledge/Java_DI_IoC_Principles.md"
+  ],
+  "java_dsa_customarraylist_srp": [
+    "02_Areas/IT_Knowledge/Java_DSA_CustomArrayList_SRP.md"
+  ],
+  "srp": [
+    "02_Areas/IT_Knowledge/Java_DSA_CustomArrayList_SRP.md"
+  ],
+  "linkedlist": [
+    "02_Areas/IT_Knowledge/Java_DSA_LinkedList_OCP.md"
+  ],
+  "generics": [
+    "02_Areas/IT_Knowledge/Java_DSA_LinkedList_OCP.md",
+    "02_Areas/IT_Knowledge/Java_Generics_Stack_Queue.md"
+  ],
+  "java_dsa_linkedlist_ocp": [
+    "02_Areas/IT_Knowledge/Java_DSA_LinkedList_OCP.md"
+  ],
+  "ocp": [
+    "02_Areas/IT_Knowledge/Java_DSA_LinkedList_OCP.md"
+  ],
+  "clean-code": [
+    "02_Areas/IT_Knowledge/Java_Enum_Fundamentals.md"
+  ],
+  "enum": [
+    "02_Areas/IT_Knowledge/Java_Enum_Fundamentals.md"
+  ],
+  "java_enum_fundamentals": [
+    "02_Areas/IT_Knowledge/Java_Enum_Fundamentals.md"
+  ],
+  "best-practices": [
+    "02_Areas/IT_Knowledge/Java_Enum_Fundamentals.md"
+  ],
+  "functional-programming": [
+    "02_Areas/IT_Knowledge/Java_Functional_Programming.md"
+  ],
+  "stream": [
+    "02_Areas/IT_Knowledge/Java_Functional_Programming.md"
+  ],
+  "java_functional_programming": [
+    "02_Areas/IT_Knowledge/Java_Functional_Programming.md"
+  ],
+  "lambda": [
+    "02_Areas/IT_Knowledge/Java_Functional_Programming.md"
+  ],
+  "stack": [
+    "02_Areas/IT_Knowledge/Java_Generics_Stack_Queue.md",
+    "02_Areas/IT_Knowledge/Java_Memory_Management.md"
+  ],
+  "java_generics_stack_queue": [
+    "02_Areas/IT_Knowledge/Java_Generics_Stack_Queue.md"
+  ],
+  "queue": [
+    "02_Areas/IT_Knowledge/Java_Generics_Stack_Queue.md"
+  ],
+  "java_inheritance": [
+    "02_Areas/IT_Knowledge/Java_Inheritance.md"
+  ],
+  "io": [
+    "02_Areas/IT_Knowledge/Java_IO_Streams_Text.md"
+  ],
+  "serialization": [
+    "02_Areas/IT_Knowledge/Java_IO_Streams_Text.md"
+  ],
+  "java_io_streams_text": [
+    "02_Areas/IT_Knowledge/Java_IO_Streams_Text.md"
+  ],
+  "java_jdbc_connection_pool": [
+    "02_Areas/IT_Knowledge/Java_JDBC_Connection_Pool.md"
+  ],
+  "interview-prep": [
+    "02_Areas/IT_Knowledge/Java_JDBC_Connection_Pool.md",
+    "02_Areas/IT_Knowledge/Java_Web_Review_FrontController_Redirect_Forward.md",
+    "02_Areas/IT_Knowledge/JDBC_CallableStatement_StoredProcedure.md",
+    "02_Areas/IT_Knowledge/JDBC_Core_Architecture.md"
+  ],
+  "jdbc": [
+    "02_Areas/IT_Knowledge/Java_JDBC_Connection_Pool.md",
+    "02_Areas/IT_Knowledge/JDBC_CallableStatement_StoredProcedure.md",
+    "02_Areas/IT_Knowledge/JDBC_Core_Architecture.md",
+    "02_Areas/IT_Knowledge/JDBC_Transaction_Savepoint_vs_Batch.md"
+  ],
+  "jvm": [
+    "02_Areas/IT_Knowledge/Java_JVM_Variables_DataTypes.md"
+  ],
+  "basics": [
+    "02_Areas/IT_Knowledge/Java_JVM_Variables_DataTypes.md",
+    "02_Areas/IT_Knowledge/Java_Variables_DataTypes.md"
+  ],
+  "java_jvm_variables_datatypes": [
+    "02_Areas/IT_Knowledge/Java_JVM_Variables_DataTypes.md"
+  ],
+  "maven": [
+    "02_Areas/IT_Knowledge/Java_Maven_Lombok.md"
+  ],
+  "java_maven_lombok": [
+    "02_Areas/IT_Knowledge/Java_Maven_Lombok.md"
+  ],
+  "lombok": [
+    "02_Areas/IT_Knowledge/Java_Maven_Lombok.md"
+  ],
+  "java_memory_management": [
+    "02_Areas/IT_Knowledge/Java_Memory_Management.md"
+  ],
+  "interview": [
+    "02_Areas/IT_Knowledge/Java_Memory_Management.md"
+  ],
+  "heap": [
+    "02_Areas/IT_Knowledge/Java_Memory_Management.md"
+  ],
+  "java_methods": [
+    "02_Areas/IT_Knowledge/Java_Methods.md"
+  ],
+  "java_oop_summary": [
+    "02_Areas/IT_Knowledge/Java_OOP_Summary.md"
+  ],
+  "java_polymorphism_casting": [
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Casting.md"
+  ],
+  "polymorphism": [
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Casting.md",
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Insight.md"
+  ],
+  "casting": [
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Casting.md"
+  ],
+  "java_polymorphism_insight": [
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Insight.md"
+  ],
+  "dynamic-binding": [
+    "02_Areas/IT_Knowledge/Java_Polymorphism_Insight.md"
+  ],
+  "algorithms": [
+    "02_Areas/IT_Knowledge/Java_Search_Algorithms.md"
+  ],
+  "search": [
+    "02_Areas/IT_Knowledge/Java_Search_Algorithms.md"
+  ],
+  "java_search_algorithms": [
+    "02_Areas/IT_Knowledge/Java_Search_Algorithms.md"
+  ],
+  "java_servlet_case_sensitive_parameters": [
+    "02_Areas/IT_Knowledge/Java_Servlet_Case_Sensitive_Parameters.md"
+  ],
+  "case-sensitive": [
+    "02_Areas/IT_Knowledge/Java_Servlet_Case_Sensitive_Parameters.md"
+  ],
+  "request-parameter": [
+    "02_Areas/IT_Knowledge/Java_Servlet_Case_Sensitive_Parameters.md"
+  ],
+  "static": [
+    "02_Areas/IT_Knowledge/Java_Static_Keyword.md"
+  ],
+  "java_static_keyword": [
+    "02_Areas/IT_Knowledge/Java_Static_Keyword.md"
+  ],
+  "string": [
+    "02_Areas/IT_Knowledge/Java_Strings_Regex.md"
+  ],
+  "regex": [
+    "02_Areas/IT_Knowledge/Java_Strings_Regex.md"
+  ],
+  "java_strings_regex": [
+    "02_Areas/IT_Knowledge/Java_Strings_Regex.md"
+  ],
+  "convention": [
+    "02_Areas/IT_Knowledge/Java_Style_Guide.md"
+  ],
+  "style-guide": [
+    "02_Areas/IT_Knowledge/Java_Style_Guide.md"
+  ],
+  "java_style_guide": [
+    "02_Areas/IT_Knowledge/Java_Style_Guide.md"
+  ],
+  "variables": [
+    "02_Areas/IT_Knowledge/Java_Variables_DataTypes.md"
+  ],
+  "java_variables_datatypes": [
+    "02_Areas/IT_Knowledge/Java_Variables_DataTypes.md"
+  ],
+  "classloader": [
+    "02_Areas/IT_Knowledge/Java_Web_Classpath_Resource_Loading.md"
+  ],
+  "defensive-coding": [
+    "02_Areas/IT_Knowledge/Java_Web_Classpath_Resource_Loading.md"
+  ],
+  "java_web_classpath_resource_loading": [
+    "02_Areas/IT_Knowledge/Java_Web_Classpath_Resource_Loading.md"
+  ],
+  "classpath": [
+    "02_Areas/IT_Knowledge/Java_Web_Classpath_Resource_Loading.md"
+  ],
+  "java_web_review_frontcontroller_redirect_forward": [
+    "02_Areas/IT_Knowledge/Java_Web_Review_FrontController_Redirect_Forward.md"
+  ],
+  "design-pattern": [
+    "02_Areas/IT_Knowledge/Java_Web_Review_FrontController_Redirect_Forward.md"
+  ],
+  "stored-procedure": [
+    "02_Areas/IT_Knowledge/JDBC_CallableStatement_StoredProcedure.md",
+    "02_Areas/IT_Knowledge/MySQL_Stored_Procedures.md"
+  ],
+  "jdbc_callablestatement_storedprocedure": [
+    "02_Areas/IT_Knowledge/JDBC_CallableStatement_StoredProcedure.md"
+  ],
+  "jdbc_core_architecture": [
+    "02_Areas/IT_Knowledge/JDBC_Core_Architecture.md"
+  ],
+  "security": [
+    "02_Areas/IT_Knowledge/JDBC_Core_Architecture.md",
+    "02_Areas/IT_Knowledge/MySQL_8.4_Features.md",
+    "02_Areas/IT_Knowledge/MySQL_Triggers.md",
+    "02_Areas/IT_Knowledge/SQL_Views.md",
+    "02_Areas/IT_Knowledge/Web_AppSec_Spam_Defense.md",
+    "node_modules/tslib/SECURITY.md"
+  ],
+  "system-design": [
+    "02_Areas/IT_Knowledge/JDBC_Transaction_Savepoint_vs_Batch.md"
+  ],
+  "jdbc_transaction_savepoint_vs_batch": [
+    "02_Areas/IT_Knowledge/JDBC_Transaction_Savepoint_vs_Batch.md"
+  ],
+  "jsp": [
+    "02_Areas/IT_Knowledge/JSP_Servlet_Exception_Data_Loss.md",
+    "02_Areas/IT_Knowledge/JSP_vs_Servlet.md"
+  ],
+  "jsp_servlet_exception_data_loss": [
+    "02_Areas/IT_Knowledge/JSP_Servlet_Exception_Data_Loss.md"
+  ],
+  "ui": [
+    "02_Areas/IT_Knowledge/JSP_Servlet_Exception_Data_Loss.md"
+  ],
+  "debugging": [
+    "02_Areas/IT_Knowledge/JSP_Servlet_Exception_Data_Loss.md"
+  ],
+  "mvc": [
+    "02_Areas/IT_Knowledge/JSP_vs_Servlet.md"
+  ],
+  "jsp_vs_servlet": [
+    "02_Areas/IT_Knowledge/JSP_vs_Servlet.md"
+  ],
+  "many-to-many": [
+    "02_Areas/IT_Knowledge/Junction_Table.md",
+    "02_Areas/IT_Knowledge/Many_To_Many_Relationship.md"
+  ],
+  "junction-table": [
+    "02_Areas/IT_Knowledge/Junction_Table.md",
+    "02_Areas/IT_Knowledge/Many_To_Many_Relationship.md"
+  ],
+  "junction_table": [
+    "02_Areas/IT_Knowledge/Junction_Table.md"
+  ],
+  "metadata": [
+    "02_Areas/IT_Knowledge/Junction_Table.md"
+  ],
+  "llm": [
+    "02_Areas/IT_Knowledge/LLM_Wiki.md",
+    "02_Areas/IT_Knowledge/MCP_ADK_Frameworks.md",
+    "02_Areas/IT_Knowledge/RAG_Retrieval_Augmented_Generation.md"
+  ],
+  "rag": [
+    "02_Areas/IT_Knowledge/LLM_Wiki.md",
+    "02_Areas/IT_Knowledge/RAG_Retrieval_Augmented_Generation.md"
+  ],
+  "karpathy": [
+    "02_Areas/IT_Knowledge/LLM_Wiki.md"
+  ],
+  "llm_wiki": [
+    "02_Areas/IT_Knowledge/LLM_Wiki.md"
+  ],
+  "local_seo_multiplatform_sync": [
+    "02_Areas/IT_Knowledge/Local_SEO_Multiplatform_Sync.md"
+  ],
+  "many_to_many_relationship": [
+    "02_Areas/IT_Knowledge/Many_To_Many_Relationship.md"
+  ],
+  "relationships": [
+    "02_Areas/IT_Knowledge/Many_To_Many_Relationship.md",
+    "02_Areas/IT_Knowledge/One_To_Many_Relationship.md"
+  ],
+  "markdown": [
+    "02_Areas/IT_Knowledge/Markdown.md"
+  ],
+  "adk": [
+    "02_Areas/IT_Knowledge/MCP_ADK_Frameworks.md"
+  ],
+  "mcp_adk_frameworks": [
+    "02_Areas/IT_Knowledge/MCP_ADK_Frameworks.md"
+  ],
+  "agent": [
+    "02_Areas/IT_Knowledge/MCP_ADK_Frameworks.md"
+  ],
+  "multi_agent_ai_systems": [
+    "02_Areas/IT_Knowledge/Multi_Agent_AI_Systems.md"
+  ],
+  "nasa": [
+    "02_Areas/IT_Knowledge/Multi_Agent_AI_Systems.md"
+  ],
+  "strategy": [
+    "02_Areas/IT_Knowledge/Multi_Agent_AI_Systems.md",
+    "02_Areas/Kinh_Dich/Truong_Phai_Luan_Giai.md",
+    "02_Areas/Personal/Exploitive_Play_Amateur.md",
+    "02_Areas/Personal/Gia_si_bat_dien.md",
+    "02_Areas/Personal/Poker_Classification_Framework.md",
+    "02_Areas/Personal/Poker_Leak_Checklist.md",
+    "02_Areas/Personal/Sun_Tzu_Art_of_War_Overview.md",
+    "02_Areas/Personal/Tieu_Ly_Tang_Dao.md",
+    "02_Areas/Personal/Vay_Nguy_cuu_Trieu.md",
+    "02_Areas/Strategy/Scaling_Founder_to_80_Engineers.md",
+    "02_Areas/Strategy/Vo_Trung_Sinh_Huu_Analysis.md",
+    "MOCs/MOC_Poker.md",
+    "MOCs/MOC_Strategy.md"
+  ],
+  "mysql_8.4_features": [
+    "02_Areas/IT_Knowledge/MySQL_8.4_Features.md"
+  ],
+  "database-updates": [
+    "02_Areas/IT_Knowledge/MySQL_8.4_Features.md"
+  ],
+  "lts": [
+    "02_Areas/IT_Knowledge/MySQL_8.4_Features.md"
+  ],
+  "check-constraint": [
+    "02_Areas/IT_Knowledge/MySQL_Creation_Constraints.md"
+  ],
+  "constraints": [
+    "02_Areas/IT_Knowledge/MySQL_Creation_Constraints.md"
+  ],
+  "mysql_creation_constraints": [
+    "02_Areas/IT_Knowledge/MySQL_Creation_Constraints.md"
+  ],
+  "data-integrity": [
+    "02_Areas/IT_Knowledge/MySQL_Creation_Constraints.md"
+  ],
+  "function": [
+    "02_Areas/IT_Knowledge/MySQL_Functions.md"
+  ],
+  "calculation": [
+    "02_Areas/IT_Knowledge/MySQL_Functions.md"
+  ],
+  "mysql_functions": [
+    "02_Areas/IT_Knowledge/MySQL_Functions.md"
+  ],
+  "programming": [
+    "02_Areas/IT_Knowledge/MySQL_Functions.md",
+    "02_Areas/IT_Knowledge/MySQL_Stored_Procedures.md",
+    "02_Areas/IT_Knowledge/Programming_Fundamentals.md"
+  ],
+  "udf": [
+    "02_Areas/IT_Knowledge/MySQL_Functions.md"
+  ],
+  "explain": [
+    "02_Areas/IT_Knowledge/MySQL_Indexing_Performance.md"
+  ],
+  "mysql_indexing_performance": [
+    "02_Areas/IT_Knowledge/MySQL_Indexing_Performance.md"
+  ],
+  "mysql_index_deep_dive": [
+    "02_Areas/IT_Knowledge/MySQL_Index_Deep_Dive.md"
+  ],
+  "mysql_stored_procedures": [
+    "02_Areas/IT_Knowledge/MySQL_Stored_Procedures.md"
+  ],
+  "mysql_triggers": [
+    "02_Areas/IT_Knowledge/MySQL_Triggers.md"
+  ],
+  "trigger": [
+    "02_Areas/IT_Knowledge/MySQL_Triggers.md"
+  ],
+  "obsidian": [
+    "02_Areas/IT_Knowledge/Obsidian.md"
+  ],
+  "knowledge-management": [
+    "02_Areas/IT_Knowledge/Obsidian.md"
+  ],
+  "normalization": [
+    "02_Areas/IT_Knowledge/One_To_Many_Relationship.md",
+    "02_Areas/IT_Knowledge/Relational_Data_Model.md"
+  ],
+  "one_to_many_relationship": [
+    "02_Areas/IT_Knowledge/One_To_Many_Relationship.md"
+  ],
+  "cardinality": [
+    "02_Areas/IT_Knowledge/One_To_Many_Relationship.md"
+  ],
+  "collaboration": [
+    "02_Areas/IT_Knowledge/Peer_Review.md",
+    "02_Areas/Personal/Collective_Intelligence.md",
+    "02_Areas/Personal/Effective_Teamwork_Synergy.md",
+    "02_Areas/Personal/Human_AI_Synergy.md"
+  ],
+  "peer_review": [
+    "02_Areas/IT_Knowledge/Peer_Review.md"
+  ],
+  "quality-assurance": [
+    "02_Areas/IT_Knowledge/Peer_Review.md"
+  ],
+  "probing_questions": [
+    "02_Areas/IT_Knowledge/Probing_Questions.md"
+  ],
+  "focus": [
+    "02_Areas/IT_Knowledge/Probing_Questions.md",
+    "02_Areas/Personal/Ultradian_Rhythm.md"
+  ],
+  "questioning-techniques": [
+    "02_Areas/IT_Knowledge/Probing_Questions.md"
+  ],
+  "probing": [
+    "02_Areas/IT_Knowledge/Probing_Questions.md"
+  ],
+  "depth": [
+    "02_Areas/IT_Knowledge/Probing_Questions.md"
+  ],
+  "programming_fundamentals": [
+    "02_Areas/IT_Knowledge/Programming_Fundamentals.md"
+  ],
+  "concept": [
+    "02_Areas/IT_Knowledge/Programming_Fundamentals.md"
+  ],
+  "question-formats": [
+    "02_Areas/IT_Knowledge/Question_Answer_Formats.md"
+  ],
+  "question_answer_formats": [
+    "02_Areas/IT_Knowledge/Question_Answer_Formats.md"
+  ],
+  "rag_retrieval_augmented_generation": [
+    "02_Areas/IT_Knowledge/RAG_Retrieval_Augmented_Generation.md"
+  ],
+  "relational-database": [
+    "02_Areas/IT_Knowledge/Relational_Database_Fundamentals.md",
+    "02_Areas/IT_Knowledge/SQL_Join_Fundamentals.md"
+  ],
+  "rdbms": [
+    "02_Areas/IT_Knowledge/Relational_Database_Fundamentals.md"
+  ],
+  "relational_database_fundamentals": [
+    "02_Areas/IT_Knowledge/Relational_Database_Fundamentals.md"
+  ],
+  "relational-model": [
+    "02_Areas/IT_Knowledge/Relational_Data_Model.md"
+  ],
+  "relational_data_model": [
+    "02_Areas/IT_Knowledge/Relational_Data_Model.md"
+  ],
+  "database-theory": [
+    "02_Areas/IT_Knowledge/Relational_Data_Model.md"
+  ],
+  "codd": [
+    "02_Areas/IT_Knowledge/Relational_Data_Model.md"
+  ],
+  "report_structure": [
+    "02_Areas/IT_Knowledge/Report_Structure.md"
+  ],
+  "structure": [
+    "02_Areas/IT_Knowledge/Report_Structure.md"
+  ],
+  "schema_markup_basics": [
+    "02_Areas/IT_Knowledge/Schema_Markup_Basics.md"
+  ],
+  "philosophy": [
+    "02_Areas/IT_Knowledge/Socratic_Method.md",
+    "02_Areas/Kinh_Dich/Truong_Phai_Luan_Giai.md",
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md",
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md"
+  ],
+  "socratic_method": [
+    "02_Areas/IT_Knowledge/Socratic_Method.md"
+  ],
+  "socrates": [
+    "02_Areas/IT_Knowledge/Socratic_Method.md"
+  ],
+  "source_evaluation": [
+    "02_Areas/IT_Knowledge/Source_Evaluation.md"
+  ],
+  "source-evaluation": [
+    "02_Areas/IT_Knowledge/Source_Evaluation.md"
+  ],
+  "filtering": [
+    "02_Areas/IT_Knowledge/SQL_Advanced_Filtering.md"
+  ],
+  "having": [
+    "02_Areas/IT_Knowledge/SQL_Advanced_Filtering.md"
+  ],
+  "where": [
+    "02_Areas/IT_Knowledge/SQL_Advanced_Filtering.md"
+  ],
+  "sql_advanced_filtering": [
+    "02_Areas/IT_Knowledge/SQL_Advanced_Filtering.md"
+  ],
+  "aggregations": [
+    "02_Areas/IT_Knowledge/SQL_Aggregations.md"
+  ],
+  "sql_aggregations": [
+    "02_Areas/IT_Knowledge/SQL_Aggregations.md"
+  ],
+  "group-by": [
+    "02_Areas/IT_Knowledge/SQL_Aggregations.md"
+  ],
+  "execution-order": [
+    "02_Areas/IT_Knowledge/SQL_DEEP_RAID_PRACTICE.md",
+    "02_Areas/IT_Knowledge/SQL_EXECUTION_ORDER_MASTERY.md"
+  ],
+  "sql_deep_raid_practice": [
+    "02_Areas/IT_Knowledge/SQL_DEEP_RAID_PRACTICE.md"
+  ],
+  "count-sum": [
+    "02_Areas/IT_Knowledge/SQL_DEEP_RAID_PRACTICE.md"
+  ],
+  "remediation": [
+    "02_Areas/IT_Knowledge/SQL_DEEP_RAID_PRACTICE.md"
+  ],
+  "deep-dive": [
+    "02_Areas/IT_Knowledge/SQL_EXECUTION_ORDER_MASTERY.md"
+  ],
+  "aliasing": [
+    "02_Areas/IT_Knowledge/SQL_EXECUTION_ORDER_MASTERY.md"
+  ],
+  "sql_execution_order_mastery": [
+    "02_Areas/IT_Knowledge/SQL_EXECUTION_ORDER_MASTERY.md"
+  ],
+  "thinking-framework": [
+    "02_Areas/IT_Knowledge/SQL_GFRB_THINKING_FRAMEWORK.md"
+  ],
+  "problem-solving": [
+    "02_Areas/IT_Knowledge/SQL_GFRB_THINKING_FRAMEWORK.md"
+  ],
+  "gfrb": [
+    "02_Areas/IT_Knowledge/SQL_GFRB_THINKING_FRAMEWORK.md"
+  ],
+  "sql_gfrb_thinking_framework": [
+    "02_Areas/IT_Knowledge/SQL_GFRB_THINKING_FRAMEWORK.md"
+  ],
+  "query": [
+    "02_Areas/IT_Knowledge/SQL_Join_Fundamentals.md"
+  ],
+  "sql_join_fundamentals": [
+    "02_Areas/IT_Knowledge/SQL_Join_Fundamentals.md"
+  ],
+  "join": [
+    "02_Areas/IT_Knowledge/SQL_Join_Fundamentals.md"
+  ],
+  "query-optimization": [
+    "02_Areas/IT_Knowledge/SQL_Mastery_100_Questions.md"
+  ],
+  "practical-exercises": [
+    "02_Areas/IT_Knowledge/SQL_Mastery_100_Questions.md"
+  ],
+  "sql_mastery_100_questions": [
+    "02_Areas/IT_Knowledge/SQL_Mastery_100_Questions.md"
+  ],
+  "sql_views": [
+    "02_Areas/IT_Knowledge/SQL_Views.md"
+  ],
+  "virtualization": [
+    "02_Areas/IT_Knowledge/SQL_Views.md"
+  ],
+  "view": [
+    "02_Areas/IT_Knowledge/SQL_Views.md"
+  ],
+  "surrogate_key": [
+    "02_Areas/IT_Knowledge/Surrogate_Key.md"
+  ],
+  "primary-key": [
+    "02_Areas/IT_Knowledge/Surrogate_Key.md"
+  ],
+  "questioning-tactics": [
+    "02_Areas/IT_Knowledge/Tactical_Questioning_Strategies.md"
+  ],
+  "active-learning": [
+    "02_Areas/IT_Knowledge/Tactical_Questioning_Strategies.md"
+  ],
+  "tactical_questioning_strategies": [
+    "02_Areas/IT_Knowledge/Tactical_Questioning_Strategies.md"
+  ],
+  "socratic-method": [
+    "02_Areas/IT_Knowledge/Tactical_Questioning_Strategies.md"
+  ],
+  "tomcat9_java17_access_denied_fix": [
+    "02_Areas/IT_Knowledge/Tomcat9_Java17_Access_Denied_Fix.md"
+  ],
+  "windows": [
+    "02_Areas/IT_Knowledge/Tomcat9_Java17_Access_Denied_Fix.md"
+  ],
+  "devops": [
+    "02_Areas/IT_Knowledge/Tomcat9_Java17_Access_Denied_Fix.md"
+  ],
+  "permissions": [
+    "02_Areas/IT_Knowledge/Tomcat9_Java17_Access_Denied_Fix.md"
+  ],
+  "web_appsec_spam_defense": [
+    "02_Areas/IT_Knowledge/Web_AppSec_Spam_Defense.md"
+  ],
+  "appsec": [
+    "02_Areas/IT_Knowledge/Web_AppSec_Spam_Defense.md"
+  ],
+  "bot-prevention": [
+    "02_Areas/IT_Knowledge/Web_AppSec_Spam_Defense.md"
+  ],
+  "spam-defense": [
+    "02_Areas/IT_Knowledge/Web_AppSec_Spam_Defense.md"
+  ],
+  "tool_adoption": [
+    "02_Areas/IT_Knowledge/Web_Crawling_Strategy.md"
+  ],
+  "jsoup": [
+    "02_Areas/IT_Knowledge/Web_Crawling_Strategy.md"
+  ],
+  "crawling": [
+    "02_Areas/IT_Knowledge/Web_Crawling_Strategy.md"
+  ],
+  "web_scraping": [
+    "02_Areas/IT_Knowledge/Web_Crawling_Strategy.md"
+  ],
+  "web_crawling_strategy": [
+    "02_Areas/IT_Knowledge/Web_Crawling_Strategy.md"
+  ],
+  "dialectical_thinking": [
+    "02_Areas/IT_Knowledge/Web_Crawling_Strategy.md"
+  ],
+  "ai-tutor": [
+    "02_Areas/Japanese_N5/AI_Japanese_Tutor_Modern_Methods.md"
+  ],
+  "ai_japanese_tutor_modern_methods": [
+    "02_Areas/Japanese_N5/AI_Japanese_Tutor_Modern_Methods.md"
+  ],
+  "shadowing": [
+    "02_Areas/Japanese_N5/AI_Japanese_Tutor_Modern_Methods.md",
+    "02_Areas/Japanese_N5/Japanese_Presentation_Roadmap.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Listening_Speaking.md",
+    "02_Areas/Personal/Shadow_Learning_Methodology.md"
+  ],
+  "miraa": [
+    "02_Areas/Japanese_N5/AI_Japanese_Tutor_Modern_Methods.md"
+  ],
+  "unit-12": [
+    "02_Areas/Japanese_N5/Anki_N5_U12.md",
+    "02_Areas/Japanese_N5/N5_G12_Adverbial_Adjectives.md",
+    "02_Areas/Japanese_N5/N5_G12_Comparison.md",
+    "02_Areas/Japanese_N5/N5_G12_Hou_ga_ii_desu.md",
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md",
+    "02_Areas/Japanese_N5/N5_G12_Tari_Tari_shimasu.md",
+    "02_Areas/Japanese_N5/N5_Unit_12_Video_Context.md",
+    "02_Areas/Japanese_N5/N5_Unit_12_Vocabulary.md"
+  ],
+  "anki": [
+    "02_Areas/Japanese_N5/Anki_N5_U12.md"
+  ],
+  "anki_n5_u12": [
+    "02_Areas/Japanese_N5/Anki_N5_U12.md"
+  ],
+  "vocabulary": [
+    "02_Areas/Japanese_N5/Anki_N5_U12.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Vocabulary.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Vocabulary.md",
+    "02_Areas/Japanese_N5/N5_Travel_Vocabulary_Vietnam.md",
+    "02_Areas/Japanese_N5/N5_U5_Daily_Routines_Vocab.md",
+    "02_Areas/Japanese_N5/N5_Unit_12_Video_Context.md",
+    "02_Areas/Japanese_N5/N5_Vocabulary_Review_Master.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Vocab_Grammar.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U4_Kanji.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_049-052.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_065-075.md"
+  ],
+  "intellij idea": [
+    "02_Areas/Japanese_N5/IntelliJ_Presentation_Japanese_Script.md"
+  ],
+  "script": [
+    "02_Areas/Japanese_N5/IntelliJ_Presentation_Japanese_Script.md"
+  ],
+  "nix-digital": [
+    "02_Areas/Japanese_N5/IntelliJ_Presentation_Japanese_Script.md",
+    "02_Areas/Japanese_N5/NiX_Digital_Total_Ingest_Hub.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U10_Kanji.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U12_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Vocab_Grammar.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U4_Kanji.md",
+    "02_Areas/Personal/Anthony_Rappa_Profile.md"
+  ],
+  "intellij_presentation_japanese_script": [
+    "02_Areas/Japanese_N5/IntelliJ_Presentation_Japanese_Script.md"
+  ],
+  "group 2": [
+    "02_Areas/Japanese_N5/IntelliJ_Presentation_Japanese_Script.md"
+  ],
+  "japanese_n5": [
+    "02_Areas/Japanese_N5/IT_Japanese_N5_Essential_Katakana.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U4_Kanji.md"
+  ],
+  "it-japanese": [
+    "02_Areas/Japanese_N5/IT_Japanese_N5_Essential_Katakana.md"
+  ],
+  "it_japanese_n5_essential_katakana": [
+    "02_Areas/Japanese_N5/IT_Japanese_N5_Essential_Katakana.md"
+  ],
+  "career": [
+    "02_Areas/Japanese_N5/IT_Japanese_N5_Essential_Katakana.md"
+  ],
+  "it_japanese_u11_video_context": [
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Video_Context.md"
+  ],
+  "analysis": [
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Video_Context.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Video_Context.md"
+  ],
+  "mastery": [
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Video_Context.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Video_Context.md",
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md"
+  ],
+  "video-context": [
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Video_Context.md",
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Video_Context.md"
+  ],
+  "it_japanese_u11_vocabulary": [
+    "02_Areas/Japanese_N5/IT_Japanese_U11_Vocabulary.md"
+  ],
+  "it_japanese_u12_video_context": [
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Video_Context.md"
+  ],
+  "it_japanese_u12_vocabulary": [
+    "02_Areas/Japanese_N5/IT_Japanese_U12_Vocabulary.md"
+  ],
+  "practice": [
+    "02_Areas/Japanese_N5/Japanese_N5_Exercise_Essay_Travel.md",
+    "02_Areas/Japanese_N5/N5_U12_Audio_Transcription.md",
+    "02_Areas/Japanese_N5/Roleplay_Script_Practice.md",
+    "02_Areas/Personal/Kushi_Meditation_Guide.md"
+  ],
+  "unit12": [
+    "02_Areas/Japanese_N5/Japanese_N5_Exercise_Essay_Travel.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Danang.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Vietnam.md",
+    "02_Areas/Japanese_N5/N5_U12_Audio_Transcription.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U12_Total_Ingest.md",
+    "02_Areas/Japanese_N5/Roleplay_2_Script_3P.md"
+  ],
+  "japanese_n5_exercise_essay_travel": [
+    "02_Areas/Japanese_N5/Japanese_N5_Exercise_Essay_Travel.md"
+  ],
+  "exercise": [
+    "02_Areas/Japanese_N5/Japanese_N5_Exercise_Essay_Travel.md"
+  ],
+  "speaking": [
+    "02_Areas/Japanese_N5/Japanese_Presentation_Roadmap.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Listening_Speaking.md",
+    "02_Areas/Japanese_N5/Roleplay_Script_Practice.md"
+  ],
+  "japanese_presentation_roadmap": [
+    "02_Areas/Japanese_N5/Japanese_Presentation_Roadmap.md"
+  ],
+  "mistakes_2026-05-15": [
+    "02_Areas/Japanese_N5/Mistakes_2026-05-15.md"
+  ],
+  "mistakes_2026-06-05": [
+    "02_Areas/Japanese_N5/Mistakes_2026-06-05.md"
+  ],
+  "greeting": [
+    "02_Areas/Japanese_N5/Mistakes_2026-06-05.md"
+  ],
+  "mistakes": [
+    "02_Areas/Japanese_N5/Mistakes_2026-06-05.md"
+  ],
+  "n5_13_essential_grammar_nej": [
+    "02_Areas/Japanese_N5/N5_13_Essential_Grammar_NEJ.md"
+  ],
+  "summary": [
+    "02_Areas/Japanese_N5/N5_13_Essential_Grammar_NEJ.md"
+  ],
+  "grammar": [
+    "02_Areas/Japanese_N5/N5_13_Essential_Grammar_NEJ.md",
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md",
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md",
+    "02_Areas/Japanese_N5/N5_G12_Adverbial_Adjectives.md",
+    "02_Areas/Japanese_N5/N5_G12_Comparison.md",
+    "02_Areas/Japanese_N5/N5_G12_Hou_ga_ii_desu.md",
+    "02_Areas/Japanese_N5/N5_G12_Invitation_Forms.md",
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md",
+    "02_Areas/Japanese_N5/N5_G12_Tari_Tari_shimasu.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Demo.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Isshoni.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Mo.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Review_U7_U12.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Toki.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Ya.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Vocab_Grammar.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Grammar_Annotated.md",
+    "02_Areas/Japanese_N5/Roleplay_2_Grammar_Annotated.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-030.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_044-048.md"
+  ],
+  "vietnam": [
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Danang.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Vietnam.md",
+    "02_Areas/Japanese_N5/N5_Travel_Vocabulary_Vietnam.md"
+  ],
+  "n5_email_reply_holiday_danang": [
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Danang.md"
+  ],
+  "danang": [
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Danang.md"
+  ],
+  "email": [
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Danang.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Hanoi.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Vietnam.md"
+  ],
+  "holiday": [
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Danang.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Vietnam.md"
+  ],
+  "travel": [
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Hanoi.md",
+    "02_Areas/Japanese_N5/N5_Essay_Travel_Email_Guide.md",
+    "02_Areas/Japanese_N5/N5_Travel_Vocabulary_Vietnam.md"
+  ],
+  "n5_email_reply_holiday_hanoi": [
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Hanoi.md"
+  ],
+  "hanoi": [
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Hanoi.md",
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Vietnam.md"
+  ],
+  "n5_email_reply_holiday_vietnam": [
+    "02_Areas/Japanese_N5/N5_Email_Reply_Holiday_Vietnam.md"
+  ],
+  "n5_essay_travel_email_guide": [
+    "02_Areas/Japanese_N5/N5_Essay_Travel_Email_Guide.md"
+  ],
+  "essay": [
+    "02_Areas/Japanese_N5/N5_Essay_Travel_Email_Guide.md"
+  ],
+  "counting": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md",
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_044-048.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_049-052.md"
+  ],
+  "ついたち": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "n5_g09_day_month_counting": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "はつか": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "dates": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "しちがつ": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "日": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "月": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "くがつ": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "months": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "しがつ": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "days": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "かぞえかた": [
+    "02_Areas/Japanese_N5/N5_G09_Day_Month_Counting.md"
+  ],
+  "期間の言い方": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md"
+  ],
+  "time": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md",
+    "02_Areas/Personal/Bentov_Subjective_Time.md"
+  ],
+  "じかん": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md"
+  ],
+  "n5_g10_time_duration": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md"
+  ],
+  "かげつ": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md"
+  ],
+  "period": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md"
+  ],
+  "duration": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md"
+  ],
+  "しゅうかん": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md"
+  ],
+  "ぐらい": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md"
+  ],
+  "かかります": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md"
+  ],
+  "くらい": [
+    "02_Areas/Japanese_N5/N5_G10_Time_Duration.md"
+  ],
+  "adverb": [
+    "02_Areas/Japanese_N5/N5_G12_Adverbial_Adjectives.md"
+  ],
+  "n5_g12_adverbial_adjectives": [
+    "02_Areas/Japanese_N5/N5_G12_Adverbial_Adjectives.md"
+  ],
+  "n5_g12_comparison": [
+    "02_Areas/Japanese_N5/N5_G12_Comparison.md"
+  ],
+  "comparison": [
+    "02_Areas/Japanese_N5/N5_G12_Comparison.md"
+  ],
+  "n5_g12_hou_ga_ii_desu": [
+    "02_Areas/Japanese_N5/N5_G12_Hou_ga_ii_desu.md"
+  ],
+  "masenka": [
+    "02_Areas/Japanese_N5/N5_G12_Invitation_Forms.md"
+  ],
+  "invitation": [
+    "02_Areas/Japanese_N5/N5_G12_Invitation_Forms.md"
+  ],
+  "mashou": [
+    "02_Areas/Japanese_N5/N5_G12_Invitation_Forms.md"
+  ],
+  "n5_g12_invitation_forms": [
+    "02_Areas/Japanese_N5/N5_G12_Invitation_Forms.md"
+  ],
+  "past-tense": [
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md"
+  ],
+  "nではありませんでした": [
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md"
+  ],
+  "nでした": [
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md"
+  ],
+  "noun": [
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md"
+  ],
+  "n5_g12_past_tense_adjectives_nouns": [
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md"
+  ],
+  "adjective": [
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md"
+  ],
+  "aかったです": [
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md"
+  ],
+  "よかったです": [
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md"
+  ],
+  "japanese grammar": [
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md"
+  ],
+  "な-aでした": [
+    "02_Areas/Japanese_N5/N5_G12_Past_Tense_Adjectives_Nouns.md"
+  ],
+  "n5_g12_tari_tari_shimasu": [
+    "02_Areas/Japanese_N5/N5_G12_Tari_Tari_shimasu.md"
+  ],
+  "atomic-note": [
+    "02_Areas/Japanese_N5/N5_Grammar_Demo.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Isshoni.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Mo.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Toki.md",
+    "02_Areas/Japanese_N5/N5_Grammar_Ya.md"
+  ],
+  "n5_grammar_demo": [
+    "02_Areas/Japanese_N5/N5_Grammar_Demo.md"
+  ],
+  "n5_grammar_isshoni": [
+    "02_Areas/Japanese_N5/N5_Grammar_Isshoni.md"
+  ],
+  "n5_grammar_mo": [
+    "02_Areas/Japanese_N5/N5_Grammar_Mo.md"
+  ],
+  "review": [
+    "02_Areas/Japanese_N5/N5_Grammar_Review_U7_U12.md",
+    "02_Areas/Japanese_N5/N5_Vocabulary_Review_Master.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_031-037.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_053-055.md"
+  ],
+  "n5_grammar_review_u7_u12": [
+    "02_Areas/Japanese_N5/N5_Grammar_Review_U7_U12.md"
+  ],
+  "n5_grammar_toki": [
+    "02_Areas/Japanese_N5/N5_Grammar_Toki.md"
+  ],
+  "n5_grammar_ya": [
+    "02_Areas/Japanese_N5/N5_Grammar_Ya.md"
+  ],
+  "it japanese": [
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Basic_To_Advanced.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Listening_Speaking.md"
+  ],
+  "phase 4": [
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md"
+  ],
+  "mock test": [
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md"
+  ],
+  "n5_mastery_hub": [
+    "02_Areas/Japanese_N5/N5_Mastery_Hub.md"
+  ],
+  "n5_travel_vocabulary_vietnam": [
+    "02_Areas/Japanese_N5/N5_Travel_Vocabulary_Vietnam.md"
+  ],
+  "n5_u12_audio_transcription": [
+    "02_Areas/Japanese_N5/N5_U12_Audio_Transcription.md"
+  ],
+  "listening": [
+    "02_Areas/Japanese_N5/N5_U12_Audio_Transcription.md",
+    "02_Areas/Japanese_N5/Roadmap_N5_Listening_Speaking.md"
+  ],
+  "n5_u5_daily_routines_vocab": [
+    "02_Areas/Japanese_N5/N5_U5_Daily_Routines_Vocab.md"
+  ],
+  "routine": [
+    "02_Areas/Japanese_N5/N5_U5_Daily_Routines_Vocab.md"
+  ],
+  "frequency": [
+    "02_Areas/Japanese_N5/N5_U5_Daily_Routines_Vocab.md"
+  ],
+  "context": [
+    "02_Areas/Japanese_N5/N5_Unit_12_Video_Context.md"
+  ],
+  "n5_unit_12_video_context": [
+    "02_Areas/Japanese_N5/N5_Unit_12_Video_Context.md"
+  ],
+  "n5_unit_12_vocabulary": [
+    "02_Areas/Japanese_N5/N5_Unit_12_Vocabulary.md"
+  ],
+  "vocab": [
+    "02_Areas/Japanese_N5/N5_Unit_12_Vocabulary.md"
+  ],
+  "n5_vocabulary_review_master": [
+    "02_Areas/Japanese_N5/N5_Vocabulary_Review_Master.md"
+  ],
+  "recovery": [
+    "02_Areas/Japanese_N5/NiX_Digital_Total_Ingest_Hub.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U12_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md"
+  ],
+  "hub": [
+    "02_Areas/Japanese_N5/NiX_Digital_Total_Ingest_Hub.md"
+  ],
+  "total-ingest": [
+    "02_Areas/Japanese_N5/NiX_Digital_Total_Ingest_Hub.md"
+  ],
+  "nix_digital_total_ingest_hub": [
+    "02_Areas/Japanese_N5/NiX_Digital_Total_Ingest_Hub.md"
+  ],
+  "full curriculum": [
+    "02_Areas/Japanese_N5/NiX_Digital_Total_Ingest_Hub.md"
+  ],
+  "nix digital": [
+    "02_Areas/Japanese_N5/NiX_Digital_Total_Ingest_Hub.md"
+  ],
+  "verbs": [
+    "02_Areas/Japanese_N5/NIX_Digital_U10_Kanji.md"
+  ],
+  "nix_digital_u10_kanji": [
+    "02_Areas/Japanese_N5/NIX_Digital_U10_Kanji.md"
+  ],
+  "unit 10": [
+    "02_Areas/Japanese_N5/NIX_Digital_U10_Kanji.md"
+  ],
+  "nix": [
+    "02_Areas/Japanese_N5/NIX_Digital_U10_Kanji.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U12_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Vocab_Grammar.md"
+  ],
+  "safety": [
+    "02_Areas/Japanese_N5/NIX_Digital_U12_Total_Ingest.md"
+  ],
+  "unit 12": [
+    "02_Areas/Japanese_N5/NIX_Digital_U12_Total_Ingest.md"
+  ],
+  "winter": [
+    "02_Areas/Japanese_N5/NIX_Digital_U12_Total_Ingest.md"
+  ],
+  "nix_digital_u12_total_ingest": [
+    "02_Areas/Japanese_N5/NIX_Digital_U12_Total_Ingest.md"
+  ],
+  "audio": [
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md"
+  ],
+  "transcript": [
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md"
+  ],
+  "nix_digital_u1_total_ingest": [
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md"
+  ],
+  "video": [
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md"
+  ],
+  "unit 1": [
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md",
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Vocab_Grammar.md"
+  ],
+  "introduction": [
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Total_Ingest.md"
+  ],
+  "self-introduction": [
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Vocab_Grammar.md"
+  ],
+  "nix_digital_u1_vocab_grammar": [
+    "02_Areas/Japanese_N5/NIX_Digital_U1_Vocab_Grammar.md"
+  ],
+  "nix_digital_u4_kanji": [
+    "02_Areas/Japanese_N5/NIX_Digital_U4_Kanji.md"
+  ],
+  "unit4": [
+    "02_Areas/Japanese_N5/NIX_Digital_U4_Kanji.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_065-075.md"
+  ],
+  "advanced n5": [
+    "02_Areas/Japanese_N5/Roadmap_N5_Basic_To_Advanced.md"
+  ],
+  "learning-path": [
+    "02_Areas/Japanese_N5/Roadmap_N5_Basic_To_Advanced.md"
+  ],
+  "pre-n4": [
+    "02_Areas/Japanese_N5/Roadmap_N5_Basic_To_Advanced.md"
+  ],
+  "basic n5": [
+    "02_Areas/Japanese_N5/Roadmap_N5_Basic_To_Advanced.md"
+  ],
+  "roadmap_n5_basic_to_advanced": [
+    "02_Areas/Japanese_N5/Roadmap_N5_Basic_To_Advanced.md"
+  ],
+  "roadmap_n5_listening_speaking": [
+    "02_Areas/Japanese_N5/Roadmap_N5_Listening_Speaking.md"
+  ],
+  "oral-coach": [
+    "02_Areas/Japanese_N5/Roadmap_N5_Listening_Speaking.md"
+  ],
+  "dictation": [
+    "02_Areas/Japanese_N5/Roadmap_N5_Listening_Speaking.md"
+  ],
+  "future-dreams": [
+    "02_Areas/Japanese_N5/Roleplay_1_Grammar_Annotated.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Script_3P.md",
+    "02_Areas/Japanese_N5/Roleplay_1_Script_John.md"
+  ],
+  "roleplay_1_grammar_annotated": [
+    "02_Areas/Japanese_N5/Roleplay_1_Grammar_Annotated.md"
+  ],
+  "unit9": [
+    "02_Areas/Japanese_N5/Roleplay_1_Script_3P.md"
+  ],
+  "roleplay_1_script_3p": [
+    "02_Areas/Japanese_N5/Roleplay_1_Script_3P.md"
+  ],
+  "3-people": [
+    "02_Areas/Japanese_N5/Roleplay_1_Script_3P.md",
+    "02_Areas/Japanese_N5/Roleplay_2_Script_3P.md"
+  ],
+  "roleplay_1_script_john": [
+    "02_Areas/Japanese_N5/Roleplay_1_Script_John.md"
+  ],
+  "health": [
+    "02_Areas/Japanese_N5/Roleplay_2_Grammar_Annotated.md",
+    "02_Areas/Japanese_N5/Roleplay_2_Script_3P.md"
+  ],
+  "roleplay_2_grammar_annotated": [
+    "02_Areas/Japanese_N5/Roleplay_2_Grammar_Annotated.md"
+  ],
+  "roleplay_2_script_3p": [
+    "02_Areas/Japanese_N5/Roleplay_2_Script_3P.md"
+  ],
+  "unit11": [
+    "02_Areas/Japanese_N5/Roleplay_2_Script_3P.md"
+  ],
+  "roleplay_script_practice": [
+    "02_Areas/Japanese_N5/Roleplay_Script_Practice.md"
+  ],
+  "moc_nej_unit1": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit1.md"
+  ],
+  "unit2": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit2.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_039-043.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_044-048.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_049-052.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_053-055.md"
+  ],
+  "moc_nej_unit2": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit2.md"
+  ],
+  "moc_nej_unit4": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit4.md"
+  ],
+  "unit-4": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit4.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_075.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_076.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_078.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_080.md"
+  ],
+  "textbook": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/MOC_NEJ_Unit4.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_075.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_076.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_078.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_080.md"
+  ],
+  "chunk1": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_001-005.md"
+  ],
+  "pages_001-005": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_001-005.md"
+  ],
+  "chunk2": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_006-010.md"
+  ],
+  "pages_006-010": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_006-010.md"
+  ],
+  "pages_011-015": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_011-015.md"
+  ],
+  "chunk3": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_011-015.md"
+  ],
+  "pages_016-020": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_016-020.md"
+  ],
+  "chunk4": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_016-020.md"
+  ],
+  "pages_021-025": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-025.md"
+  ],
+  "chunk5": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-025.md"
+  ],
+  "characters": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-030.md"
+  ],
+  "pages_021-030": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_021-030.md"
+  ],
+  "pronunciation": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_031-037.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_053-055.md"
+  ],
+  "pages_031-037": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_031-037.md"
+  ],
+  "family": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_039-043.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_044-048.md"
+  ],
+  "pages_039-043": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_039-043.md"
+  ],
+  "pages_044-048": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_044-048.md"
+  ],
+  "pages_049-052": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_049-052.md"
+  ],
+  "occupations": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_049-052.md"
+  ],
+  "pages_053-055": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_053-055.md"
+  ],
+  "favorites": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_057-065.md"
+  ],
+  "food": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_057-065.md"
+  ],
+  "pages_057-065": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_057-065.md"
+  ],
+  "unit3": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_057-065.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_065-075.md"
+  ],
+  "sports": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_057-065.md",
+    "02_Areas/Personal/Shadow_Boxing_Principles.md"
+  ],
+  "pages_065-075": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_065-075.md"
+  ],
+  "everyday-life": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_065-075.md"
+  ],
+  "money": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages_065-075.md"
+  ],
+  "ocr-vision": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_075.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_076.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_078.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_080.md"
+  ],
+  "page_075": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_075.md"
+  ],
+  "page_076": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_076.md"
+  ],
+  "personal-narratives": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_076.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_078.md",
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_080.md"
+  ],
+  "page_078": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_078.md"
+  ],
+  "page_080": [
+    "02_Areas/Japanese_N5/NEJ_Vol1_extracted/pages/page_080.md"
+  ],
+  "64_que_data": [
+    "02_Areas/Kinh_Dich/64_Que_Data.md"
+  ],
+  "kinh_dich": [
+    "02_Areas/Kinh_Dich/64_Que_Data.md"
+  ],
+  "kinh-dich": [
+    "02_Areas/Kinh_Dich/Truong_Phai_Luan_Giai.md"
+  ],
+  "truong_phai_luan_giai": [
+    "02_Areas/Kinh_Dich/Truong_Phai_Luan_Giai.md"
+  ],
+  "authors": [
+    "02_Areas/Kinh_Dich/Truong_Phai_Luan_Giai.md"
+  ],
+  "personal": [
+    "02_Areas/Personal/Amygdala.md",
+    "02_Areas/Personal/Anthony_Rappa_Profile.md",
+    "02_Areas/Personal/Bentov_Holographic_Universe.md",
+    "02_Areas/Personal/Bentov_Meditation_Technique.md",
+    "02_Areas/Personal/Bentov_Subjective_Time.md",
+    "02_Areas/Personal/Bentov_The_Absolute.md",
+    "02_Areas/Personal/Body_Resonance_7Hz.md",
+    "02_Areas/Personal/Collective_Intelligence.md",
+    "02_Areas/Personal/Dopamine.md",
+    "02_Areas/Personal/Effective_Teamwork_Synergy.md",
+    "02_Areas/Personal/Exploitive_Play_Amateur.md",
+    "02_Areas/Personal/Flow.md",
+    "02_Areas/Personal/GEMINI.md",
+    "02_Areas/Personal/Gia_si_bat_dien.md",
+    "02_Areas/Personal/Goal_Decomposition.md",
+    "02_Areas/Personal/Growth_Mindset.md",
+    "02_Areas/Personal/Human_AI_Synergy.md",
+    "02_Areas/Personal/Intelligence_Types_Summary.md",
+    "02_Areas/Personal/Kushi_Meditation_Guide.md",
+    "02_Areas/Personal/Learning_How_To_Learn.md",
+    "02_Areas/Personal/Learning_Level_Assessment.md",
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md",
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md",
+    "02_Areas/Personal/Limbic_System.md",
+    "02_Areas/Personal/Metacognition.md",
+    "02_Areas/Personal/Michio_Kushi_Meditation_Concept.md",
+    "02_Areas/Personal/Poker_Classification_Framework.md",
+    "02_Areas/Personal/Poker_Leak_Checklist.md",
+    "02_Areas/Personal/Prefrontal_Cortex.md",
+    "02_Areas/Personal/Shadow_Boxing_Principles.md",
+    "02_Areas/Personal/Shadow_Learning_Methodology.md",
+    "02_Areas/Personal/SMART_Goal_Setting_Principles.md",
+    "02_Areas/Personal/Sun_Tzu_Art_of_War_Overview.md",
+    "02_Areas/Personal/Theory_of_Multiple_Intelligences.md",
+    "02_Areas/Personal/Tieu_Ly_Tang_Dao.md",
+    "02_Areas/Personal/Ultradian_Rhythm.md",
+    "02_Areas/Personal/Ultralearning_Upgrade_Plan.md",
+    "02_Areas/Personal/Vay_Nguy_cuu_Trieu.md",
+    "02_Areas/Personal/Work_Breakdown_Structure.md",
+    "MOCs/MOC_Personal_Growth.md",
+    "MOCs/MOC_Poker.md",
+    "MOCs/MOC_Strategy.md"
+  ],
+  "neuroscience": [
+    "02_Areas/Personal/Amygdala.md",
+    "02_Areas/Personal/Bentov_Meditation_Technique.md",
+    "02_Areas/Personal/Dopamine.md",
+    "02_Areas/Personal/Goal_Decomposition.md",
+    "02_Areas/Personal/Limbic_System.md",
+    "02_Areas/Personal/Prefrontal_Cortex.md",
+    "02_Areas/Personal/SMART_Goal_Setting_Principles.md"
+  ],
+  "amygdala": [
+    "02_Areas/Personal/Amygdala.md"
+  ],
+  "emotions": [
+    "02_Areas/Personal/Amygdala.md",
+    "02_Areas/Personal/Limbic_System.md"
+  ],
+  "biology": [
+    "02_Areas/Personal/Amygdala.md",
+    "02_Areas/Personal/Prefrontal_Cortex.md",
+    "02_Areas/Personal/Ultradian_Rhythm.md"
+  ],
+  "fear": [
+    "02_Areas/Personal/Amygdala.md"
+  ],
+  "developer-profile": [
+    "02_Areas/Personal/Anthony_Rappa_Profile.md"
+  ],
+  "php": [
+    "02_Areas/Personal/Anthony_Rappa_Profile.md"
+  ],
+  "anthony_rappa_profile": [
+    "02_Areas/Personal/Anthony_Rappa_Profile.md"
+  ],
+  "laravel": [
+    "02_Areas/Personal/Anthony_Rappa_Profile.md"
+  ],
+  "open-source": [
+    "02_Areas/Personal/Anthony_Rappa_Profile.md"
+  ],
+  "meditation": [
+    "02_Areas/Personal/Bentov_Holographic_Universe.md",
+    "02_Areas/Personal/Bentov_Meditation_Technique.md",
+    "02_Areas/Personal/Body_Resonance_7Hz.md",
+    "02_Areas/Personal/Kushi_Meditation_Guide.md",
+    "02_Areas/Personal/Michio_Kushi_Meditation_Concept.md",
+    "MOCs/MOC_Personal_Growth.md"
+  ],
+  "consciousness": [
+    "02_Areas/Personal/Bentov_Holographic_Universe.md",
+    "02_Areas/Personal/Bentov_Subjective_Time.md",
+    "02_Areas/Personal/Bentov_The_Absolute.md",
+    "02_Areas/Personal/Michio_Kushi_Meditation_Concept.md"
+  ],
+  "resonance": [
+    "02_Areas/Personal/Bentov_Holographic_Universe.md",
+    "02_Areas/Personal/Bentov_Meditation_Technique.md",
+    "02_Areas/Personal/Body_Resonance_7Hz.md"
+  ],
+  "bentov_holographic_universe": [
+    "02_Areas/Personal/Bentov_Holographic_Universe.md"
+  ],
+  "7hz": [
+    "02_Areas/Personal/Bentov_Meditation_Technique.md"
+  ],
+  "bentov_meditation_technique": [
+    "02_Areas/Personal/Bentov_Meditation_Technique.md"
+  ],
+  "itzhak-bentov": [
+    "02_Areas/Personal/Bentov_Meditation_Technique.md"
+  ],
+  "samadhi": [
+    "02_Areas/Personal/Bentov_Subjective_Time.md"
+  ],
+  "bentov_subjective_time": [
+    "02_Areas/Personal/Bentov_Subjective_Time.md"
+  ],
+  "paradox": [
+    "02_Areas/Personal/Bentov_The_Absolute.md"
+  ],
+  "bentov_the_absolute": [
+    "02_Areas/Personal/Bentov_The_Absolute.md"
+  ],
+  "absolute": [
+    "02_Areas/Personal/Bentov_The_Absolute.md"
+  ],
+  "brainwaves": [
+    "02_Areas/Personal/Body_Resonance_7Hz.md"
+  ],
+  "body_resonance_7hz": [
+    "02_Areas/Personal/Body_Resonance_7Hz.md"
+  ],
+  "physiology": [
+    "02_Areas/Personal/Body_Resonance_7Hz.md"
+  ],
+  "group-dynamics": [
+    "02_Areas/Personal/Collective_Intelligence.md"
+  ],
+  "collective_intelligence": [
+    "02_Areas/Personal/Collective_Intelligence.md"
+  ],
+  "reward": [
+    "02_Areas/Personal/Dopamine.md"
+  ],
+  "motivation": [
+    "02_Areas/Personal/Dopamine.md",
+    "02_Areas/Personal/Limbic_System.md"
+  ],
+  "dopamine": [
+    "02_Areas/Personal/Dopamine.md",
+    "03_Resources/Agent_Skills/pomodoro_dopamine_manager.md"
+  ],
+  "neurotransmitter": [
+    "02_Areas/Personal/Dopamine.md"
+  ],
+  "effective_teamwork_synergy": [
+    "02_Areas/Personal/Effective_Teamwork_Synergy.md"
+  ],
+  "collective-intelligence": [
+    "02_Areas/Personal/Effective_Teamwork_Synergy.md"
+  ],
+  "human-ai-synergy": [
+    "02_Areas/Personal/Effective_Teamwork_Synergy.md"
+  ],
+  "mindset": [
+    "02_Areas/Personal/Exploitive_Play_Amateur.md",
+    "02_Areas/Personal/Growth_Mindset.md",
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md"
+  ],
+  "exploitive_play_amateur": [
+    "02_Areas/Personal/Exploitive_Play_Amateur.md"
+  ],
+  "exploitative": [
+    "02_Areas/Personal/Exploitive_Play_Amateur.md",
+    "02_Areas/Personal/Poker_Classification_Framework.md"
+  ],
+  "poker": [
+    "02_Areas/Personal/Exploitive_Play_Amateur.md",
+    "02_Areas/Personal/Poker_Classification_Framework.md",
+    "02_Areas/Personal/Poker_Leak_Checklist.md",
+    "MOCs/MOC_Personal_Growth.md",
+    "MOCs/MOC_Poker.md"
+  ],
+  "flow": [
+    "02_Areas/Personal/Flow.md"
+  ],
+  "sun-tzu": [
+    "02_Areas/Personal/Gia_si_bat_dien.md",
+    "02_Areas/Personal/Sun_Tzu_Art_of_War_Overview.md",
+    "02_Areas/Personal/Vay_Nguy_cuu_Trieu.md",
+    "02_Areas/Strategy/Vo_Trung_Sinh_Huu_Analysis.md",
+    "MOCs/MOC_Strategy.md"
+  ],
+  "patience": [
+    "02_Areas/Personal/Gia_si_bat_dien.md"
+  ],
+  "36-ke": [
+    "02_Areas/Personal/Gia_si_bat_dien.md",
+    "02_Areas/Personal/Vay_Nguy_cuu_Trieu.md",
+    "02_Areas/Strategy/Vo_Trung_Sinh_Huu_Analysis.md",
+    "MOCs/MOC_Strategy.md"
+  ],
+  "gia_si_bat_dien": [
+    "02_Areas/Personal/Gia_si_bat_dien.md"
+  ],
+  "wbs": [
+    "02_Areas/Personal/Goal_Decomposition.md",
+    "02_Areas/Personal/Work_Breakdown_Structure.md"
+  ],
+  "goal_decomposition": [
+    "02_Areas/Personal/Goal_Decomposition.md"
+  ],
+  "planning": [
+    "02_Areas/Personal/Goal_Decomposition.md",
+    "02_Areas/Personal/Work_Breakdown_Structure.md"
+  ],
+  "goal-decomposition": [
+    "02_Areas/Personal/Goal_Decomposition.md"
+  ],
+  "growth": [
+    "02_Areas/Personal/Growth_Mindset.md"
+  ],
+  "carol-dweck": [
+    "02_Areas/Personal/Growth_Mindset.md"
+  ],
+  "growth_mindset": [
+    "02_Areas/Personal/Growth_Mindset.md"
+  ],
+  "future-of-work": [
+    "02_Areas/Personal/Human_AI_Synergy.md"
+  ],
+  "human_ai_synergy": [
+    "02_Areas/Personal/Human_AI_Synergy.md"
+  ],
+  "cognitive-style": [
+    "02_Areas/Personal/Intelligence_Types_Summary.md"
+  ],
+  "multiple-intelligences": [
+    "02_Areas/Personal/Intelligence_Types_Summary.md",
+    "02_Areas/Personal/Theory_of_Multiple_Intelligences.md"
+  ],
+  "intelligence_types_summary": [
+    "02_Areas/Personal/Intelligence_Types_Summary.md"
+  ],
+  "guide": [
+    "02_Areas/Personal/Kushi_Meditation_Guide.md"
+  ],
+  "energy-work": [
+    "02_Areas/Personal/Kushi_Meditation_Guide.md"
+  ],
+  "kushi_meditation_guide": [
+    "02_Areas/Personal/Kushi_Meditation_Guide.md"
+  ],
+  "learning_how_to_learn": [
+    "02_Areas/Personal/Learning_How_To_Learn.md"
+  ],
+  "learning-how-to-learn": [
+    "02_Areas/Personal/Learning_How_To_Learn.md"
+  ],
+  "neuroplasticity": [
+    "02_Areas/Personal/Learning_How_To_Learn.md"
+  ],
+  "kirkpatrick-model": [
+    "02_Areas/Personal/Learning_Level_Assessment.md"
+  ],
+  "learning_level_assessment": [
+    "02_Areas/Personal/Learning_Level_Assessment.md"
+  ],
+  "destiny": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md",
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md"
+  ],
+  "vân cốc": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md"
+  ],
+  "lieu-pham": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md",
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md"
+  ],
+  "tịnh không": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md",
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md"
+  ],
+  "cải mệnh": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md"
+  ],
+  "số mệnh": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md"
+  ],
+  "định số": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md"
+  ],
+  "lieu_pham_tu_huan_part_1": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md"
+  ],
+  "personal-growth": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_1.md",
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md",
+    "02_Areas/Personal/Shadow_Boxing_Principles.md",
+    "02_Areas/Personal/Shadow_Learning_Methodology.md",
+    "02_Areas/Personal/Yale_Psychology_13_Individual_Differences.md",
+    "MOCs/MOC_Personal_Growth.md"
+  ],
+  "vọng tưởng": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md"
+  ],
+  "thiền định": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md"
+  ],
+  "lieu_pham_tu_huan_part_2": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md"
+  ],
+  "nhân quả": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md"
+  ],
+  "cải tạo tính cách": [
+    "02_Areas/Personal/Lieu_Pham_Tu_Huan_Part_2.md"
+  ],
+  "limbic_system": [
+    "02_Areas/Personal/Limbic_System.md"
+  ],
+  "brain": [
+    "02_Areas/Personal/Limbic_System.md",
+    "02_Areas/Personal/Prefrontal_Cortex.md"
+  ],
+  "self-improvement": [
+    "02_Areas/Personal/Metacognition.md",
+    "03_Resources/Tribe_of_Mentors_Loi_khuyen.md"
+  ],
+  "metacognition": [
+    "02_Areas/Personal/Metacognition.md",
+    "02_Areas/Personal/Strategic_Learning_Framework.md"
+  ],
+  "awareness": [
+    "02_Areas/Personal/Metacognition.md"
+  ],
+  "michio_kushi_meditation_concept": [
+    "02_Areas/Personal/Michio_Kushi_Meditation_Concept.md"
+  ],
+  "energy": [
+    "02_Areas/Personal/Michio_Kushi_Meditation_Concept.md"
+  ],
+  "michio-kushi": [
+    "02_Areas/Personal/Michio_Kushi_Meditation_Concept.md"
+  ],
+  "framework": [
+    "02_Areas/Personal/Poker_Classification_Framework.md",
+    "02_Areas/Personal/Strategic_Learning_Framework.md"
+  ],
+  "poker_classification_framework": [
+    "02_Areas/Personal/Poker_Classification_Framework.md"
+  ],
+  "poker_leak_checklist": [
+    "02_Areas/Personal/Poker_Leak_Checklist.md"
+  ],
+  "checklist": [
+    "02_Areas/Personal/Poker_Leak_Checklist.md"
+  ],
+  "observation": [
+    "02_Areas/Personal/Poker_Leak_Checklist.md"
+  ],
+  "prefrontal_cortex": [
+    "02_Areas/Personal/Prefrontal_Cortex.md"
+  ],
+  "cognition": [
+    "02_Areas/Personal/Prefrontal_Cortex.md"
+  ],
+  "methodology": [
+    "02_Areas/Personal/Shadow_Boxing_Principles.md"
+  ],
+  "boxing": [
+    "02_Areas/Personal/Shadow_Boxing_Principles.md"
+  ],
+  "shadow_boxing_principles": [
+    "02_Areas/Personal/Shadow_Boxing_Principles.md"
+  ],
+  "shadow_learning_methodology": [
+    "02_Areas/Personal/Shadow_Learning_Methodology.md"
+  ],
+  "learning-methodology": [
+    "02_Areas/Personal/Shadow_Learning_Methodology.md",
+    "02_Areas/Personal/SMART_Goal_Setting_Principles.md"
+  ],
+  "cognitive-science": [
+    "02_Areas/Personal/Shadow_Learning_Methodology.md"
+  ],
+  "discipline": [
+    "02_Areas/Personal/SMART_Goal_Setting_Principles.md"
+  ],
+  "smart_goal_setting_principles": [
+    "02_Areas/Personal/SMART_Goal_Setting_Principles.md"
+  ],
+  "smart-goals": [
+    "02_Areas/Personal/SMART_Goal_Setting_Principles.md"
+  ],
+  "strategic_learning_framework": [
+    "02_Areas/Personal/Strategic_Learning_Framework.md"
+  ],
+  "learning-strategy": [
+    "02_Areas/Personal/Strategic_Learning_Framework.md"
+  ],
+  "personal_growth": [
+    "02_Areas/Personal/Strategic_Learning_Framework.md",
+    "02_Areas/Personal/Yale_Psychology_13_Individual_Differences.md"
+  ],
+  "art-of-war": [
+    "02_Areas/Personal/Sun_Tzu_Art_of_War_Overview.md",
+    "02_Areas/Personal/Tieu_Ly_Tang_Dao.md"
+  ],
+  "sun_tzu_art_of_war_overview": [
+    "02_Areas/Personal/Sun_Tzu_Art_of_War_Overview.md"
+  ],
+  "howard-gardner": [
+    "02_Areas/Personal/Theory_of_Multiple_Intelligences.md"
+  ],
+  "theory_of_multiple_intelligences": [
+    "02_Areas/Personal/Theory_of_Multiple_Intelligences.md"
+  ],
+  "personalization": [
+    "02_Areas/Personal/Theory_of_Multiple_Intelligences.md"
+  ],
+  "tieu_ly_tang_dao": [
+    "02_Areas/Personal/Tieu_Ly_Tang_Dao.md"
+  ],
+  "ultradian_rhythm": [
+    "02_Areas/Personal/Ultradian_Rhythm.md"
+  ],
+  "learning-protocol": [
+    "02_Areas/Personal/Ultralearning_Upgrade_Plan.md"
+  ],
+  "system-upgrade": [
+    "02_Areas/Personal/Ultralearning_Upgrade_Plan.md"
+  ],
+  "ultralearning": [
+    "02_Areas/Personal/Ultralearning_Upgrade_Plan.md"
+  ],
+  "ultralearning_upgrade_plan": [
+    "02_Areas/Personal/Ultralearning_Upgrade_Plan.md"
+  ],
+  "vay_nguy_cuu_trieu": [
+    "02_Areas/Personal/Vay_Nguy_cuu_Trieu.md"
+  ],
+  "indirect-approach": [
+    "02_Areas/Personal/Vay_Nguy_cuu_Trieu.md"
+  ],
+  "decomposition": [
+    "02_Areas/Personal/Work_Breakdown_Structure.md"
+  ],
+  "work_breakdown_structure": [
+    "02_Areas/Personal/Work_Breakdown_Structure.md"
+  ],
+  "project-management": [
+    "02_Areas/Personal/Work_Breakdown_Structure.md"
+  ],
+  "genetics": [
+    "02_Areas/Personal/Yale_Psychology_13_Individual_Differences.md"
+  ],
+  "yale_psychology_13_individual_differences": [
+    "02_Areas/Personal/Yale_Psychology_13_Individual_Differences.md"
+  ],
+  "personality": [
+    "02_Areas/Personal/Yale_Psychology_13_Individual_Differences.md"
+  ],
+  "intelligence": [
+    "02_Areas/Personal/Yale_Psychology_13_Individual_Differences.md"
+  ],
+  "engineering-management": [
+    "02_Areas/Strategy/Scaling_Founder_to_80_Engineers.md"
+  ],
+  "scaling_founder_to_80_engineers": [
+    "02_Areas/Strategy/Scaling_Founder_to_80_Engineers.md"
+  ],
+  "vibe-coding": [
+    "02_Areas/Strategy/Scaling_Founder_to_80_Engineers.md"
+  ],
+  "scaling": [
+    "02_Areas/Strategy/Scaling_Founder_to_80_Engineers.md"
+  ],
+  "ai-agents": [
+    "02_Areas/Strategy/Scaling_Founder_to_80_Engineers.md"
+  ],
+  "startup": [
+    "02_Areas/Strategy/Scaling_Founder_to_80_Engineers.md"
+  ],
+  "deception": [
+    "02_Areas/Strategy/Vo_Trung_Sinh_Huu_Analysis.md"
+  ],
+  "vo_trung_sinh_huu_analysis": [
+    "02_Areas/Strategy/Vo_Trung_Sinh_Huu_Analysis.md"
+  ],
+  "chỉ mục (index) trong mysql": [
+    "03_Resources/Chỉ mục (index) trong mysql.md"
+  ],
+  "cách sử dụng chỉ mục để cải thiện hiệu năng truy vấn của mysql": [
+    "03_Resources/Cách sử dụng chỉ mục để cải thiện hiệu năng truy vấn của MySQL.md"
+  ],
+  "sql using views": [
+    "03_Resources/SQL Using views.md"
+  ],
+  "mentor": [
+    "03_Resources/Tribe_of_Mentors_Loi_khuyen.md"
+  ],
+  "self_help": [
+    "03_Resources/Tribe_of_Mentors_Loi_khuyen.md"
+  ],
+  "book": [
+    "03_Resources/Tribe_of_Mentors_Loi_khuyen.md"
+  ],
+  "tribe_of_mentors_loi_khuyen": [
+    "03_Resources/Tribe_of_Mentors_Loi_khuyen.md"
+  ],
+  "tim-ferriss": [
+    "03_Resources/Tribe_of_Mentors_Loi_khuyen.md"
+  ],
+  "tạo mysql stored procedures": [
+    "03_Resources/Tạo MySQL stored procedures.md"
+  ],
+  "meta-knowledge": [
+    "03_Resources/Agent_Skills/Creating_Skills_Guide.md"
+  ],
+  "creating_skills_guide": [
+    "03_Resources/Agent_Skills/Creating_Skills_Guide.md"
+  ],
+  "system_agent": [
+    "03_Resources/Agent_Skills/pomodoro_dopamine_manager.md"
+  ],
+  "anti-burnout": [
+    "03_Resources/Agent_Skills/pomodoro_dopamine_manager.md"
+  ],
+  "pomodoro": [
+    "03_Resources/Agent_Skills/pomodoro_dopamine_manager.md"
+  ],
+  "pomodoro_dopamine_manager": [
+    "03_Resources/Agent_Skills/pomodoro_dopamine_manager.md"
+  ],
+  "gem_n5_genki": [
+    "03_Resources/Japanese_N5/gem_n5_genki.md"
+  ],
+  "greetings": [
+    "03_Resources/Japanese_N5/gem_n5_genki.md"
+  ],
+  "gemini-prompt": [
+    "03_Resources/Japanese_N5/gem_n5_genki.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_1_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_2_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_3_Gemini.md",
+    "03_Resources/Japanese_N5/NEJ_Phase_4_Gemini.md"
+  ],
+  "genki": [
+    "03_Resources/Japanese_N5/gem_n5_genki.md"
+  ],
+  "phase-1": [
+    "03_Resources/Japanese_N5/NEJ_Phase_1_Gemini.md"
+  ],
+  "nej_phase_1_gemini": [
+    "03_Resources/Japanese_N5/NEJ_Phase_1_Gemini.md"
+  ],
+  "nej_phase_2_gemini": [
+    "03_Resources/Japanese_N5/NEJ_Phase_2_Gemini.md"
+  ],
+  "phase-2": [
+    "03_Resources/Japanese_N5/NEJ_Phase_2_Gemini.md"
+  ],
+  "phase-3": [
+    "03_Resources/Japanese_N5/NEJ_Phase_3_Gemini.md"
+  ],
+  "nej_phase_3_gemini": [
+    "03_Resources/Japanese_N5/NEJ_Phase_3_Gemini.md"
+  ],
+  "phase-4": [
+    "03_Resources/Japanese_N5/NEJ_Phase_4_Gemini.md"
+  ],
+  "nej_phase_4_gemini": [
+    "03_Resources/Japanese_N5/NEJ_Phase_4_Gemini.md"
+  ],
+  "cornell_note_table_template": [
+    "03_Resources/Templates/Cornell_Note_Table_Template.md"
+  ],
+  "study-note": [
+    "03_Resources/Templates/Cornell_Note_Table_Template.md",
+    "03_Resources/Templates/Cornell_Note_Template.md"
+  ],
+  "cornell_note_template": [
+    "03_Resources/Templates/Cornell_Note_Template.md"
+  ],
+  "{{domain}}": [
+    "03_Resources/Templates/Systems_Ingest_Template.md"
+  ],
+  "systems_ingest_template": [
+    "03_Resources/Templates/Systems_Ingest_Template.md"
+  ],
+  "binh pháp tôn tử 1": [
+    "04_Archives/Processed_Raw_2026_05_11/Binh pháp tôn tử 1.md"
+  ],
+  "binh pháp tôn tử": [
+    "04_Archives/Processed_Raw_2026_05_11/Binh pháp tôn tử.md"
+  ],
+  "creating agent skills": [
+    "04_Archives/Processed_Raw_2026_05_11/Creating Agent Skills.md"
+  ],
+  "get started with agent skills": [
+    "04_Archives/Processed_Raw_2026_05_11/Get started with Agent Skills.md"
+  ],
+  "karpathy's llm wiki - full beginner setup guide": [
+    "04_Archives/Processed_Raw_2026_05_11/Karpathy's LLM Wiki - Full Beginner Setup Guide.md"
+  ],
+  "learning course  nix digital 7": [
+    "04_Archives/Processed_Raw_2026_05_11/Learning course  NiX Digital 7.md"
+  ],
+  "learning course  nix digital 8": [
+    "04_Archives/Processed_Raw_2026_05_11/Learning course  NiX Digital 8.md"
+  ],
+  "learning course  nix digital pbl": [
+    "04_Archives/Processed_Raw_2026_05_11/Learning course  NiX Digital PBL.md"
+  ],
+  "lộ trình luyện thuyết trình tiếng nhật": [
+    "04_Archives/Processed_Raw_2026_05_11/Lộ trình luyện thuyết trình tiếng Nhật.md"
+  ],
+  "michio kushi’s meditation to solve all problems created by one’s consciousness": [
+    "04_Archives/Processed_Raw_2026_05_11/Michio Kushi’s Meditation To Solve All Problems Created By One’s Consciousness.md"
+  ],
+  "mẫu trò chuyện với claude": [
+    "04_Archives/Processed_Raw_2026_05_11/Mẫu trò chuyện với claude.md"
+  ],
+  "ngữ pháp cần ôn": [
+    "04_Archives/Processed_Raw_2026_05_11/Ngữ pháp cần ôn.md"
+  ],
+  "roleplay_n5_threesome": [
+    "04_Archives/Processed_Raw_2026_05_11/Roleplay_n5_threesome.md"
+  ],
+  "this scientist revealed how to control energy and hack reality — and died months later": [
+    "04_Archives/Processed_Raw_2026_05_11/This Scientist Revealed How to Control Energy and Hack Reality — and Died Months Later.md"
+  ],
+  "tầng 2 exploitative play khai thác đối thủ amateur": [
+    "04_Archives/Processed_Raw_2026_05_11/Tầng 2 Exploitative Play Khai thác đối thủ Amateur.md"
+  ],
+  "từ vựng cần ôn": [
+    "04_Archives/Processed_Raw_2026_05_11/Từ vựng cần ôn.md"
+  ],
+  "chiến thuật hỏi đáp": [
+    "04_Archives/Processed_Raw_2026_05_27/Chiến thuật hỏi đáp.md"
+  ],
+  "các hình thức hỏi": [
+    "04_Archives/Processed_Raw_2026_05_27/Các hình thức hỏi.md"
+  ],
+  "cơ sở dữ liệu quan hệ": [
+    "04_Archives/Processed_Raw_2026_05_27/Cơ sở dữ liệu quan hệ.md"
+  ],
+  "học cách học": [
+    "04_Archives/Processed_Raw_2026_05_27/Học cách học.md"
+  ],
+  "lhx1909 bài đọc kỹ thuật phân rã mục tiêu": [
+    "04_Archives/Processed_Raw_2026_05_27/LHX1909 Bài đọc Kỹ thuật phân rã mục tiêu.md"
+  ],
+  "lhx1909 bài đọc nguyên tắc smart trong đặt mục tiêu học tập": [
+    "04_Archives/Processed_Raw_2026_05_27/LHX1909 Bài đọc Nguyên tắc SMART trong đặt mục tiêu học tập.md"
+  ],
+  "làm việc nhóm": [
+    "04_Archives/Processed_Raw_2026_05_27/Làm việc nhóm.md"
+  ],
+  "nâng cao chất lượng câu hỏi": [
+    "04_Archives/Processed_Raw_2026_05_27/Nâng cao chất lượng câu hỏi.md"
+  ],
+  "thuyết đa trí tuệ": [
+    "04_Archives/Processed_Raw_2026_05_27/Thuyết Đa Trí Tuệ.md"
+  ],
+  "tìm kiếm và thu thập thông tin": [
+    "04_Archives/Processed_Raw_2026_05_27/Tìm kiếm và thu thập thông tin.md"
+  ],
+  "viết báo cáo": [
+    "04_Archives/Processed_Raw_2026_05_27/Viết báo cáo.md"
+  ],
+  "vô trung sinh hữu": [
+    "04_Archives/Processed_Raw_2026_06_04/VÔ TRUNG SINH HỮU.md"
+  ],
+  "moc_index": [
+    "MOCs/MOC_Index.md"
+  ],
+  "para": [
+    "MOCs/MOC_Index.md"
+  ],
+  "knowledge-base": [
+    "MOCs/MOC_IT_Knowledge.md"
+  ],
+  "moc_it_knowledge": [
+    "MOCs/MOC_IT_Knowledge.md"
+  ],
+  "moc_japanese_n5": [
+    "MOCs/MOC_Japanese_N5.md"
+  ],
+  "language": [
+    "MOCs/MOC_Japanese_N5.md"
+  ],
+  "moc_personal_growth": [
+    "MOCs/MOC_Personal_Growth.md"
+  ],
+  "moc": [
+    "MOCs/MOC_Personal_Growth.md",
+    "MOCs/MOC_Strategy.md"
+  ],
+  "moc_poker": [
+    "MOCs/MOC_Poker.md"
+  ],
+  "moc_strategy": [
+    "MOCs/MOC_Strategy.md"
+  ],
+  "readme": [
+    "node_modules/@jridgewell/gen-mapping/README.md",
+    "node_modules/@jridgewell/remapping/README.md",
+    "node_modules/@jridgewell/resolve-uri/README.md",
+    "node_modules/@jridgewell/sourcemap-codec/README.md",
+    "node_modules/@jridgewell/trace-mapping/README.md",
+    "node_modules/@maverick-js/signals/README.md",
+    "node_modules/@oxc-project/types/README.md",
+    "node_modules/@rolldown/binding-win32-x64-msvc/README.md",
+    "node_modules/@rolldown/pluginutils/README.md",
+    "node_modules/@tailwindcss/node/README.md",
+    "node_modules/@tailwindcss/oxide-win32-x64-msvc/README.md",
+    "node_modules/@tailwindcss/vite/README.md",
+    "node_modules/@tybys/wasm-util/README.md",
+    "node_modules/clsx/readme.md",
+    "node_modules/detect-libc/README.md",
+    "node_modules/enhanced-resolve/README.md",
+    "node_modules/fdir/README.md",
+    "node_modules/graceful-fs/README.md",
+    "node_modules/jiti/README.md",
+    "node_modules/lightningcss/README.md",
+    "node_modules/lightningcss-win32-x64-msvc/README.md",
+    "node_modules/lucide-react/README.md",
+    "node_modules/magic-string/README.md",
+    "node_modules/media-captions/README.md",
+    "node_modules/nanoid/README.md",
+    "node_modules/picocolors/README.md",
+    "node_modules/picomatch/README.md",
+    "node_modules/postcss/README.md",
+    "node_modules/react/README.md",
+    "node_modules/rolldown/README.md",
+    "node_modules/source-map-js/README.md",
+    "node_modules/tailwind-merge/README.md",
+    "node_modules/tailwindcss/README.md",
+    "node_modules/tapable/README.md",
+    "node_modules/tinyglobby/README.md",
+    "node_modules/tslib/README.md",
+    "node_modules/type-fest/readme.md",
+    "node_modules/vidstack/README.md",
+    "node_modules/vite/README.md"
+  ],
+  "license": [
+    "node_modules/tailwind-merge/LICENSE.md",
+    "node_modules/vite/LICENSE.md"
+  ]
+}

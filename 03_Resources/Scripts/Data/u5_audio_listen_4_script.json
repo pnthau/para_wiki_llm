@@ -1,0 +1,37 @@
+[
+  {
+    "jp": "ガウィンさん、日曜日に桜公園でタイフェスティバルがありますね。",
+    "vn": "Anh Gawin ơi, Chủ nhật tuần này ở công viên Sakura có Lễ hội Thái Lan đấy nhỉ.",
+    "start": 3300,
+    "end": 8800,
+    "pause": 5.0
+  },
+  {
+    "jp": "行きますか？",
+    "vn": "Anh có đi không?",
+    "start": 8800,
+    "end": 10800,
+    "pause": 2.5
+  },
+  {
+    "jp": "はい、行きます。",
+    "vn": "Vâng, tôi sẽ đi.",
+    "start": 10800,
+    "end": 12800,
+    "pause": 2.5
+  },
+  {
+    "jp": "楽しみですね。",
+    "vn": "Thật đáng mong đợi nhỉ!",
+    "start": 12800,
+    "end": 14500,
+    "pause": 3.0
+  },
+  {
+    "jp": "そうですね。",
+    "vn": "Đúng vậy nhỉ!",
+    "start": 14500,
+    "end": 16200,
+    "pause": 2.5
+  }
+]

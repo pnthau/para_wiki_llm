@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "start": 3000,
+    "end": 7000,
+    "jp": "両さん、明日の冒険会に行きますか?",
+    "vn": "Ryo-san, ngày mai bạn có muốn tham gia bữa tiệc phiêu lưu không?",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_8\\sentence_1.wav",
+    "pause": 5.0
+  },
+  {
+    "id": 2,
+    "start": 7000,
+    "end": 10000,
+    "jp": "ああ、私は行きません",
+    "vn": "ồ tôi sẽ không đi",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_8\\sentence_2.wav",
+    "pause": 4.0
+  },
+  {
+    "id": 3,
+    "start": 10000,
+    "end": 14000,
+    "jp": "そうですか、残念です",
+    "vn": "Tôi hiểu rồi, thật đáng xấu hổ",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_8\\sentence_3.wav",
+    "pause": 5.0
+  }
+]

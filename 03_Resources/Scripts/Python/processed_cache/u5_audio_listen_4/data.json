@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "start": 0,
+    "end": 2000,
+    "jp": "1",
+    "vn": "1",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_4\\sentence_1.wav",
+    "pause": 2.5
+  },
+  {
+    "id": 2,
+    "start": 3000,
+    "end": 9000,
+    "jp": "ガウィンさん、日曜日に桜公園で大フェスティバルがありますね。",
+    "vn": "Gawin-san, chủ nhật có lễ hội lớn ở công viên Sakura.",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_4\\sentence_2.wav",
+    "pause": 6.5
+  },
+  {
+    "id": 3,
+    "start": 9000,
+    "end": 11000,
+    "jp": "行きますか?",
+    "vn": "Bạn có đi không?",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_4\\sentence_3.wav",
+    "pause": 2.5
+  },
+  {
+    "id": 4,
+    "start": 11000,
+    "end": 13000,
+    "jp": "はい、行きます。",
+    "vn": "Vâng, tôi sẽ đi.",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_4\\sentence_4.wav",
+    "pause": 2.5
+  },
+  {
+    "id": 5,
+    "start": 13000,
+    "end": 15000,
+    "jp": "楽しみですね。",
+    "vn": "Tôi đang mong chờ nó.",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_4\\sentence_5.wav",
+    "pause": 2.5
+  },
+  {
+    "id": 6,
+    "start": 15000,
+    "end": 17000,
+    "jp": "そうですね。",
+    "vn": "Tôi đồng ý.",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_4\\sentence_6.wav",
+    "pause": 2.5
+  }
+]

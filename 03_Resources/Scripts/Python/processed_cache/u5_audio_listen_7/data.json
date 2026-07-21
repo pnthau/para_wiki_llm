@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "start": 3000,
+    "end": 5000,
+    "jp": "アントニオさん",
+    "vn": "Ông Antonio",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_7\\sentence_1.wav",
+    "pause": 3.0
+  },
+  {
+    "id": 2,
+    "start": 5000,
+    "end": 10000,
+    "jp": "今週の金曜日、ミルコさんの空手の試合に行きますか?",
+    "vn": "Bạn có định đến xem trận đấu karate của Mirko vào thứ sáu này không?",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_7\\sentence_2.wav",
+    "pause": 6.0
+  },
+  {
+    "id": 3,
+    "start": 10000,
+    "end": 12000,
+    "jp": "もちろん、行きます",
+    "vn": "Tất nhiên là tôi sẽ đi",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_7\\sentence_3.wav",
+    "pause": 3.0
+  },
+  {
+    "id": 4,
+    "start": 12000,
+    "end": 14000,
+    "jp": "私も行きます",
+    "vn": "tôi cũng đi đây",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_7\\sentence_4.wav",
+    "pause": 3.0
+  },
+  {
+    "id": 5,
+    "start": 14000,
+    "end": 16000,
+    "jp": "楽しみですね",
+    "vn": "Tôi đang mong chờ nó",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_7\\sentence_5.wav",
+    "pause": 3.0
+  },
+  {
+    "id": 6,
+    "start": 16000,
+    "end": 18000,
+    "jp": "そうですね",
+    "vn": "tôi đồng ý",
+    "file": "D:\\Data\\para_wiki_llm\\processed_cache\\u5_audio_listen_7\\sentence_6.wav",
+    "pause": 3.0
+  }
+]

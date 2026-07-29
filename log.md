@@ -433,3 +433,13 @@ GRADUATION: John (Hau-san) officially mastered SQL Execution Order (10/10 Drills
   2. Xác định được vật thể cần hái.
 - **Status**: Success. Ready for next phase.
 
+## [2026-07-28] Ingest | 'Spring MVC 01' -> 'Spring_MVC_Fundamentals.md'
+- **Raw Source**: `00_Raw/Spring MVC 01.md`
+- **Output**: `02_Areas/IT_Knowledge/Spring_MVC_Fundamentals.md`
+- **Action**: Ingested Raw note into the LLM Wiki architecture. Standardized Cornell Notes format, added YAML v4.0 frontmatter with B-Tree Hash keywords, injected Mermaid visual mindmap, and created bidirectional MOC links.
+- **Status**: Success.
+
+## [2026-07-28] Lint | Missing Concepts Extraction for Spring MVC
+- **Target**: `02_Areas/IT_Knowledge/` & `MOCs/MOC_IT_Knowledge.md`
+- **Action**: Executed Semantic Linting (Missing Concepts rule). Extracted complex terminologies from `Spring_MVC_Fundamentals.md` into dedicated atomic notes: `Spring_Container_Bean.md` (IoC, ApplicationContext, Bean lifecycle) and `Spring_DispatcherServlet_Flow.md` (Front Controller, HandlerMapping, ViewResolver, Model). Bidirectionally linked them together and indexed them into `MOC_IT_Knowledge.md` under Advanced Java.
+- **Status**: Success. Vault is highly connected and ready for expansion.

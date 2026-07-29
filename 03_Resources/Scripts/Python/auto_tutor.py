@@ -65,7 +65,7 @@ def process_audio_whisper(audio_path, model_size="small"):
     if os.path.exists(json_cache):
         print(f"⚡ Cache đã có cho '{base_name}', đang tải nhanh...")
         with open(json_cache, "r", encoding="utf-8") as f:
-            return json.load(f), base_name
+            return json.load(f), base_name, json_cache
 
     print(f"⌛ Nạp AI Whisper ({model_size}) & phân tích file audio...")
     model = whisper.load_model(model_size)
@@ -105,7 +105,7 @@ def process_audio_whisper(audio_path, model_size="small"):
     with open(json_cache, "w", encoding="utf-8") as f:
         json.dump(sentences, f, ensure_ascii=False, indent=2)
 
-    return sentences, base_name
+    return sentences, base_name, json_cache
 
 
 # ─────────────────────────────────────────────────────────────────────
@@ -148,7 +148,7 @@ def load_script_override(script_path, audio_path):
             "pause": item.get("pause", max(2.0, round(duration + 1.0, 1))),
         })
 
-    return sentences, base_name
+    return sentences, base_name, None
 
 
 # ─────────────────────────────────────────────────────────────────────
@@ -166,17 +166,24 @@ def play_sound_file(filepath):
 def get_key():
     """Lấy 1 phím bấm, trả về ký tự str (lowercase)"""
     if HAS_MSVCRT:
-        ch = msvcrt.getch()
         try:
-            return ch.decode("utf-8").lower()
+            ch = msvcrt.getch()
+            if ch in (b'\x00', b'\xe0'):
+                msvcrt.getch()  # Bỏ qua phím mũi tên/phím đặc biệt
+                return None
+            if ch in (b'\r', b'\n'):
+                return "\r"
+            return ch.decode("utf-8", errors="ignore").lower()
         except Exception:
-            return ""
+            return None
     else:
-        return input().strip().lower()
+        val = input().strip().lower()
+        return val if val else "\r"
 
 
-def run_shadowing(item, total):
+def run_shadowing(item, sentences, cache_json_path, audio_path):
     """Màn hình Cấp 2: phát audio + Shadowing countdown"""
+    total = len(sentences)
     while True:
         clear_screen()
         print("=" * 68)
@@ -197,17 +204,62 @@ def run_shadowing(item, total):
 
         print("-" * 68)
         print("  [ENTER]  Phát lại & Shadowing lại")
+        if cache_json_path:
+            print("  [E]      Chỉnh sửa lại câu (Tiếng Nhật/Việt)")
         print("  [B]      Quay về Menu chính")
         print("=" * 68)
         print("  👉 ", end="", flush=True)
 
-        key = get_key()
-        if key in ("b",):
-            return
-        # Mọi phím khác (Enter, ký tự lạ...) → phát lại
+        while True:
+            key = get_key()
+            if key in ("b",):
+                return
+            elif key in ("e",) and cache_json_path:
+                clear_screen()
+                print("=" * 68)
+                print(f" ✍️  CHỈNH SỬA CÂU {item['id']}")
+                print("=" * 68)
+                print(f"  🇯🇵 Cũ: {item['jp']}")
+                new_jp = input("  🇯🇵 Mới (Bỏ qua nếu giữ nguyên): ").strip()
+                if new_jp:
+                    item['jp'] = new_jp
+                
+                print(f"\n  🇻🇳 Cũ: {item['vn']}")
+                new_vn = input("  🇻🇳 Mới (Bỏ qua nếu giữ nguyên): ").strip()
+                if new_vn:
+                    item['vn'] = new_vn
+
+                print(f"\n  ⏱️ Start cũ (ms): {item['start']}")
+                new_start = input("  ⏱️ Start mới (Bỏ qua nếu giữ nguyên): ").strip()
+                if new_start and new_start.isdigit():
+                    item['start'] = int(new_start)
+
+                print(f"  ⏱️ End cũ (ms): {item['end']}")
+                new_end = input("  ⏱️ End mới (Bỏ qua nếu giữ nguyên): ").strip()
+                if new_end and new_end.isdigit():
+                    item['end'] = int(new_end)
+
+                if new_start or new_end:
+                    try:
+                        sound = AudioSegment.from_file(audio_path)
+                        sound[item['start']:item['end']].export(item['file'], format="wav")
+                        item['pause'] = max(2.0, round((item['end'] - item['start'])/1000.0 + 1.0, 1))
+                        print("\n  ✅ Đã cắt lại audio thành công!")
+                    except Exception as e:
+                        print(f"\n  ❌ Lỗi cắt audio: {e}")
+                    
+                if os.path.exists(cache_json_path):
+                    with open(cache_json_path, "w", encoding="utf-8") as f:
+                        json.dump(sentences, f, ensure_ascii=False, indent=2)
+                    print("\n  ✅ Đã lưu thành công vào cache!")
+                time.sleep(1)
+                break
+            elif key == "\r":
+                break
+        # Chỉ khi break khỏi vòng lặp while True (nhấn Enter hoặc sau khi Edit), vòng lặp lớn mới chạy lại (phát lại)
 
 
-def main_menu(sentences, title):
+def main_menu(sentences, title, cache_json_path, audio_path):
     """Màn hình Cấp 1: danh sách câu"""
     total = len(sentences)
     while True:
@@ -222,17 +274,16 @@ def main_menu(sentences, title):
         print("-" * 68)
         print(f"  Bấm phím số [1–{total}] để vào câu  |  [Q] Thoát")
         print("=" * 68)
-        print("  👉 ", end="", flush=True)
-
-        key = get_key()
-        if key in ("q", "\x1b"):
+        key = input("  👉 ").strip().lower()
+        
+        if key in ("q", "quit", "\x1b"):
             print("\n\n  👋 Chúc luyện nghe hiệu quả! Cố lên John (Hau-san)! 🇯🇵")
             break
         elif key.isdigit():
             num = int(key)
             matched = [s for s in sentences if s["id"] == num]
             if matched:
-                run_shadowing(matched[0], total)
+                run_shadowing(matched[0], sentences, cache_json_path, audio_path)
 
 
 # ─────────────────────────────────────────────────────────────────────
@@ -283,15 +334,15 @@ def main():
         if not os.path.exists(args.script):
             print(f"❌ Không tìm thấy file script: {args.script}")
             sys.exit(1)
-        sentences, title = load_script_override(args.script, args.audio)
+        sentences, title, cache_json_path = load_script_override(args.script, args.audio)
         print(f"✅ Đã nạp script chuẩn: {len(sentences)} câu")
     else:
         # Chế độ Tự động AI Whisper
-        sentences, title = process_audio_whisper(args.audio, model_size=args.model)
+        sentences, title, cache_json_path = process_audio_whisper(args.audio, model_size=args.model)
         print(f"✅ Đã phân tích xong: {len(sentences)} câu")
 
     time.sleep(0.5)
-    main_menu(sentences, title)
+    main_menu(sentences, title, cache_json_path, args.audio)
 
 
 if __name__ == "__main__":

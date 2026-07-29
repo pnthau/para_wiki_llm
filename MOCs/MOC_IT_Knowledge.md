@@ -68,8 +68,12 @@ keywords: []
 - [[Java_Functional_Programming]]: Lambda Expression và Stream API.
 - [[Java_DI_IoC_Principles]]: Tư duy Dependency Injection và IoC.
 - [[Java_3_Layer_Architecture]]: Kiến trúc Controller - Service - Repository.
+- [[Spring_MVC_Fundamentals]]: Nền tảng lõi của Spring Core & Spring MVC.
+- [[Spring_Container_Bean]]: Vòng đời Bean và IoC Container.
+- [[Spring_DispatcherServlet_Flow]]: Luồng xử lý Request với Front Controller.
 - [[Java_IO_Streams_Text]]: Luồng dữ liệu và Đọc/Ghi file văn bản.
 - [[Java_Search_Algorithms]]: Thuật toán Tìm kiếm Tuyến tính & Nhị phân.
+
 
 ---
 

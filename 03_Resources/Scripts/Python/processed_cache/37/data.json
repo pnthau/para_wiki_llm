@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "start": 0,
+    "end": 6000,
+    "jp": "私は土曜日に友達と一緒に買い物に行きました。",
+    "vn": "Tôi đã đi mua sắm với bạn tôi vào thứ bảy.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_1.wav",
+    "pause": 7.0
+  },
+  {
+    "id": 2,
+    "start": 6000,
+    "end": 12000,
+    "jp": "ショッピングモールはとても綺麗で大きかったです。",
+    "vn": "Trung tâm mua sắm rất sạch sẽ và rộng lớn.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_2.wav",
+    "pause": 7.0
+  },
+  {
+    "id": 3,
+    "start": 12000,
+    "end": 17000,
+    "jp": "そしてモールの中に庭がありました。",
+    "vn": "Và có một khu vườn bên trong khu mua sắm.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_3.wav",
+    "pause": 6.0
+  },
+  {
+    "id": 4,
+    "start": 17000,
+    "end": 20000,
+    "jp": "庭には木がありました。",
+    "vn": "Có một cái cây trong vườn.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_4.wav",
+    "pause": 4.0
+  },
+  {
+    "id": 5,
+    "start": 20000,
+    "end": 26000,
+    "jp": "本当に広くて素敵なショッピングモールでした。",
+    "vn": "Đó là một trung tâm mua sắm thực sự lớn và đẹp.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_5.wav",
+    "pause": 7.0
+  },
+  {
+    "id": 6,
+    "start": 26000,
+    "end": 31000,
+    "jp": "ショッピングモールには人がたくさんいました。",
+    "vn": "Có rất nhiều người ở trung tâm mua sắm.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_6.wav",
+    "pause": 6.0
+  },
+  {
+    "id": 7,
+    "start": 31000,
+    "end": 35000,
+    "jp": "そして色々な店がありました。",
+    "vn": "Và có nhiều cửa hàng khác nhau.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_7.wav",
+    "pause": 5.0
+  },
+  {
+    "id": 8,
+    "start": 35000,
+    "end": 43000,
+    "jp": "私は白いポロシャツとチェックのスカートとジーンズを買いました。",
+    "vn": "Tôi mua một chiếc áo sơ mi polo trắng, một chiếc váy kẻ ca-rô và quần jean.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_8.wav",
+    "pause": 9.0
+  },
+  {
+    "id": 9,
+    "start": 43000,
+    "end": 51000,
+    "jp": "そして可愛いポーチと小さくて可愛いボールペンを買いました。",
+    "vn": "Tôi còn mua một chiếc túi xinh xắn và một chiếc bút bi nhỏ xinh.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_9.wav",
+    "pause": 9.0
+  },
+  {
+    "id": 10,
+    "start": 52000,
+    "end": 59000,
+    "jp": "友達はストライプのシャツと靴と食器を買いました。",
+    "vn": "Bạn tôi mua một chiếc áo sọc, giày và bộ đồ ăn.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_10.wav",
+    "pause": 8.0
+  },
+  {
+    "id": 11,
+    "start": 59000,
+    "end": 64000,
+    "jp": "私たちは4時間くらい買い物をしました。",
+    "vn": "Chúng tôi dành khoảng 4 giờ để mua sắm.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_11.wav",
+    "pause": 6.0
+  },
+  {
+    "id": 12,
+    "start": 64000,
+    "end": 67000,
+    "jp": "疲れました。",
+    "vn": "Tôi mệt mỏi.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_12.wav",
+    "pause": 4.0
+  },
+  {
+    "id": 13,
+    "start": 67000,
+    "end": 71000,
+    "jp": "そしてとてもお腹がすきました。",
+    "vn": "Và tôi rất đói.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_13.wav",
+    "pause": 5.0
+  },
+  {
+    "id": 14,
+    "start": 71000,
+    "end": 77000,
+    "jp": "それで私たちはご飯を食べに行きました。",
+    "vn": "Thế là chúng tôi đi ăn.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_14.wav",
+    "pause": 7.0
+  },
+  {
+    "id": 15,
+    "start": 77000,
+    "end": 82000,
+    "jp": "ショッピングモールには色々なレストランがありました。",
+    "vn": "Có nhiều nhà hàng khác nhau trong trung tâm mua sắm.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_15.wav",
+    "pause": 6.0
+  },
+  {
+    "id": 16,
+    "start": 82000,
+    "end": 87000,
+    "jp": "私たちは中華の店に入りました。",
+    "vn": "Chúng tôi bước vào một nhà hàng Trung Quốc.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_16.wav",
+    "pause": 6.0
+  },
+  {
+    "id": 17,
+    "start": 87000,
+    "end": 91000,
+    "jp": "味が薄くてあまり美味しくなかったです。",
+    "vn": "Nó nhạt nhẽo và không ngon lắm.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_17.wav",
+    "pause": 5.0
+  },
+  {
+    "id": 18,
+    "start": 91000,
+    "end": 96000,
+    "jp": "でも買い物はとても楽しかったです。",
+    "vn": "Nhưng việc mua sắm rất thú vị.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_18.wav",
+    "pause": 6.0
+  },
+  {
+    "id": 19,
+    "start": 96000,
+    "end": 99000,
+    "jp": "また行きたいです。",
+    "vn": "Tôi muốn đi lần nữa.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\37\\sentence_19.wav",
+    "pause": 4.0
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "start": 0,
+    "end": 7320,
+    "jp": "先週の土曜日は彼女と二人で映画 を見に行きました",
+    "vn": "Thứ Bảy tuần trước, tôi và bạn gái đi xem phim.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_1.wav",
+    "pause": 8.3
+  },
+  {
+    "id": 2,
+    "start": 7320,
+    "end": 16200,
+    "jp": "四時に街の大きい本屋の前で会いました そして映画館に行きました",
+    "vn": "Chúng tôi gặp nhau trước hiệu sách lớn trong thị trấn lúc bốn giờ và đi đến rạp chiếu phim.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_2.wav",
+    "pause": 9.9
+  },
+  {
+    "id": 3,
+    "start": 16100,
+    "end": 24120,
+    "jp": "映画は四時半からでした。私たちは清の時代の中国の映画を見ました",
+    "vn": "Chúng tôi xem một bộ phim Trung Quốc thời nhà thanh",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_3.wav",
+    "pause": 9.0
+  },
+  {
+    "id": 4,
+    "start": 24120,
+    "end": 29220,
+    "jp": "とても面白くていい映画でした",
+    "vn": "Đó là một bộ phim rất thú vị và hay.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_4.wav",
+    "pause": 6.1
+  },
+  {
+    "id": 5,
+    "start": 29220,
+    "end": 37120,
+    "jp": "そして少し悲しかったです 主人公の女の人はとてもきれいで素敵でした",
+    "vn": "Và nó có một chút buồn. Nhân vật nữ chính rất xinh đẹp và dể thương.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_5.wav",
+    "pause": 8.9
+  },
+  {
+    "id": 6,
+    "start": 37120,
+    "end": 42240,
+    "jp": "映画は七時ごろ終わりました",
+    "vn": "Bộ phim kết thúc vào khoảng 7 giờ",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_6.wav",
+    "pause": 6.1
+  },
+  {
+    "id": 7,
+    "start": 42040,
+    "end": 47840,
+    "jp": "映画の後で私たちは晩ご飯を食べ に行きました",
+    "vn": "Sau khi xem phim chúng tôi đi ăn tối",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_7.wav",
+    "pause": 6.8
+  },
+  {
+    "id": 8,
+    "start": 47840,
+    "end": 56440,
+    "jp": "映画館のビルにはパスタの店がありました私たちはパスタとピザを食べました",
+    "vn": "Tòa nhà của rạp chiếu phim có quán mì ý. chúng tôi ăn mì ý và pizza",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_8.wav",
+    "pause": 9.6
+  },
+  {
+    "id": 9,
+    "start": 56840,
+    "end": 65160,
+    "jp": "そして映画の話をしました 彼女は中国の歴史をよく知っています",
+    "vn": "Và chúng tôi đã nói chuyện về phim ảnh. Cô ấy biết rất nhiều về lịch sử Trung Quốc.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_9.wav",
+    "pause": 9.3
+  },
+  {
+    "id": 10,
+    "start": 65160,
+    "end": 74640,
+    "jp": "私は日本の歴史をよく知っています でも中国の歴史はあまり知りません",
+    "vn": "Tôi biết nhiều về lịch sử Nhật Bản nhưng tôi không biết nhiều về lịch sử Trung Quốc.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_10.wav",
+    "pause": 10.5
+  },
+  {
+    "id": 11,
+    "start": 74640,
+    "end": 83200,
+    "jp": "私たちはたくさん話をしました 私たちは十時に店を出ました",
+    "vn": "Chúng tôi đã nói chuyện rất nhiều. Chúng tôi rời cửa hàng lúc mười giờ.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_11.wav",
+    "pause": 9.6
+  },
+  {
+    "id": 12,
+    "start": 83200,
+    "end": 91360,
+    "jp": "そしてコーヒーを飲みに行きました そしてまた話をしました",
+    "vn": "Sau đó chúng tôi đi uống cà phê và lại nói chuyện.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_12.wav",
+    "pause": 9.2
+  },
+  {
+    "id": 13,
+    "start": 91360,
+    "end": 98200,
+    "jp": "それから私は彼女を家まで送りました とても楽しい一日でした",
+    "vn": "Sau đó tôi chở cô ấy về nhà. Đó là một ngày rất vui vẻ.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\38\\sentence_13.wav",
+    "pause": 7.8
+  }
+]

@@ -62,6 +62,7 @@ John tự nghĩ 2 câu dùng từ/mẫu mới. Tutor đánh giá:
 4. **Verify recall**: mỗi từ/mẫu mới phải có 1 lần John dùng đúng trước khi qua mục khác.
 5. **Auto MySQL Persistence**: Học xong bất kỳ từ vựng hay câu/cấu trúc ngữ pháp nào, BẮT BUỘC lưu ngay vào MySQL DB `learn_jp_n5`.
 6. **Automated SRS Single Item Drill**: Truy vấn MySQL DB `learn_jp_n5` (View `v_today_due_reviews`), đưa ra MỖI LẦN DUY NHẤT MỘT TỪ HOẶC MỘT CỤM CÂU để John ôn tập/luyện tập phản xạ ngắt quãng.
+7. **Passive Compound Review in Examples**: Khi tạo ví dụ hoặc câu bài tập cho 1 từ/cụm từ đang ôn, BẮT BUỘC chủ động ghép thêm các từ vựng/cấu trúc khác cũng đang cần ôn trong DB `learn_jp_n5` vào chung 1 câu ví dụ để John ôn tập thụ động kép (kích hoạt nhớ thụ động, tiết kiệm thời gian).
 
 ## Output Format
 

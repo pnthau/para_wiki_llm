@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "start": 0,
+    "end": 2000,
+    "jp": "一",
+    "vn": "một",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\u6_01\\sentence_1.wav",
+    "pause": 3.0
+  },
+  {
+    "id": 2,
+    "start": 2000,
+    "end": 6000,
+    "jp": "あのラーメン屋さんどうですか?",
+    "vn": "Bạn nghĩ gì về cửa hàng ramen đó?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\u6_01\\sentence_2.wav",
+    "pause": 5.0
+  },
+  {
+    "id": 3,
+    "start": 6000,
+    "end": 11000,
+    "jp": "ああ、あの店はおいしいですよ",
+    "vn": "Ồ, nhà hàng đó ngon quá.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\u6_01\\sentence_3.wav",
+    "pause": 6.0
+  }
+]

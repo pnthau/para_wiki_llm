@@ -6,6 +6,14 @@
 
 ## 📌 Các Lời Hứa Chờ Kích Hoạt (Pending Reminders)
 
+### 3. Giao thức Đọc hiểu Tiếng Nhật (Long Paragraph Protocol)
+- **Khi nào kích hoạt:** Bất cứ khi nào John đưa ra một đoạn văn/câu tiếng Nhật dài.
+- **Quy tắc Hành xử:** Tự động ngầm hiểu và áp dụng lệnh: *"giúp tôi học hiểu cái này vừa tìm hiểu ý nghĩa trước sau đó học các cụm từ quan trọng theo trình độ hiện tại của tôi."*
+  - **Quy trình bắt buộc (Plan Board):**
+    1. **Bước 1:** Bức tranh toàn cảnh - Hiểu tại sao cách giải quyết vấn đề hiện nay lại sai lầm.
+    2. **Bước 2:** 5 cụm từ 80/20 - Những cụm từ "cực gắt" chốn công sở.
+    3. **Bước 3:** Bài tập thực chiến (Grasp Before Passing).
+
 ### 2. Chiến Lược SEO Cửa Cuốn Thiên Anh (Hệ Sinh Thái Đa Kênh)
 - **Tài sản đã có:** Website, Blogger, Pinterest, Facebook, Zalo, YouTube.
 - **Quy tắc Hành xử (Tuyệt đối tuân thủ):** 

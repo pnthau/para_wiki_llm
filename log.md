@@ -1,5 +1,14 @@
 # Vault Operations Log
 
+## [2026-08-14] Ingest | AI Tutor (Talk to AI) Implementation Plan for video_marching
+- **Target**: `D:\data\para_wiki_llm\01_Projects\ai_tutor_implementation_plan.md`
+- **Action**:
+    - Chuyển toàn bộ kế hoạch kỹ thuật tích hợp tính năng "Talk to AI" (AI Tutor) từ bản thiết kế sang Vault Wiki.
+    - Cấu trúc 5 Phase, 14 Task vi mô (15-30 phút), thiết kế kiến trúc LLM Fallback Engine (Gemini, Groq, Cerebras, OpenRouter), Speech Pipeline (Deepgram + Edge-TTS) và mô hình BYOK API Key.
+    - Liên kết chéo với `plan_board_video_call_marching.md` và `Video_Call_Match_Architecture.md`.
+- **Status**: Success. Ready for implementation.
+
+
 ## [2026-07-05] Dev | Fixed ProductRepository DB Mapping Bug for YouTube URL
 - **Target**: `C:\Users\dc130\Desktop\fengshui_jewelry\src\main\java\com\fengshui\repository\ProductRepository.java`
 - **Action**:

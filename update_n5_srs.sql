@@ -2,25 +2,45 @@
 USE `learn_jp_n5`;
 
 -- Thêm các từ vựng mới chưa có trong bảng vocabularies
-INSERT IGNORE INTO `vocabularies` (`id`, `unit_id`, `japanese`, `hiragana`, `romaji`, `vietnamese_meaning`, `word_type`, `example_sentence`, `example_meaning`) VALUES
-(48, 2, 'スカート', 'すかーと', 'Sukaato', 'Chân váy', 'NOUN', 'スカートを買いました。', 'Đã mua chân váy.'),
-(49, 2, '時計', 'とけい', 'Tokei', 'Đồng hồ', 'NOUN', '新しい時計。', 'Cái đồng hồ mới.'),
-(50, 2, '消しゴム', 'けしごむ', 'Keshigomu', 'Gôm, tẩy', 'NOUN', '消しゴムを使います。', 'Dùng cục tẩy.'),
-(51, 2, 'シャーペン', 'しゃーぺん', 'Shaapen', 'Bút chì bấm', 'NOUN', 'シャーペンで書きます。', 'Viết bằng bút chì bấm.'),
-(52, 2, 'スプーン', 'すぷーん', 'Supuun', 'Thìa, muỗng', 'NOUN', 'スプーンで食べます。', 'Ăn bằng thìa.'),
-(53, 2, 'フォーク', 'ふぉーく', 'Fooku', 'Nĩa', 'NOUN', 'フォークを使います。', 'Dùng nĩa.'),
-(54, 2, '本屋', 'ほんや', 'Honya', 'Nhà sách', 'NOUN', '本屋に行きました。', 'Đã đi đến nhà sách.'),
-(55, 2, '映画館', 'えいがかん', 'Eigakan', 'Rạp chiếu phim', 'NOUN', '映画館で映画を見ます。', 'Xem phim ở rạp.'),
-(56, 2, '庭', 'にわ', 'Niwa', 'Khu vườn', 'NOUN', '庭に木があります。', 'Có cây ở trong vườn.'),
-(57, 2, 'ビル', 'びる', 'Biru', 'Tòa nhà cao tầng', 'NOUN', ' nh 広いビル。', 'Tòa nhà rộng.'),
-(58, 2, '木', 'き', 'Ki', 'Cây', 'NOUN', '大きな木です。', 'Là cái cây to.'),
-(59, 2, 'モール', 'もーる', 'Mooru', 'Trung tâm thương mại', 'NOUN', 'モールに行きました。', 'Đã đi trung tâm thương mại.'),
-(60, 2, '会います', 'あいます', 'Aimasu', 'Gặp gỡ', 'VERB', '友達に会いました。', 'Đã gặp bạn.'),
-(61, 2, '疲れます', 'つかれます', 'Tsukaremasu', 'Mệt mỏi', 'VERB', '今日は疲れました。', 'Hôm nay đã mệt.'),
-(62, 2, 'お腹がすきます', 'おなかがすきます', 'Onakagasukimasu', 'Đói bụng', 'VERB', 'お腹がすきました。', 'Đã đói bụng rồi.'),
-(63, 2, '出ます', 'でます', 'Demasu', 'Ra khỏi', 'VERB', '店を出ました。', 'Đã ra khỏi cửa tiệm.'),
-(64, 2, '送ります', 'おくります', 'Okurimasu', 'Tiễn, đưa về', 'VERB', '彼女を家まで送りました。', 'Đã đưa cô ấy về tận nhà.'),
-(65, 2, '知っています', 'しっています', 'Shitteimasu', 'Biết, nắm rõ', 'VERB', '歴史を知っています。', 'Biết rõ lịch sử.');
+INSERT IGNORE INTO `vocabularies` (`id`, `unit_id`, `japanese`, `hiragana`, `romaji`, `word_type`) VALUES
+(48, 2, 'スカート', 'すかーと', 'Sukaato', 'NOUN'),
+(49, 2, '時計', 'とけい', 'Tokei', 'NOUN'),
+(50, 2, '消しゴム', 'けしごむ', 'Keshigomu', 'NOUN'),
+(51, 2, 'シャーペン', 'しゃーぺん', 'Shaapen', 'NOUN'),
+(52, 2, 'スプーン', 'すぷーん', 'Supuun', 'NOUN'),
+(53, 2, 'フォーク', 'ふぉーく', 'Fooku', 'NOUN'),
+(54, 2, '本屋', 'ほんや', 'Honya', 'NOUN'),
+(55, 2, '映画館', 'えいがかん', 'Eigakan', 'NOUN'),
+(56, 2, '庭', 'にわ', 'Niwa', 'NOUN'),
+(57, 2, 'ビル', 'びる', 'Biru', 'NOUN'),
+(58, 2, '木', 'き', 'Ki', 'NOUN'),
+(59, 2, 'モール', 'もーる', 'Mooru', 'NOUN'),
+(60, 2, '会います', 'あいます', 'Aimasu', 'VERB'),
+(61, 2, '疲れます', 'つかれます', 'Tsukaremasu', 'VERB'),
+(62, 2, 'お腹がすきます', 'おなかがすきます', 'Onakagasukimasu', 'VERB'),
+(63, 2, '出ます', 'でます', 'Demasu', 'VERB'),
+(64, 2, '送ります', 'おくります', 'Okurimasu', 'VERB'),
+(65, 2, '知っています', 'しっています', 'Shitteimasu', 'VERB');
+
+INSERT INTO `vocabulary_meanings` (`vocabulary_id`, `vietnamese_meaning`, `example_sentence`, `example_meaning`) VALUES
+(48, 'Chân váy', 'スカートを買いました。', 'Đã mua chân váy.'),
+(49, 'Đồng hồ', '新しい時計。', 'Cái đồng hồ mới.'),
+(50, 'Gôm, tẩy', '消しゴムを使います。', 'Dùng cục tẩy.'),
+(51, 'Bút chì bấm', 'シャーペンで書きます。', 'Viết bằng bút chì bấm.'),
+(52, 'Thìa, muỗng', 'スプーンで食べます。', 'Ăn bằng thìa.'),
+(53, 'Nĩa', 'フォークを使います。', 'Dùng nĩa.'),
+(54, 'Nhà sách', '本屋に行きました。', 'Đã đi đến nhà sách.'),
+(55, 'Rạp chiếu phim', '映画館で映画を見ます。', 'Xem phim ở rạp.'),
+(56, 'Khu vườn', '庭に木があります。', 'Có cây ở trong vườn.'),
+(57, 'Tòa nhà cao tầng', ' nh 広いビル。', 'Tòa nhà rộng.'),
+(58, 'Cây', '大きな木です。', 'Là cái cây to.'),
+(59, 'Trung tâm thương mại', 'モールに行きました。', 'Đã đi trung tâm thương mại.'),
+(60, 'Gặp gỡ', '友達に会いました。', 'Đã gặp bạn.'),
+(61, 'Mệt mỏi', '今日は疲れました。', 'Hôm nay đã mệt.'),
+(62, 'Đói bụng', 'お腹がすきました。', 'Đã đói bụng rồi.'),
+(63, 'Ra khỏi', '店を出ました。', 'Đã ra khỏi cửa tiệm.'),
+(64, 'Tiễn, đưa về', '彼女を家まで送りました。', 'Đã đưa cô ấy về tận nhà.'),
+(65, 'Biết, nắm rõ', '歴史を知っています。', 'Biết rõ lịch sử.');
 
 -- Thiết lập lịch ôn tập ngắt quãng (SRS) cho 30 từ hôm nay vào bảng review_schedules
 -- Lần 1: Ngày mai DATE_ADD(CURDATE(), INTERVAL 1 DAY)

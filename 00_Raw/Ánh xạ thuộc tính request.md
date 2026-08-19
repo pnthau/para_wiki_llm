@@ -1,0 +1,7 @@
+
+|                                                    |                                                                                                                                                                                                                                                  |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| "Ánh xạ tới Content-Type, Accept, Tham số, Header" | dùng các thuộc tính này làm ĐIỀU KIỆN ĐỌC VÀ LỌC (Matching<br>  Criteria). Spring sẽ kiểm tra gói tin HTTP, nếu thỏa mãn 100% các điều kiện này thì mới cho phép chui vào hàm Java tương ứng!                                                    |
+| Các attribute đi kèm                               | ** lưu ý khi sữ dụng nhiều hơn 2 thuộc tính thì phải khai báo đầy đủ name và value của nó.<br><br><br>- Content-Type → Thuộc tính consumes <br>- headers → Thuộc tính headers<br>-  Accept → Thuộc tính produces<br>- params → Thuộc tính params |
+| Các lỗi có thể xãy ra khi ánh xạ                   | consumes → 415 Unsupported Media Type<br>produces  → 406 Not Acceptable<br>headers  → 404 Not Found hoặc 400 Bad Request<br>params →  400 Bad Request                                                                                            |
+

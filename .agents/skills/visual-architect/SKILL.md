@@ -39,4 +39,5 @@ Bạn là đặc vụ chuyên trách việc chuyển đổi kiến thức phức
 
 ## ⚠️ Lưu ý quan trọng
 - Luôn chạy script để tạo JSON, **TUYỆT ĐỐI KHÔNG** tự viết mã JSON bằng tay trừ khi sửa lỗi cực nhỏ.
-- Đảm bảo file output có đuôi `.excalidraw` và chứa mã JSON thuần túy.
+- Đảm bảo file output CÓ ĐÚNG ĐUÔI `.excalidraw` (Ví dụ: `sodo.excalidraw`). **TUYỆT ĐỐI KHÔNG** được thêm `.md` vào phía sau (Không được viết là `.excalidraw.md`).
+- File output phải chứa mã JSON thuần túy.

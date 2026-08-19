@@ -31,6 +31,9 @@ created: 2026-05-16
 | **So sánh** | `〜より`, `〜のほうが`, `一番` | [[N5_G12_Comparison]] |
 | **Liệt kê/Trạng thái** | `〜たり〜たり`, `〜くなる/〜になる` | [[N5_G12_Tari_Tari_shimasu]] |
 | **Kinh nghiệm/Lời khuyên** | `〜たことがあります`, `〜ほうがいいです` | [[N5_G12_Hou_ga_ii_desu]] |
+| **Hỏi cảm nhận (Quá khứ)** | `〜はどうでしたか` | [[N5_Grammar_Dou_Deshita_Ka]] |
+| **Vị trí (Bên cạnh)** | `よこ` vs `となり` | [[N5_Grammar_Yoko_vs_Tonari]] |
+| **Trạng thái (Biết)** | `知っています` | [[N5_Grammar_Shitte_Imasu]] |
 
 ---
 

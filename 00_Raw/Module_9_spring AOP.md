@@ -1,0 +1,17 @@
+- Ghi log
+- Hiển thị danh sách sách : tên sách, số lượng còn lại
+- Người dùng mượng sách : 
+	- Chi tiết sách
+	- Mượng sách 
+		-  Nếu số lượng cuốn sách hiện tại khác 0 
+			- mã mượng sách ngẫu nhiêu 5 chữ số
+			- Nhập mã số 
+				- Nếu mã số đúng
+				- Giảm số lượng của cuốn sách hiện tại -1
+				- Ghi log
+- Người dùng trả sách :
+	-  Nhập mã
+	- Nếu mã đúng 
+		- Tăng số lượng sách hiện tại +1 
+		- Ghi log
+	

@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "start": 0,
+    "end": 3320,
+    "jp": "はい、紅茶です。どうぞ。",
+    "vn": "Vâng, đó là trà đen. Xin vui lòng.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_1.wav",
+    "pause": 4.3
+  },
+  {
+    "id": 2,
+    "start": 3320,
+    "end": 7040,
+    "jp": "私は外国語学部の中田です。",
+    "vn": "Tôi là Nakata đến từ Khoa Ngoại ngữ.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_2.wav",
+    "pause": 4.7
+  },
+  {
+    "id": 3,
+    "start": 7040,
+    "end": 9820,
+    "jp": "こんにちは、はじめまして。",
+    "vn": "Xin chào hân hạnh được gặp bạn.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_3.wav",
+    "pause": 3.8
+  },
+  {
+    "id": 4,
+    "start": 9820,
+    "end": 12440,
+    "jp": "工学部一年生のりです。",
+    "vn": "tôi là Rin sinh viên năm nhất khoa kỹ thuật.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_4.wav",
+    "pause": 3.6
+  },
+  {
+    "id": 5,
+    "start": 12440,
+    "end": 15440,
+    "jp": "リさんはマレーシア人ですか?",
+    "vn": "Ông Li có phải là người Malaysia không?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_5.wav",
+    "pause": 4.0
+  },
+  {
+    "id": 6,
+    "start": 15440,
+    "end": 18240,
+    "jp": "はい、マレーシアから来ました。",
+    "vn": "Vâng, tôi đến từ Malaysia.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_6.wav",
+    "pause": 3.8
+  },
+  {
+    "id": 7,
+    "start": 18240,
+    "end": 20400,
+    "jp": "どうして分かりましたか?",
+    "vn": "Làm sao bạn biết được?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_7.wav",
+    "pause": 3.2
+  },
+  {
+    "id": 8,
+    "start": 20400,
+    "end": 22920,
+    "jp": "マレーシア語が聞こえましたから。",
+    "vn": "Tôi nghe tiếng Malaysia.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_8.wav",
+    "pause": 3.5
+  },
+  {
+    "id": 9,
+    "start": 22920,
+    "end": 27640,
+    "jp": "私は外国語学部でマレーシア語を勉強しています。",
+    "vn": "Tôi đang học tiếng Malaysia tại Khoa Ngoại ngữ.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_9.wav",
+    "pause": 5.7
+  },
+  {
+    "id": 10,
+    "start": 27960,
+    "end": 30440,
+    "jp": "ああ、そうですか。",
+    "vn": "Ồ, vậy à?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_10.wav",
+    "pause": 3.5
+  },
+  {
+    "id": 11,
+    "start": 30440,
+    "end": 32240,
+    "jp": "何年生ですか?",
+    "vn": "Bạn đang ở năm nào?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_11.wav",
+    "pause": 2.8
+  },
+  {
+    "id": 12,
+    "start": 32240,
+    "end": 33880,
+    "jp": "2年生です。",
+    "vn": "Tôi là sinh viên năm thứ hai.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_12.wav",
+    "pause": 2.6
+  },
+  {
+    "id": 13,
+    "start": 33880,
+    "end": 36520,
+    "jp": "マレーシア語ができますか?",
+    "vn": "Bạn có thể nói tiếng Malaysia không?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_13.wav",
+    "pause": 3.6
+  },
+  {
+    "id": 14,
+    "start": 36520,
+    "end": 39120,
+    "jp": "簡単な会話はできます。",
+    "vn": "Tôi có thể có một cuộc trò chuyện đơn giản.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_14.wav",
+    "pause": 3.6
+  },
+  {
+    "id": 15,
+    "start": 39120,
+    "end": 41720,
+    "jp": "マレーシア語で話しましょうか?",
+    "vn": "Chúng ta sẽ nói chuyện bằng tiếng Malaysia nhé?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_15.wav",
+    "pause": 3.6
+  },
+  {
+    "id": 16,
+    "start": 41720,
+    "end": 46519,
+    "jp": "いいえ、いいえ。ここは日本ですから、日本語で話しましょう。",
+    "vn": "Không, không. Đây là Nhật Bản, vì vậy hãy nói tiếng Nhật.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_16.wav",
+    "pause": 5.8
+  },
+  {
+    "id": 17,
+    "start": 46519,
+    "end": 48680,
+    "jp": "ああ、そうですね。",
+    "vn": "À, đúng rồi.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_17.wav",
+    "pause": 3.2
+  },
+  {
+    "id": 18,
+    "start": 48680,
+    "end": 52080,
+    "jp": "リさんはいつ、日本に来ましたか?",
+    "vn": "Ông Lý đến Nhật Bản khi nào?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_18.wav",
+    "pause": 4.4
+  },
+  {
+    "id": 19,
+    "start": 52080,
+    "end": 54320,
+    "jp": "今年の3月です。",
+    "vn": "Đó là tháng ba năm nay.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_19.wav",
+    "pause": 3.2
+  },
+  {
+    "id": 20,
+    "start": 54320,
+    "end": 56640,
+    "jp": "マレーシアのどこから?",
+    "vn": "Ở đâu ở Malaysia?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_20.wav",
+    "pause": 3.3
+  },
+  {
+    "id": 21,
+    "start": 56640,
+    "end": 58640,
+    "jp": "クワラルンプールです。",
+    "vn": "Đây là Kwala Lumpur.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_21.wav",
+    "pause": 3.0
+  },
+  {
+    "id": 22,
+    "start": 58640,
+    "end": 63640,
+    "jp": "クワラルンプールはとても大きくて近代的な街ですね。",
+    "vn": "Kuala Lumpur là một thành phố rất lớn và hiện đại.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_22.wav",
+    "pause": 6.0
+  },
+  {
+    "id": 23,
+    "start": 63640,
+    "end": 70280,
+    "jp": "そうですね。高層ビルもたくさんありますし、大きいショッピングモールもあります。",
+    "vn": "Tôi đồng ý. Có rất nhiều tòa nhà chọc trời và trung tâm mua sắm lớn.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_23.wav",
+    "pause": 7.6
+  },
+  {
+    "id": 24,
+    "start": 70280,
+    "end": 75720,
+    "jp": "そうですね。最近は日本人もたくさん住んでいますね。",
+    "vn": "Tôi đồng ý. Hiện nay có rất nhiều người Nhật sống ở đây.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_24.wav",
+    "pause": 6.4
+  },
+  {
+    "id": 25,
+    "start": 75720,
+    "end": 81600,
+    "jp": "はい、クワラルンプールの郊外に日本人がたくさん住んでいます。",
+    "vn": "Vâng, có rất nhiều người Nhật sống ở ngoại ô Kuala Lumpur.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_25.wav",
+    "pause": 6.9
+  },
+  {
+    "id": 26,
+    "start": 81600,
+    "end": 82600,
+    "jp": "そうですね。",
+    "vn": "Tôi đồng ý.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\42\\sentence_26.wav",
+    "pause": 2.0
+  }
+]

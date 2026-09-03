@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "start": 0,
+    "end": 4600,
+    "jp": "中田さんはマレーシアのことをよく知っていますね。",
+    "vn": "Anh tanaka hiểu rỏ mọi chuyện về malaysia nhỉ.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_1.wav",
+    "pause": 5.6
+  },
+  {
+    "id": 2,
+    "start": 4600,
+    "end": 9400,
+    "jp": "ええ、実は今年の夏にマレーシアに行きます。",
+    "vn": "đúng vậy, vào mùa hè năm nay tôi sẻ đi tới Malaysia.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_2.wav",
+    "pause": 5.8
+  },
+  {
+    "id": 3,
+    "start": 9400,
+    "end": 11560,
+    "jp": "ああ、そうですか。",
+    "vn": "À, Ra là vậy.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_3.wav",
+    "pause": 3.2
+  },
+  {
+    "id": 4,
+    "start": 11560,
+    "end": 15600,
+    "jp": "そういえば、リサンは紅茶が好きですか?",
+    "vn": "nhân tiện, Ri thích trà phải không?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_4.wav",
+    "pause": 5.0
+  },
+  {
+    "id": 5,
+    "start": 15600,
+    "end": 19000,
+    "jp": "はい、コーヒーより紅茶の方が好きです。",
+    "vn": "Vâng, so với cà phê tôi thích trà hơn.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_5.wav",
+    "pause": 4.4
+  },
+  {
+    "id": 6,
+    "start": 19000,
+    "end": 23000,
+    "jp": "学校の近くに美味しい紅茶の店があります。",
+    "vn": "Gần trường học có tiệm trà ngon.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_6.wav",
+    "pause": 5.0
+  },
+  {
+    "id": 7,
+    "start": 23000,
+    "end": 24600,
+    "jp": "知っていますか?",
+    "vn": "bạn có biết không?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_7.wav",
+    "pause": 2.6
+  },
+  {
+    "id": 8,
+    "start": 24600,
+    "end": 26800,
+    "jp": "いいえ、知りません。",
+    "vn": "Không, Ri không biết",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_8.wav",
+    "pause": 3.2
+  },
+  {
+    "id": 9,
+    "start": 26800,
+    "end": 29800,
+    "jp": "よかったら一緒に行きませんか?",
+    "vn": "nếu không phiền Ri có muốn đi cùng không?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_9.wav",
+    "pause": 4.0
+  },
+  {
+    "id": 10,
+    "start": 30000,
+    "end": 31000,
+    "jp": "え?",
+    "vn": "sao ạ?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_10.wav",
+    "pause": 2.0
+  },
+  {
+    "id": 11,
+    "start": 31000,
+    "end": 35600,
+    "jp": "美味しい紅茶もありますし、美味しいケーキもありますよ。",
+    "vn": "có trà ngon và cũng có bánh kem ngon nữa.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_11.wav",
+    "pause": 5.6
+  },
+  {
+    "id": 12,
+    "start": 35600,
+    "end": 40400,
+    "jp": "あ、そうですか。私はケーキが大好きです。",
+    "vn": "à, vậy à. Ri rất thích bánh kem.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_12.wav",
+    "pause": 5.8
+  },
+  {
+    "id": 13,
+    "start": 40400,
+    "end": 43800,
+    "jp": "じゃあ、明日の午後に行きましょうか。",
+    "vn": "vậy, chiều mai đi nha.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_13.wav",
+    "pause": 4.4
+  },
+  {
+    "id": 14,
+    "start": 43800,
+    "end": 45600,
+    "jp": "そうですね。",
+    "vn": "Vâng được ạ",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_14.wav",
+    "pause": 2.8
+  },
+  {
+    "id": 15,
+    "start": 45600,
+    "end": 49000,
+    "jp": "マレーシアのことをいろいろ教えてください。",
+    "vn": "hãy cho mình biết thêm về Malaysia",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_15.wav",
+    "pause": 4.4
+  },
+  {
+    "id": 16,
+    "start": 49000,
+    "end": 50400,
+    "jp": "いいですよ。",
+    "vn": "được ạ",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_16.wav",
+    "pause": 2.4
+  },
+  {
+    "id": 17,
+    "start": 50400,
+    "end": 54400,
+    "jp": "じゃあ、3時ごろに図書館の前で会いましょうか。",
+    "vn": "vậy thì, vào khoảng 3 giờ hãy gặp nhau trước thư viện nhé.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_17.wav",
+    "pause": 5.0
+  },
+  {
+    "id": 18,
+    "start": 54400,
+    "end": 56400,
+    "jp": "はい、そうしましょう。",
+    "vn": "vâng, như vậy nhé.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\43\\sentence_18.wav",
+    "pause": 3.0
+  }
+]

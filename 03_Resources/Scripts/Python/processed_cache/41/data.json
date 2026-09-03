@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "start": 0,
+    "end": 2000,
+    "jp": "コーヒー飲みますか?",
+    "vn": "Bạn có uống cà phê không?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\41\\sentence_1.wav",
+    "pause": 3.0
+  },
+  {
+    "id": 2,
+    "start": 2000,
+    "end": 7000,
+    "jp": "あ、ありがとうございます。でも、紅茶のほうが…",
+    "vn": "À, cảm ơn bạn rất nhiều. Nhưng trà thì tốt hơn...",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\41\\sentence_2.wav",
+    "pause": 6.0
+  },
+  {
+    "id": 3,
+    "start": 7000,
+    "end": 9000,
+    "jp": "持ってきましょうか?",
+    "vn": "Để tôi đi lấy trà mang lại đây nha.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\41\\sentence_3.wav",
+    "pause": 3.0
+  },
+  {
+    "id": 4,
+    "start": 9000,
+    "end": 11000,
+    "jp": "あ、すみません。",
+    "vn": "Ôi, phiền bạn quá",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\41\\sentence_4.wav",
+    "pause": 3.0
+  },
+  {
+    "id": 5,
+    "start": 11000,
+    "end": 12000,
+    "jp": "ミルクは?",
+    "vn": "Còn sữa thì sao?",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\41\\sentence_5.wav",
+    "pause": 2.0
+  },
+  {
+    "id": 6,
+    "start": 12000,
+    "end": 14000,
+    "jp": "ミルクはいいです。",
+    "vn": "Sữa thì không cần.",
+    "file": "D:\\Data\\para_wiki_llm\\03_Resources\\Scripts\\Python\\processed_cache\\41\\sentence_6.wav",
+    "pause": 3.0
+  }
+]

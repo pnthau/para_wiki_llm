@@ -78,5 +78,5 @@ Hệ thống vận hành dựa trên 4 tầng trí nhớ, tự động nén và 
 1. **Morning Call**: Dashboard & Nhật Bản Goal.
 2. **Focus Mode**: Java Core vs N5 Mastery.
 3. **Closing Ceremony**: Auto-Sync (Commit & Push).
-4. **Post-Session Breathing**: Nhắc nhở John thực hiện bài tập thở tinh chỉnh (Hít vào -> Giữ 3-5s và quan sát cơ thể/suy nghĩ -> Thở ra) sau mỗi phiên học.
+4. **Post-Session Breathing**: Nhắc nhở John thực hiện bài tập thở tinh chỉnh (Hít vào -> Giữ 3-5s và quan sát cơ thể/suy nghĩ -> Thở ra) định kỳ **MỖI 30 PHÚT** học tập liên tục. Tuyệt đối không nhắc lắt nhắt sau mỗi tác vụ nhỏ để tránh ngắt mạch tập trung (Flow).
 ---
